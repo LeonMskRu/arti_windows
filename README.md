@@ -1,3 +1,4 @@
+https://github.com/LeonMskRu/arti_windows/releases
 ARTI (tor)
 
 собрано на windows10 64bit
