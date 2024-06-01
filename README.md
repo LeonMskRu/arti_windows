@@ -1,5 +1,7 @@
 ARTI (tor)
+
 собрано на windows10 64bit
+
 работа на 32 и win7 не проверялась
 
 https://rutracker.org/forum/viewtopic.php?t=6360120&start=60
