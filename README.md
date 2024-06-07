@@ -1,7 +1,5 @@
-https://github.com/LeonMskRu/arti_windows/releases
-
 собрано на windows10 64bit.
-работа на 32 и win7 не проверялась.
+работа на 32bit и win7 не проверялась.
 
 рабочие файлы транспортов obfs4 (lyrebird), snowflake, webtunnel можно взять в https://www.torproject.org/download/tor/ или https://dist.torproject.org/torbrowser/
 
