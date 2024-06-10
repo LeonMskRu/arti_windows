@@ -18,7 +18,13 @@ Azure, CDN77, AMP cache, fastly sstatic
 или %USERPROFILE%\AppData\Local\torproject\Arti\data\state*.json
 или data\state*.json в папке программы
 
-При проблемах использования мостов/bridges возможно понадобиться удалить %USERPROFILE%\AppData\Local\torproject\Arti\cache\
+_!_arti_state_CLEAR.CMD
+
+_!_arti_CACHE-and-logs_CLEAR.CMD
+
+При проблемах использования мостов/bridges возможно понадобиться удалить
+или %USERPROFILE%\AppData\Local\torproject\Arti\cache\
+или cache\* в папке программы
 
 arti-1.2.3-x86_64-gnu.exe arti-1.2.3-i686-gnu.exe == Rustls
 

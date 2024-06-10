@@ -7,7 +7,9 @@ console = "info"
 log_sensitive_information = true
 
 files = [
- {path = "info_snowflake.log", filter="info"},
+ {path = "info_snowflake.log", filter="info", rotate="daily"},
+# {path = "debug_snowflake.log", filter="debug", rotate="daily"},
+# {path = "trace_snowflake.log", filter="trace", rotate="daily"},
 ]
 
 [address_filter]
@@ -44,3 +46,10 @@ arguments = ["-log", "snowflake.log", "-unsafe-logging", "-keep-local-addresses"
 # arguments = ["-log-to-state-dir", "-log", "snowflake.log"]
 # arguments = []
 run_on_startup = false
+
+[storage]
+state_dir = "./"
+cache_dir = "./cache"
+
+[storage.keystore]
+enabled = "auto"
