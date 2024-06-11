@@ -4,10 +4,10 @@ Bridges IPv6 Countrys == nl fr fi lu se gb ch ro no cz ru bg dk it is es at hu g
 +Guard +Fast +Stable
 -Exit -HSDir
 
-Fallbackdir == RU US CA
+Fallbackdir == RU US CA DE
 
 +HSDir +Stable
--Exit
+-Exit -Guard
 
 рабочие на момент сканирования/выкладывния с Ростелеком/Калуга с IPv6 (не teredo)
 
