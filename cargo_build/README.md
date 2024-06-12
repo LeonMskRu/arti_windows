@@ -1,24 +1,24 @@
-cargo.exe build^
+cargo build^
  --target i686-pc-windows-gnu^
  --release^
  -p arti^
  --no-default-features^
- --features static-sqlite,rustls,rustls-crate,bridge-client,compression,dns-proxy,harden,hickory-proto,onion-service-client,pt-client,secmem-proc,tokio,tokio-crate,tokio-util,vanguards
+ --features static-sqlite,rustls,bridge-client,compression,dns-proxy,harden,onion-service-client,pt-client,tokio,vanguards
 
-cargo.exe build^
+cargo build^
  --target x86_64-pc-windows-gnu^
  --release^
  -p arti^
  --no-default-features^
- --features static-sqlite,rustls,rustls-crate,bridge-client,compression,dns-proxy,harden,hickory-proto,onion-service-client,pt-client,secmem-proc,tokio,tokio-crate,tokio-util,vanguards
+ --features static-sqlite,rustls,bridge-client,compression,dns-proxy,harden,onion-service-client,pt-client,tokio,vanguards
 
-cargo.exe build^
+cargo build^
  --target i686-pc-windows-msvc^
  --release^
  -p arti^
  --features static
 
-cargo.exe build^
+cargo build^
  --target x86_64-pc-windows-msvc^
  --release^
  -p arti^
