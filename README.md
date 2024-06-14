@@ -1,4 +1,4 @@
-собрано на windows10 64bit.
+собрано на windows10 64bit (x86_64-gnu поменял mingw64 на ucrt64).
 работа на 32bit и win7 не проверялась.
 
 рабочие файлы транспортов obfs4 (lyrebird), snowflake, webtunnel
@@ -29,12 +29,21 @@ _!_arti_CACHE-and-logs_CLEAR.CMD
 или %USERPROFILE%\AppData\Local\torproject\Arti\cache\
 или cache\ в папке программы
 
+ ===
+
+cargo update (зависимости и обновления) делается только для ARTI.EXE 
+
 arti-1.2.3-x86_64-gnu.exe arti-1.2.3-i686-gnu.exe == Rustls
 
 arti-1.2.3-x86_64-msvc.exe arti-1.2.3-i686-msvc.exe == NativeTls
 
+ ===
+
+cargo update (зависимости и обновления) для всего. даже то что не компилится и не выкладывается. (shadow/etc)
+
 arti-testing.exe
 connection-checker.exe
 obfs4-checker.exe
+arti.exe
 
 x86_64-gnu / x86_64-msvc / i686-gnu / i686-msvc == NativeTls
