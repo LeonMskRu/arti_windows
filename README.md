@@ -33,27 +33,30 @@ x86_64 == client-64.exe или i686(386) == client-32.exe\
  при кол-ве мостов 10+ уже начинаются глюки и тормоза.\
  ~~20+ вообще баги лезут.~~**
 
-для поиска relay работающих "как мосты"\
+для поиска relay работающих "как мосты" (vanilla bridge)\
 и доступных на вашем провайдере есть [tor-relay-scanner на python](https://github.com/wildekat/tor-relay-scanner)
 в этом fork добавлено
 + -4 --ipv4-only scan IPv4 addresses
 + -6 --ipv6-only scan IPv6 addresses
 
-обычные (vanilla) так же можно экспортировать из [Tor Control Panel](https://github.com/abysshint/tor-control-panel "github")
+мосты так же можно экспортировать из [Tor Control Panel](https://github.com/abysshint/tor-control-panel "github")
 “relays-guard” [imgur .gif](https://i.imgur.com/M7sNVjB.gif)
 
 snowflake конфиг править под себя.\
-это разные “сервера”. могут и все 4е не работать на части провайдеров.\
+это разные “сервера”.\
+могут и все 4е не работать на части провайдеров.\
 Azure, CDN77, AMP cache, fastly sstatic
 
 мосты obfs4/webtunnel и тем более _BRIDGES только для теста и могут уже не работать
 
- **!!! ОБЯЗАТЕЛЬНО УДАЛЯТЬ руками или _!_arti_state_CLEAR.CMD**
+ **!!! ОБЯЗАТЕЛЬНО УДАЛЯТЬ руками или\
+ _!_arti_state_CLEAR.CMD**
 + или %USERPROFILE%\AppData\Local\torproject\Arti\data\state\
 + или state\ в папке программы
 
 
- **При проблемах использования мостов/bridges нужно удалить самому или _!_arti_CACHE-and-logs_CLEAR.CMD**
+ **При проблемах использования мостов/bridges нужно удалить самому или\
+ _!_arti_CACHE-and-logs_CLEAR.CMD**
 + или %USERPROFILE%\AppData\Local\torproject\Arti\cache\
 + или cache\ в папке программы
 
