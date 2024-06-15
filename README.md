@@ -3,6 +3,19 @@
 + [rutracker.org](https://rutracker.org/forum/viewtopic.php?t=6360120 "форум")
 + [ntc.party](https://ntc.party/t/%D0%BE%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-tor-arti-rust-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F/4912 "антизапрет")
 
+<!--TODO ARTI-->
+## TODO ARTI
+
+- [x] транспорты для мостов
+- [ ] корректная работа с мостами в целом.
+- [ ] неглючное соединение с списками из 10-20 и больше мостов
+- [ ] GeoIP (есть в коде. нет в конфиге.)
+- [ ] настройки в конфиге IPv4/IPv6
+- [ ] не только режим socks-proxy но и HTTPTunnelPort
+
+<!--build-->
+## build
+
 собрано на windows10 64bit\
 (для x86_64-gnu поменял mingw64 на ucrt64).\
 работа на 32bit и win7/8/etc не проверялась.
