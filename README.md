@@ -13,8 +13,8 @@
 - [ ] настройки в конфиге IPv4/IPv6
 - [ ] не только режим socks-proxy но и HTTPTunnelPort
 
-<!--build-->
-## build
+<!--Сборка Build-->
+## Сборка Build
 
 собрано на windows10 64bit\
 (для x86_64-gnu поменял mingw64 на ucrt64).\
@@ -22,7 +22,7 @@
 
 если не работают транспорты из сборки\
 x86_64 == client-64.exe или i686(386) == client-32.exe\
-то рабочие файлы obfs4 (lyrebird), snowflake, webtunnel\
+то файлы obfs4 (lyrebird), snowflake, webtunnel\
 можно взять в [TOR bundle](https://www.torproject.org/download/tor/)
 или [TOR browser](https://dist.torproject.org/torbrowser/)
 
@@ -33,12 +33,13 @@ x86_64 == client-64.exe или i686(386) == client-32.exe\
  при кол-ве мостов 10+ уже начинаются глюки и тормоза.\
  ~~20+ вообще баги лезут.~~**
 
-для мостов доступных на вашем провайдере есть [tor-relay-scanner на python](https://github.com/wildekat/tor-relay-scanner)
- добавлено
+для поиска relay работающих "как мосты"\
+и доступных на вашем провайдере есть [tor-relay-scanner на python](https://github.com/wildekat/tor-relay-scanner)
+в этом fork добавлено
 + -4 --ipv4-only scan IPv4 addresses
 + -6 --ipv6-only scan IPv6 addresses
 
-обычные так же можно экспортировать из [Tor Control Panel](https://github.com/abysshint/tor-control-panel "github")
+обычные (vanilla) так же можно экспортировать из [Tor Control Panel](https://github.com/abysshint/tor-control-panel "github")
 “relays-guard” [imgur .gif](https://i.imgur.com/M7sNVjB.gif)
 
 snowflake конфиг править под себя.\
@@ -48,16 +49,17 @@ Azure, CDN77, AMP cache, fastly sstatic
 мосты obfs4/webtunnel и тем более _BRIDGES только для теста и могут уже не работать
 
  **!!! ОБЯЗАТЕЛЬНО УДАЛЯТЬ**
-> или %USERPROFILE%\AppData\Local\torproject\Arti\data\\*.json \
-> или state\\*.json в папке программы\
++ или %USERPROFILE%\AppData\Local\torproject\Arti\data\
++ или state\ в папке программы
  ***_!_arti_state_CLEAR.CMD***
 
  **При проблемах использования мостов/bridges возможно понадобиться удалить**
-> или %USERPROFILE%\AppData\Local\torproject\Arti\cache\\* \
-> или cache\\* в папке программы\
++ или %USERPROFILE%\AppData\Local\torproject\Arti\cache\
++ или cache\ в папке программы
  ***_!_arti_CACHE-and-logs_CLEAR.CMD***
 
----
+<!--старые Windows (не 10/11)-->
+## старые Windows (не 10/11)
 
 **может быть придется ставить UCRT для Windows7/8/etc**
 [support.microsoft.com](https://support.microsoft.com/ru-ru/topic/%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D0%BB%D1%8F-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D1%81%D1%80%D0%B5%D0%B4%D1%8B-%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-c-%D0%B2-windows-c0514201-7fe6-95a3-b0a5-287930f3560c)
