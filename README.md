@@ -48,12 +48,12 @@ Azure, CDN77, AMP cache, fastly sstatic
 мосты obfs4/webtunnel и тем более _BRIDGES только для теста и могут уже не работать
 
  **!!! ОБЯЗАТЕЛЬНО УДАЛЯТЬ**
-> или %USERPROFILE%\AppData\Local\torproject\Arti\data\state*.json \
-> или data\state*.json в папке программы\
+> или %USERPROFILE%\AppData\Local\torproject\Arti\data\\*.json \
+> или state\\*.json в папке программы\
  ***_!_arti_state_CLEAR.CMD***
 
  **При проблемах использования мостов/bridges возможно понадобиться удалить**
-> или %USERPROFILE%\AppData\Local\torproject\Arti\cache\\*
+> или %USERPROFILE%\AppData\Local\torproject\Arti\cache\\* \
 > или cache\\* в папке программы\
  ***_!_arti_CACHE-and-logs_CLEAR.CMD***
 
