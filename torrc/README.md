@@ -18,10 +18,10 @@ Bridges IPv6 == nl fr fi lu se gb ch ro no cz ru bg dk it is es at hu gr be ie h
 
 ---
 
-Bridges RU-only == IPv4+IPv6. IPv4 при блокировке/бане могут и отсутствовать.
+Bridges RU-only == IPv4+IPv6. IPv4 при блокировке/бане могут и отсутствовать.\
 +Stable -Exit
 
 ---
 
 страны выбраны в том числе по кол-ву Guard
-![image](https://github.com/LeonMskRu/arti_windows/assets/67465011/9546c60f-8c95-4020-8778-4453fe8a6017)
+![Tor Control Panel](https://imagizer.imageshack.com/a/img924/3555/tYAfLx.png)
