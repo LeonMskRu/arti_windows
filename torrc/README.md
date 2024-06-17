@@ -18,7 +18,7 @@ Bridges FallBackDir берутся из Directories в Tor Control Panel
 
 ---
 
-LIST FallBackDir == ru,us,ca,de +HSDir +Stable -Exit -Guard\
+LIST FallBackDir == RU,US,DE +HSDir +Stable -Exit -Guard\
 на данный момент проверки работы нет. просто список
 
 ---
