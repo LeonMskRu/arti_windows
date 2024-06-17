@@ -13,9 +13,12 @@
 ---
 
 ~~FallBackDir берутся из "auto select relays" Directories в Tor Control Panel~~
+Bridges FallBackDir берутся из Directories в Tor Control Panel
+[Исключать недоступные по IPv4](https://imagizer.imageshack.com/a/img924/8307/ZVhpUt.png)
 
-FallBackDir == ru,us,ca,de\
-+HSDir +Stable -Exit -Guard\
+---
+
+LIST FallBackDir == ru,us,ca,de +HSDir +Stable -Exit -Guard\
 на данный момент проверки работы нет. просто список
 
 ---
@@ -27,7 +30,8 @@ Bridges IPv6 == nl fr fi lu se gb ch ro no cz ru bg dk it is es at hu gr be ie h
 ---
 
 Bridges RU-only == IPv4+IPv6. IPv4 при блокировке/бане могут и отсутствовать.\
-+Stable -Exit
++Stable -Exit\
+рабочие на момент upload с Ростелеком/Калуга с IPv6 (не teredo)
 
 ---
 
