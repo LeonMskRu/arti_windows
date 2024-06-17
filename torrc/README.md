@@ -12,7 +12,7 @@
 
 ---
 
-~~FallBackDir берутся из "auto select relays" Directories в Tor Control Panel~~
+~~FallBackDir берутся из "auto select relays" Directories в Tor Control Panel~~\
 Bridges FallBackDir берутся из Directories в Tor Control Panel
 [Исключать недоступные по IPv4](https://imagizer.imageshack.com/a/img924/8307/ZVhpUt.png)
 
