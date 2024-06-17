@@ -34,10 +34,12 @@ x86_64 == client-64.exe или i686(386) == client-32.exe\
  ~~20+ вообще баги лезут.~~**
 
 для поиска relay работающих "как мосты" (vanilla bridge)\
-и доступных на вашем провайдере есть [tor-relay-scanner на python](https://github.com/wildekat/tor-relay-scanner)
-в этом fork добавлено
-+ -4 --ipv4-only scan IPv4 addresses
-+ -6 --ipv6-only scan IPv6 addresses
+и доступных на вашем провайдере есть\
+ [tor-relay-scanner на python](https://github.com/wildekat/tor-relay-scanner)
+ [tor-relay-scanner на GO](https://github.com/juev/tor-relay-scanner-go)
+в этих fork добавлено
++ -4 scan IPv4 addresses
++ -6 scan IPv6 addresses
 
 мосты так же можно экспортировать из [Tor Control Panel](https://github.com/abysshint/tor-control-panel "github")
 “relays-guard” [imgur .gif](https://i.imgur.com/M7sNVjB.gif)
