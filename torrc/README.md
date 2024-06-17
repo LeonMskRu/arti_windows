@@ -21,7 +21,7 @@ FallBackDir == ru,us,ca,de\
 ---
 
 Bridges IPv6 == nl fr fi lu se gb ch ro no cz ru bg dk it is es at hu gr be ie hr pt\
-+Guard +Fast +Stable -Exit -HSDir
++Guard +Fast +Stable -Exit -HSDir\
 рабочие на момент сканирования/выкладывния с Ростелеком/Калуга с IPv6 (не teredo)
 
 ---
@@ -32,4 +32,5 @@ Bridges RU-only == IPv4+IPv6. IPv4 при блокировке/бане могу
 ---
 
 страны выбраны в том числе по кол-ву Guard
+
 ![Tor Control Panel](https://imagizer.imageshack.com/a/img924/3555/tYAfLx.png)
