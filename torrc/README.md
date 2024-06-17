@@ -5,7 +5,7 @@
 для поиска relay работающих "как мосты" (vanilla bridge)\
 и доступных на вашем провайдере есть\
  [tor-relay-scanner на python](https://github.com/wildekat/tor-relay-scanner)
- [tor-relay-scanner на GO](https://github.com/juev/tor-relay-scanner-go)
+или [tor-relay-scanner на GO](https://github.com/juev/tor-relay-scanner-go)
 в этих fork добавлено
 + -4 scan IPv4 addresses
 + -6 scan IPv6 addresses
