@@ -4,7 +4,7 @@
 
 для поиска relay работающих "как мосты" (vanilla bridge)\
 и доступных на вашем провайдере есть\
- [tor-relay-scanner на python](https://github.com/wildekat/tor-relay-scanner)
+ ~~[tor-relay-scanner на python](https://github.com/wildekat/tor-relay-scanner)~~
 или [tor-relay-scanner на GO](https://github.com/juev/tor-relay-scanner-go)
 в этих fork добавлено
 + -4 scan IPv4 addresses
@@ -18,7 +18,7 @@ Bridges FallBackDir берутся из Directories в Tor Control Panel
 
 ---
 
-LIST FallBackDir == RU,US,DE +HSDir +Stable -Exit -Guard\
+LIST FallBackDir == RU,US,DE +V2Dir +HSDir +Stable -Exit -Guard\
 на данный момент проверки работы нет. просто список
 
 ---
@@ -29,7 +29,7 @@ Bridges IPv6 == nl fr fi lu se gb ch ro no cz ru bg dk it is es at hu gr be ie h
 
 ---
 
-Bridges RU-only == IPv4+IPv6. IPv4 при блокировке/бане могут и отсутствовать.\
+Bridges RU-only == IPv4 при блокировке/бане могут и отсутствовать.\
 +Stable -Exit\
 рабочие на момент upload с Ростелеком/Калуга с IPv6 (не teredo)
 
