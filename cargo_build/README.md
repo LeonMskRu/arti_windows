@@ -1,9 +1,16 @@
+
+собрано на windows10 64bit\
+(для x86_64-gnu поменял mingw64 на ucrt64).\
+работа на 32bit и win7/8/etc не проверялась.
+
+---
+
 cargo update (зависимости и обновления) делается только для ARTI.EXE 
 
 + arti-1.2.3-x86_64-gnu.exe arti-1.2.3-i686-gnu.exe == Rustls
 + arti-1.2.3-x86_64-msvc.exe arti-1.2.3-i686-msvc.exe == NativeTls
 
- ===
+ ---
 
 cargo update (зависимости и обновления) для всего. даже то что не компилится и не выкладывается. (shadow/etc)
 
@@ -14,7 +21,7 @@ cargo update (зависимости и обновления) для всего.
 
 x86_64-gnu / x86_64-msvc / i686-gnu / i686-msvc == NativeTls
 
- ===
+ ---
 
 cargo build^
  --target i686-pc-windows-gnu^ --release^ -p arti^\
@@ -34,7 +41,7 @@ cargo build^
  --target x86_64-pc-windows-msvc^ --release^ -p arti^\
  --features static
 
- ===
+ ---
 
 cargo build^
  --target x86_64-pc-windows-gnu^ --release^\
