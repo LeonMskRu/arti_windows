@@ -37,4 +37,4 @@ Bridges RU-only == IPv4 при блокировке/бане могут и от�
 
 страны выбраны в том числе по кол-ву Guard
 
-![Tor Control Panel](https://imagizer.imageshack.com/a/img924/3555/tYAfLx.png)
+![Tor Control Panel](https://imagizer.imageshack.com/a/img924/6849/zJkJOo.png)
