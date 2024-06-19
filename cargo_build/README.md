@@ -1,4 +1,4 @@
-
+﻿
 собрано на windows10 64bit\
 ~~(для x86_64-gnu поменял mingw64 на ucrt64).~~\
 работа на 32bit и win7/8/etc не проверялась.
@@ -63,4 +63,4 @@ cargo build^
  -p arti -p connection-checker -p obfs4-checker -p arti-testing^\
  --features static
 
-windows / utf-8
+windows:utf-8-BOM
