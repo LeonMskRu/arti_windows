@@ -62,3 +62,5 @@ cargo build^
  --target i686-pc-windows-msvc^ --release^\
  -p arti -p connection-checker -p obfs4-checker -p arti-testing^\
  --features static
+
+ANSI
