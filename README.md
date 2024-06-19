@@ -35,7 +35,7 @@ x86_64 == client-64.exe или i686(386) == client-32.exe\
 
 для поиска relay работающих "как мосты" (vanilla bridge)\
 и доступных на вашем провайдере есть\
- [tor-relay-scanner на python](https://github.com/wildekat/tor-relay-scanner)
+ ~~[tor-relay-scanner на python](https://github.com/wildekat/tor-relay-scanner)~~
 или [tor-relay-scanner на GO](https://github.com/juev/tor-relay-scanner-go)
 в этих fork добавлено
 + -4 scan IPv4 addresses
