@@ -1,18 +1,18 @@
 
-собрано на windows10 64bit\
-~~(для x86_64-gnu поменял mingw64 на ucrt64).~~\
-работа на 32bit и win7/8/etc не проверялась.
+СЃРѕР±СЂР°РЅРѕ РЅР° windows10 64bit\
+~~(РґР»СЏ x86_64-gnu РїРѕРјРµРЅСЏР» mingw64 РЅР° ucrt64).~~\
+СЂР°Р±РѕС‚Р° РЅР° 32bit Рё win7/8/etc РЅРµ РїСЂРѕРІРµСЂСЏР»Р°СЃСЊ.
 
 ---
 
-cargo update (зависимости и обновления) делается только для ARTI.EXE 
+cargo update (Р·Р°РІРёСЃРёРјРѕСЃС‚Рё Рё РѕР±РЅРѕРІР»РµРЅРёСЏ) РґРµР»Р°РµС‚СЃСЏ С‚РѕР»СЊРєРѕ РґР»СЏ ARTI.EXE 
 
 + arti-1.2.3-x86_64-gnu.exe arti-1.2.3-i686-gnu.exe == Rustls
 + arti-1.2.3-x86_64-msvc.exe arti-1.2.3-i686-msvc.exe == NativeTls
 
  ---
 
-cargo update (зависимости и обновления) для всего. даже то что не компилится и не выкладывается. (shadow/etc)
+cargo update (Р·Р°РІРёСЃРёРјРѕСЃС‚Рё Рё РѕР±РЅРѕРІР»РµРЅРёСЏ) РґР»СЏ РІСЃРµРіРѕ. РґР°Р¶Рµ С‚Рѕ С‡С‚Рѕ РЅРµ РєРѕРјРїРёР»РёС‚СЃСЏ Рё РЅРµ РІС‹РєР»Р°РґС‹РІР°РµС‚СЃСЏ. (shadow/etc)
 
 + arti-testing.exe
 + connection-checker.exe
@@ -63,4 +63,4 @@ cargo build^
  -p arti -p connection-checker -p obfs4-checker -p arti-testing^\
  --features static
 
-ANSI
+windows / utf-8
