@@ -5,15 +5,16 @@
 
 ---
 
-x86_64-msvc == RUSTFLAGS="-C target-cpu=native" (.diff_cpu_native.conf)
+x86_64-msvc == RUSTFLAGS="-C target-cpu=native"\
+.diff_cpu_native.conf
 
-[profile.release]
-strip = true
-codegen-units = 1
-lto = true
-opt-level = "z"
-panic = "abort"
-debug = false
+[profile.release]\
+strip = true\
+codegen-units = 1\
+lto = true\
+opt-level = "z"\
+panic = "abort"\
+debug = false\
 incremental = true
 
 ---
