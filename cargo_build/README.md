@@ -5,6 +5,8 @@
 
 ---
 
+x86_64-msvc == RUSTFLAGS="-C target-cpu=native" (.diff_cpu_native.conf)
+
 [profile.release]
 strip = true
 codegen-units = 1
@@ -55,23 +57,19 @@ cargo build^
  ---
 
 cargo build^
- --target x86_64-pc-windows-gnu^ --release^\
- -p arti -p connection-checker -p obfs4-checker -p arti-testing^\
+ --target x86_64-pc-windows-gnu^ --release^ -p arti -p connection-checker -p obfs4-checker -p arti-testing^\
  --features static
 
 cargo build^
- --target i686-pc-windows-gnu^ --release^\
- -p arti -p connection-checker -p obfs4-checker -p arti-testing^\
+ --target i686-pc-windows-gnu^ --release^ -p arti -p connection-checker -p obfs4-checker -p arti-testing^\
  --features static
 
 cargo build^
- --target x86_64-pc-windows-msvc^ --release^\
- -p arti -p connection-checker -p obfs4-checker -p arti-testing^\
+ --target x86_64-pc-windows-msvc^ --release^  -p arti -p connection-checker -p obfs4-checker -p arti-testing^\
  --features static
 
 cargo build^
- --target i686-pc-windows-msvc^ --release^\
- -p arti -p connection-checker -p obfs4-checker -p arti-testing^\
+ --target i686-pc-windows-msvc^ --release^ -p arti -p connection-checker -p obfs4-checker -p arti-testing^\
  --features static
 
 windows:utf-8-BOM
