@@ -5,6 +5,17 @@
 
 ---
 
+[profile.release]
+strip = true
+codegen-units = 1
+lto = true
+opt-level = "z"
+panic = "abort"
+debug = false
+incremental = true
+
+---
+
 cargo update (зависимости и обновления) делается только для ARTI.EXE 
 
 + arti-1.2.3-x86_64-gnu.exe arti-1.2.3-i686-gnu.exe == Rustls
