@@ -15,11 +15,12 @@ default = ["tokio", "native-tls", "dns-proxy", "harden", "compression", "bridge-
 __is_experimental = []
 __is_nonadditive = []
 accel-openssl = ["arti-client/accel-openssl", "__is_nonadditive"]
-accel-sha1-asm = ["arti-client/accel-sha1-asm", "__is_nonadditive"]                                                                       3:23async-std = ["arti-client/async-std", "tor-rtcompat/async-std", "async-ctrlc", "signal-hook", "signal-hook-async-std"]
+accel-sha1-asm = ["arti-client/accel-sha1-asm", "__is_nonadditive"]
+async-std = ["arti-client/async-std", "tor-rtcompat/async-std", "async-ctrlc", "signal-hook", "signal-hook-async-std"]
 bridge-client = ["arti-client/bridge-client"]
 compression = ["arti-client/compression"]
 dns-proxy = ["hickory-proto"]
-experimental = ["arti-client/experimental", "experimental-api", "rpc"]
+experimental = ["arti-client/experimental", "experimental-api", "rpc", "relay"]
 experimental-api = ["arti-client/experimental-api", "visibility", "__is_experimental"]
 full = ["onion-service-client", "onion-service-service", "vanguards", "async-std", "tokio", "native-tls", "journald", "arti-client/full", "dns-proxy", "harden", "compression", "bridge-client", "pt-client", "arti-rpcserver?/full", "fs-mistrust/full", "safelog/full", "tor-config/full", "tor-error/full", "tor-rtcompat/full", "tor-socksproto/full", "tor-rpcbase?/full", "tor-hsrproxy?/full", "tor-hsservice?/full"]
 harden = ["secmem-proc"]
@@ -28,6 +29,7 @@ native-tls = ["arti-client/native-tls", "tor-rtcompat/native-tls"]
 onion-service-client = ["arti-client/onion-service-client"]
 onion-service-service = ["arti-client/onion-service-service", "tor-hsrproxy", "tor-hsservice"]
 pt-client = ["bridge-client", "arti-client/pt-client"]
+relay = ["arti-relay", "__is_experimental"]
 rpc = ["arti-rpcserver", "tor-rpcbase", "__is_experimental"]
 rustls = ["arti-client/rustls", "tor-rtcompat/rustls", "rustls-crate", "__is_nonadditive"]
 static = ["arti-client/static", "__is_nonadditive"]
@@ -35,6 +37,8 @@ static-native-tls = ["arti-client/static-native-tls", "native-tls", "__is_nonadd
 static-sqlite = ["arti-client/static-sqlite", "__is_nonadditive"]
 tokio = ["tokio-crate", "arti-client/tokio", "tor-rtcompat/tokio", "tokio-util"]
 vanguards = ["arti-client/vanguards"]
+
+arti-relay (optional)
 arti-rpcserver (optional)
 async-ctrlc (optional)
 hickory-proto (optional)
