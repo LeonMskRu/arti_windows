@@ -15,3 +15,12 @@ go get -u
 env GOOS=windows GOARCH=amd64 CGO_ENABLED=0 go build -ldflags="-s -w" -a -v -o client-64.exe
 
 env GOOS=windows GOARCH=386 CGO_ENABLED=0 go build -ldflags="-s -w" -a -v -o client-32.exe
+
+
+---
+
+убрал один вариант snowflake
+
+curl: (60) SSL: no alternative certificate subject name matches target host name 'snowflake-broker.torproject.net.global.prod.fastly.net'
+More details here: https://curl.se/docs/sslcerts.html
+curl failed to verify the legitimacy of the server and therefore could notestablish a secure connection to it. To learn more about this situation and how to fix it, please visit the web page mentioned above.
