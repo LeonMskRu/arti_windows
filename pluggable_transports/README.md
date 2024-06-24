@@ -1,5 +1,4 @@
-на [releases](https://github.com/LeonMskRu/arti_windows/releases) может быть более новая версия
-
+**на [releases](https://github.com/LeonMskRu/arti_windows/releases) может быть более новая версия**
 ---
 
 собрано на windows10 64bit\
@@ -18,7 +17,6 @@ go get -u
 env GOOS=windows GOARCH=amd64 CGO_ENABLED=0 go build -ldflags="-s -w" -a -v -o client-64.exe
 
 env GOOS=windows GOARCH=386 CGO_ENABLED=0 go build -ldflags="-s -w" -a -v -o client-32.exe
-
 
 ---
 
