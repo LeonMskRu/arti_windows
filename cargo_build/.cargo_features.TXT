@@ -1,55 +1,59 @@
 
-disabled features:
-    __is_experimental, __is_nonadditive, accel-openssl, accel-sha1-asm
-    arti-rpcserver, async-ctrlc, async-std, experimental, experimental-api, full
-    journald, onion-service-service, rpc, rustls, rustls-crate, signal-hook
-    signal-hook-async-std, static, static-native-tls, static-sqlite, tor-hsrproxy
-    tor-hsservice, tor-rpcbase, tracing-journald, visibility
+disabled features:                                                                                      
+__is_experimental, __is_nonadditive, accel-openssl, accel-sha1-asm, arti-relay                      
+arti-rpcserver, async-ctrlc, async-std, experimental, experimental-api, full                        
+journald, onion-service-service, relay, rpc, rustls, rustls-crate, signal-hook                      
+signal-hook-async-std, static, static-native-tls, static-sqlite, tor-hsrproxy                       
+tor-hsservice, tor-rpcbase, tracing-journald, visibility                                        
 
-enabled features:
-    bridge-client, compression, dns-proxy, harden, hickory-proto, native-tls
-    onion-service-client, pt-client, secmem-proc, tokio, tokio-crate, tokio-util
-    vanguards
+enabled features:                                                                                       
+bridge-client, compression, dns-proxy, harden, hickory-proto, native-tls                            
+onion-service-client, pt-client, secmem-proc, tokio, tokio-crate, tokio-util                        
+vanguards 
+
+   Avaliable features for `arti`
 
 default = ["tokio", "native-tls", "dns-proxy", "harden", "compression", "bridge-client", "pt-client", "onion-service-client", "vanguards"]
+
 __is_experimental = []
 __is_nonadditive = []
+
 accel-openssl = ["arti-client/accel-openssl", "__is_nonadditive"]
 accel-sha1-asm = ["arti-client/accel-sha1-asm", "__is_nonadditive"]
 async-std = ["arti-client/async-std", "tor-rtcompat/async-std", "async-ctrlc", "signal-hook", "signal-hook-async-std"]
 bridge-client = ["arti-client/bridge-client"]
-compression = ["arti-client/compression"]
-dns-proxy = ["hickory-proto"]
-experimental = ["arti-client/experimental", "experimental-api", "rpc", "relay"]
-experimental-api = ["arti-client/experimental-api", "visibility", "__is_experimental"]
-full = ["onion-service-client", "onion-service-service", "vanguards", "async-std", "tokio", "native-tls", "journald", "arti-client/full", "dns-proxy", "harden", "compression", "bridge-client", "pt-client", "arti-rpcserver?/full", "fs-mistrust/full", "safelog/full", "tor-config/full", "tor-error/full", "tor-rtcompat/full", "tor-socksproto/full", "tor-rpcbase?/full", "tor-hsrproxy?/full", "tor-hsservice?/full"]
-harden = ["secmem-proc"]
-journald = ["tracing-journald"]
-native-tls = ["arti-client/native-tls", "tor-rtcompat/native-tls"]
-onion-service-client = ["arti-client/onion-service-client"]
-onion-service-service = ["arti-client/onion-service-service", "tor-hsrproxy", "tor-hsservice"]
-pt-client = ["bridge-client", "arti-client/pt-client"]
-relay = ["arti-relay", "__is_experimental"]
-rpc = ["arti-rpcserver", "tor-rpcbase", "__is_experimental"]
-rustls = ["arti-client/rustls", "tor-rtcompat/rustls", "rustls-crate", "__is_nonadditive"]
-static = ["arti-client/static", "__is_nonadditive"]
-static-native-tls = ["arti-client/static-native-tls", "native-tls", "__is_nonadditive"]
-static-sqlite = ["arti-client/static-sqlite", "__is_nonadditive"]
-tokio = ["tokio-crate", "arti-client/tokio", "tor-rtcompat/tokio", "tokio-util"]
-vanguards = ["arti-client/vanguards"]
+compression = ["arti-client/compression"]                                                           
+dns-proxy = ["hickory-proto"]                                                                  
+experimental = ["arti-client/experimental", "experimental-api", "rpc", "relay"]                     
+experimental-api = ["arti-client/experimental-api", "visibility", "__is_experimental"]              
+full = ["onion-service-client", "onion-service-service", "vanguards", "async-std", "tokio", "native-tls", "journald", "arti-client/full", "dns-proxy", "harden", "compression", "bridge-client", "pt-client", "arti-rpcserver?/full", "fs-mistrust/full", "safelog/full", "tor-config/full", "tor-error/full", "tor-rtcompat/full", "tor-socksproto/full", "tor-rpcbase?/full", "tor-hsrproxy?/full", "tor-hsservice?/full", "arti-relay?/full"]                                                                    
+harden = ["secmem-proc"]                                                                            
+journald = ["tracing-journald"]                                                                     
+native-tls = ["arti-client/native-tls", "tor-rtcompat/native-tls"]                                  
+onion-service-client = ["arti-client/onion-service-client"]                                         
+onion-service-service = ["arti-client/onion-service-service", "tor-hsrproxy", "tor-hsservice"]      
+pt-client = ["bridge-client", "arti-client/pt-client"]                                              
+relay = ["arti-relay", "__is_experimental"]                                                         
+rpc = ["arti-rpcserver", "tor-rpcbase", "__is_experimental"]                                        
+rustls = ["arti-client/rustls", "tor-rtcompat/rustls", "rustls-crate", "__is_nonadditive"]          
+static = ["arti-client/static", "__is_nonadditive"]                                                 
+static-native-tls = ["arti-client/static-native-tls", "native-tls", "__is_nonadditive"]             
+static-sqlite = ["arti-client/static-sqlite", "__is_nonadditive"]                                   
+tokio = ["tokio-crate", "arti-client/tokio", "tor-rtcompat/tokio", "tokio-util"]                    
+vanguards = ["arti-client/vanguards"]                                                               
 
-arti-relay (optional)
-arti-rpcserver (optional)
-async-ctrlc (optional)
-hickory-proto (optional)
-rustls-crate (optional)
-secmem-proc (optional)
-signal-hook (optional)
-signal-hook-async-std (optional)
-tokio-crate (optional)
-tokio-util (optional)
-tor-hsrproxy (optional)
-tor-hsservice (optional)
-tor-rpcbase (optional)
-tracing-journald (optional)
+arti-relay (optional)                                                                               
+arti-rpcserver (optional)                                                                           
+async-ctrlc (optional)                                                                              
+hickory-proto (optional)                                                                            
+rustls-crate (optional)                                                                             
+secmem-proc (optional)                                                                              
+signal-hook (optional)                                                                              
+signal-hook-async-std (optional)                                                                    
+tokio-crate (optional)                                                                              
+tokio-util (optional)                                                                               
+tor-hsrproxy (optional)                                                                             
+tor-hsservice (optional)                                                                            
+tor-rpcbase (optional)                                                                              
+tracing-journald (optional)                                                                         
 visibility (optional)
