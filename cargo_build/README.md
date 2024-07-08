@@ -7,22 +7,7 @@ env LDFLAGS="-static -all-static" RUSTFLAGS="-Ctarget-cpu=native -Awarnings" c:\
 ---
 
 собрано на windows10 64bit\
-~~(для x86_64-gnu поменял mingw64 на ucrt64).~~\
 работа на 32bit и win7/8/etc не проверялась.
-
----
-
-x86_64-msvc == RUSTFLAGS="-C target-cpu=native"\
-.diff_cpu_native.conf
-
-[profile.release]\
-strip = true\
-codegen-units = 1\
-lto = true\
-opt-level = "z"\
-panic = "abort"\
-debug = false\
-incremental = true
 
 ---
 
