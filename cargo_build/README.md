@@ -1,5 +1,4 @@
-﻿**на [releases](https://github.com/LeonMskRu/arti_windows/releases) может быть более новая версия**
-
+﻿
 добавлены _release и arti-1.2.3-release.exe\
 env LDFLAGS="-static -all-static" RUSTFLAGS="-Ctarget-cpu=native -Awarnings" c:\cygwin\bin\time.exe\
  cargo build --release --no-default-features --features static-sqlite,rustls,bridge-client,compression,dns-proxy,harden,onion-service-client,pt-client,tokio,vanguards,tor-circmgr/ntor_v3 --timings

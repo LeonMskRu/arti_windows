@@ -1,6 +1,3 @@
-**на [releases](https://github.com/LeonMskRu/arti_windows/releases) может быть более новая версия**
-
----
 
 собрано на windows10 64bit\
 работа на 32bit и win7/8/etc не проверялась.
