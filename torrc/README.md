@@ -12,6 +12,11 @@
 
 ---
 
+LIST FallBackDir == RU,US,DE +V2Dir +HSDir +Stable -Exit -Guard\
+на данный момент проверки работы нет. просто список
+
+---
+
 Bridges FallBackDir берутся из Directories в Tor Control Panel
 
 ---
