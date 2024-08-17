@@ -1,12 +1,11 @@
 # ARTI (tor) Windows сборки
 
 + [rutracker.org](https://rutracker.org/forum/viewtopic.php?t=6360120 "форум")
-+ [ntc.party](https://ntc.party/t/%D0%BE%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-tor-arti-rust-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F/4912 "антизапрет")
 
 <!--TODO ARTI-->
 ## TODO ARTI
 
-- [ ] транспорты для мостов :-1:
+- [x] транспорты для мостов :+1:
 - [ ] корректная работа с мостами в целом. :cursing_face:
 - [ ] неглючное соединение с списками из 10-20 и больше мостов :man_facepalming:
 - [ ] GeoIP (есть в коде. нет в конфиге.) :thumbsdown:
