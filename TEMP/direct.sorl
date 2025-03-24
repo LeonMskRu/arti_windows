@@ -1,0 +1,42 @@
+[SwitchyOmega Conditions]
+; Require: ZeroOmega >= 2.3.2
+; Date: 23.03.2025
+; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
+
+localhost
+127.0.0.1
+win10.cmk.msk.ru
+192.168.1.111
+
+dns.quad9.net
+dns10.quad9.net
+
+detectportal.firefox.com
+
+*.ya.ru
+*.yandex.ru
+*.yandex.net
+*.yandex.com
+*.yandex.st
+*.yastatic.net
+*.naydex.net
+*.static-storage.net
+
+*.vk.com
+*.vkuser.net
+*.userapi.com
+*.vkvideo.ru
+*.vkuservideo.net
+*.mycdn.me
+*.okcdn.ru
+
+*.rutube.ru
+*.rutubelist.ru
+
+*.avito.st
+
+*.gismeteo.ru
+*.gismeteo.st
+*.prognoz3.ru
+
+*.onlinetimer.ru
