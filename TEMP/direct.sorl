@@ -3,15 +3,22 @@
 ; Date: 23.03.2025
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
+192.168.1.1
 localhost
 127.0.0.1
 win10.cmk.msk.ru
 192.168.1.111
+192.168.0.111
+192.168.1.222
+192.168.0.222
 
 doh.opendns.com
 dns.quad9.net
 dns10.quad9.net
 dns.comss.one
+
+*.2ip.ru
+*.2ip.io
 
 detectportal.firefox.com
 
