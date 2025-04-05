@@ -30,12 +30,15 @@ detectportal.firefox.com
 *.yastatic.net
 *.naydex.net
 *.static-storage.net
+*.dzen.ru
+*.dzeninfra.ru
 
 *.vk.com
 *.vkuser.net
 *.userapi.com
 *.vkvideo.ru
 *.vkuservideo.net
+*.vk-portal.net
 *.mycdn.me
 *.okcdn.ru
 
@@ -45,7 +48,4 @@ detectportal.firefox.com
 *.avito.st
 
 *.gismeteo.ru
-*.gismeteo.st
-*.prognoz3.ru
-
-*.onlinetimer.ru
+*.gism
