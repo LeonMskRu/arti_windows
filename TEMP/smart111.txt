@@ -1,8 +1,0 @@
-[SmartProxy Servers]
-192.168.1.111:3128 [HTTP] [1 squid]
-192.168.1.111:8118 [HTTP] [2 privoxy]
-192.168.1.111:9898 [HTTP] [3 VPN]
-192.168.1.111:18080 [HTTP] [4 opera1 EU]
-192.168.0.111:18080 [HTTP] [4 opera0 USA]
-192.168.0.111:808 [HTTP] [5 warp0 ipv4 gool]
-192.168.1.111:9595 [SOCKS5] [7 TOR]
