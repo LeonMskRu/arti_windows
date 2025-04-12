@@ -1,0 +1,15 @@
+[SwitchyOmega Conditions]
+; Require: ZeroOmega >= 2.3.2
+; Date: 23.03.2025
+; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
+
+Ip: 127.0.0.1/8
+Ip: 192.168.0.0/16
+Ip: fe80::/10
+*.thenewone.lol
+*.google-analytics.com
+*.cloudflare.com
+*.google.com
+*.googleapis.com
+*.gstatic.com
+*.csp.withgoogle.com
