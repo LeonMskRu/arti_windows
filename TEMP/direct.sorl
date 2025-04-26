@@ -30,21 +30,24 @@ detectportal.firefox.com
 
 *.ya.ru
 *.yandex.ru
+*.dzen.ru
+*.dzeninfra.ru
+*.kinopoisk.ru
 *.yandex.net
 *.yandex.com
 *.yandex.st
 *.yastatic.net
 *.naydex.net
 *.static-storage.net
-*.dzen.ru
-*.dzeninfra.ru
+*.yandexcloud.net
+*.clstorage.net
 
 *.vk.com
+*.vk-portal.net
 *.vkuser.net
 *.userapi.com
 *.vkvideo.ru
 *.vkuservideo.net
-*.vk-portal.net
 *.mycdn.me
 *.okcdn.ru
 
@@ -60,11 +63,13 @@ detectportal.firefox.com
 *.onlinetimer.ru
 
 *.tsargrad.tv
+
+*.politobzor.net
+
 *.rt.com
+*.russiatoday.com
+*.shop-rt.com
 
 *.rt.ru
 *.wink.ru
 *.ngenix.net
-*.yandexcloud.net
-*.kinopoisk.ru
-*.clstorage.net
