@@ -39,6 +39,12 @@ bgp.he.net
 ipv4.google.com
 ipv6.google.com
 
+*.encryptedsni.com
+*.tls-ech.dev
+*.defo.ie
+
+*.iknowwhatyoudownload.com
+
 detectportal.firefox.com
 
 *.ya.ru
