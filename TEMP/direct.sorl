@@ -28,6 +28,8 @@ dns.comss.one
 *.2ip.io
 *.2ip.me
 one.one.one.one
+1.1.1.1
+2606:4700:4700::1111
 bgp.he.net
 *.whatismyip.akamai.com
 *.ipify.org
