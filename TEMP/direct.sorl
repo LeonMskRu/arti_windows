@@ -41,6 +41,8 @@ bgp.he.net
 ipv4.google.com
 ipv6.google.com
 
+*.dnsleaktest.com
+
 *.encryptedsni.com
 *.tls-ech.dev
 *.defo.ie
@@ -92,5 +94,11 @@ detectportal.firefox.com
 *.shop-rt.com
 
 *.rt.ru
+*.rostelecom.ru
 *.wink.ru
 *.ngenix.net
+
+*.mts.ru
+
+*.gosuslugi.ru
+*.nalog.ru
