@@ -1,0 +1,6 @@
+134.195.198.230
+# (GLOBALTELEHOST Corp.)
+62.210.95.121
+# (Scaleway / online net)
+62.210.91.222
+# (Scaleway / online net)
