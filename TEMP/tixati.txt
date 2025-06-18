@@ -2,7 +2,10 @@
 # неожиданное битовое поле (tixati)
 
 154.23.243.0/24
-# ?! AfriNIC "USA"
+# ?! AfriNIC "USA" fake-port
 
 121.142.18.0/24
-# KR
+# KR fake-port
+
+31.135.237.48
+# RU fake-port
