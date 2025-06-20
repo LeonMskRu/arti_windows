@@ -4,17 +4,20 @@
 154.23.243.0/24
 # AfriNIC "USA" fake-port
 
-121.142.18.0/24
-# KR fake-port
-
 189.161.152.0/24
 # Mexico fake=port
 
-31.135.237.0/24
-# RU fake-port
-
 91.220.198.0/24
 # AS48031 == UA
+
+121.136.0.0/13
+# KR fake-port
+
+31.135.236.0/23
+# RU fake-port
+
+85.172.0.0/14
+# RU RT sochi fake-port
 
 5ef2::/16
 # fake IPv6
