@@ -39,3 +39,6 @@ fe80::/10
 172.67.176.0/20
 # tracker.ghostchu-services.top
 # sparkle.ghostchu-services.top
+
+51.75.0.0/16
+# OVH tracker.expli.top
