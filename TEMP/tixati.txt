@@ -25,16 +25,6 @@
 85.172.0.0/14
 # RU RT sochi fake-port
 
-5ef2::/16
-# fake IPv6
-
-fc00::/7
-fd00::/8
-# ULA
-
-fe80::/10
-# private
-
 104.21.16.0/20
 172.67.176.0/20
 # tracker.ghostchu-services.top
