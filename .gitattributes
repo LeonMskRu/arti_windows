@@ -3,3 +3,5 @@
 *.txt text eol=crlf
 *.ipv4 text eol=crlf
 *.ipv6 text eol=crlf
+
+*.cidr text eol=lf
