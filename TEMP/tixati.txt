@@ -24,3 +24,7 @@
 
 85.172.0.0/14
 # RU RT sochi fake-port
+
+100.64.0.0-100.127.255.255
+100.64.0.0/10
+# private Carrier-Grade NAT
