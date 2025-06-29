@@ -1,4 +1,7 @@
 
+2a1:620:15:c::/64
+# https://bgp.he.net/AS12389#_bogons
+
 5ef2::/16
 # fake IPv6
 
