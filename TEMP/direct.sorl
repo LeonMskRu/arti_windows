@@ -78,6 +78,10 @@ detectportal.firefox.com
 *.rutube.ru
 *.rutubelist.ru
 
+*.smotret-tv.live
+*.tvcdnpotok.com
+*.cdntvmedia.com
+
 *.avito.st
 
 *.gismeteo.ru
@@ -92,7 +96,6 @@ detectportal.firefox.com
 
 *.rt.com
 *.russiatoday.com
-*.shop-rt.com
 
 *.rt.ru
 *.rostelecom.ru
