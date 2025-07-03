@@ -61,3 +61,51 @@ with open("aws_ipv4.p2p", "w") as f:
     f.write("# AWS IPv4\n" + "\n".join(aws_ipv4))
 with open("aws_ipv6.p2p", "w") as f:
     f.write("# AWS IPv6\n" + "\n".join(aws_ipv6))
+
+with open("aws_ipv4.p2p", "r") as infile, open("aws_ipv4.dat", "w") as outfile:
+    for line in infile:
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        try:
+            name, level, iprange = line.split(":")
+            ip_start, ip_end = iprange.split("-")
+            outfile.write(f"{ip_start.strip()} - {ip_end.strip()} , {level.zfill(3)} , {name}\n")
+        except ValueError:
+            continue  # malformed line
+
+with open("aws_ipv6.p2p", "r") as infile, open("aws_ipv6.dat", "w") as outfile:
+    for line in infile:
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        try:
+            name, level, iprange = line.split(":")
+            ip_start, ip_end = iprange.split("-")
+            outfile.write(f"{ip_start.strip()} - {ip_end.strip()} , {level.zfill(3)} , {name}\n")
+        except ValueError:
+            continue  # malformed line
+
+with open("ipfilter_ipv4.p2p", "r") as infile, open("ipfilter_ipv4.dat", "w") as outfile:
+    for line in infile:
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        try:
+            name, level, iprange = line.split(":")
+            ip_start, ip_end = iprange.split("-")
+            outfile.write(f"{ip_start.strip()} - {ip_end.strip()} , {level.zfill(3)} , {name}\n")
+        except ValueError:
+            continue  # malformed line
+
+with open("ipfilter_ipv6.p2p", "r") as infile, open("ipfilter_ipv6.dat", "w") as outfile:
+    for line in infile:
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        try:
+            name, level, iprange = line.split(":")
+            ip_start, ip_end = iprange.split("-")
+            outfile.write(f"{ip_start.strip()} - {ip_end.strip()} , {level.zfill(3)} , {name}\n")
+        except ValueError:
+            continue  # malformed line
