@@ -14,6 +14,3 @@ fe80::/10
 
 ff00::/8
 # multicast
-
-100.64.0.0/10
-# private Carrier-Grade NAT
