@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Discourse: Ignore & Mark Hidden Profiles (All-in-1)
 // @namespace    https://ntc.party/
-// @version      3.1
+// @version      3.2
 // @description  Кнопка игнора на /profile-hidden, массовая проверка на /latest/top/c/t. Работает в Firefox + Tampermonkey. Автокеш, GM_openInTab.
 // @match        https://ntc.party/u/*/profile-hidden
 // @match        https://ntc.party/latest*
@@ -37,7 +37,9 @@
     el.style.backgroundColor = '#eee';
     const userLink = el.querySelector('a.trigger-user-card');
     if(userLink && !userLink.innerText.includes('[скрыт]')){
-      userLink.innerText += ' [скрыт]';
+      userLink.innerHTML = userLink.innerHTML.replace(/(<\/?[^>]+>)/g, '\x01').replace(/[^\x01]+/g, m => 
+        m + (m.trim() ? ' [скрыт]' : '')
+        .replace(/\x01/g, '<>').split('<>').join('$1');
     }
   }
 
@@ -127,6 +129,16 @@
   document.querySelectorAll('a.trigger-user-card').forEach(a => {
     const user = a.href.split('/u/')[1].replace(/\/.*/, '');
     if (cache[user]?.hidden) markAll(user);
+  });
+
+  // Открытие профилей в новой вкладке
+  document.addEventListener('click', function(e) {
+    const userCard = e.target.closest('a.trigger-user-card');
+    if (userCard) {
+      e.preventDefault();
+      const username = userCard.href.split('/u/')[1].replace(/\/.*/, '');
+      GM_openInTab(`https://ntc.party/u/${username}/summary`, { active: true });
+    }
   });
 
 })();
