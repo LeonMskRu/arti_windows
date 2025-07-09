@@ -1,14 +1,15 @@
 // ==UserScript==
 // @name         Discourse: Ignore & Mark Hidden Profiles (All-in-1)
 // @namespace    https://ntc.party/
-// @version      3.0
-// @description  На profile-hidden — кнопка игнора. На /latest, /top, /c, /t — массовая кнопка: пометить [скрыт], скопировать, открыть prefs.
+// @version      3.1
+// @description  Кнопка игнора на /profile-hidden, массовая проверка на /latest/top/c/t. Работает в Firefox + Tampermonkey. Автокеш, GM_openInTab.
 // @match        https://ntc.party/u/*/profile-hidden
 // @match        https://ntc.party/latest*
 // @match        https://ntc.party/top*
 // @match        https://ntc.party/c/*
 // @match        https://ntc.party/t/*
 // @grant        GM_setClipboard
+// @grant        GM_openInTab
 // @grant        GM_xmlhttpRequest
 // @connect      ntc.party
 // ==/UserScript==
@@ -20,19 +21,16 @@
   const CACHE_KEY = 'hidden_profile_cache';
   const TTL = 7*24*60*60*1000; // 7 дней
 
-  // --- Cache ---
   let cache = {};
   try{ cache = JSON.parse(localStorage.getItem(CACHE_KEY))||{} }catch(e){ cache={} }
   function saveCache(){ localStorage.setItem(CACHE_KEY, JSON.stringify(cache)) }
 
-  // --- Определить свой ник из шапки ---
   function getMyName(){
     const el = document.querySelector('a.header-dropdown-toggle[href^="/u/"]');
     return el?.href.split('/u/')[1].replace(/\/.*/,'') || '';
   }
   const myName = getMyName();
 
-  // --- Пометить один пост ---
   function markPost(el){
     if(el.dataset.hiddenMarked)return;
     el.dataset.hiddenMarked = '1';
@@ -43,12 +41,10 @@
     }
   }
 
-  // --- Пометить все посты юзера ---
   function markAll(username){
     document.querySelectorAll(`article[data-user-card="${username}"]`).forEach(markPost);
   }
 
-  // --- Проверить и кешировать одного юзера ---
   function checkUser(username){
     const now = Date.now();
     if(cache[username] && now - cache[username].ts < TTL){
@@ -75,7 +71,7 @@
     });
   }
 
-  // --- 1) Индивидуальная кнопка на /profile-hidden ---
+  // --- 1. Страница скрытого профиля ---
   if(location.pathname.match(/^\/u\/[^\/]+\/profile-hidden$/)){
     const username = location.pathname.split('/')[2];
     const btn = document.createElement('button');
@@ -85,16 +81,16 @@
       background:#d33; color:#fff; border:none; border-radius:6px;
       font-size:16px; cursor:pointer; display:block;
     `;
-    btn.onclick = ()=>{
-      GM_setClipboard(username,'text');
-      alert(`@${username} скопирован. Откроются ваши настройки игнорирования.`);
-      if(myName) window.open(`https://ntc.party/u/${myName}/preferences/users`,'_blank');
+    btn.onclick = () => {
+      GM_setClipboard(username, 'text');
+      alert(`@${username} скопирован. Откроется страница игнорирования в фоне.`);
+      if (myName) GM_openInTab(`https://ntc.party/u/${myName}/preferences/users`, { active: false });
     };
-    (document.querySelector('.user-main')||document.body).appendChild(btn);
+    (document.querySelector('.user-main') || document.body).appendChild(btn);
     return;
   }
 
-  // --- 2) Массовая кнопка на /latest, /top*, /c/*, /t/* ---
+  // --- 2. Массовая кнопка на страницах с постами ---
   const btn = document.createElement('button');
   btn.textContent = '🚫 Пометить & собрать скрытые профили';
   btn.style = `
@@ -105,32 +101,32 @@
   `;
   document.body.insertBefore(btn, document.body.firstChild);
 
-  btn.addEventListener('click', async ()=>{
+  btn.addEventListener('click', async () => {
     btn.disabled = true;
     const links = Array.from(document.querySelectorAll('a.trigger-user-card'));
-    const users = [...new Set(links.map(a=>a.href.split('/u/')[1].replace(/\/.*/,'')))];
+    const users = [...new Set(links.map(a => a.href.split('/u/')[1].replace(/\/.*/, '')))];
     const hidden = [];
-    for(let i=0;i<users.length;i++){
-      btn.textContent = `Проверено ${i+1}/${users.length}… Найдено ${hidden.length}`;
+    for (let i = 0; i < users.length; i++) {
+      btn.textContent = `Проверено ${i + 1}/${users.length}… Найдено скрытых: ${hidden.length}`;
       // eslint-disable-next-line no-await-in-loop
       const isHidden = await checkUser(users[i]);
-      if(isHidden) hidden.push(users[i]);
+      if (isHidden) hidden.push(users[i]);
     }
-    if(hidden.length){
-      GM_setClipboard(hidden.join('; '),'text');
-      alert(`Скрытых: ${hidden.length}\nСкопировано: ${hidden.join('; ')}\nОткроются ваши prefs.`);
-      if(myName) window.open(`https://ntc.party/u/${myName}/preferences/users`,'_blank');
+    if (hidden.length) {
+      GM_setClipboard(hidden.join('; '), 'text');
+      alert(`Скрытых: ${hidden.length}\nСкопировано в буфер:\n${hidden.join('; ')}\nОткроется страница игнорирования в фоне.`);
+      if (myName) GM_openInTab(`https://ntc.party/u/${myName}/preferences/users`, { active: false });
     } else {
       alert('Скрытых профилей не найдено.');
     }
     btn.textContent = '🚫 Пометить & собрать скрытые профили';
     btn.disabled = false;
   });
-  
-  // — сразу же промаркировать из кеша для всех страниц —
-  document.querySelectorAll('a.trigger-user-card').forEach(a=>{
-    const user = a.href.split('/u/')[1].replace(/\/.*/,'');
-    if(cache[user]?.hidden) markAll(user);
+
+  // Автопометка из кеша
+  document.querySelectorAll('a.trigger-user-card').forEach(a => {
+    const user = a.href.split('/u/')[1].replace(/\/.*/, '');
+    if (cache[user]?.hidden) markAll(user);
   });
 
 })();
