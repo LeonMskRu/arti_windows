@@ -1,10 +1,13 @@
 // ==UserScript==
-// @name         Discourse: Mark Users with Hidden Profile
+// @name         Discourse: Mark Hidden Profiles (All Pages)
 // @namespace    https://ntc.party/
-// @version      1.1
-// @description  Помечает посты пользователей с закрытым профилем (Discourse). Кеширует результат на 7 дней.
+// @version      1.2
+// @description  Помечает пользователей с закрытым профилем на всех страницах Discourse (темы, список пользователей, топики). Кеширует результат на 7 дней.
 // @author       GPT
 // @match        https://ntc.party/t/*
+// @match        https://ntc.party/latest
+// @match        https://ntc.party/top*
+// @match        https://ntc.party/users*
 // @grant        GM_xmlhttpRequest
 // @connect      ntc.party
 // ==/UserScript==
@@ -27,27 +30,26 @@
         localStorage.setItem(CACHE_KEY, JSON.stringify(cache));
     }
 
-    function markAsHidden(post, username) {
-        post.style.backgroundColor = '#eee';
-        const nameEl = post.querySelector('a.trigger-user-card');
-        if (nameEl && !nameEl.innerText.includes('[Профиль скрыт]')) {
-            nameEl.innerText += ' [Профиль скрыт]';
+    function markElement(el, username) {
+        el.style.backgroundColor = '#eee';
+        if (!el.innerText.includes('[Профиль скрыт]')) {
+            el.innerText += ' [Профиль скрыт]';
         }
     }
 
-    function processPost(post) {
-        const userLink = post.querySelector('a.trigger-user-card');
-        if (!userLink) return;
+    function markAllElements(username) {
+        document.querySelectorAll(`a[href^="/u/${username}"]`).forEach(el => {
+            markElement(el, username);
+        });
+    }
 
-        const username = userLink.getAttribute('href')?.split('/u/')[1]?.replace(/\/.*/, '');
-        if (!username) return;
+    function checkUser(username) {
         const now = Date.now();
-
         if (cache[username]) {
-            if (now - cache[username].ts < CACHE_TTL && cache[username].hidden) {
-                markAsHidden(post, username);
+            if (now - cache[username].ts < CACHE_TTL) {
+                if (cache[username].hidden) markAllElements(username);
+                return;
             }
-            return;
         }
 
         cache[username] = { ts: now, hidden: false };
@@ -61,17 +63,28 @@
                     console.log(`🛑 Скрытый профиль: ${username}`);
                     cache[username].hidden = true;
                     cache[username].ts = Date.now();
-                    markAsHidden(post, username);
                     saveCache();
+                    markAllElements(username);
                 }
-            },
+            }
         });
     }
 
-    function scanAllPosts() {
-        document.querySelectorAll('article[data-user-card]').forEach(processPost);
+    function extractUsernames() {
+        const found = new Set();
+        document.querySelectorAll('a[href^="/u/"]').forEach(link => {
+            const match = link.getAttribute('href').match(/^\/u\/([^\/\?#]+)/);
+            if (match) found.add(match[1]);
+        });
+        return [...found];
     }
 
-    scanAllPosts();
-    setInterval(scanAllPosts, 5000);
+    function scanPage() {
+        extractUsernames().forEach(username => {
+            checkUser(username);
+        });
+    }
+
+    scanPage();
+    setInterval(scanPage, 5000);
 })();
