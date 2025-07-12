@@ -1,0 +1,466 @@
+2025-07-12 17:35:20,630 - INFO - === Запуск AdBlock Merger ===
+2025-07-12 17:35:20,631 - INFO - Всего источников: 32
+2025-07-12 17:35:20,632 - INFO - Попытка 1/3: https://easylist.to/easylist/easylist.txt
+2025-07-12 17:35:20,633 - INFO - Попытка 1/3: https://easylist.to/easylist/easyprivacy.txt
+2025-07-12 17:35:20,633 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easylistchina.txt
+2025-07-12 17:35:20,634 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abpindo.txt
+2025-07-12 17:35:20,634 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/liste_fr.txt
+2025-07-12 17:35:20,635 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+2025-07-12 17:35:20,635 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+2025-07-12 17:35:20,636 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-social.txt
+2025-07-12 17:35:22,298 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/enhancedstats.txt
+2025-07-12 17:35:22,406 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-12 17:35:22,638 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-12 17:35:22,656 - INFO - Попытка 1/3: https://www.i-dont-care-about-cookies.eu/abp/
+2025-07-12 17:35:23,139 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-12 17:35:23,310 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-12 17:35:23,311 - INFO - Попытка 1/3: https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+2025-07-12 17:35:23,353 - INFO - Попытка 1/3: https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+2025-07-12 17:35:23,655 - INFO - Попытка 1/3: https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt
+2025-07-12 17:35:23,675 - INFO - Попытка 1/3: https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
+2025-07-12 17:35:23,721 - INFO - Попытка 1/3: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+2025-07-12 17:35:23,908 - INFO - Попытка 1/3: https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+2025-07-12 17:35:24,054 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-12 17:35:24,171 - INFO - Попытка 1/3: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:35:24,323 - INFO - Попытка 1/3: https://winhelp2002.mvps.org/hosts.txt
+2025-07-12 17:35:24,527 - INFO - Попытка 1/3: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt
+2025-07-12 17:35:24,622 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-12 17:35:24,654 - INFO - Попытка 1/3: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt
+2025-07-12 17:35:24,695 - WARNING - Ошибка загрузки (попытка 1): 403 Client Error: Forbidden for url: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:35:24,712 - INFO - Попытка 1/3: https://big.oisd.nl/domainswild2
+2025-07-12 17:35:26,383 - INFO - Попытка 1/3: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:35:26,784 - INFO - Попытка 1/3: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+2025-07-12 17:35:27,455 - WARNING - Ошибка загрузки (попытка 1): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:35:27,938 - INFO - Попытка 1/3: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
+2025-07-12 17:35:28,643 - INFO - Попытка 1/3: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:35:29,056 - INFO - Попытка 1/3: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/malware/domains
+2025-07-12 17:35:29,743 - WARNING - Ошибка загрузки (попытка 1): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:35:54,696 - INFO - Попытка 2/3: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:35:55,129 - WARNING - Ошибка загрузки (попытка 2): 403 Client Error: Forbidden for url: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:35:57,457 - INFO - Попытка 2/3: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:35:57,928 - WARNING - Ошибка загрузки (попытка 2): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:35:59,744 - INFO - Попытка 2/3: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:36:00,132 - WARNING - Ошибка загрузки (попытка 2): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:36:25,130 - INFO - Попытка 3/3: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:36:25,576 - WARNING - Ошибка загрузки (попытка 3): 403 Client Error: Forbidden for url: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:36:25,576 - ERROR - Не удалось загрузить после 3 попыток: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:36:27,929 - INFO - Попытка 3/3: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:36:28,333 - WARNING - Ошибка загрузки (попытка 3): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:36:28,333 - ERROR - Не удалось загрузить после 3 попыток: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:36:30,133 - INFO - Попытка 3/3: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:36:30,618 - WARNING - Ошибка загрузки (попытка 3): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:36:30,619 - ERROR - Не удалось загрузить после 3 попыток: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:36:31,201 - WARNING - Файл слишком мал (321 байт): secure_fanboy_co_nz_enhancedstats.txt.txt
+2025-07-12 17:36:31,810 - WARNING - Файл слишком мал (613 байт): s3_amazonaws_com_simple_tracking.txt.txt
+2025-07-12 17:36:31,811 - WARNING - Файл слишком мал (110 байт): s3_amazonaws_com_simple_malware.txt.txt
+2025-07-12 17:36:38,805 - INFO - Сохранено 454,085 правил в complex_rules.txt
+2025-07-12 17:36:39,306 - INFO - Сохранено 659,609 правил в simple_domains.txt
+2025-07-12 17:36:39,307 - WARNING - Нет правил для сохранения в css_rules.txt
+2025-07-12 17:36:39,311 - INFO - Сохранено 5,477 правил в exception_rules.txt
+2025-07-12 17:36:39,469 - INFO - Сохранено 252,702 правил в converted_hosts.txt
+2025-07-12 17:36:39,470 - INFO - 
+=== Итоги обработки ===
+2025-07-12 17:36:39,470 - INFO - Успешно обработано источников: 26/32
+2025-07-12 17:36:39,471 - INFO - Сложные правила: 454,085
+2025-07-12 17:36:39,471 - INFO - Простые домены: 659,609
+2025-07-12 17:36:39,471 - INFO - CSS правила: 0
+2025-07-12 17:36:39,471 - INFO - Исключения: 5,477
+2025-07-12 17:36:39,471 - INFO - Конвертированные hosts/DNS: 252,702
+2025-07-12 17:36:39,472 - INFO - Общее время выполнения: 78.84 сек
+2025-07-12 17:43:13,537 - INFO - === Запуск AdBlock Merger ===
+2025-07-12 17:43:13,538 - INFO - Всего источников: 36
+2025-07-12 17:43:13,539 - INFO - Попытка 1/3: https://easylist.to/easylist/easylist.txt
+2025-07-12 17:43:13,540 - INFO - Попытка 1/3: https://easylist.to/easylist/easyprivacy.txt
+2025-07-12 17:43:13,540 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easylistchina.txt
+2025-07-12 17:43:13,541 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abpindo.txt
+2025-07-12 17:43:13,541 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/liste_fr.txt
+2025-07-12 17:43:13,542 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+2025-07-12 17:43:13,542 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+2025-07-12 17:43:13,543 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+2025-07-12 17:43:14,348 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-social.txt
+2025-07-12 17:43:14,378 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/enhancedstats.txt
+2025-07-12 17:43:14,732 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-12 17:43:15,217 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-12 17:43:15,285 - INFO - Попытка 1/3: https://www.i-dont-care-about-cookies.eu/abp/
+2025-07-12 17:43:15,333 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-12 17:43:15,348 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-12 17:43:15,572 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-12 17:43:15,637 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/14.txt
+2025-07-12 17:43:15,923 - INFO - Попытка 1/3: https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+2025-07-12 17:43:15,933 - INFO - Попытка 1/3: https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+2025-07-12 17:43:16,412 - INFO - Попытка 1/3: https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt
+2025-07-12 17:43:16,496 - INFO - Попытка 1/3: https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
+2025-07-12 17:43:17,017 - INFO - Попытка 1/3: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+2025-07-12 17:43:17,095 - INFO - Попытка 1/3: https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+2025-07-12 17:43:17,233 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-12 17:43:17,251 - INFO - Попытка 1/3: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:43:17,360 - INFO - Попытка 1/3: https://winhelp2002.mvps.org/hosts.txt
+2025-07-12 17:43:17,544 - INFO - Попытка 1/3: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt
+2025-07-12 17:43:17,755 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-12 17:43:17,931 - INFO - Попытка 1/3: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt
+2025-07-12 17:43:17,935 - WARNING - Ошибка загрузки (попытка 1): 403 Client Error: Forbidden for url: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:43:19,261 - INFO - Попытка 1/3: https://big.oisd.nl/domainswild2
+2025-07-12 17:43:19,608 - INFO - Попытка 1/3: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:43:21,071 - INFO - Попытка 1/3: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+2025-07-12 17:43:21,073 - WARNING - Ошибка загрузки (попытка 1): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:43:21,342 - INFO - Попытка 1/3: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
+2025-07-12 17:43:22,205 - INFO - Попытка 1/3: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:43:22,479 - INFO - Попытка 1/3: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/malware/domains
+2025-07-12 17:43:23,400 - WARNING - Ошибка загрузки (попытка 1): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:43:24,889 - INFO - Попытка 1/3: https://raw.githubusercontent.com/zapret-info/z-i/master/dump.csv
+2025-07-12 17:43:26,020 - WARNING - Ошибка загрузки (попытка 1): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/zapret-info/z-i/master/dump.csv
+2025-07-12 17:43:47,937 - INFO - Попытка 2/3: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:43:48,349 - WARNING - Ошибка загрузки (попытка 2): 403 Client Error: Forbidden for url: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:43:51,074 - INFO - Попытка 2/3: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:43:51,456 - WARNING - Ошибка загрузки (попытка 2): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:43:53,401 - INFO - Попытка 2/3: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:43:53,874 - WARNING - Ошибка загрузки (попытка 2): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:43:56,022 - INFO - Попытка 2/3: https://raw.githubusercontent.com/zapret-info/z-i/master/dump.csv
+2025-07-12 17:43:56,413 - WARNING - Ошибка загрузки (попытка 2): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/zapret-info/z-i/master/dump.csv
+2025-07-12 17:44:18,350 - INFO - Попытка 3/3: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:44:18,687 - WARNING - Ошибка загрузки (попытка 3): 403 Client Error: Forbidden for url: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:44:18,688 - ERROR - Не удалось загрузить после 3 попыток: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:44:21,458 - INFO - Попытка 3/3: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:44:21,946 - WARNING - Ошибка загрузки (попытка 3): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:44:21,946 - ERROR - Не удалось загрузить после 3 попыток: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:44:23,874 - INFO - Попытка 3/3: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:44:24,264 - WARNING - Ошибка загрузки (попытка 3): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:44:24,264 - ERROR - Не удалось загрузить после 3 попыток: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:44:26,414 - INFO - Попытка 3/3: https://raw.githubusercontent.com/zapret-info/z-i/master/dump.csv
+2025-07-12 17:44:26,895 - WARNING - Ошибка загрузки (попытка 3): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/zapret-info/z-i/master/dump.csv
+2025-07-12 17:44:26,897 - ERROR - Не удалось загрузить после 3 попыток: https://raw.githubusercontent.com/zapret-info/z-i/master/dump.csv
+2025-07-12 17:44:28,121 - WARNING - Файл слишком мал (321 байт): secure_fanboy_co_nz_enhancedstats.txt.txt
+2025-07-12 17:44:29,643 - WARNING - Файл слишком мал (613 байт): s3_amazonaws_com_simple_tracking.txt.txt
+2025-07-12 17:44:29,650 - WARNING - Файл слишком мал (110 байт): s3_amazonaws_com_simple_malware.txt.txt
+2025-07-12 17:44:38,006 - INFO - Сохранено 505,379 правил в complex_rules.txt
+2025-07-12 17:44:38,528 - INFO - Сохранено 659,611 правил в simple_domains.txt
+2025-07-12 17:44:38,584 - INFO - Сохранено 57,933 правил в css_rules.txt
+2025-07-12 17:44:38,589 - INFO - Сохранено 7,584 правил в exception_rules.txt
+2025-07-12 17:44:38,778 - INFO - Сохранено 252,702 правил в converted_hosts.txt
+2025-07-12 17:44:38,778 - INFO - 
+=== Итоги обработки ===
+2025-07-12 17:44:38,779 - INFO - Успешно обработано источников: 29/36
+2025-07-12 17:44:38,779 - INFO - Сложные правила: 505,379
+2025-07-12 17:44:38,779 - INFO - Простые домены: 659,611
+2025-07-12 17:44:38,780 - INFO - CSS правила: 57,933
+2025-07-12 17:44:38,780 - INFO - Исключения: 7,584
+2025-07-12 17:44:38,780 - INFO - Конвертированные hosts/DNS: 252,702
+2025-07-12 17:44:38,780 - INFO - Общее время выполнения: 85.24 сек
+2025-07-12 17:45:19,613 - INFO - === Запуск AdBlock Merger ===
+2025-07-12 17:45:19,613 - INFO - Всего источников: 36
+2025-07-12 17:45:19,615 - INFO - Попытка 1/3: https://easylist.to/easylist/easylist.txt
+2025-07-12 17:45:19,616 - INFO - Попытка 1/3: https://easylist.to/easylist/easyprivacy.txt
+2025-07-12 17:45:19,616 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easylistchina.txt
+2025-07-12 17:45:19,617 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abpindo.txt
+2025-07-12 17:45:19,617 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/liste_fr.txt
+2025-07-12 17:45:19,618 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+2025-07-12 17:45:19,618 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+2025-07-12 17:45:19,619 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+2025-07-12 17:45:20,291 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-social.txt
+2025-07-12 17:45:20,702 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/enhancedstats.txt
+2025-07-12 17:45:20,808 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-12 17:45:21,304 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-12 17:45:21,431 - INFO - Попытка 1/3: https://www.i-dont-care-about-cookies.eu/abp/
+2025-07-12 17:45:21,538 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-12 17:45:21,661 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-12 17:45:21,685 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-12 17:45:21,781 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/14.txt
+2025-07-12 17:45:21,855 - INFO - Попытка 1/3: https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+2025-07-12 17:45:22,068 - INFO - Попытка 1/3: https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+2025-07-12 17:45:22,159 - INFO - Попытка 1/3: https://s3.amazonaws.com/lists.disconnect.me/simple_malware.txt
+2025-07-12 17:45:22,442 - INFO - Попытка 1/3: https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
+2025-07-12 17:45:22,862 - INFO - Попытка 1/3: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+2025-07-12 17:45:23,093 - INFO - Попытка 1/3: https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+2025-07-12 17:45:23,095 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-12 17:45:23,233 - INFO - Попытка 1/3: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:45:23,255 - INFO - Попытка 1/3: https://winhelp2002.mvps.org/hosts.txt
+2025-07-12 17:45:23,638 - INFO - Попытка 1/3: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt
+2025-07-12 17:45:23,841 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-12 17:45:23,967 - INFO - Попытка 1/3: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt
+2025-07-12 17:45:23,974 - WARNING - Ошибка загрузки (попытка 1): 403 Client Error: Forbidden for url: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:45:25,491 - INFO - Попытка 1/3: https://big.oisd.nl/domainswild2
+2025-07-12 17:45:25,924 - INFO - Попытка 1/3: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:45:26,631 - INFO - Попытка 1/3: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+2025-07-12 17:45:27,107 - WARNING - Ошибка загрузки (попытка 1): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:45:27,443 - INFO - Попытка 1/3: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt
+2025-07-12 17:45:27,807 - INFO - Попытка 1/3: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:45:28,356 - INFO - Попытка 1/3: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/malware/domains
+2025-07-12 17:45:28,830 - WARNING - Ошибка загрузки (попытка 1): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:45:31,065 - INFO - Попытка 1/3: https://raw.githubusercontent.com/zapret-info/z-i/master/dump.csv
+2025-07-12 17:45:32,146 - WARNING - Ошибка загрузки (попытка 1): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/zapret-info/z-i/master/dump.csv
+2025-07-12 17:45:53,975 - INFO - Попытка 2/3: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:45:54,408 - WARNING - Ошибка загрузки (попытка 2): 403 Client Error: Forbidden for url: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:45:57,108 - INFO - Попытка 2/3: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:45:57,471 - WARNING - Ошибка загрузки (попытка 2): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:45:58,831 - INFO - Попытка 2/3: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:45:59,240 - WARNING - Ошибка загрузки (попытка 2): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:46:02,147 - INFO - Попытка 2/3: https://raw.githubusercontent.com/zapret-info/z-i/master/dump.csv
+2025-07-12 17:46:02,569 - WARNING - Ошибка загрузки (попытка 2): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/zapret-info/z-i/master/dump.csv
+2025-07-12 17:46:24,409 - INFO - Попытка 3/3: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:46:24,889 - WARNING - Ошибка загрузки (попытка 3): 403 Client Error: Forbidden for url: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:46:24,889 - ERROR - Не удалось загрузить после 3 попыток: https://someonewhocares.org/hosts/hosts
+2025-07-12 17:46:27,472 - INFO - Попытка 3/3: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:46:27,990 - WARNING - Ошибка загрузки (попытка 3): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:46:27,990 - ERROR - Не удалось загрузить после 3 попыток: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 17:46:29,241 - INFO - Попытка 3/3: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:46:29,714 - WARNING - Ошибка загрузки (попытка 3): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:46:29,714 - ERROR - Не удалось загрузить после 3 попыток: https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/adware/domains
+2025-07-12 17:46:32,569 - INFO - Попытка 3/3: https://raw.githubusercontent.com/zapret-info/z-i/master/dump.csv
+2025-07-12 17:46:33,059 - WARNING - Ошибка загрузки (попытка 3): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/zapret-info/z-i/master/dump.csv
+2025-07-12 17:46:33,059 - ERROR - Не удалось загрузить после 3 попыток: https://raw.githubusercontent.com/zapret-info/z-i/master/dump.csv
+2025-07-12 17:46:33,954 - WARNING - Файл слишком мал (321 байт): secure_fanboy_co_nz_enhancedstats.txt.txt
+2025-07-12 17:46:34,939 - WARNING - Файл слишком мал (613 байт): s3_amazonaws_com_simple_tracking.txt.txt
+2025-07-12 17:46:34,939 - WARNING - Файл слишком мал (110 байт): s3_amazonaws_com_simple_malware.txt.txt
+2025-07-12 17:46:42,312 - INFO - Сохранено 505,379 правил в complex_rules.txt
+2025-07-12 17:46:42,809 - INFO - Сохранено 659,611 правил в simple_domains.txt
+2025-07-12 17:46:42,852 - INFO - Сохранено 57,933 правил в css_rules.txt
+2025-07-12 17:46:42,856 - INFO - Сохранено 7,584 правил в exception_rules.txt
+2025-07-12 17:46:43,015 - INFO - Сохранено 252,702 правил в converted_hosts.txt
+2025-07-12 17:46:43,016 - INFO - 
+=== Итоги обработки ===
+2025-07-12 17:46:43,016 - INFO - Успешно обработано источников: 29/36
+2025-07-12 17:46:43,017 - INFO - Сложные правила: 505,379
+2025-07-12 17:46:43,017 - INFO - Простые домены: 659,611
+2025-07-12 17:46:43,017 - INFO - CSS правила: 57,933
+2025-07-12 17:46:43,017 - INFO - Исключения: 7,584
+2025-07-12 17:46:43,017 - INFO - Конвертированные hosts/DNS: 252,702
+2025-07-12 17:46:43,018 - INFO - Общее время выполнения: 83.40 сек
+2025-07-12 17:56:12,389 - INFO - === Запуск AdBlock Merger ===
+2025-07-12 17:56:12,389 - INFO - Всего источников: 22
+2025-07-12 17:56:12,391 - INFO - Попытка 1/3: https://easylist.to/easylist/easylist.txt
+2025-07-12 17:56:12,391 - INFO - Попытка 1/3: https://easylist.to/easylist/easyprivacy.txt
+2025-07-12 17:56:12,392 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+2025-07-12 17:56:12,393 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+2025-07-12 17:56:12,393 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+2025-07-12 17:56:12,394 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-social.txt
+2025-07-12 17:56:12,394 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-12 17:56:12,394 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-12 17:56:13,749 - INFO - Попытка 1/3: https://www.i-dont-care-about-cookies.eu/abp/
+2025-07-12 17:56:13,974 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-12 17:56:14,734 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-12 17:56:15,016 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-12 17:56:15,312 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/14.txt
+2025-07-12 17:56:15,319 - INFO - Попытка 1/3: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+2025-07-12 17:56:15,412 - INFO - Попытка 1/3: https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+2025-07-12 17:56:15,728 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-12 17:56:15,800 - INFO - Попытка 1/3: https://winhelp2002.mvps.org/hosts.txt
+2025-07-12 17:56:15,971 - INFO - Попытка 1/3: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt
+2025-07-12 17:56:16,305 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-12 17:56:16,401 - INFO - Попытка 1/3: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt
+2025-07-12 17:56:16,575 - INFO - Попытка 1/3: https://big.oisd.nl/domainswild2
+2025-07-12 17:56:18,073 - INFO - Попытка 1/3: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+2025-07-12 17:56:38,169 - INFO - Сохранено 247,927 правил в complex_rules.txt
+2025-07-12 17:56:38,704 - INFO - Сохранено 702,978 правил в simple_domains.txt
+2025-07-12 17:56:38,725 - INFO - Сохранено 33,728 правил в css_rules.txt
+2025-07-12 17:56:38,728 - INFO - Сохранено 6,426 правил в exception_rules.txt
+2025-07-12 17:56:38,891 - INFO - Сохранено 252,702 правил в converted_hosts.txt
+2025-07-12 17:56:38,891 - INFO - 
+=== Итоги обработки ===
+2025-07-12 17:56:38,892 - INFO - Успешно обработано источников: 22/22
+2025-07-12 17:56:38,892 - INFO - Сложные правила: 247,927
+2025-07-12 17:56:38,892 - INFO - Простые домены: 702,978
+2025-07-12 17:56:38,893 - INFO - CSS правила: 33,728
+2025-07-12 17:56:38,893 - INFO - Исключения: 6,426
+2025-07-12 17:56:38,893 - INFO - Конвертированные hosts/DNS: 252,702
+2025-07-12 17:56:38,980 - INFO - ✓ Все правила уникальны (нет дубликатов между категориями)
+2025-07-12 17:56:38,980 - INFO - Общее время выполнения: 26.59 сек
+2025-07-12 18:05:17,585 - INFO - === Запуск AdBlock Merger ===
+2025-07-12 18:05:17,586 - INFO - Всего источников: 21
+2025-07-12 18:05:17,587 - INFO - Попытка 1/3: https://easylist.to/easylist/easylist.txt
+2025-07-12 18:05:17,588 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+2025-07-12 18:05:17,588 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+2025-07-12 18:05:17,589 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+2025-07-12 18:05:17,589 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-social.txt
+2025-07-12 18:05:17,590 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-12 18:05:17,590 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-12 18:05:17,591 - INFO - Попытка 1/3: https://www.i-dont-care-about-cookies.eu/abp/
+2025-07-12 18:05:20,195 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-12 18:05:20,772 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-12 18:05:20,908 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-12 18:05:21,796 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/14.txt
+2025-07-12 18:05:21,948 - INFO - Попытка 1/3: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+2025-07-12 18:05:22,488 - INFO - Попытка 1/3: https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+2025-07-12 18:05:22,591 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-12 18:05:22,962 - INFO - Попытка 1/3: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt
+2025-07-12 18:05:23,002 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-12 18:05:23,111 - INFO - Попытка 1/3: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt
+2025-07-12 18:05:23,310 - INFO - Попытка 1/3: https://big.oisd.nl/domainswild2
+2025-07-12 18:05:23,561 - INFO - Попытка 1/3: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 18:05:24,665 - WARNING - Ошибка загрузки (попытка 1): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 18:05:26,000 - INFO - Попытка 1/3: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+2025-07-12 18:05:54,666 - INFO - Попытка 2/3: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 18:05:55,195 - WARNING - Ошибка загрузки (попытка 2): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 18:06:25,197 - INFO - Попытка 3/3: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 18:06:25,720 - WARNING - Ошибка загрузки (попытка 3): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 18:06:25,721 - ERROR - Не удалось загрузить после 3 попыток: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 18:06:33,196 - INFO - Сохранено 225,092 правил в complex_rules.txt
+2025-07-12 18:06:33,728 - INFO - Сохранено 702,813 правил в simple_domains.txt
+2025-07-12 18:06:33,751 - INFO - Сохранено 33,728 правил в css_rules.txt
+2025-07-12 18:06:33,755 - INFO - Сохранено 6,426 правил в exception_rules.txt
+2025-07-12 18:06:33,918 - INFO - Сохранено 252,701 правил в converted_hosts.txt
+2025-07-12 18:06:35,037 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в result\duplicates_report.txt
+2025-07-12 18:06:35,094 - INFO - 
+=== Итоги обработки ===
+2025-07-12 18:06:35,095 - INFO - Успешно обработано источников: 20/21
+2025-07-12 18:06:35,096 - INFO - Сложные правила: 225,092
+2025-07-12 18:06:35,096 - INFO - Простые домены: 702,813
+2025-07-12 18:06:35,096 - INFO - CSS правила: 33,728
+2025-07-12 18:06:35,096 - INFO - Исключения: 6,426
+2025-07-12 18:06:35,096 - INFO - Конвертированные hosts/DNS: 252,701
+2025-07-12 18:06:35,332 - INFO - 
+Общее количество правил: 1,487,635
+2025-07-12 18:06:35,332 - INFO - Уникальных правил: 1,220,760
+2025-07-12 18:06:35,333 - WARNING - Обнаружено 167708 дублирующихся правил
+2025-07-12 18:06:35,333 - INFO - ✓ Нет пересечений между категориями
+2025-07-12 18:06:35,333 - INFO - Общее время выполнения: 77.75 сек
+2025-07-12 18:16:33,269 - INFO - === Запуск AdBlock Merger ===
+2025-07-12 18:16:33,269 - INFO - Всего источников: 21
+2025-07-12 18:16:33,271 - INFO - Попытка 1/3: https://easylist.to/easylist/easylist.txt
+2025-07-12 18:16:33,271 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+2025-07-12 18:16:33,272 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+2025-07-12 18:16:33,273 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+2025-07-12 18:16:33,274 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-social.txt
+2025-07-12 18:16:33,274 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-12 18:16:33,274 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-12 18:16:33,275 - INFO - Попытка 1/3: https://www.i-dont-care-about-cookies.eu/abp/
+2025-07-12 18:16:34,964 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-12 18:16:35,841 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-12 18:16:35,919 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-12 18:16:36,581 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/14.txt
+2025-07-12 18:16:36,832 - INFO - Попытка 1/3: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+2025-07-12 18:16:37,162 - INFO - Попытка 1/3: https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+2025-07-12 18:16:37,281 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-12 18:16:37,795 - INFO - Попытка 1/3: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt
+2025-07-12 18:16:37,826 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-12 18:16:37,971 - INFO - Попытка 1/3: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt
+2025-07-12 18:16:38,030 - INFO - Попытка 1/3: https://big.oisd.nl/domainswild2
+2025-07-12 18:16:38,163 - INFO - Попытка 1/3: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 18:16:39,218 - WARNING - Ошибка загрузки (попытка 1): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 18:16:40,847 - INFO - Попытка 1/3: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+2025-07-12 18:17:09,220 - INFO - Попытка 2/3: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 18:17:09,770 - WARNING - Ошибка загрузки (попытка 2): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 18:17:39,771 - INFO - Попытка 3/3: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 18:17:40,209 - WARNING - Ошибка загрузки (попытка 3): 404 Client Error: Not Found for url: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 18:17:40,209 - ERROR - Не удалось загрузить после 3 попыток: https://raw.githubusercontent.com/nextdns/metadata/master/privacy/blocklists/all
+2025-07-12 18:17:47,831 - INFO - Сохранено 225,093 правил в complex_rules.txt
+2025-07-12 18:17:48,456 - INFO - Сохранено 702,823 правил в simple_domains.txt
+2025-07-12 18:17:48,486 - INFO - Сохранено 33,728 правил в css_rules.txt
+2025-07-12 18:17:48,491 - INFO - Сохранено 6,426 правил в exception_rules.txt
+2025-07-12 18:17:48,686 - INFO - Сохранено 252,701 правил в converted_hosts.txt
+2025-07-12 18:17:49,850 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в result\duplicates_report.txt
+2025-07-12 18:17:54,612 - WARNING - Обнаружены дубликаты в 226496 правилах. Полный отчет в result\duplicates_report.txt
+2025-07-12 18:17:54,612 - INFO - Пример анализа для 'stats.rip':
+2025-07-12 18:17:54,613 - INFO -   - Найден в: badmojr_gitlab_io_domains.wildcards.txt
+2025-07-12 18:17:54,614 - INFO -   - Найден в: big_oisd_nl_domainswild2.txt
+2025-07-12 18:17:54,614 - INFO -   - Найден в: raw_githubusercontent_com_light-onlydomains.txt.txt
+2025-07-12 18:17:54,841 - INFO - ✓ Нет пересечений между категориями правил
+2025-07-12 18:17:54,842 - INFO - 
+=== Итоги обработки ===
+2025-07-12 18:17:54,842 - INFO - Успешно обработано источников: 20/21
+2025-07-12 18:17:54,842 - INFO - Сложные правила: 225,093
+2025-07-12 18:17:54,843 - INFO - Простые домены: 702,823
+2025-07-12 18:17:54,843 - INFO - CSS правила: 33,728
+2025-07-12 18:17:54,843 - INFO - Исключения: 6,426
+2025-07-12 18:17:54,843 - INFO - Конвертированные hosts/DNS: 252,701
+2025-07-12 18:17:55,079 - INFO - 
+Общее количество правил: 1,487,646
+2025-07-12 18:17:55,079 - INFO - Уникальных правил: 1,220,771
+2025-07-12 18:17:55,080 - WARNING - Обнаружено 167708 дублирующихся правил
+2025-07-12 18:17:55,080 - INFO - ✓ Нет пересечений между категориями
+2025-07-12 18:17:55,080 - INFO - Общее время выполнения: 81.81 сек
+2025-07-12 18:21:34,386 - INFO - === Запуск AdBlock Merger ===
+2025-07-12 18:21:34,387 - INFO - Всего источников: 20
+2025-07-12 18:21:34,388 - INFO - Попытка 1/3: https://easylist.to/easylist/easylist.txt
+2025-07-12 18:21:34,389 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+2025-07-12 18:21:34,389 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+2025-07-12 18:21:34,390 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+2025-07-12 18:21:34,391 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-social.txt
+2025-07-12 18:21:34,391 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-12 18:21:34,391 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-12 18:21:34,392 - INFO - Попытка 1/3: https://www.i-dont-care-about-cookies.eu/abp/
+2025-07-12 18:21:35,101 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-12 18:21:35,427 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-12 18:21:35,667 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-12 18:21:35,958 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/14.txt
+2025-07-12 18:21:36,102 - INFO - Попытка 1/3: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+2025-07-12 18:21:36,288 - INFO - Попытка 1/3: https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+2025-07-12 18:21:36,895 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-12 18:21:37,151 - INFO - Попытка 1/3: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt
+2025-07-12 18:21:37,201 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-12 18:21:37,238 - INFO - Попытка 1/3: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt
+2025-07-12 18:21:37,558 - INFO - Попытка 1/3: https://big.oisd.nl/domainswild2
+2025-07-12 18:21:37,846 - INFO - Попытка 1/3: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+2025-07-12 18:21:53,853 - INFO - Сохранено 225,093 правил в complex_rules.txt
+2025-07-12 18:21:54,377 - INFO - Сохранено 702,775 правил в simple_domains.txt
+2025-07-12 18:21:54,400 - INFO - Сохранено 33,728 правил в css_rules.txt
+2025-07-12 18:21:54,404 - INFO - Сохранено 6,426 правил в exception_rules.txt
+2025-07-12 18:21:54,563 - INFO - Сохранено 252,701 правил в converted_hosts.txt
+2025-07-12 18:21:55,661 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в duplicates_report.log
+2025-07-12 18:21:59,461 - WARNING - Обнаружены дубликаты в 131331 правилах. Полный отчет в result\duplicates_report.txt
+2025-07-12 18:21:59,462 - INFO - Пример анализа для 'stats.rip':
+2025-07-12 18:21:59,463 - INFO -   - Найден в: badmojr_gitlab_io_domains.wildcards.txt
+2025-07-12 18:21:59,463 - INFO -   - Найден в: big_oisd_nl_domainswild2.txt
+2025-07-12 18:21:59,463 - INFO -   - Найден в: raw_githubusercontent_com_light-onlydomains.txt.txt
+2025-07-12 18:21:59,658 - INFO - ✓ Нет пересечений между категориями правил
+2025-07-12 18:21:59,659 - INFO - 
+=== Итоги обработки ===
+2025-07-12 18:21:59,659 - INFO - Успешно обработано источников: 20/20
+2025-07-12 18:21:59,660 - INFO - Сложные правила: 225,093
+2025-07-12 18:21:59,660 - INFO - Простые домены: 702,775
+2025-07-12 18:21:59,660 - INFO - CSS правила: 33,728
+2025-07-12 18:21:59,660 - INFO - Исключения: 6,426
+2025-07-12 18:21:59,660 - INFO - Конвертированные hosts/DNS: 252,701
+2025-07-12 18:21:59,896 - INFO - 
+Общее количество правил: 1,487,558
+2025-07-12 18:21:59,896 - INFO - Уникальных правил: 1,220,723
+2025-07-12 18:21:59,897 - WARNING - Обнаружено 167685 дублирующихся правил
+2025-07-12 18:21:59,897 - INFO - ✓ Нет пересечений между категориями
+2025-07-12 18:21:59,898 - INFO - Общее время выполнения: 25.51 сек
+2025-07-12 18:25:27,279 - INFO - === Запуск AdBlock Merger ===
+2025-07-12 18:25:27,279 - INFO - Всего источников: 20
+2025-07-12 18:25:27,281 - INFO - Попытка 1/3: https://easylist.to/easylist/easylist.txt
+2025-07-12 18:25:27,281 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+2025-07-12 18:25:27,282 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+2025-07-12 18:25:27,283 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+2025-07-12 18:25:27,283 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-social.txt
+2025-07-12 18:25:27,283 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-12 18:25:27,284 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-12 18:25:27,284 - INFO - Попытка 1/3: https://www.i-dont-care-about-cookies.eu/abp/
+2025-07-12 18:25:28,158 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-12 18:25:28,468 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-12 18:25:28,665 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-12 18:25:28,946 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/14.txt
+2025-07-12 18:25:29,085 - INFO - Попытка 1/3: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+2025-07-12 18:25:29,208 - INFO - Попытка 1/3: https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+2025-07-12 18:25:29,887 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-12 18:25:29,902 - INFO - Попытка 1/3: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt
+2025-07-12 18:25:29,955 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-12 18:25:30,349 - INFO - Попытка 1/3: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt
+2025-07-12 18:25:30,374 - INFO - Попытка 1/3: https://big.oisd.nl/domainswild2
+2025-07-12 18:25:30,806 - INFO - Попытка 1/3: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+2025-07-12 18:25:49,690 - INFO - Сохранено 225,093 правил в complex_rules.txt
+2025-07-12 18:25:50,447 - INFO - Сохранено 702,775 правил в simple_domains.txt
+2025-07-12 18:25:50,481 - INFO - Сохранено 33,728 правил в css_rules.txt
+2025-07-12 18:25:50,485 - INFO - Сохранено 6,426 правил в exception_rules.txt
+2025-07-12 18:25:50,725 - INFO - Сохранено 252,701 правил в converted_hosts.txt
+2025-07-12 18:25:52,488 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в duplicates_report.log
+2025-07-12 18:25:57,882 - WARNING - Обнаружены дубликаты в 131331 правилах. Полный отчет в duplicates_report.txt
+2025-07-12 18:25:57,884 - INFO - Пример анализа для 'stats.rip':
+2025-07-12 18:25:57,884 - INFO -   - Найден в: badmojr_gitlab_io_domains.wildcards.txt
+2025-07-12 18:25:57,884 - INFO -   - Найден в: big_oisd_nl_domainswild2.txt
+2025-07-12 18:25:57,885 - INFO -   - Найден в: raw_githubusercontent_com_light-onlydomains.txt.txt
+2025-07-12 18:25:58,099 - INFO - ✓ Нет пересечений между категориями правил
+2025-07-12 18:25:58,099 - INFO - 
+=== Итоги обработки ===
+2025-07-12 18:25:58,100 - INFO - Успешно обработано источников: 20/20
+2025-07-12 18:25:58,100 - INFO - Сложные правила: 225,093
+2025-07-12 18:25:58,100 - INFO - Простые домены: 702,775
+2025-07-12 18:25:58,100 - INFO - CSS правила: 33,728
+2025-07-12 18:25:58,101 - INFO - Исключения: 6,426
+2025-07-12 18:25:58,101 - INFO - Конвертированные hosts/DNS: 252,701
+2025-07-12 18:25:58,344 - INFO - 
+Общее количество правил: 1,487,558
+2025-07-12 18:25:58,344 - INFO - Уникальных правил: 1,220,723
+2025-07-12 18:25:58,345 - WARNING - Обнаружено 167685 дублирующихся правил
+2025-07-12 18:25:58,345 - INFO - ✓ Нет пересечений между категориями
+2025-07-12 18:25:58,345 - INFO - Общее время выполнения: 31.07 сек
