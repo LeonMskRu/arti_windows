@@ -1,5 +1,5 @@
 ! CSS правила
-! Generated: 2025-07-12 18:25
+! Generated: 2025-07-12 21:25
 ! Total rules: 33,728
 
 ##+js(set-constant, navigator.getBattery, noopPromiseResolve)
