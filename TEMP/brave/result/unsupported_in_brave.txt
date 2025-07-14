@@ -1,5 +1,5 @@
 ! Неподдерживаемые Brave AdBlock правила
-! Generated: 2025-07-14 06:18
+! Generated: 2025-07-14 13:02
 ! Total rules: 1,132
 
 ! Bad: .org/ads/$domain=example.org (for instance, should be in speficic.txt)

@@ -1,7 +1,9 @@
 ! Сложные правила блокировки
-! Generated: 2025-07-14 06:18
-! Total rules: 13,498
+! Generated: 2025-07-14 13:02
+! Total rules: 13,510
 
+*.5891344.xn--j1amh
+*.xn--2ss830adjbqy7h.xn--fiqs8s
 -ShareButton2.
 -Social-Sidebar/
 -adx-*.rayjump.com^
@@ -590,7 +592,7 @@
 24tv.ua##div[id^="mobileBrandingPlace"]
 24tv.ua##div[id^="telegramBanner"]
 24tv.ua,atlasprirodirossii.ru,charter97.org,fn-volga.ru,fnvolga.ru,gamemag.ru,iarex.ru,starhit.ru,telesputnik.ru##.subscription
-24tv.ua,comments.ua,kyiv.media,proshokino.com.ua##.google-news
+24tv.ua,comments.ua,expert.in.ua,kyiv.media,proshokino.com.ua##.google-news
 24tv.ua,football24.ua,zaxid.net###user-vote-trigger
 24tv.ua,sport24.ua##.private-policy
 24tv.ua,sport24.ua##app-subscription-banner
@@ -769,7 +771,7 @@
 62.ru##.news-detail__soc
 62.ru##.news-detail__subscription
 66.ru,acappella.moscow,auth.properm.ru,ekabu.ru,livelib.ru,loginza.ru,online-mult.net,soccer.ru#@#.vkontakte
-66.ru,aforismo.ru,bst.bratsk.ru,click-or-die.ru,coolotvet.ru,football.ua,gizchina.com.ua,gmk.center,mse02.ru,om1.ru,pay-day.ru,publy.ru,tehnobzor.ru,tribun.com.ua##.social-buttons
+66.ru,aforismo.ru,bst.bratsk.ru,click-or-die.ru,coolotvet.ru,football.ua,gizchina.net,gmk.center,mse02.ru,om1.ru,pay-day.ru,publy.ru,tehnobzor.ru,tribun.com.ua##.social-buttons
 66.ru,auto.ru,car.ru,interfax.ru,kakoysegodnyaprazdnik.ru,kavkaz-uzel.eu,myanianime.ru,online-fix.me,pythontutor.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai##a[href^="tg://resolve"]
 66.ru,om1.ru##.t-i-agree
 69story.com###content > div[style="margin-top: 30px; margin-left:0; margin-right:0;"]
@@ -1875,6 +1877,7 @@ besplatnyeprogrammy.net###fixedcontainer_fixed
 besplatnyeprogrammy.net##.header-inner > .pull-right
 bessarabiainform.com###secondary > .widget_search ~ .widget_execphp
 bessarabiainform.com#?#aside:-abp-has(> .execphpwidget > iframe[src*="facebook.com"])
+best-hit.tv,h178.com###StickyAd
 best-soft.net##.mov-sub
 best-soft.net,prog-top.net##.f-mov-soc
 bestcarweb.jp##.sp_CLS_100
@@ -4157,8 +4160,8 @@ gizbot.com##.ads-mobi-block
 gizchina.com#@#.header-ad
 gizchina.com,01net.com,ghacks.net,sagligabiradim.com##.mrf-adv
 gizchina.com,cleantechnica.com,proandroid.com,dkoding.in,iheartintelligence.com,revistaforum.com.br##.mrf-sticky-wrapper
-gizchina.com.ua##button[onclick^="runWfpWdgt"]
-gizchina.com.ua#?#.btn-box:-abp-has(> span:-abp-contains(Google News))
+gizchina.net##button[onclick^="runWfpWdgt"]
+gizchina.net#?#.btn-box:-abp-has(> span:-abp-contains(Google News))
 gizmobolt.com#@#.custom-ad
 gizmobolt.com#@#.header-ad
 gizmodo.com##.ad-mobile-dynamic
@@ -5402,6 +5405,7 @@ koreatimes.co.kr##div[class^="Detail_ad-container"]
 koreatimes.co.kr##div[class^="Detail_ad-container_"]
 korewaeroi.com##div[style^="margin-left:auto;margin-right:auto; width:300px"]
 koro-pokemon.com##.ad_int
+koroldanylo.com.ua##.read-in-social
 korrespondent.net##.artpop_shad
 korrespondent.net##.korr_for_support
 korrespondent.net##amp-embed[style^="height: 350px;"]
@@ -8005,6 +8009,8 @@ piotrovsky.store##.js-popup-cookie
 pisshamster.com,xanimu.com,darknessporn.com,familyporner.com##div[class*="-boxes-mobile"]
 piter.tv##.add-ya
 piter.tv##.snet-links
+pixelinform.com,sysidka.com##.a-wrap
+pixelinform.com,sysidka.com##.spc-social-block
 pixhost.to#$#prevent-listener getexoloader;
 pixiv.net##.ad-mobile-anchor
 pixiv.net##.grid_ad
@@ -10514,6 +10520,12 @@ vgorode.ua##.social_plugins
 vgorode.ua##[class^="donate_"]
 vgorodekirove.ru##.mob_hide > .ai_c
 vgorodekirove.ru##a[class^="soc_"]
+vgoru.org##.banner--telegram
+vgoru.org##.button--head-support
+vgoru.org##.footer > .container > ._grid > div:last-child > div
+vgoru.org##.header a[target="_blank"][aria-label] > svg
+vgoru.org##.header__top-line
+vgoru.org##.popup--support
 vgr.by##.edgtf-blog-share
 vgr.by##.edgtf-post-group
 vgr.by##.edgtf-share-label
