@@ -514,3 +514,642 @@
 2025-07-12 21:25:33,805 - WARNING - Обнаружено 167690 дублирующихся правил
 2025-07-12 21:25:33,805 - INFO - ✓ Нет пересечений между категориями
 2025-07-12 21:25:33,806 - INFO - Общее время выполнения: 29.45 сек
+2025-07-12 22:05:46,090 - INFO - === Запуск AdBlock Merger ===
+2025-07-12 22:05:46,090 - INFO - Всего источников: 23
+2025-07-12 22:05:46,092 - INFO - Попытка 1/3: https://easylist.to/easylist/easylist.txt
+2025-07-12 22:05:46,093 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+2025-07-12 22:05:46,093 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+2025-07-12 22:05:46,094 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+2025-07-12 22:05:46,094 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-social.txt
+2025-07-12 22:05:46,095 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-12 22:05:46,095 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-12 22:05:46,096 - INFO - Попытка 1/3: https://www.i-dont-care-about-cookies.eu/abp/
+2025-07-12 22:05:47,108 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-12 22:05:48,619 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-12 22:05:48,762 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-12 22:05:50,016 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/14.txt
+2025-07-12 22:05:50,032 - INFO - Попытка 1/3: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+2025-07-12 22:05:50,253 - INFO - Попытка 1/3: https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+2025-07-12 22:05:50,319 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-12 22:05:51,083 - INFO - Попытка 1/3: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt
+2025-07-12 22:05:51,132 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-12 22:05:51,281 - INFO - Попытка 1/3: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt
+2025-07-12 22:05:51,442 - INFO - Попытка 1/3: https://big.oisd.nl/domainswild2
+2025-07-12 22:05:51,484 - INFO - Попытка 1/3: https://paulgb.github.io/BarbBlock/blacklists/domain-list.txt
+2025-07-12 22:05:52,225 - INFO - Попытка 1/3: https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
+2025-07-12 22:05:53,734 - INFO - Попытка 1/3: https://hostfiles.frogeye.fr/firstparty-trackers.txt
+2025-07-12 22:05:53,961 - INFO - Попытка 1/3: https://dblw.oisd.nl/basic/
+2025-07-12 22:06:09,486 - INFO - Сохранено 213,505 правил в complex_rules.txt
+2025-07-12 22:06:10,138 - INFO - Сохранено 763,169 правил в simple_domains.txt
+2025-07-12 22:06:10,163 - INFO - Сохранено 33,728 правил в css_rules.txt
+2025-07-12 22:06:10,167 - INFO - Сохранено 6,426 правил в exception_rules.txt
+2025-07-12 22:06:10,329 - INFO - Сохранено 252,702 правил в converted_hosts.txt
+2025-07-12 22:06:10,341 - INFO - Сохранено 12,059 правил в unsupported_in_brave.txt
+2025-07-12 22:06:11,566 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в duplicates_report.log
+2025-07-12 22:06:15,742 - WARNING - Обнаружены дубликаты в 138355 правилах. Полный отчет в duplicates_report.txt
+2025-07-12 22:06:15,742 - INFO - Пример анализа для 'stats.rip':
+2025-07-12 22:06:15,743 - INFO -   - Найден в: badmojr_gitlab_io_domains.wildcards.txt
+2025-07-12 22:06:15,743 - INFO -   - Найден в: big_oisd_nl_domainswild2.txt
+2025-07-12 22:06:15,743 - INFO -   - Найден в: raw_githubusercontent_com_light-onlydomains.txt.txt
+2025-07-12 22:06:15,948 - INFO - ✓ Нет пересечений между категориями правил
+2025-07-12 22:06:15,949 - INFO - 
+=== Итоги обработки ===
+2025-07-12 22:06:15,949 - INFO - Успешно обработано источников: 23/23
+2025-07-12 22:06:15,949 - INFO - Сложные правила: 213,505
+2025-07-12 22:06:15,950 - INFO - Простые домены: 763,169
+2025-07-12 22:06:15,950 - INFO - CSS правила: 33,728
+2025-07-12 22:06:15,950 - INFO - Исключения: 6,426
+2025-07-12 22:06:15,950 - INFO - Конвертированные hosts/DNS: 252,702
+2025-07-12 22:06:15,950 - INFO - Неподдерживаемые Brave правила: 12,059
+2025-07-12 22:06:16,240 - INFO - 
+Общее количество правил: 1,556,765
+2025-07-12 22:06:16,240 - INFO - Уникальных правил: 1,281,589
+2025-07-12 22:06:16,241 - WARNING - Обнаружено 170769 дублирующихся правил
+2025-07-12 22:06:16,241 - INFO - ✓ Нет пересечений между категориями
+2025-07-12 22:06:16,241 - INFO - Общее время выполнения: 30.15 сек
+2025-07-14 05:51:11,633 - INFO - === Запуск AdBlock Merger ===
+2025-07-14 05:51:11,633 - INFO - Всего источников: 20
+2025-07-14 05:51:11,635 - INFO - Попытка 1/3: https://easylist.to/easylist/easylist.txt
+2025-07-14 05:51:11,635 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+2025-07-14 05:51:11,635 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+2025-07-14 05:51:11,636 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+2025-07-14 05:51:11,636 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-social.txt
+2025-07-14 05:51:11,637 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-14 05:51:11,637 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-14 05:51:11,638 - INFO - Попытка 1/3: https://www.i-dont-care-about-cookies.eu/abp/
+2025-07-14 05:51:12,307 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-14 05:51:12,344 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-14 05:51:12,620 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-14 05:51:12,693 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/14.txt
+2025-07-14 05:51:13,330 - INFO - Попытка 1/3: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+2025-07-14 05:51:13,550 - INFO - Попытка 1/3: https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+2025-07-14 05:51:14,074 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-14 05:51:14,285 - INFO - Попытка 1/3: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt
+2025-07-14 05:51:14,325 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-14 05:51:14,439 - INFO - Попытка 1/3: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt
+2025-07-14 05:51:14,829 - INFO - Попытка 1/3: https://big.oisd.nl/domainswild2
+2025-07-14 05:51:14,959 - INFO - Попытка 1/3: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+2025-07-14 05:51:30,814 - INFO - Сохранено 225,113 правил в complex_rules.txt
+2025-07-14 05:51:31,351 - INFO - Сохранено 703,089 правил в simple_domains.txt
+2025-07-14 05:51:31,373 - INFO - Сохранено 33,727 правил в css_rules.txt
+2025-07-14 05:51:31,377 - INFO - Сохранено 6,428 правил в exception_rules.txt
+2025-07-14 05:51:31,534 - INFO - Сохранено 243,520 правил в converted_hosts.txt
+2025-07-14 05:51:32,692 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в duplicates_report.log
+2025-07-14 05:51:36,741 - WARNING - Обнаружены дубликаты в 137679 правилах. Полный отчет в duplicates_report.txt
+2025-07-14 05:51:36,741 - INFO - Пример анализа для 'stats.rip':
+2025-07-14 05:51:36,742 - INFO -   - Найден в: badmojr_gitlab_io_domains.wildcards.txt
+2025-07-14 05:51:36,742 - INFO -   - Найден в: big_oisd_nl_domainswild2.txt
+2025-07-14 05:51:36,742 - INFO -   - Найден в: raw_githubusercontent_com_light-onlydomains.txt.txt
+2025-07-14 05:51:36,945 - INFO - ✓ Нет пересечений между категориями правил
+2025-07-14 05:51:36,945 - INFO - 
+=== Итоги обработки ===
+2025-07-14 05:51:36,946 - INFO - Успешно обработано источников: 20/20
+2025-07-14 05:51:36,946 - INFO - Сложные правила: 225,113
+2025-07-14 05:51:36,946 - INFO - Простые домены: 703,089
+2025-07-14 05:51:36,946 - INFO - CSS правила: 33,727
+2025-07-14 05:51:36,946 - INFO - Исключения: 6,428
+2025-07-14 05:51:36,946 - INFO - Конвертированные hosts/DNS: 243,520
+2025-07-14 05:51:37,182 - INFO - 
+Общее количество правил: 1,477,968
+2025-07-14 05:51:37,183 - INFO - Уникальных правил: 1,211,877
+2025-07-14 05:51:37,183 - WARNING - Обнаружено 167588 дублирующихся правил
+2025-07-14 05:51:37,184 - INFO - ✓ Нет пересечений между категориями
+2025-07-14 05:51:37,184 - INFO - Общее время выполнения: 25.55 сек
+2025-07-14 05:52:15,543 - INFO - === Запуск AdBlock Merger ===
+2025-07-14 05:52:15,544 - INFO - Всего источников: 23
+2025-07-14 05:52:15,545 - INFO - Попытка 1/3: https://easylist.to/easylist/easylist.txt
+2025-07-14 05:52:15,545 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+2025-07-14 05:52:15,546 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+2025-07-14 05:52:15,547 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+2025-07-14 05:52:15,548 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-social.txt
+2025-07-14 05:52:15,549 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-14 05:52:15,549 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-14 05:52:15,549 - INFO - Попытка 1/3: https://www.i-dont-care-about-cookies.eu/abp/
+2025-07-14 05:52:16,174 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-14 05:52:16,452 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-14 05:52:16,572 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-14 05:52:16,771 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/14.txt
+2025-07-14 05:52:17,204 - INFO - Попытка 1/3: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+2025-07-14 05:52:17,499 - INFO - Попытка 1/3: https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+2025-07-14 05:52:17,894 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-14 05:52:17,986 - INFO - Попытка 1/3: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt
+2025-07-14 05:52:18,181 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-14 05:52:18,348 - INFO - Попытка 1/3: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt
+2025-07-14 05:52:18,593 - INFO - Попытка 1/3: https://big.oisd.nl/domainswild2
+2025-07-14 05:52:18,758 - INFO - Попытка 1/3: https://paulgb.github.io/BarbBlock/blacklists/domain-list.txt
+2025-07-14 05:52:19,829 - INFO - Попытка 1/3: https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
+2025-07-14 05:52:21,225 - INFO - Попытка 1/3: https://hostfiles.frogeye.fr/firstparty-trackers.txt
+2025-07-14 05:52:21,380 - INFO - Попытка 1/3: https://dblw.oisd.nl/basic/
+2025-07-14 05:52:35,539 - INFO - Сохранено 213,519 правил в complex_rules.txt
+2025-07-14 05:52:36,118 - INFO - Сохранено 762,844 правил в simple_domains.txt
+2025-07-14 05:52:36,139 - INFO - Сохранено 33,727 правил в css_rules.txt
+2025-07-14 05:52:36,143 - INFO - Сохранено 6,428 правил в exception_rules.txt
+2025-07-14 05:52:36,294 - INFO - Сохранено 243,520 правил в converted_hosts.txt
+2025-07-14 05:52:36,307 - INFO - Сохранено 12,064 правил в unsupported_in_brave.txt
+2025-07-14 05:52:37,445 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в duplicates_report.log
+2025-07-14 05:52:41,441 - WARNING - Обнаружены дубликаты в 137679 правилах. Полный отчет в duplicates_report.txt
+2025-07-14 05:52:41,441 - INFO - Пример анализа для 'stats.rip':
+2025-07-14 05:52:41,442 - INFO -   - Найден в: badmojr_gitlab_io_domains.wildcards.txt
+2025-07-14 05:52:41,442 - INFO -   - Найден в: big_oisd_nl_domainswild2.txt
+2025-07-14 05:52:41,442 - INFO -   - Найден в: raw_githubusercontent_com_light-onlydomains.txt.txt
+2025-07-14 05:52:41,650 - INFO - ✓ Нет пересечений между категориями правил
+2025-07-14 05:52:41,650 - INFO - 
+=== Итоги обработки ===
+2025-07-14 05:52:41,651 - INFO - Успешно обработано источников: 23/23
+2025-07-14 05:52:41,651 - INFO - Сложные правила: 213,519
+2025-07-14 05:52:41,651 - INFO - Простые домены: 762,844
+2025-07-14 05:52:41,651 - INFO - CSS правила: 33,727
+2025-07-14 05:52:41,651 - INFO - Исключения: 6,428
+2025-07-14 05:52:41,652 - INFO - Конвертированные hosts/DNS: 243,520
+2025-07-14 05:52:41,652 - INFO - Неподдерживаемые Brave правила: 12,064
+2025-07-14 05:52:41,924 - INFO - 
+Общее количество правил: 1,546,560
+2025-07-14 05:52:41,924 - INFO - Уникальных правил: 1,272,102
+2025-07-14 05:52:41,925 - WARNING - Обнаружено 170664 дублирующихся правил
+2025-07-14 05:52:41,925 - INFO - ✓ Нет пересечений между категориями
+2025-07-14 05:52:41,925 - INFO - Общее время выполнения: 26.38 сек
+2025-07-14 05:54:15,350 - INFO - === Запуск AdBlock Merger ===
+2025-07-14 05:54:15,351 - INFO - Всего источников: 23
+2025-07-14 05:54:15,352 - INFO - Попытка 1/3: https://easylist.to/easylist/easylist.txt
+2025-07-14 05:54:15,352 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+2025-07-14 05:54:15,353 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+2025-07-14 05:54:15,354 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+2025-07-14 05:54:15,354 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-social.txt
+2025-07-14 05:54:15,355 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-14 05:54:15,355 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-14 05:54:15,356 - INFO - Попытка 1/3: https://www.i-dont-care-about-cookies.eu/abp/
+2025-07-14 05:54:15,874 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-14 05:54:16,142 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-14 05:54:16,161 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-14 05:54:16,600 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/14.txt
+2025-07-14 05:54:16,873 - INFO - Попытка 1/3: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+2025-07-14 05:54:17,216 - INFO - Попытка 1/3: https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+2025-07-14 05:54:17,620 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-14 05:54:17,866 - INFO - Попытка 1/3: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt
+2025-07-14 05:54:17,906 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-14 05:54:17,975 - INFO - Попытка 1/3: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt
+2025-07-14 05:54:18,246 - INFO - Попытка 1/3: https://big.oisd.nl/domainswild2
+2025-07-14 05:54:18,473 - INFO - Попытка 1/3: https://paulgb.github.io/BarbBlock/blacklists/domain-list.txt
+2025-07-14 05:54:19,635 - INFO - Попытка 1/3: https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
+2025-07-14 05:54:20,894 - INFO - Попытка 1/3: https://hostfiles.frogeye.fr/firstparty-trackers.txt
+2025-07-14 05:54:20,905 - INFO - Попытка 1/3: https://dblw.oisd.nl/basic/
+2025-07-14 05:54:35,409 - INFO - Сохранено 213,519 правил в complex_rules.txt
+2025-07-14 05:54:35,986 - INFO - Сохранено 762,844 правил в simple_domains.txt
+2025-07-14 05:54:36,008 - INFO - Сохранено 33,727 правил в css_rules.txt
+2025-07-14 05:54:36,011 - INFO - Сохранено 6,428 правил в exception_rules.txt
+2025-07-14 05:54:36,162 - INFO - Сохранено 243,520 правил в converted_hosts.txt
+2025-07-14 05:54:36,174 - INFO - Сохранено 12,064 правил в unsupported_in_brave.txt
+2025-07-14 05:54:37,323 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в duplicates_report.log
+2025-07-14 05:54:41,289 - WARNING - Обнаружены дубликаты в 135279 правилах. Полный отчет в duplicates_report.txt
+2025-07-14 05:54:41,289 - INFO - Пример анализа для 'stats.rip':
+2025-07-14 05:54:41,290 - INFO -   - Найден в: badmojr_gitlab_io_domains.wildcards.txt
+2025-07-14 05:54:41,290 - INFO -   - Найден в: big_oisd_nl_domainswild2.txt
+2025-07-14 05:54:41,290 - INFO -   - Найден в: raw_githubusercontent_com_light-onlydomains.txt.txt
+2025-07-14 05:54:41,497 - INFO - ✓ Нет пересечений между категориями правил
+2025-07-14 05:54:41,497 - INFO - 
+=== Итоги обработки ===
+2025-07-14 05:54:41,497 - INFO - Успешно обработано источников: 23/23
+2025-07-14 05:54:41,498 - INFO - Сложные правила: 213,519
+2025-07-14 05:54:41,498 - INFO - Простые домены: 762,844
+2025-07-14 05:54:41,498 - INFO - CSS правила: 33,727
+2025-07-14 05:54:41,498 - INFO - Исключения: 6,428
+2025-07-14 05:54:41,498 - INFO - Конвертированные hosts/DNS: 243,520
+2025-07-14 05:54:41,498 - INFO - Неподдерживаемые Brave правила: 12,064
+2025-07-14 05:54:41,784 - INFO - 
+Общее количество правил: 1,546,560
+2025-07-14 05:54:41,785 - INFO - Уникальных правил: 1,272,102
+2025-07-14 05:54:41,785 - WARNING - Обнаружено 170664 дублирующихся правил
+2025-07-14 05:54:41,785 - INFO - ✓ Нет пересечений между категориями
+2025-07-14 05:54:41,786 - INFO - Общее время выполнения: 26.44 сек
+2025-07-14 05:57:44,355 - INFO - === Запуск AdBlock Merger ===
+2025-07-14 05:57:44,356 - INFO - Всего источников: 22
+2025-07-14 05:57:44,357 - INFO - Попытка 1/3: https://easylist.to/easylist/easylist.txt
+2025-07-14 05:57:44,357 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+2025-07-14 05:57:44,358 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+2025-07-14 05:57:44,360 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+2025-07-14 05:57:44,360 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-social.txt
+2025-07-14 05:57:44,360 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-14 05:57:44,361 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-14 05:57:44,366 - INFO - Попытка 1/3: https://www.i-dont-care-about-cookies.eu/abp/
+2025-07-14 05:57:44,962 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-14 05:57:45,057 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-14 05:57:45,448 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-14 05:57:45,638 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/14.txt
+2025-07-14 05:57:46,184 - INFO - Попытка 1/3: https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+2025-07-14 05:57:46,308 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-14 05:57:46,669 - INFO - Попытка 1/3: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt
+2025-07-14 05:57:46,734 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-14 05:57:47,147 - INFO - Попытка 1/3: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt
+2025-07-14 05:57:47,271 - INFO - Попытка 1/3: https://big.oisd.nl/domainswild2
+2025-07-14 05:57:47,333 - INFO - Попытка 1/3: https://paulgb.github.io/BarbBlock/blacklists/domain-list.txt
+2025-07-14 05:57:47,463 - INFO - Попытка 1/3: https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
+2025-07-14 05:57:47,990 - INFO - Попытка 1/3: https://hostfiles.frogeye.fr/firstparty-trackers.txt
+2025-07-14 05:57:48,571 - INFO - Попытка 1/3: https://dblw.oisd.nl/basic/
+2025-07-14 05:58:01,835 - INFO - Сохранено 213,460 правил в complex_rules.txt
+2025-07-14 05:58:02,415 - INFO - Сохранено 762,846 правил в simple_domains.txt
+2025-07-14 05:58:02,437 - INFO - Сохранено 33,727 правил в css_rules.txt
+2025-07-14 05:58:02,441 - INFO - Сохранено 6,428 правил в exception_rules.txt
+2025-07-14 05:58:02,447 - INFO - Сохранено 9,690 правил в converted_hosts.txt
+2025-07-14 05:58:02,460 - INFO - Сохранено 12,064 правил в unsupported_in_brave.txt
+2025-07-14 05:58:03,437 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в duplicates_report.log
+2025-07-14 05:58:06,951 - WARNING - Обнаружены дубликаты в 135279 правилах. Полный отчет в duplicates_report.txt
+2025-07-14 05:58:06,952 - INFO - Пример анализа для 'stats.rip':
+2025-07-14 05:58:06,953 - INFO -   - Найден в: badmojr_gitlab_io_domains.wildcards.txt
+2025-07-14 05:58:06,953 - INFO -   - Найден в: big_oisd_nl_domainswild2.txt
+2025-07-14 05:58:06,953 - INFO -   - Найден в: raw_githubusercontent_com_light-onlydomains.txt.txt
+2025-07-14 05:58:07,107 - INFO - ✓ Нет пересечений между категориями правил
+2025-07-14 05:58:07,107 - INFO - 
+=== Итоги обработки ===
+2025-07-14 05:58:07,108 - INFO - Успешно обработано источников: 22/22
+2025-07-14 05:58:07,108 - INFO - Сложные правила: 213,460
+2025-07-14 05:58:07,109 - INFO - Простые домены: 762,846
+2025-07-14 05:58:07,109 - INFO - CSS правила: 33,727
+2025-07-14 05:58:07,109 - INFO - Исключения: 6,428
+2025-07-14 05:58:07,109 - INFO - Конвертированные hosts/DNS: 9,690
+2025-07-14 05:58:07,109 - INFO - Неподдерживаемые Brave правила: 12,064
+2025-07-14 05:58:07,319 - INFO - 
+Общее количество правил: 1,303,028
+2025-07-14 05:58:07,320 - INFO - Уникальных правил: 1,038,215
+2025-07-14 05:58:07,320 - WARNING - Обнаружено 161273 дублирующихся правил
+2025-07-14 05:58:07,321 - INFO - ✓ Нет пересечений между категориями
+2025-07-14 05:58:07,321 - INFO - Общее время выполнения: 22.97 сек
+2025-07-14 05:59:40,849 - INFO - === Запуск AdBlock Merger ===
+2025-07-14 05:59:40,849 - INFO - Всего источников: 21
+2025-07-14 05:59:40,851 - INFO - Попытка 1/3: https://easylist.to/easylist/easylist.txt
+2025-07-14 05:59:40,851 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+2025-07-14 05:59:40,851 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+2025-07-14 05:59:40,852 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+2025-07-14 05:59:40,853 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-social.txt
+2025-07-14 05:59:40,853 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-14 05:59:40,853 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-14 05:59:40,854 - INFO - Попытка 1/3: https://www.i-dont-care-about-cookies.eu/abp/
+2025-07-14 05:59:41,315 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-14 05:59:41,668 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-14 05:59:41,720 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-14 05:59:42,130 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/14.txt
+2025-07-14 05:59:42,379 - INFO - Попытка 1/3: https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+2025-07-14 05:59:42,464 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-14 05:59:43,297 - INFO - Попытка 1/3: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt
+2025-07-14 05:59:43,368 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-14 05:59:43,420 - INFO - Попытка 1/3: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt
+2025-07-14 05:59:43,571 - INFO - Попытка 1/3: https://big.oisd.nl/domainswild2
+2025-07-14 05:59:43,650 - INFO - Попытка 1/3: https://paulgb.github.io/BarbBlock/blacklists/domain-list.txt
+2025-07-14 05:59:43,780 - INFO - Попытка 1/3: https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
+2025-07-14 05:59:44,381 - INFO - Попытка 1/3: https://dblw.oisd.nl/basic/
+2025-07-14 05:59:57,636 - INFO - Сохранено 213,443 правил в complex_rules.txt
+2025-07-14 05:59:58,192 - INFO - Сохранено 741,336 правил в simple_domains.txt
+2025-07-14 05:59:58,213 - INFO - Сохранено 33,727 правил в css_rules.txt
+2025-07-14 05:59:58,217 - INFO - Сохранено 6,428 правил в exception_rules.txt
+2025-07-14 05:59:58,221 - INFO - Сохранено 9,690 правил в converted_hosts.txt
+2025-07-14 05:59:58,233 - INFO - Сохранено 12,064 правил в unsupported_in_brave.txt
+2025-07-14 05:59:59,152 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в duplicates_report.log
+2025-07-14 06:00:02,302 - WARNING - Обнаружены дубликаты в 128389 правилах. Полный отчет в duplicates_report.txt
+2025-07-14 06:00:02,303 - INFO - Пример анализа для 'stats.rip':
+2025-07-14 06:00:02,303 - INFO -   - Найден в: badmojr_gitlab_io_domains.wildcards.txt
+2025-07-14 06:00:02,304 - INFO -   - Найден в: big_oisd_nl_domainswild2.txt
+2025-07-14 06:00:02,304 - INFO -   - Найден в: raw_githubusercontent_com_light-onlydomains.txt.txt
+2025-07-14 06:00:02,447 - INFO - ✓ Нет пересечений между категориями правил
+2025-07-14 06:00:02,447 - INFO - 
+=== Итоги обработки ===
+2025-07-14 06:00:02,447 - INFO - Успешно обработано источников: 21/21
+2025-07-14 06:00:02,448 - INFO - Сложные правила: 213,443
+2025-07-14 06:00:02,448 - INFO - Простые домены: 741,336
+2025-07-14 06:00:02,448 - INFO - CSS правила: 33,727
+2025-07-14 06:00:02,448 - INFO - Исключения: 6,428
+2025-07-14 06:00:02,448 - INFO - Конвертированные hosts/DNS: 9,690
+2025-07-14 06:00:02,448 - INFO - Неподдерживаемые Brave правила: 12,064
+2025-07-14 06:00:02,649 - INFO - 
+Общее количество правил: 1,269,616
+2025-07-14 06:00:02,650 - INFO - Уникальных правил: 1,016,688
+2025-07-14 06:00:02,650 - WARNING - Обнаружено 155980 дублирующихся правил
+2025-07-14 06:00:02,650 - INFO - ✓ Нет пересечений между категориями
+2025-07-14 06:00:02,651 - INFO - Общее время выполнения: 21.80 сек
+2025-07-14 06:01:41,060 - INFO - === Запуск AdBlock Merger ===
+2025-07-14 06:01:41,060 - INFO - Всего источников: 20
+2025-07-14 06:01:41,062 - INFO - Попытка 1/3: https://easylist.to/easylist/easylist.txt
+2025-07-14 06:01:41,062 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+2025-07-14 06:01:41,062 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+2025-07-14 06:01:41,063 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+2025-07-14 06:01:41,064 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-social.txt
+2025-07-14 06:01:41,064 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-14 06:01:41,064 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-14 06:01:41,065 - INFO - Попытка 1/3: https://www.i-dont-care-about-cookies.eu/abp/
+2025-07-14 06:01:41,782 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-14 06:01:41,908 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-14 06:01:41,961 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-14 06:01:42,478 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/14.txt
+2025-07-14 06:01:42,498 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-14 06:01:43,223 - INFO - Попытка 1/3: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt
+2025-07-14 06:01:43,416 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-14 06:01:43,473 - INFO - Попытка 1/3: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt
+2025-07-14 06:01:43,684 - INFO - Попытка 1/3: https://big.oisd.nl/domainswild2
+2025-07-14 06:01:43,752 - INFO - Попытка 1/3: https://paulgb.github.io/BarbBlock/blacklists/domain-list.txt
+2025-07-14 06:01:43,799 - INFO - Попытка 1/3: https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
+2025-07-14 06:01:44,593 - INFO - Попытка 1/3: https://dblw.oisd.nl/basic/
+2025-07-14 06:01:57,743 - INFO - Сохранено 213,443 правил в complex_rules.txt
+2025-07-14 06:01:58,288 - INFO - Сохранено 741,336 правил в simple_domains.txt
+2025-07-14 06:01:58,310 - INFO - Сохранено 33,727 правил в css_rules.txt
+2025-07-14 06:01:58,314 - INFO - Сохранено 6,428 правил в exception_rules.txt
+2025-07-14 06:01:58,315 - INFO - Сохранено 3,404 правил в converted_hosts.txt
+2025-07-14 06:01:58,328 - INFO - Сохранено 12,064 правил в unsupported_in_brave.txt
+2025-07-14 06:01:59,258 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в duplicates_report.log
+2025-07-14 06:02:02,395 - WARNING - Обнаружены дубликаты в 128135 правилах. Полный отчет в duplicates_report.txt
+2025-07-14 06:02:02,395 - INFO - Пример анализа для 'stats.rip':
+2025-07-14 06:02:02,396 - INFO -   - Найден в: badmojr_gitlab_io_domains.wildcards.txt
+2025-07-14 06:02:02,396 - INFO -   - Найден в: big_oisd_nl_domainswild2.txt
+2025-07-14 06:02:02,396 - INFO -   - Найден в: raw_githubusercontent_com_light-onlydomains.txt.txt
+2025-07-14 06:02:02,544 - INFO - ✓ Нет пересечений между категориями правил
+2025-07-14 06:02:02,545 - INFO - 
+=== Итоги обработки ===
+2025-07-14 06:02:02,545 - INFO - Успешно обработано источников: 20/20
+2025-07-14 06:02:02,545 - INFO - Сложные правила: 213,443
+2025-07-14 06:02:02,546 - INFO - Простые домены: 741,336
+2025-07-14 06:02:02,546 - INFO - CSS правила: 33,727
+2025-07-14 06:02:02,546 - INFO - Исключения: 6,428
+2025-07-14 06:02:02,546 - INFO - Конвертированные hosts/DNS: 3,404
+2025-07-14 06:02:02,546 - INFO - Неподдерживаемые Brave правила: 12,064
+2025-07-14 06:02:02,747 - INFO - 
+Общее количество правил: 1,263,076
+2025-07-14 06:02:02,747 - INFO - Уникальных правил: 1,010,402
+2025-07-14 06:02:02,748 - WARNING - Обнаружено 155726 дублирующихся правил
+2025-07-14 06:02:02,748 - INFO - ✓ Нет пересечений между категориями
+2025-07-14 06:02:02,748 - INFO - Общее время выполнения: 21.69 сек
+2025-07-14 06:05:14,153 - INFO - === Запуск AdBlock Merger ===
+2025-07-14 06:05:14,153 - INFO - Всего источников: 18
+2025-07-14 06:05:14,155 - INFO - Попытка 1/3: https://easylist.to/easylist/easylist.txt
+2025-07-14 06:05:14,155 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+2025-07-14 06:05:14,156 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+2025-07-14 06:05:14,157 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+2025-07-14 06:05:14,157 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-social.txt
+2025-07-14 06:05:14,158 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-14 06:05:14,158 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-14 06:05:14,158 - INFO - Попытка 1/3: https://www.i-dont-care-about-cookies.eu/abp/
+2025-07-14 06:05:14,900 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-14 06:05:15,130 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-14 06:05:15,258 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-14 06:05:15,430 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/14.txt
+2025-07-14 06:05:15,782 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-14 06:05:16,075 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-14 06:05:16,504 - INFO - Попытка 1/3: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt
+2025-07-14 06:05:16,628 - INFO - Попытка 1/3: https://paulgb.github.io/BarbBlock/blacklists/domain-list.txt
+2025-07-14 06:05:16,839 - INFO - Попытка 1/3: https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
+2025-07-14 06:05:16,908 - INFO - Попытка 1/3: https://dblw.oisd.nl/basic/
+2025-07-14 06:05:24,714 - INFO - Сохранено 213,264 правил в complex_rules.txt
+2025-07-14 06:05:24,872 - INFO - Сохранено 239,388 правил в simple_domains.txt
+2025-07-14 06:05:24,894 - INFO - Сохранено 33,727 правил в css_rules.txt
+2025-07-14 06:05:24,898 - INFO - Сохранено 6,428 правил в exception_rules.txt
+2025-07-14 06:05:24,899 - INFO - Сохранено 3,404 правил в converted_hosts.txt
+2025-07-14 06:05:24,912 - INFO - Сохранено 12,064 правил в unsupported_in_brave.txt
+2025-07-14 06:05:25,349 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в duplicates_report.log
+2025-07-14 06:05:26,988 - WARNING - Обнаружены дубликаты в 53034 правилах. Полный отчет в duplicates_report.txt
+2025-07-14 06:05:26,988 - INFO - Пример анализа для 'stats.rip':
+2025-07-14 06:05:26,989 - INFO -   - Найден в: badmojr_gitlab_io_domains.wildcards.txt
+2025-07-14 06:05:26,989 - INFO -   - Найден в: raw_githubusercontent_com_light-onlydomains.txt.txt
+2025-07-14 06:05:27,071 - INFO - ✓ Нет пересечений между категориями правил
+2025-07-14 06:05:27,071 - INFO - 
+=== Итоги обработки ===
+2025-07-14 06:05:27,072 - INFO - Успешно обработано источников: 18/18
+2025-07-14 06:05:27,072 - INFO - Сложные правила: 213,264
+2025-07-14 06:05:27,072 - INFO - Простые домены: 239,388
+2025-07-14 06:05:27,072 - INFO - CSS правила: 33,727
+2025-07-14 06:05:27,072 - INFO - Исключения: 6,428
+2025-07-14 06:05:27,073 - INFO - Конвертированные hosts/DNS: 3,404
+2025-07-14 06:05:27,073 - INFO - Неподдерживаемые Brave правила: 12,064
+2025-07-14 06:05:27,164 - INFO - 
+Общее количество правил: 641,829
+2025-07-14 06:05:27,164 - INFO - Уникальных правил: 508,275
+2025-07-14 06:05:27,164 - WARNING - Обнаружено 95569 дублирующихся правил
+2025-07-14 06:05:27,165 - INFO - ✓ Нет пересечений между категориями
+2025-07-14 06:05:27,165 - INFO - Общее время выполнения: 13.01 сек
+2025-07-14 06:07:43,228 - INFO - === Запуск AdBlock Merger ===
+2025-07-14 06:07:43,228 - INFO - Всего источников: 17
+2025-07-14 06:07:43,230 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+2025-07-14 06:07:43,230 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-annoyance.txt
+2025-07-14 06:07:43,231 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-cookiemonster.txt
+2025-07-14 06:07:43,231 - INFO - Попытка 1/3: https://secure.fanboy.co.nz/fanboy-social.txt
+2025-07-14 06:07:43,232 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-14 06:07:43,232 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-14 06:07:43,233 - INFO - Попытка 1/3: https://www.i-dont-care-about-cookies.eu/abp/
+2025-07-14 06:07:43,233 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-14 06:07:43,891 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-14 06:07:43,995 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-14 06:07:44,144 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/14.txt
+2025-07-14 06:07:44,216 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-14 06:07:44,392 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-14 06:07:44,799 - INFO - Попытка 1/3: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt
+2025-07-14 06:07:45,176 - INFO - Попытка 1/3: https://paulgb.github.io/BarbBlock/blacklists/domain-list.txt
+2025-07-14 06:07:45,622 - INFO - Попытка 1/3: https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
+2025-07-14 06:07:45,659 - INFO - Попытка 1/3: https://dblw.oisd.nl/basic/
+2025-07-14 06:07:53,214 - INFO - Сохранено 200,546 правил в complex_rules.txt
+2025-07-14 06:07:53,357 - INFO - Сохранено 222,488 правил в simple_domains.txt
+2025-07-14 06:07:53,373 - INFO - Сохранено 24,056 правил в css_rules.txt
+2025-07-14 06:07:53,377 - INFO - Сохранено 5,687 правил в exception_rules.txt
+2025-07-14 06:07:53,378 - INFO - Сохранено 3,404 правил в converted_hosts.txt
+2025-07-14 06:07:53,388 - INFO - Сохранено 7,661 правил в unsupported_in_brave.txt
+2025-07-14 06:07:53,795 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в duplicates_report.log
+2025-07-14 06:07:55,234 - WARNING - Обнаружены дубликаты в 52818 правилах. Полный отчет в duplicates_report.txt
+2025-07-14 06:07:55,235 - INFO - Пример анализа для 'stats.rip':
+2025-07-14 06:07:55,235 - INFO -   - Найден в: badmojr_gitlab_io_domains.wildcards.txt
+2025-07-14 06:07:55,236 - INFO -   - Найден в: raw_githubusercontent_com_light-onlydomains.txt.txt
+2025-07-14 06:07:55,311 - INFO - ✓ Нет пересечений между категориями правил
+2025-07-14 06:07:55,311 - INFO - 
+=== Итоги обработки ===
+2025-07-14 06:07:55,312 - INFO - Успешно обработано источников: 17/17
+2025-07-14 06:07:55,312 - INFO - Сложные правила: 200,546
+2025-07-14 06:07:55,312 - INFO - Простые домены: 222,488
+2025-07-14 06:07:55,312 - INFO - CSS правила: 24,056
+2025-07-14 06:07:55,312 - INFO - Исключения: 5,687
+2025-07-14 06:07:55,313 - INFO - Конвертированные hosts/DNS: 3,404
+2025-07-14 06:07:55,313 - INFO - Неподдерживаемые Brave правила: 7,661
+2025-07-14 06:07:55,399 - INFO - 
+Общее количество правил: 581,500
+2025-07-14 06:07:55,399 - INFO - Уникальных правил: 463,842
+2025-07-14 06:07:55,400 - WARNING - Обнаружено 82246 дублирующихся правил
+2025-07-14 06:07:55,400 - INFO - ✓ Нет пересечений между категориями
+2025-07-14 06:07:55,400 - INFO - Общее время выполнения: 12.17 сек
+2025-07-14 06:09:26,781 - INFO - === Запуск AdBlock Merger ===
+2025-07-14 06:09:26,782 - INFO - Всего источников: 12
+2025-07-14 06:09:26,783 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/easyprivacy.txt
+2025-07-14 06:09:26,783 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-14 06:09:26,784 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-14 06:09:26,785 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-14 06:09:26,785 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/3.txt
+2025-07-14 06:09:26,785 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-14 06:09:26,786 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/14.txt
+2025-07-14 06:09:26,786 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-14 06:09:27,416 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-14 06:09:27,452 - INFO - Попытка 1/3: https://paulgb.github.io/BarbBlock/blacklists/domain-list.txt
+2025-07-14 06:09:27,493 - INFO - Попытка 1/3: https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
+2025-07-14 06:09:27,877 - INFO - Попытка 1/3: https://dblw.oisd.nl/basic/
+2025-07-14 06:09:34,660 - INFO - Сохранено 177,310 правил в complex_rules.txt
+2025-07-14 06:09:34,767 - INFO - Сохранено 174,132 правил в simple_domains.txt
+2025-07-14 06:09:34,773 - INFO - Сохранено 9,798 правил в css_rules.txt
+2025-07-14 06:09:34,776 - INFO - Сохранено 5,296 правил в exception_rules.txt
+2025-07-14 06:09:34,778 - INFO - Сохранено 3,404 правил в converted_hosts.txt
+2025-07-14 06:09:34,786 - INFO - Сохранено 6,752 правил в unsupported_in_brave.txt
+2025-07-14 06:09:35,092 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в duplicates_report.log
+2025-07-14 06:09:36,188 - WARNING - Обнаружены дубликаты в 30115 правилах. Полный отчет в duplicates_report.txt
+2025-07-14 06:09:36,245 - INFO - ✓ Нет пересечений между категориями правил
+2025-07-14 06:09:36,245 - INFO - 
+=== Итоги обработки ===
+2025-07-14 06:09:36,246 - INFO - Успешно обработано источников: 12/12
+2025-07-14 06:09:36,246 - INFO - Сложные правила: 177,310
+2025-07-14 06:09:36,246 - INFO - Простые домены: 174,132
+2025-07-14 06:09:36,246 - INFO - CSS правила: 9,798
+2025-07-14 06:09:36,247 - INFO - Исключения: 5,296
+2025-07-14 06:09:36,247 - INFO - Конвертированные hosts/DNS: 3,404
+2025-07-14 06:09:36,247 - INFO - Неподдерживаемые Brave правила: 6,752
+2025-07-14 06:09:36,310 - INFO - 
+Общее количество правил: 440,892
+2025-07-14 06:09:36,311 - INFO - Уникальных правил: 376,692
+2025-07-14 06:09:36,311 - WARNING - Обнаружено 45071 дублирующихся правил
+2025-07-14 06:09:36,312 - INFO - ✓ Нет пересечений между категориями
+2025-07-14 06:09:36,312 - INFO - Общее время выполнения: 9.53 сек
+2025-07-14 06:10:43,171 - INFO - === Запуск AdBlock Merger ===
+2025-07-14 06:10:43,171 - INFO - Всего источников: 9
+2025-07-14 06:10:43,173 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-14 06:10:43,173 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-14 06:10:43,173 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-14 06:10:43,174 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-14 06:10:43,175 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-14 06:10:43,175 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-14 06:10:43,176 - INFO - Попытка 1/3: https://paulgb.github.io/BarbBlock/blacklists/domain-list.txt
+2025-07-14 06:10:43,176 - INFO - Попытка 1/3: https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
+2025-07-14 06:10:43,697 - INFO - Попытка 1/3: https://dblw.oisd.nl/basic/
+2025-07-14 06:10:49,530 - INFO - Сохранено 24,408 правил в complex_rules.txt
+2025-07-14 06:10:49,607 - INFO - Сохранено 133,168 правил в simple_domains.txt
+2025-07-14 06:10:49,612 - INFO - Сохранено 9,052 правил в css_rules.txt
+2025-07-14 06:10:49,613 - INFO - Сохранено 562 правил в exception_rules.txt
+2025-07-14 06:10:49,615 - INFO - Сохранено 3,404 правил в converted_hosts.txt
+2025-07-14 06:10:49,617 - INFO - Сохранено 2,383 правил в unsupported_in_brave.txt
+2025-07-14 06:10:49,712 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в duplicates_report.log
+2025-07-14 06:10:50,605 - WARNING - Обнаружены дубликаты в 30115 правилах. Полный отчет в duplicates_report.txt
+2025-07-14 06:10:50,650 - INFO - ✓ Нет пересечений между категориями правил
+2025-07-14 06:10:50,650 - INFO - 
+=== Итоги обработки ===
+2025-07-14 06:10:50,651 - INFO - Успешно обработано источников: 9/9
+2025-07-14 06:10:50,651 - INFO - Сложные правила: 24,408
+2025-07-14 06:10:50,651 - INFO - Простые домены: 133,168
+2025-07-14 06:10:50,651 - INFO - CSS правила: 9,052
+2025-07-14 06:10:50,652 - INFO - Исключения: 562
+2025-07-14 06:10:50,652 - INFO - Конвертированные hosts/DNS: 3,404
+2025-07-14 06:10:50,652 - INFO - Неподдерживаемые Brave правила: 2,383
+2025-07-14 06:10:50,673 - INFO - 
+Общее количество правил: 174,489
+2025-07-14 06:10:50,673 - INFO - Уникальных правил: 172,977
+2025-07-14 06:10:50,673 - WARNING - Обнаружено 1512 дублирующихся правил
+2025-07-14 06:10:50,673 - INFO - ✓ Нет пересечений между категориями
+2025-07-14 06:10:50,674 - INFO - Общее время выполнения: 7.50 сек
+2025-07-14 06:11:56,268 - INFO - === Запуск AdBlock Merger ===
+2025-07-14 06:11:56,269 - INFO - Всего источников: 9
+2025-07-14 06:11:56,270 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-14 06:11:56,270 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-14 06:11:56,271 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-14 06:11:56,272 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-14 06:11:56,272 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-14 06:11:56,272 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-14 06:11:56,273 - INFO - Попытка 1/3: https://paulgb.github.io/BarbBlock/blacklists/domain-list.txt
+2025-07-14 06:11:56,273 - INFO - Попытка 1/3: https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
+2025-07-14 06:12:01,289 - INFO - Попытка 1/3: https://dblw.oisd.nl/basic/
+2025-07-14 06:12:05,145 - INFO - Сохранено 24,408 правил в complex_rules.txt
+2025-07-14 06:12:05,223 - INFO - Сохранено 133,168 правил в simple_domains.txt
+2025-07-14 06:12:05,229 - INFO - Сохранено 9,052 правил в css_rules.txt
+2025-07-14 06:12:05,230 - INFO - Сохранено 562 правил в exception_rules.txt
+2025-07-14 06:12:05,231 - INFO - Сохранено 3,404 правил в converted_hosts.txt
+2025-07-14 06:12:05,234 - INFO - Сохранено 2,383 правил в unsupported_in_brave.txt
+2025-07-14 06:12:05,329 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в duplicates_report.log
+2025-07-14 06:12:05,747 - WARNING - Обнаружены дубликаты в 662 правилах. Полный отчет в duplicates_report.txt
+2025-07-14 06:12:05,765 - INFO - ✓ Нет пересечений между категориями правил
+2025-07-14 06:12:05,765 - INFO - 
+=== Итоги обработки ===
+2025-07-14 06:12:05,766 - INFO - Успешно обработано источников: 9/9
+2025-07-14 06:12:05,766 - INFO - Сложные правила: 24,408
+2025-07-14 06:12:05,766 - INFO - Простые домены: 133,168
+2025-07-14 06:12:05,767 - INFO - CSS правила: 9,052
+2025-07-14 06:12:05,767 - INFO - Исключения: 562
+2025-07-14 06:12:05,767 - INFO - Конвертированные hosts/DNS: 3,404
+2025-07-14 06:12:05,767 - INFO - Неподдерживаемые Brave правила: 2,383
+2025-07-14 06:12:05,788 - INFO - 
+Общее количество правил: 174,489
+2025-07-14 06:12:05,788 - INFO - Уникальных правил: 172,977
+2025-07-14 06:12:05,788 - WARNING - Обнаружено 1512 дублирующихся правил
+2025-07-14 06:12:05,788 - INFO - ✓ Нет пересечений между категориями
+2025-07-14 06:12:05,788 - INFO - Общее время выполнения: 9.52 сек
+2025-07-14 06:12:58,250 - INFO - === Запуск AdBlock Merger ===
+2025-07-14 06:12:58,250 - INFO - Всего источников: 8
+2025-07-14 06:12:58,252 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-14 06:12:58,252 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-14 06:12:58,252 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-14 06:12:58,253 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/4.txt
+2025-07-14 06:12:58,254 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-14 06:12:58,254 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-14 06:12:58,254 - INFO - Попытка 1/3: https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains
+2025-07-14 06:12:58,255 - INFO - Попытка 1/3: https://dblw.oisd.nl/basic/
+2025-07-14 06:13:08,488 - WARNING - Ошибка загрузки (попытка 1): HTTPSConnectionPool(host='dblw.oisd.nl', port=443): Max retries exceeded with url: /basic/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Forwarding failure')))
+2025-07-14 06:13:38,489 - INFO - Попытка 2/3: https://dblw.oisd.nl/basic/
+2025-07-14 06:13:48,624 - WARNING - Ошибка загрузки (попытка 2): HTTPSConnectionPool(host='dblw.oisd.nl', port=443): Max retries exceeded with url: /basic/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Forwarding failure')))
+2025-07-14 06:14:18,626 - INFO - Попытка 3/3: https://dblw.oisd.nl/basic/
+2025-07-14 06:14:28,759 - WARNING - Ошибка загрузки (попытка 3): HTTPSConnectionPool(host='dblw.oisd.nl', port=443): Max retries exceeded with url: /basic/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Forwarding failure')))
+2025-07-14 06:14:28,760 - ERROR - Не удалось загрузить после 3 попыток: https://dblw.oisd.nl/basic/
+2025-07-14 06:14:29,399 - INFO - Сохранено 24,406 правил в complex_rules.txt
+2025-07-14 06:14:29,453 - INFO - Сохранено 90,756 правил в simple_domains.txt
+2025-07-14 06:14:29,459 - INFO - Сохранено 9,052 правил в css_rules.txt
+2025-07-14 06:14:29,460 - INFO - Сохранено 562 правил в exception_rules.txt
+2025-07-14 06:14:29,462 - INFO - Сохранено 3,404 правил в converted_hosts.txt
+2025-07-14 06:14:29,465 - INFO - Сохранено 2,383 правил в unsupported_in_brave.txt
+2025-07-14 06:14:29,537 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в duplicates_report.log
+2025-07-14 06:14:29,877 - WARNING - Обнаружены дубликаты в 241 правилах. Полный отчет в duplicates_report.txt
+2025-07-14 06:14:29,892 - INFO - ✓ Нет пересечений между категориями правил
+2025-07-14 06:14:29,892 - INFO - 
+=== Итоги обработки ===
+2025-07-14 06:14:29,892 - INFO - Успешно обработано источников: 7/8
+2025-07-14 06:14:29,892 - INFO - Сложные правила: 24,406
+2025-07-14 06:14:29,893 - INFO - Простые домены: 90,756
+2025-07-14 06:14:29,893 - INFO - CSS правила: 9,052
+2025-07-14 06:14:29,893 - INFO - Исключения: 562
+2025-07-14 06:14:29,893 - INFO - Конвертированные hosts/DNS: 3,404
+2025-07-14 06:14:29,893 - INFO - Неподдерживаемые Brave правила: 2,383
+2025-07-14 06:14:29,907 - INFO - 
+Общее количество правил: 131,657
+2025-07-14 06:14:29,907 - INFO - Уникальных правил: 130,563
+2025-07-14 06:14:29,908 - WARNING - Обнаружено 1094 дублирующихся правил
+2025-07-14 06:14:29,908 - INFO - ✓ Нет пересечений между категориями
+2025-07-14 06:14:29,908 - INFO - Общее время выполнения: 91.66 сек
+2025-07-14 06:17:04,265 - INFO - === Запуск AdBlock Merger ===
+2025-07-14 06:17:04,265 - INFO - Всего источников: 6
+2025-07-14 06:17:04,267 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-07-14 06:17:04,267 - INFO - Попытка 1/3: https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-07-14 06:17:04,268 - INFO - Попытка 1/3: https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-07-14 06:17:04,268 - INFO - Попытка 1/3: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+2025-07-14 06:17:04,269 - INFO - Попытка 1/3: https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards
+2025-07-14 06:17:04,269 - INFO - Попытка 1/3: https://dblw.oisd.nl/basic/
+2025-07-14 06:17:14,463 - WARNING - Ошибка загрузки (попытка 1): HTTPSConnectionPool(host='dblw.oisd.nl', port=443): Max retries exceeded with url: /basic/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Forwarding failure')))
+2025-07-14 06:17:44,464 - INFO - Попытка 2/3: https://dblw.oisd.nl/basic/
+2025-07-14 06:17:54,588 - WARNING - Ошибка загрузки (попытка 2): HTTPSConnectionPool(host='dblw.oisd.nl', port=443): Max retries exceeded with url: /basic/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Forwarding failure')))
+2025-07-14 06:18:24,589 - INFO - Попытка 3/3: https://dblw.oisd.nl/basic/
+2025-07-14 06:18:34,708 - WARNING - Ошибка загрузки (попытка 3): HTTPSConnectionPool(host='dblw.oisd.nl', port=443): Max retries exceeded with url: /basic/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 503 Forwarding failure')))
+2025-07-14 06:18:34,709 - ERROR - Не удалось загрузить после 3 попыток: https://dblw.oisd.nl/basic/
+2025-07-14 06:18:35,280 - INFO - Сохранено 13,498 правил в complex_rules.txt
+2025-07-14 06:18:35,340 - INFO - Сохранено 90,721 правил в simple_domains.txt
+2025-07-14 06:18:35,345 - INFO - Сохранено 8,612 правил в css_rules.txt
+2025-07-14 06:18:35,346 - INFO - Сохранено 417 правил в exception_rules.txt
+2025-07-14 06:18:35,347 - INFO - Сохранено 3,404 правил в converted_hosts.txt
+2025-07-14 06:18:35,351 - INFO - Сохранено 1,132 правил в unsupported_in_brave.txt
+2025-07-14 06:18:35,426 - WARNING - Обнаружены дубликаты правил. Отчет сохранен в duplicates_report.log
+2025-07-14 06:18:35,704 - WARNING - Обнаружены дубликаты в 14 правилах. Полный отчет в duplicates_report.txt
+2025-07-14 06:18:35,716 - INFO - ✓ Нет пересечений между категориями правил
+2025-07-14 06:18:35,716 - INFO - 
+=== Итоги обработки ===
+2025-07-14 06:18:35,716 - INFO - Успешно обработано источников: 5/6
+2025-07-14 06:18:35,716 - INFO - Сложные правила: 13,498
+2025-07-14 06:18:35,716 - INFO - Простые домены: 90,721
+2025-07-14 06:18:35,717 - INFO - CSS правила: 8,612
+2025-07-14 06:18:35,717 - INFO - Исключения: 417
+2025-07-14 06:18:35,717 - INFO - Конвертированные hosts/DNS: 3,404
+2025-07-14 06:18:35,717 - INFO - Неподдерживаемые Brave правила: 1,132
+2025-07-14 06:18:35,731 - INFO - 
+Общее количество правил: 118,340
+2025-07-14 06:18:35,731 - INFO - Уникальных правил: 117,784
+2025-07-14 06:18:35,731 - WARNING - Обнаружено 556 дублирующихся правил
+2025-07-14 06:18:35,731 - INFO - ✓ Нет пересечений между категориями
+2025-07-14 06:18:35,731 - INFO - Общее время выполнения: 91.47 сек

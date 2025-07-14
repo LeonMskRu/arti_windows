@@ -36,46 +36,51 @@ SOURCES = [
     # ======================
     # Основные EasyList фильтры
     # ======================
-    "https://easylist.to/easylist/easylist.txt",
-    "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
+#    "https://easylist.to/easylist/easylist.txt",
+#    "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
     
     # ======================
     # Fanboy's фильтры
     # ======================
-    "https://secure.fanboy.co.nz/fanboy-annoyance.txt",
-    "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
-    "https://secure.fanboy.co.nz/fanboy-social.txt",
+#    "https://secure.fanboy.co.nz/fanboy-annoyance.txt",
+#    "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt",
+#    "https://secure.fanboy.co.nz/fanboy-social.txt",
     
     # ======================
     # Дополнительные фильтры
     # ======================
     "https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt",
     "https://easylist-downloads.adblockplus.org/bitblock.txt",
-    "https://www.i-dont-care-about-cookies.eu/abp/",
+#    "https://www.i-dont-care-about-cookies.eu/abp/",
     "https://filters.adtidy.org/extension/ublock/filters/11.txt",  # AdGuard Base
-    "https://filters.adtidy.org/extension/ublock/filters/3.txt",   # AdGuard Tracking
-    "https://filters.adtidy.org/extension/ublock/filters/4.txt",   # AdGuard Social
-    "https://filters.adtidy.org/extension/ublock/filters/14.txt",  # AdGuard Annoyances
+#    "https://filters.adtidy.org/extension/ublock/filters/3.txt",   # AdGuard Tracking
+#    "https://filters.adtidy.org/extension/ublock/filters/4.txt",   # AdGuard Social
+#    "https://filters.adtidy.org/extension/ublock/filters/14.txt",  # AdGuard Annoyances
        
     # ======================
     # Формат hosts
     # ======================
-    "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
-    "https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt",
+#    "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+#    "https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt",
     "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
     
     # ======================
     # DNS фильтры
     # ======================
-    "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt",
+#    "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/dnscrypt-proxy/dnscrypt-proxy.blacklist.txt",
     "https://badmojr.gitlab.io/1hosts/Lite/domains.wildcards",
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt",
-    "https://big.oisd.nl/domainswild2",
+#    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/light-onlydomains.txt",
+#    "https://big.oisd.nl/domainswild2",
     
     # ======================
     # Специальные фильтры
     # ======================
-    "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
+
+#    "https://paulgb.github.io/BarbBlock/blacklists/domain-list.txt",
+#    "https://raw.githubusercontent.com/nextdns/cname-cloaking-blocklist/master/domains",
+#    "https://hostfiles.frogeye.fr/firstparty-trackers.txt",
+    "https://dblw.oisd.nl/basic/"
+
 ]
 
 def get_source_filename(url: str) -> str:
