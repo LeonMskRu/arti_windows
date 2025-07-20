@@ -1,5 +1,5 @@
 ! CSS правила
-! Generated: 2025-07-14 13:02
+! Generated: 2025-07-20 17:56
 ! Total rules: 8,612
 
 ##.-movie-info-share

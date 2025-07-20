@@ -1,8 +1,8 @@
 === Полный отчет о дублирующихся правилах ===
-Дата генерации: 2025-07-14 13:02
+Дата генерации: 2025-07-20 17:56
 
-Всего дублирующихся правил: 14
-Общее количество повторений: 28
+Всего дублирующихся правил: 13
+Общее количество повторений: 26
 
 Топ 100 самых частых дубликатов:
 
@@ -67,11 +67,6 @@
   - easylist-downloads_adblockplus_org_bitblock.txt.txt
 
 2x ||ad.zijieapi.com^
-  Источники:
-  - filters_adtidy_org_11.txt.txt
-  - filters_adtidy_org_11.txt.txt
-
-2x webtekno.com##.sidebar-mosts__item__sponsor
   Источники:
   - filters_adtidy_org_11.txt.txt
   - filters_adtidy_org_11.txt.txt

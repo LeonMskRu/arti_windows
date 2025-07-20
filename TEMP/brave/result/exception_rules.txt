@@ -1,5 +1,5 @@
 ! Исключения
-! Generated: 2025-07-14 13:02
+! Generated: 2025-07-20 17:56
 ! Total rules: 417
 
 @@/angular-facebook.js

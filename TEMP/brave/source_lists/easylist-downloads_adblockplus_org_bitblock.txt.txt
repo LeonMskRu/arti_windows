@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: e+CCIfbcwK2p5mArWeM1cw
-! Version: 202507140951
+! Checksum: Z5gHAz+/sdszFNtnvw5ogQ
+! Version: 202507201441
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 14 Jul 2025 09:51 UTC
+! Last modified: 20 Jul 2025 14:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -948,7 +948,6 @@ superkarate.ru##.btn-social-wrapper
 audioknigi-online.ru##.btn-vk
 amurmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,priamurmedia.ru,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,stavropol.media,ulanmedia.ru,ussurmedia.ru,yakutiamedia.ru##.btn_fly_share
 infoindustria.com.ua##.button-telegram
-bzrus.pro#?#.button:-abp-has(> [name="i-mdi-share-variant"])
 doramax.org##.button[onclick*=".soc_buttons"]
 qiq.ws##.buttonbox
 vgorodekirove.ru##.buttond
@@ -2321,7 +2320,7 @@ dostfilms.info,dostfilms.site,enovosty.com##.socnet
 kinodroid.net##.socpri,.socpri ~ *
 siniy-ekran.ru##.socs
 kluch.media##.socs-div-pr
-1yar.tv,amedia.lol,partnerkin.com##.socseti
+1yar.tv,amedia.online,partnerkin.com##.socseti
 topnews.ru##.socsite
 kamchatinfo.com##.soctop
 parlament.ua##.soliale-networks-header
@@ -2337,7 +2336,7 @@ kinofilm.co##.sp_insta
 blackwot.ru,ukrhealth.net,weukraine.tv##.spc-social
 pixelinform.com,sysidka.com##.spc-social-block
 slavinfo.dn.ua##.sppb-addon-social-media
-amedia.lol##.srochno
+amedia.online##.srochno
 dfm.ru,maximum.ru,rusradio.ru##.ss-block
 openmedia.io##.ss-ic
 maximum.ru##.ss_block
@@ -2777,7 +2776,6 @@ alau.kz##[data-widget_type="image.default"] ~ [data-widget_type="vinazine-block-
 fastpic.org##[id*="footer"] a[href*="twitter.com"]
 sovkusom.ru##[id^="essbsocialfanscounterwidget"]
 growhow.in.ua##[id^="instagram-feed-widget"]
-bzrus.pro##[id^="oframeplayer-"] > pjsdiv[style*="top: 25px;"]
 ebooks.skin##[id^="share"]
 factorio.su##[id^="vkapi_"]
 kaskad.tv#?#[itemprop="articleBody"] + div .uk-first-column:-abp-has(> a[href^="https://vk.com/"])
@@ -2995,7 +2993,6 @@ www.kinopoisk.ru##div[class*="styles_sidebar"] > a[href][target="_blank"] > img
 takprosto.cc##div[class*="widget_essbsocial"]
 pnz.ru##div[class*="widget_social_links"]
 in-dmitrov.ru,in-domodedovo.ru,in-istra.ru,in-kolomna.ru,in-korolev.ru,in-narofominsk.ru,in-reutov.ru,in-schelkovo.ru,in-vidnoe.ru,in-voskresensk.ru,inbalashikha.ru,inchehov.ru,inchernogolovka.ru,indolgoprud.ru,indubnacity.ru,inegorievsk.ru,inelgorsk.ru,inelstal.ru,infryazino.ru,inhimkicity.ru,inivanteevka.ru,inkashira.ru,inklincity.ru,inkotelniki.ru,inkrasnoarmeisk.ru,inkrasnogorsk.ru,inkrasnoznamensk.ru,inlobnya.ru,inlosinopetrovsk.ru,inlotoshino.ru,inlubertsy.ru,inluhovitsy.ru,inlytkarino.ru,inmozhaisk.ru,inmytishchi.ru,innoginsk.ru,inodintsovo.ru,inorehovo.ru,inozery.ru,inpavposad.ru,inpodolsk.ru,inprotvino.ru,inpushchino.ru,inpushkino.ru,inramenskoe.ru,inroshal.ru,inruza.ru,insergposad.ru,inserprud.ru,inserpuhov.ru,inshahovskoe.ru,inshatura.ru,insolnechnogorsk.ru,instupino.ru,intaldom.ru,involokolamsk.ru,inzaraisk.ru,inzheldor.ru,inzhukovskiy.ru,inzvenigorod.ru##div[class="soc_links"]
-adme.media#?#div[class]:-abp-has(> [data-test-id="bottom-sharing"])
 fontanka.ru#?#div[class]:-abp-has(> h5 ~ ul > li ~ li)
 iviche.com#?#div[class]:-abp-has(> p + .react-share__ShareButton)
 sport24.ru#?#div[class]:-abp-has(> span + svg)
@@ -3130,7 +3127,7 @@ kinoferma.pro##div[style^="padding:"] > a[href^="https://vk.com/"]
 biqle.org,biqle.ru##div[title="Поделиться"]
 site.ua##div[x-data*="facebook"]
 autodaily.ru,autonews.ru,gsminfo.com.ua#?#em > strong:-abp-has(> a[href^="https://t.me/"])
-fanserial.*,fanserial.сс,myfanserial.net##.novelty-banner
+fanserial.*,fanserial.сс,1fanserials.ru,myfanserial.net##.novelty-banner
 zmi.ck.ua##footer .b1
 zmi.ck.ua##footer .b2
 ctv7.ru##footer .btn_soc
@@ -4234,7 +4231,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||forums.overclockers.ru^*/logo_forum.gif
 ||fotki.yandex.ru/get/*/wind-hide.
 ||fotoinform.net/userfiles/images/donat.
-||freekassa.com/banners/$domain=nnmclub.ro|nnmclub.to
+||freekassa.com/banners/$domain=nnm-club.me|nnmclub.ro|nnmclub.to
 ||friday.ru/friday/js/adm_r.js
 ||friday.ru/friday/js/friday-fix.js
 ||fundraiseup.com^$domain=tvrain.tv
@@ -4256,6 +4253,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||hideogenius.com/nokids.mp4
 ||hightech.fm/wp-content/themes/hightech/api/modals/
 ||home.imgsmail.ru/assets/user-settings/new-user-setting-promo.mp4
+||hongqi-emir.by/assets/template/js/cookies.js
 ||imgsmail.ru/*/apps/game-bubble_$domain=my.mail.ru
 ||imgsmail.ru/mail/ru/images/js/myjs/mm/out/min/*/column_right$domain=my.mail.ru
 ||imgsmail.ru/mail/ru/images/js/myjs/mm/out/min/home/history/adv-post$domain=my.mail.ru
@@ -4847,7 +4845,7 @@ geniusmarketing.me###top-banner
 forum.ixbt.com###top_annc
 kinometro.ru###top_link
 russian-fiancee.com###top_logo
-nnmclub.ro,nnmclub.to###topcontrol
+nnm-club.me,nnmclub.ro,nnmclub.to###topcontrol
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top#?##topocs_maine > tbody:-abp-has(> tr a:-abp-contains(реклам))
 agents.media###trigger_donate
 kriminal.tv###tvfooter
@@ -5042,7 +5040,7 @@ bigmir.net##.b-follow
 svpressa.ru##.b-footer-promo
 kavkaz-uzel.eu##.b-header_app-links
 bigmir.net##.b-informer-social
-nnmclub.ro,nnmclub.to##.b-magic-forest
+nnm-club.me,nnmclub.ro,nnmclub.to##.b-magic-forest
 gagadget.com##.b-magicblock
 temaretik.com##.b-modal-aligner
 tolknews.ru##.b-news_aggr
@@ -5146,6 +5144,7 @@ gizchina.net#?#.btn-box:-abp-has(> span:-abp-contains(Google News))
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##.btn-danger
 hevcclub.com##.btn-outline-hevc
 bigmir.net,isport.ua,kolobok.ua##.btn-warning
+habr.com##.burger-button-wrapper > .hint-trigger-button
 vgoru.org##.button--head-support
 nashaniva.com##.button-donate
 odessa-life.od.ua##.buttonizer
@@ -5236,7 +5235,7 @@ budzdorov.ru,rigla.ru##.cookie-confirmation-notice
 ppt.ru##.cookie-conscent
 buhplatforma.com.ua,dzplatforma.com.ua,medplatforma.com.ua,oblikbudget.com.ua,oplatforma.com.ua,pro-op.com.ua,prokadry.com.ua,rutube.ru##.cookie-consent
 pravda.ru##.cookie-container
-ntvplus.ru##.cookie-dialog
+ntvplus.ru,ntvplus.tv##.cookie-dialog
 24smi.org##.cookie-modal
 mosoblgaz.ru##.cookie-modal-wrapper
 rushop.lg.com##.cookie-mode__wrap
@@ -5336,7 +5335,6 @@ khl.ru##.e-header_apps
 life.ru##.eABzmT
 agronomy.com.ua##.eb-inst
 bbc.com##.eh3hs0a5
-bzrus.pro##.eighteen
 bazarmedia.info##.elp-widget
 rubryka.com##.email-sectionarchive-email-section
 rusplt.ru##.email-subscription
@@ -5376,7 +5374,6 @@ rosbalt.ru##.fixed[style^="z-index:"]
 autopilot.ru,kommersant.ru##.fixed_bottom
 kisameev.ru##.fixed_cookie
 nalog.ru##.fixed_shortcut_vc
-fanserial.fun,fanserialstv.net##.flex-promo-series > .right-col > noindex
 informator.ua##.flex.post__subscribe-banner
 ichip.ru##.float-subscribe
 playground.ru##.float-teaser
@@ -5743,7 +5740,6 @@ holodilnik.ru##.notify-layer--cookie
 gorodkirov.ru,navigator-kirov.ru##.notifycation
 piluli.ru##.notiny
 smartpress.by##.noty_layout
-fanserial.fun,fanserial.pw,fanserial.tv,fanserialstv.net##.novelty-banner
 doramaland.plus##.now-ru-banner
 ntv.ru##.ntv-survey
 olx.ua##.observe-search-banner
@@ -6272,6 +6268,7 @@ point.md##[aria-label="scroll to top button"]
 bbc.com##[aria-labelledby="recommendations-heading"]
 bbc.com##[aria-labelledby^="message-banner-"]
 novayagazeta.ru##[class*="Donate"]
+rutube.ru##[class*="Player"] div[class*="disclaimer"]
 aliexpress.ru##[class*="PrivacyPolicyBanner"]
 stopcor.org##[class*="TopLine_donate"]
 dtf.ru,vc.ru##[class*="comments"][class*="always"]
@@ -6442,8 +6439,8 @@ meteopost.com,nashemisto.dp.ua##a[href^="https://play.google.com/"]
 smi2.ru##a[href^="https://redirect.appmetrica"]
 root-nation.com##a[href^="https://root-nation.com/"][href$="-subscribe/"]
 holod.media##a[href^="https://youngandugly.com/"]
-nnmclub.ro,nnmclub.to##a[href^="rss.php"]
-nnmclub.ro,nnmclub.to##a[onclick="return toggle_new_year();"]
+nnm-club.me,nnmclub.ro,nnmclub.to##a[href^="rss.php"]
+nnm-club.me,nnmclub.ro,nnmclub.to##a[onclick="return toggle_new_year();"]
 chytomo.com##a[title="DONATE"]
 thebell.io##app-adfox-top
 dp.ru##app-article-signup-newsletters
@@ -6657,6 +6654,7 @@ ctrs.com.ua##div[class^="sidePopupContainer"]
 podarkus.ru##div[class^="style_cookies"]
 zr.ru##div[class^="styled__CookieDisclaimerContainer"]
 eanews.ru##div[class^="styled__Notice-sc-"]
+culture.ru##div[class^="styles_CookieNotify"]
 auchan.ru##div[class^="styles_acceptCookieAlert"]
 kufar.by##div[class^="styles_webpush_banner"]
 parlament.ua##div[class^="subscribe-text-block"]
@@ -6816,8 +6814,8 @@ forums.overclockers.ru##td > #logo
 stalker-mods.clan.su,stalker-mods.su##td > table[width="302"][height="382"][align="center"]
 armadaboard.com##td[style*="theme_orig"]
 chastnik-m.ru##td[valign="top"][id$="_place"]
-nnmclub.ro,nnmclub.to#?#td[valign="top"][width="80%"] > .pline:-abp-has(> tbody > tr > td > [title="Объявление"])
-nnmclub.ro,nnmclub.to#?#td[valign="top"][width="80%"] > .pline:-abp-has(> tbody > tr > td > [title="Объявление"]) + br
+nnm-club.me,nnmclub.ro,nnmclub.to#?#td[valign="top"][width="80%"] > .pline:-abp-has(> tbody > tr > td > [title="Объявление"])
+nnm-club.me,nnmclub.ro,nnmclub.to#?#td[valign="top"][width="80%"] > .pline:-abp-has(> tbody > tr > td > [title="Объявление"]) + br
 lkforum.ru##td[width="180"][align="right"]
 thequestion.ru##theq-question-recommend
 forexsystemsru.com##tr > .sidebar
@@ -6949,6 +6947,7 @@ mail.ru###grid .widget__container > .progress-bar-widget
 mail.ru###grid .widget__container [class*="promo"]
 mail.ru###grid [class^="asteroid-"]
 mail.ru###grid div[class^="feed__"]
+mail.ru###grid ~ div .setting-promo
 auto.mail.ru,horo.mail.ru###js-subscription-footer-react
 horo.mail.ru###js-subscription-form-button-react
 e.mail.ru###octavius-new-toolbar-promo
