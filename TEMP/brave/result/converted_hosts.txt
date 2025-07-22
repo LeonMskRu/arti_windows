@@ -1,6 +1,6 @@
 ! Конвертированные hosts/DNS
-! Generated: 2025-07-20 17:56
-! Total rules: 3,418
+! Generated: 2025-07-23 00:42
+! Total rules: 3,420
 
 ||101com.com^
 ||180hits.de^
@@ -1598,6 +1598,7 @@
 ||explorads.com^
 ||exponea.com^
 ||exponential.com^
+||exportdialog.com^
 ||express-submit.de^
 ||extractobservation.com^
 ||extreme-dm.com^
@@ -1998,6 +1999,7 @@
 ||li.walmart.com^
 ||li.ziffimages.com^
 ||liadm.com^
+||libraryfacts.com^
 ||lifeimpressions.net^
 ||liftdna.com^
 ||ligatus.com^

@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: Xa1+PdPm32w0Nc1cTR9KzA
-! Diff-Path: ../patches/11/11-s-1752916280-3600.patch
+! Checksum: sBXn9v5v3AuHifGZz5FufA
+! Diff-Path: ../patches/11/11-s-1753197100-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.62.62
-! TimeUpdated: 2025-07-19T09:07:22+00:00
+! Version: 2.0.62.70
+! TimeUpdated: 2025-07-22T15:07:30+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2331,6 +2331,12 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+mapion.co.jp##.area_aside[style="min-height: 180px;"]
+book.asahi.com##li[class^="module-list-articles-"][class*="item"]:has(> div > div[id^="div-gpt-ad-"])
+imaonline.jp##.add-mobkoi
+qz.com##body > div[class="md:hidden"]:has(> .ay-ad-slot)
+m.aksam.com.tr##div[style="height:290px;margi:0 auto;text-align:center;"]
+techcrunch.com##.wp-block-group--ads-footer
 watch.impress.co.jp##div[style="min-height: 160px;"]
 yugi-nippon.com###text-108
 yugi-nippon.com###text-82
@@ -2378,8 +2384,9 @@ transvids.tv##.tabs-menu + div.card
 jovencitas.gratis##.med
 videosdemadurasx.com,pornogratisdiario.com##.thumbs_spot_top
 nownews.com##.hr-separator:has(+ .ad)
-tw.news.yahoo.com##.atoms > div:has(> div[id^="sda-"])
-tw.news.yahoo.com##iframe[id^="mkt-iframe-"]
+tw.stock.yahoo.com,tw.news.yahoo.com##.atoms > div:has(> div[id^="sda-"])
+tw.stock.yahoo.com,tw.news.yahoo.com##div[id^="sda-"][id$="-iframe"]
+tw.stock.yahoo.com,tw.news.yahoo.com##iframe[id^="mkt-iframe-"]
 4gamers.com.tw##.aroma-container > .-mt-5
 puritanas.com##div[style="height: 102px;"]
 wankoz.com##.end_ad
@@ -2726,7 +2733,7 @@ peing.net##body > button.close-button[style^="position: fixed; left: 50%; backgr
 ipaidia.gr##.inarticle-add-mob
 diez.hn##div[id^="r89-mobile-rectangle-mid-fotogalerias-"]
 kurashinista.jp###sp_column_header_ad
-eegg.fun##iframe[id^="rlad_"][src^="/ad_html/"]
+eegg.fun##iframe[id][src^="/ad_html/"]
 fujingaho.jp##section[data-vars-block-curation] > div[class*=" "]:has(> #gpt-ad-vertical-top)
 puntodebreak.com##.summary-ad
 brow2ing.com##iframe[src*="//brow2ing.up.seesaa.net/image/loopadspone.html"]
@@ -3233,7 +3240,6 @@ fontanka.ru##.gridFullMobile > div:has(div.flickity-enabled a[href*="/?erid="])
 amazon.*###px-profile_feature_div
 amazon.*##div[data-cel-widget="softlines-btf-substitute-zone-container-T3_feature_div"]
 amazon.*##div[id="softlines-mobile-btf-discovery-zone-T3_feature_div"] .softlines-zone-content > div[id^="sims-simsContainer_feature_div"]
-amazon.*###search .s-main-slot > div.s-result-item[data-asin=""]:not(.a-section) .s-progressive-scroll-container span[data-action="s-progressive-scroll-link"]
 lawspot.gr###pbmb
 ilfattoquotidiano.it###adk-interstitial-list
 nyahentai.re,momon-ga.com###video_inst_area
@@ -5804,7 +5810,7 @@ kanasoku.info##body > div[style^="width:320px; height:100px"]
 pravda.com.ua##amp-embed[type="recreativ"]
 kutchkhabar.com##.advertise-horizontal-mobile
 ||smaero.jp/advimg/
-eroita.net,adacomi.com##div[style$="width:300px; height:250px;"]
+donanimhaber.com,eroita.net,adacomi.com##div[style$="width:300px; height:250px;"]
 adacomi.com##div[style="width:300px;"]
 n-tv.de##.ems-slot
 m.icbc.com.cn##div[data-collecting-aname="手机网站首页主图广告"]

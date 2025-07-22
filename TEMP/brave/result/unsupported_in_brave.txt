@@ -1,6 +1,6 @@
 ! Неподдерживаемые Brave AdBlock правила
-! Generated: 2025-07-20 17:56
-! Total rules: 1,133
+! Generated: 2025-07-23 00:42
+! Total rules: 1,135
 
 ! Bad: .org/ads/$domain=example.org (for instance, should be in speficic.txt)
 ! Good: @@/adblocker/detect.js$domain=example.org
@@ -268,6 +268,7 @@ blogtag.ameba.jp##main > ul > li:not([class]) > div[class^="sc-"][class*=" "]:ha
 blogtag.ameba.jp##ul > div[class]:has(> div > div[id^="div-gpt-ad-"])
 bm.best-hit.tv#?#div[style*="display:"]:has(> ins.adsbygoogle)
 bm.best-hit.tv#?#div[style*="display:"]:has(> script + iframe[id][style^="width:300px"])
+book.asahi.com##li[class^="module-list-articles-"][class*="item"]:has(> div > div[id^="div-gpt-ad-"])
 brightside.me#?#div[data-test-id="article"] div[class]:has(> aside[style="min-height: 310px;"] > div:contains(Advertisement))
 brightside.me#?#div[data-test-id="article-content"] div[class]:has(> aside div:contains(Advertisement))
 buffed.de#?#ul[data-role="listview"] > .ticker_item:has(> a[href^="/E-Commerce"])
@@ -646,6 +647,7 @@ promiflash.de##.sm\:hidden:has(> div[class] > div.adContainer)
 przegladsportowy.onet.pl###fixtures-slot:has(> .relative:only-child > .onet-ad:only-child)
 pussyspace.com,pussyspace.net#?##main-area-box div[id]:has(> iframe[src*="/lazyload"])
 quora.com##div[class="question_main_col"]  > div:nth-child(3) > div[class="UnifiedAnswerPagedList PagedListFoo unified"]
+qz.com##body > div[class="md:hidden"]:has(> .ay-ad-slot)
 r10.net##.container > div[class^="r"]:has(> div[class] > a[href][target="_blank"])
 r10.net##.postList > div[class^="r"]:has(> a[href][target="_blank"])
 radio.*#?##stationpage-holder > div[class]:has(> div[class] > div[id^="RAD_NET"])
@@ -754,7 +756,7 @@ tubepornclassic.com#?#.video__wrapper > section:has(> div > div:empty)
 tubepornclassic.com#?#.video__wrapper > section:has(> div > div[style] > div:empty)
 tupaki.com##.navbar-right:has(> div#header_ad_1)
 tuttotech.net#?#.grid-start > .align-self-center:has(> .banner)
-tw.news.yahoo.com##.atoms > div:has(> div[id^="sda-"])
+tw.stock.yahoo.com,tw.news.yahoo.com##.atoms > div:has(> div[id^="sda-"])
 twivideo.net##.content_area > div[style]:has(> div[style] > iframe[src^="https://creative.bbrdbr.com/"])
 txxx.com#?#div[class^="video-conten"] > div[class] > div > div[class]:has(span:contains(AD))
 ukdevilz.com##.container > div[style^="text-align:"]:has(> script[src^="https://a.magsrv.com/"])
