@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: sBXn9v5v3AuHifGZz5FufA
-! Diff-Path: ../patches/11/11-s-1753197100-3600.patch
+! Checksum: TP24QhEZoBatZz9ZUt2C4g
+! Diff-Path: ../patches/11/11-s-1753344851-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.62.70
-! TimeUpdated: 2025-07-22T15:07:30+00:00
+! Version: 2.0.62.77
+! TimeUpdated: 2025-07-24T08:09:58+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2331,6 +2331,11 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+tvfan.kyodo.co.jp##div[style^="height: 80px; position: fixed;"]
+m.tvspielfilm.de##.smartphone_banner_sticky
+pachinkovillage.com##.right-banner
+investorgain.com###toptext
+jishin-yogen.com##.ads_entry
 mapion.co.jp##.area_aside[style="min-height: 180px;"]
 book.asahi.com##li[class^="module-list-articles-"][class*="item"]:has(> div > div[id^="div-gpt-ad-"])
 imaonline.jp##.add-mobkoi
@@ -2652,7 +2657,7 @@ maquia.hpplus.jp##.SP_inarticle
 m.tub5exer.com##.info-holder > center
 m.tub5exer.com##.advertising
 pepper.pl##div[class*="hide--fromW"] > .flex:has(> .ad--bg)
-pepper.pl,mydealz.de##.js-threadList  > .hide--fromW3
+pepper.com,pepper.pl,mydealz.de##.js-threadList > .hide--fromW3
 m.humoruniv.com##.bg0:has(div > img[height="200"][width="300"])
 m.humoruniv.com###pnut_ad_bottom
 m.humoruniv.com##div[style="min-height:100px;"]
@@ -3658,7 +3663,7 @@ ozon.ru#$?#div[data-widget="advVideoBannerMobile"] { remove: true; }
 forum.donanimhaber.com##div[style^="width: 100%;"][style*="height: auto;"]
 forum.donanimhaber.com###primeContainerMobil
 reviewjournal.com##amp-video-iframe[src^="https://amp.stnvideo.com/"]
-news12.com##.ad-mobile-wrapper
+tvdigital.de,news12.com##.ad-mobile-wrapper
 cbs6albany.com#?#div[style*="display"] > div[style*="text-align:"]:has(> div[style*="position"] > div[style*="display"]:contains(/^ADVERTISEMENT$/))
 rule34.xxx##.fp-mobile
 fu.minkabu.jp##div[class^="ad_hide"]
@@ -4602,7 +4607,6 @@ bestfreetube.xxx,hqtube.xxx,hdxnxx.xxx,redhdtube.xxx###native_code
 redhdtube.xxx##.b_frame
 hdxnxx.xxx##[class^="uno"]
 hqtube.xxx##.wp_theme_top
-suki-kira.com##.row > div.container
 rat.xxx,zbporn.*##.under-video-spot
 rat.xxx,zbporn.*##.mob-nat-spot
 autoforum.cz##.mobile-sticky-bottom-wrapper
@@ -5718,7 +5722,7 @@ m.bloomberght.com##.zone-area
 ezgif.com###hdr
 gulte.com##.awt_ads
 gulte.com###rw_top_sticky
-suki-kira.com,belcy.jp##div[style="min-width: 300px; min-height: 250px;"]
+belcy.jp##div[style="min-width: 300px; min-height: 250px;"]
 belcy.jp,cuty.jp##div[style^="min-width: 336px; min-height: 280px;"]
 belcy.jp###Ad_Overlay
 belcy.jp##.Ad_widget
