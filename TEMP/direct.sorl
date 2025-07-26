@@ -3,6 +3,10 @@
 ; Date: 26.07.2025
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
+.programma-peredach.com
+||programma-peredach.com
+*.programma-peredach.com
+
 .ya.ru
 .yandex.ru
 .dzen.ru
