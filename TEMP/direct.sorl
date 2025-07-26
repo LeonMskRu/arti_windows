@@ -3,6 +3,14 @@
 ; Date: 26.07.2025
 ; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
 
+.vgtrk.ru
+||vgtrk.ru
+*.vgtrk.ru
+
+.smotrim.ru
+||smotrim.ru
+*.smotrim.ru
+
 .programma-peredach.com
 ||programma-peredach.com
 *.programma-peredach.com
