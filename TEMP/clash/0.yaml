@@ -1,8 +1,4 @@
 proxies:
-  - name: "_1_111_socks"
-    type: socks
-    server: 192.168.0.111
-    port: 2222
   - name: "_1_111_http"
     type: http
     server: 192.168.0.111
@@ -12,7 +8,6 @@ proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - _1_111_socks
       - _1_111_http
 
 rules:
