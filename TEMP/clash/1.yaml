@@ -16,9 +16,9 @@ proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - clash2222
-      - clash4444
       - privoxy8118
+      - clash4444
+      - clash2222
 
 rules:
   - MATCH,Proxy
