@@ -1,14 +1,24 @@
 proxies:
-  - name: "_1_111_http"
+  - name: "clash2222"
     type: http
     server: 192.168.0.111
     port: 2222
+  - name: "clash4444"
+    type: http
+    server: 192.168.0.111
+    port: 4444
+  - name: "privoxy8118"
+    type: http
+    server: 192.168.0.111
+    port: 8118
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - _1_111_http
+      - clash2222
+      - clash4444
+      - privoxy8118
 
 rules:
   - MATCH,Proxy
