@@ -1,6 +1,6 @@
 proxies:
   - name: "clash2222"
-    type: http
+    type: socks5
     server: 192.168.1.111
     port: 2222
   - name: "clash4444"
