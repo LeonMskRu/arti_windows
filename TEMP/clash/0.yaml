@@ -21,4 +21,6 @@ proxy-groups:
       - clash2222
 
 rules:
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - DOMAIN-KEYWORD,helpcleanmasterlite1.ksmobile.com,REJECT,no-resolve
   - MATCH,Proxy
