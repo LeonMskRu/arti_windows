@@ -1,6 +1,6 @@
 proxies:
   - name: "clash3333"
-    type: socks
+    type: socks5
     server: 192.168.0.111
     port: 3333
   - name: "clash4444"
