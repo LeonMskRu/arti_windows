@@ -1,12 +1,12 @@
 proxies:
-  - name: "clash2222"
+  - name: "clash3333"
     type: socks5
     server: 192.168.0.111
-    port: 2222
-  - name: "clash4444"
+    port: 3333
+  - name: "clash2222"
     type: http
     server: 192.168.0.111
-    port: 4444
+    port: 2222
   - name: "privoxy8118"
     type: http
     server: 192.168.0.111
@@ -17,7 +17,7 @@ proxy-groups:
     type: select
     proxies:
       - privoxy8118
-      - clash4444
+      - clash3333
       - clash2222
 
 rules:
