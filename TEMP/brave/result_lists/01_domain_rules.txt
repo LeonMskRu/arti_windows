@@ -1,7 +1,7 @@
 ! Title: Brave Optimized List - Domain & Network Rules
 ! Description: A merged and optimized list of domain & network rules.
-! Last Updated: 2025-07-24 13:34:30 UTC
-! Total Rules: 1198
+! Last Updated: 2025-08-11 03:04:39 UTC
+! Total Rules: 1246
 
 ||023hysj.com^
 ||1mp.mobi^
@@ -42,6 +42,7 @@
 ||ad.duapps.com^
 ||ad.flipboard.com^
 ||ad.inston.ltd^
+||ad.intools.dev^
 ||ad.iwhop.cn^
 ||ad.jorte.com^
 ||ad.leadboltapps.net^
@@ -134,6 +135,7 @@
 ||ads-router-noneu.truecaller.com^
 ||ads-sdk.mattel163.com^
 ||ads-sdk.nianticlabs.com^
+||ads-segment-profile-noneu.truecaller.com^
 ||ads-server.mxplay.com^
 ||ads.ad2iction.com^
 ||ads.adadapted.com^
@@ -309,9 +311,11 @@
 ||athena.api.kwalee.com^
 ||atti.com^
 ||audiomob.com^
+||aveuglediking.com^
 ||avouchuramil.com^
 ||awolhalling.com^
 ||axonix.com^
+||baalshousal.com^
 ||balanicextreat.com^
 ||balzadicyema.com^
 ||bangalaorrhoid.com^
@@ -330,14 +334,17 @@
 ||bdapi-ads.realmemobile.com^
 ||bdapi-in-ads.realmemobile.com^
 ||becuibaduras.shop^
+||bedralhector.com^
 ||begumsbandi.com^
 ||begun.ru^
 ||behacdn.ksmobile.net^
 ||behance.vo.llnwd.net^
+||beijingzhongnanhai.com^
 ||beldameearwort.shop^
 ||bepolite.eu^
 ||bermudaprimero.com^
 ||bet365affiliates.com^
+||betainehoolee.com^
 ||betrad.com^
 ||betsonsport.ru^
 ||beylicbesmile.com^
@@ -366,6 +373,7 @@
 ||bouzechoby.net^
 ||bowersorgamy.com^
 ||bragiteendured.com^
+||brasilschirrs.com^
 ||brazilprocyon.com^
 ||brealtime.com^
 ||broosnighed.com^
@@ -391,6 +399,7 @@
 ||calendar.rodim.ru^
 ||calyxesdefames.com^
 ||canelorets.com^
+||cannerapparel.com^
 ||card.mmos.com^
 ||cashooshut.com^
 ||cashprom.ru^
@@ -427,6 +436,7 @@
 ||cls.vrvm.com^
 ||cmshow.gtimg.cn^
 ||coeliabumpee.com^
+||coesitecubbing.com^
 ||common.duapps.com^
 ||comscore.com^
 ||config.appjolt.com
@@ -436,6 +446,7 @@
 ||content.properm.ru/
 ||contextualadv.com^
 ||corylussunroof.com^
+||cowpencinclis.com^
 ||cp.pushwoosh.com^
 ||cpactions.com^
 ||cpmstar.com^
@@ -455,10 +466,12 @@
 ||ctl.buyt.in^
 ||cuinageaquilid.com^
 ||culpasrampage.com^
+||cuseccharm.com^
 ||cvt-s2.agl005.tech^
 ||d.kugou.com^
 ||d15r06k2ko210l.cloudfront.net^
 ||d19xf4taj229i8.cloudfront.net^
+||d1pk6uu6wqrpce.cloudfront.net^
 ||d239g0z67jcted.cloudfront.net^
 ||d2d6cf2do9znht.cloudfront.net^
 ||d2nrdy2pg3k168.cloudfront.net^
@@ -472,6 +485,7 @@
 ||d9etzk30b05yg.cloudfront.net^
 ||dad-api.dcard.tw^
 ||dampshorral.com^
+||dangledcaffiso.com^
 ||data-optout-service.uca.cloud.unity3d.com^
 ||data2.doodlemobile.com^
 ||dataflow.biliapi.com^
@@ -493,6 +507,7 @@
 ||discepttaked.com^
 ||displayio.cloud^
 ||disqusads.com^
+||diuronteresa.com^
 ||dl-adx.op-mobile.opera.com^
 ||dm.isnssdk.com^
 ||dm.toutiao.com^
@@ -504,6 +519,7 @@
 ||dotomi.com^
 ||downloadshi.b-cdn.net^
 ||drammerxylinid.com^
+||drbbzzs.xyz^
 ||dsp-api.moloco.com^
 ||dspunion.com^
 ||dumedia.ru^
@@ -518,8 +534,11 @@
 ||encystkokil.com^
 ||endleafroaches.com^
 ||engridfanlike.com^
+||enstoolpart.com^
 ||epom.com^
 ||erg.ihclam.cn^
+||ericasfz.com^
+||erodiumvodums.com^
 ||errandsracket.com^
 ||et-code.ru^
 ||etargetnet.com^
@@ -534,6 +553,7 @@
 ||external-api.impression-neo.naver.com^
 ||fabricforrel.com^
 ||fanosbilbos.shop^
+||favourvermix.com^
 ||favusesporret.com^
 ||featured.perfectionholic.com^
 ||feretraconcion.com^
@@ -561,11 +581,11 @@
 ||gameanalysis.appcpi.net^
 ||gamerplay67.space^
 ||ganglyjoannes.shop^
+||garotemuruxi.com^
 ||garrafaspotted.com^
 ||gateway.ttpsdk.info^
 ||gdfp.gifshow.com^
 ||gdl.i9dhjx.ru^
-||gdl.zmqdez.ru^
 ||gdn.bigfishgames.com^
 ||geede.info^
 ||geishastending.com^
@@ -587,6 +607,7 @@
 ||goschenelect.com^
 ||goshare-fleet-ads.s3.ap-southeast-1.amazonaws.com^
 ||greeterstaniel.com^
+||growthmoff.com^
 ||gtdslaters.com^
 ||gts-ads.twistbox.com^
 ||gulgultamarix.com^
@@ -633,6 +654,7 @@
 ||iads.unity3d.com^
 ||iadsdk.apple.com^
 ||iam.datasavannah.com^
+||iberismnuntius.com^
 ||ibexabray.com^
 ||ichannel.isnssdk.com^
 ||idoletsluices.com^
@@ -645,6 +667,7 @@
 ||imprdom.com^
 ||imrworldwide.com^
 ||inconnubammed.shop^
+||indriwhats.com^
 ||indusacta.com^
 ||infolinks.com^
 ||ingamesads.gameloft.com^
@@ -676,6 +699,7 @@
 ||johannatailor.com^
 ||justad.mobi^
 ||justspoisure.com^
+||jybsb9oyss.com^
 ||katsuprosillo.com^
 ||ketchapp.org^
 ||kilehkatrina.top^
@@ -738,6 +762,7 @@
 ||mcoreads.com^
 ||med-api.admost.com^
 ||medialand.ru^
+||medialsgleet.com^
 ||mediation.unity3d.com^
 ||meendocash.com^
 ||merchjalet.top^
@@ -772,10 +797,12 @@
 ||mobpowertech.com^
 ||mofox.com^
 ||moneraltilting.com^
+||mongolsilth.com^
 ||monitor.adcaffe.com^
 ||mopub-win-us-east.bksn.se^
 ||morsalurluch.com^
 ||mossru.com^
+||mp-api.afafb.com^
 ||msg.ettoday.net^
 ||mtag.mman.kr^
 ||mtburn.com^
@@ -788,6 +815,7 @@
 ||mxaserver.mxplay.com^
 ||mxvp-ad-config-prod-1.zenmxapps.com^
 ||mxvp-feature-toggle-prod-1.zenmxapps.com^
+||my-pu.sh^
 ||mydas.mobi^
 ||mystatus.skype.com^
 ||n152adserv.com^
@@ -800,6 +828,7 @@
 ||naverpa-phinf.pstatic.net^
 ||nbcollect.kugou.com^
 ||nbcollectretry.kugou.com^
+||ndrimmers.com^
 ||nearbyad.com^
 ||nend.net^
 ||net.rayjump.com^
@@ -860,6 +889,7 @@
 ||pangolin16.sgsnssdk.com^
 ||panuncave.com^
 ||papaneecorche.com^
+||parazoamirks.com^
 ||partnerearning.com^
 ||pasta.esfile.duapps.com^
 ||pavoshare.com
@@ -919,6 +949,7 @@
 ||push.newscraft.io^
 ||push.reamaze.com^
 ||pushad.metajoy.services^
+||puuush.me^
 ||px.adhigh.net^
 ||qist.me^
 ||qs251.com^
@@ -935,6 +966,7 @@
 ||redrootacuter.com^
 ||redtram.com^
 ||reekiercoupler.com^
+||regodipylon.com^
 ||renteostend.com^
 ||replansquiz.com^
 ||reqde.sooplive.co.kr^
@@ -981,6 +1013,7 @@
 ||sdkv2.imaginationunwired.com^
 ||search.adcaffe.com^
 ||sensors.larkplayerapp.com^
+||serenadislive.com^
 ||servebom.com^
 ||servedby.o2.co.uk^
 ||serveraddr.service.kugou.com^
@@ -1069,6 +1102,7 @@
 ||targetspot.com^
 ||tccbanner.com^
 ||teachscape.vo.llnwd.net^
+||teenerdormer.com^
 ||thecatmachine.com^
 ||thetrafficstat.net^
 ||thimpardas.com^
@@ -1078,6 +1112,8 @@
 ||thummingnats.com^
 ||tiepinshazings.com^
 ||tiktokpangle.us^
+||tinnerydunging.com^
+||tiu6ij9yqn.com^
 ||tivan.naver.com^
 ||tizerclik.com^
 ||tk0x1.com^
@@ -1097,6 +1133,7 @@
 ||tonefuse.com^
 ||topiccaroler.com^
 ||toponadss.com^
+||totoabalyric.com^
 ||towerloftier.com^
 ||tpbid.com^
 ||tpc.googlesyndication.com^
@@ -1127,6 +1164,7 @@
 ||ultraadserver.com^
 ||umbel.com^
 ||umphek.com^
+||uncodedsmoothy.com^
 ||uncotorture.com^
 ||uncrookcurry.com^
 ||ungreeninwrit.com^
@@ -1134,7 +1172,9 @@
 ||unicume.com^
 ||unityads.unity3d.com^
 ||unmeetbookies.com^
+||unpufframpler.com^
 ||unrigscsc.com^
+||upfleeacraze.com^
 ||upsight.com^
 ||urgingslaurae.com^
 ||usekahuna.com^
@@ -1154,6 +1194,7 @@
 ||virgosclavis.com^
 ||vm5apis.com^
 ||vmap.v.ad-generation.jp^
+||vniddlg.xyz^
 ||vod-mplayer.sooplive.co.kr^
 ||vrizead.com^
 ||vserv.mobi^
@@ -1175,6 +1216,7 @@
 ||widget.onlinetv.ru^
 ||widgets.recruitology.com^
 ||widgets.sprinkletxt.com^
+||wiliestreacher.com^
 ||windowylarvule.com^
 ||wolfmandiked.com^
 ||womerasecocide.com^
@@ -1185,19 +1227,25 @@
 ||x.appbaqend.com^
 ||xdrig.com^
 ||ximad.com^
+||yaigy.com^
 ||yamanaisleepry.com^
 ||yandexadexchange.net^
 ||yarningbursal.com^
+||yawnfulharpa.com^
+||yb28b.com^
 ||yc-ads.s3.amazonaws.com^
 ||yieldkit.com^
 ||yieldmo.com^
 ||ykad-data.youku.com^
 ||yllix.com^
 ||yocksniacins.com^
+||yogisgeishas.com^
 ||youmi.net^
 ||yourefoxchop.com^
 ||yovoads.com^
 ||zedo.com^
 ||zgzxs.weathercn.com^
+||zmqdez.ru^
 ||zorbklqyoabvj.top^
+||zygousgauby.com^
 ||zzhengre.com^
