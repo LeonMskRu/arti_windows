@@ -1,31 +1,31 @@
-2025-08-11 03:04:35,449 - INFO - === Brave AdBlock List Merger Initialized ===
-2025-08-11 03:04:35,450 - INFO - Found 4 sources to process.
-2025-08-11 03:04:35,451 - INFO - Attempt 1/3: Downloading https://filters.adtidy.org/extension/ublock/filters/11.txt
-2025-08-11 03:04:35,451 - INFO - Attempt 1/3: Downloading https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
-2025-08-11 03:04:35,452 - INFO - Attempt 1/3: Downloading https://easylist-downloads.adblockplus.org/bitblock.txt
-2025-08-11 03:04:35,454 - INFO - Attempt 1/3: Downloading https://dblw.oisd.nl/basic/
-2025-08-11 03:04:38,788 - INFO - Saved source file: filters_adtidy_org_11.txt.txt
-2025-08-11 03:04:38,843 - INFO - Saved source file: easylist-downloads_adblockplus_org_abp-filters-anti-cv.txt.txt
-2025-08-11 03:04:38,908 - INFO - Saved source file: easylist-downloads_adblockplus_org_bitblock.txt.txt
-2025-08-11 03:04:39,007 - INFO - Saved source file: dblw_oisd_nl_list.txt
-2025-08-11 03:04:39,681 - INFO - 
+2025-08-29 13:53:16,316 - INFO - === Brave AdBlock List Merger Initialized ===
+2025-08-29 13:53:16,316 - INFO - Found 4 sources to process.
+2025-08-29 13:53:16,317 - INFO - Attempt 1/3: Downloading https://filters.adtidy.org/extension/ublock/filters/11.txt
+2025-08-29 13:53:16,318 - INFO - Attempt 1/3: Downloading https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2025-08-29 13:53:16,318 - INFO - Attempt 1/3: Downloading https://easylist-downloads.adblockplus.org/bitblock.txt
+2025-08-29 13:53:16,319 - INFO - Attempt 1/3: Downloading https://dblw.oisd.nl/basic/
+2025-08-29 13:53:23,303 - INFO - Saved source file: filters_adtidy_org_11.txt.txt
+2025-08-29 13:53:23,355 - INFO - Saved source file: easylist-downloads_adblockplus_org_abp-filters-anti-cv.txt.txt
+2025-08-29 13:53:23,416 - INFO - Saved source file: easylist-downloads_adblockplus_org_bitblock.txt.txt
+2025-08-29 13:53:23,510 - INFO - Saved source file: dblw_oisd_nl_list.txt
+2025-08-29 13:53:24,192 - INFO - 
 === Saving Final Lists ===
-2025-08-11 03:04:39,683 - INFO - Successfully saved 1,246 rules to 01_domain_rules.txt
-2025-08-11 03:04:39,696 - INFO - Successfully saved 10,425 rules to 02_css_rules.txt
-2025-08-11 03:04:39,743 - INFO - Successfully saved 49,222 rules to 03_complex_rules.txt
-2025-08-11 03:04:39,744 - INFO - Successfully saved 419 rules to 04_exception_rules.txt
-2025-08-11 03:04:39,746 - INFO - Successfully saved 684 rules to 05_unsupported_brave.txt
-2025-08-11 03:04:39,746 - INFO - Starting duplicate analysis...
-2025-08-11 03:04:40,846 - WARNING - Found 2 duplicate rules. Report saved to result_lists\duplicates_report.txt
-2025-08-11 03:04:40,855 - INFO - 
+2025-08-29 13:53:24,193 - INFO - Successfully saved 1,215 rules to 01_domain_rules.txt
+2025-08-29 13:53:24,201 - INFO - Successfully saved 10,462 rules to 02_css_rules.txt
+2025-08-29 13:53:24,233 - INFO - Successfully saved 49,655 rules to 03_complex_rules.txt
+2025-08-29 13:53:24,234 - INFO - Successfully saved 422 rules to 04_exception_rules.txt
+2025-08-29 13:53:24,235 - INFO - Successfully saved 690 rules to 05_unsupported_brave.txt
+2025-08-29 13:53:24,236 - INFO - Starting duplicate analysis...
+2025-08-29 13:53:25,230 - WARNING - Found 2 duplicate rules. Report saved to result_lists\duplicates_report.txt
+2025-08-29 13:53:25,238 - INFO - 
 === Processing Summary ===
-2025-08-11 03:04:40,855 - INFO - Successfully processed 4 out of 4 sources.
-2025-08-11 03:04:40,855 - INFO - - Domain Rules: 1,246 rules
-2025-08-11 03:04:40,856 - INFO - - Complex Rules: 49,222 rules
-2025-08-11 03:04:40,856 - INFO - - Unsupported Brave: 684 rules
-2025-08-11 03:04:40,856 - INFO - - Css Rules: 10,425 rules
-2025-08-11 03:04:40,856 - INFO - - Exceptions: 419 rules
-2025-08-11 03:04:40,856 - INFO - 
-Total unique rules collected: 61,996
-2025-08-11 03:04:40,856 - INFO - Total execution time: 5.41 seconds.
-2025-08-11 03:04:40,856 - INFO - === Merger Finished ===
+2025-08-29 13:53:25,238 - INFO - Successfully processed 4 out of 4 sources.
+2025-08-29 13:53:25,238 - INFO - - Domain Rules: 1,215 rules
+2025-08-29 13:53:25,238 - INFO - - Complex Rules: 49,655 rules
+2025-08-29 13:53:25,238 - INFO - - Unsupported Brave: 690 rules
+2025-08-29 13:53:25,238 - INFO - - Css Rules: 10,462 rules
+2025-08-29 13:53:25,239 - INFO - - Exceptions: 422 rules
+2025-08-29 13:53:25,239 - INFO - 
+Total unique rules collected: 62,444
+2025-08-29 13:53:25,239 - INFO - Total execution time: 8.92 seconds.
+2025-08-29 13:53:25,239 - INFO - === Merger Finished ===
