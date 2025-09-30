@@ -1,0 +1,123 @@
+# https://tr.zukizuki.org:443/announce
+# Seeders: 1, Leechers: 0, Total peers: 1
+tr.zukizuki.org_443 seed 172.18.0.1:6881 # bad
+
+# http://www.torrentsnipe.info:2701/announce
+# Seeders: 1, Leechers: 0, Total peers: 1
+www.torrentsnipe.info_2701 seed 94.242.168.34:6881 # good
+
+# http://www.genesis-sp.org:2710/announce
+# Seeders: 1, Leechers: 0, Total peers: 1
+www.genesis-sp.org_2710 seed 94.242.168.34:6881 # good
+
+# http://tracker2.dler.org:80/announce
+# Seeders: 1, Leechers: 0, Total peers: 1
+tracker2.dler.org_80 seed 94.242.168.34:6881 # good
+
+# http://tracker.xiaoduola.xyz:6969/announce
+# Seeders: 2, Leechers: 0, Total peers: 1
+tracker.xiaoduola.xyz_6969 seed 94.242.168.34:6881 # good
+
+# http://tracker.sbsub.com:2710/announce
+# Seeders: 3, Leechers: 0, Total peers: 1
+tracker.sbsub.com_2710 seed 94.242.168.34:6881 # good
+
+# http://tracker.vanitycore.co:6969/announce
+# Seeders: 4, Leechers: 0, Total peers: 1
+tracker.vanitycore.co_6969 seed 94.242.168.34:6881 # good
+
+# http://tracker.lintk.me:2710/announce
+# Seeders: 2, Leechers: 0, Total peers: 1
+tracker.lintk.me_2710 seed 94.242.168.34:6881 # good
+
+# http://tracker.moxing.party:6969/announce
+# Seeders: 3, Leechers: 0, Total peers: 1
+tracker.moxing.party_6969 seed 94.242.168.34:6881 # good
+
+# http://tracker.ipv6tracker.org:80/announce
+# Seeders: 5, Leechers: 0, Total peers: 1
+tracker.ipv6tracker.org_80 seed 94.242.168.34:6881 # good
+
+# http://tracker.corpscorp.online:80/announce
+# Seeders: 4, Leechers: 0, Total peers: 1
+tracker.corpscorp.online_80 seed 94.242.168.34:6881 # good
+
+# http://tracker.bz:80/announce
+# Seeders: 5, Leechers: 0, Total peers: 1
+tracker.bz_80 seed 94.242.168.34:6881 # good
+
+# http://tracker.bittor.pw:1337/announce
+# Seeders: 6, Leechers: 0, Total peers: 1
+tracker.bittor.pw_1337 seed 94.242.168.34:6881 # good
+
+# http://tracker.bt-hash.com:80/announce
+# Seeders: 6, Leechers: 0, Total peers: 1
+tracker.bt-hash.com_80 seed 94.242.168.34:6881 # good
+
+# http://t.overflow.biz:6969/announce
+# Seeders: 1, Leechers: 0, Total peers: 1
+t.overflow.biz_6969 seed 94.242.168.34:6881 # good
+
+# http://tracker.23794.top:6969/announce
+# Seeders: 1, Leechers: 0, Total peers: 1
+tracker.23794.top_6969 seed 94.242.168.34:6881 # good
+
+# http://shubt.net:2710/announce
+# Seeders: 6, Leechers: 0, Total peers: 1
+shubt.net_2710 seed 94.242.168.34:6881 # good
+
+# http://share.hkg-fansub.info:80/announce.php
+# Seeders: 8, Leechers: 0, Total peers: 1
+share.hkg-fansub.info_80 seed 94.242.168.34:6881 # good
+
+# http://servandroidkino.ru:80/announce
+# Seeders: 9, Leechers: 0, Total peers: 1
+servandroidkino.ru_80 seed 94.242.168.34:6881 # good
+
+# http://retracker.spark-rostov.ru:80/announce
+# Seeders: 8, Leechers: 0, Total peers: 1
+retracker.spark-rostov.ru_80 seed 94.242.168.34:6881 # good
+
+# http://seeders-paradise.org:80/announce
+# Seeders: 10, Leechers: 0, Total peers: 1
+seeders-paradise.org_80 seed 94.242.168.34:6881 # good
+
+# http://p4p.arenabg.com:1337/announce
+# Seeders: 1, Leechers: 0, Total peers: 1
+p4p.arenabg.com_1337 seed 94.242.168.34:6881 # good
+
+# http://ipv4.rer.lol:2710/announce
+# Seeders: 1, Leechers: 0, Total peers: 1
+ipv4.rer.lol_2710 seed 94.242.168.34:6881 # good
+
+# http://open.trackerlist.xyz:80/announce
+# Seeders: 9, Leechers: 0, Total peers: 1
+open.trackerlist.xyz_80 seed 94.242.168.34:6881 # good
+
+# http://buny.uk:6969/announce
+# Seeders: 10, Leechers: 0, Total peers: 1
+buny.uk_6969 seed 94.242.168.34:6881 # good
+
+# http://bittorrent-tracker.e-n-c-r-y-p-t.net:1337/announce
+# Seeders: 1, Leechers: 0, Total peers: 1
+bittorrent-tracker.e-n-c-r-y-p-t.net_1337 seed 94.242.168.34:6881 # good
+
+# http://0d.kebhana.mx:443/announce
+# Seeders: 11, Leechers: 0, Total peers: 1
+0d.kebhana.mx_443 seed 94.242.168.34:6881 # good
+
+# http://bt.poletracker.org:2710/announce
+# Seeders: 11, Leechers: 0, Total peers: 1
+bt.poletracker.org_2710 seed 94.242.168.34:6881 # good
+
+# http://tracker1.itzmx.com:8080/announce
+# Seeders: 1, Leechers: 0, Total peers: 1
+tracker1.itzmx.com_8080 seed 94.242.168.34:6881 # good
+
+# http://tracker.valete.tf:9999/announce
+# Seeders: 1, Leechers: 0, Total peers: 1
+tracker.valete.tf_9999 seed 94.242.168.34:6881 # good
+
+# http://0123456789nonexistent.com:80/announce
+# Seeders: 13, Leechers: 0, Total peers: 1
+0123456789nonexistent.com_80 seed 94.242.168.34:6881 # good
