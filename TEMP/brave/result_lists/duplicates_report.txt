@@ -1,12 +1,12 @@
 === Duplicate Rules Report ===
-Generated on: 2025-08-29 13:53:25 UTC
+Generated on: 2025-10-02 05:08:38 UTC
 Total unique rules with duplicates: 2
 
-Rule: mail.ru#@#.mailru-visibility-check (Found in 2 files)
+Rule: mail.ru#@#.tgb-wrapper (Found in 2 files)
   - easylist-downloads_adblockplus_org_abp-filters-anti-cv.txt.txt
   - easylist-downloads_adblockplus_org_bitblock.txt.txt
 
-Rule: mail.ru#@#.tgb-wrapper (Found in 2 files)
+Rule: mail.ru#@#.mailru-visibility-check (Found in 2 files)
   - easylist-downloads_adblockplus_org_abp-filters-anti-cv.txt.txt
   - easylist-downloads_adblockplus_org_bitblock.txt.txt
 
