@@ -2,7 +2,7 @@
 2a1:620:15:c::/64
 # https://bgp.he.net/AS12389#_bogons
 
-2001:470::/32
+# 2001:470::/32
 # Hurricane Electric
 
 5ef2::/16
