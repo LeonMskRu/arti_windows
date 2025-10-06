@@ -26,3 +26,4 @@ public.tracker.vraphim.com
 tracker.opentrackr.org
 t.overflow.biz
 tracker1.bt.moack.co.kr
+torrent.tracker.durukanbal.com
