@@ -5,6 +5,9 @@
 # 2001:470::/32
 # Hurricane Electric
 
+ac13::/16
+# ?
+
 5ef2::/16
 # fake IPv6
 
@@ -17,3 +20,14 @@ fe80::/10
 
 ff00::/8
 # multicast
+
+2001:db8::/32
+
+::ffff:0:0/96
+#      (IPv4-mapped)
+
+2001:0::/32
+#        (Teredo tunneling)
+
+2002::/16
+#          (6to4 tunneling)
