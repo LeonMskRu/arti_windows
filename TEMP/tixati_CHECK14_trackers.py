@@ -166,7 +166,7 @@ async def get_external_ips(session):
         'http://ipv6.icanhazip.com',
         'http://v6.ident.me',
         'http://ipv6.seeip.org',
-        'http://checkipv6.dyndns.com'
+        'http://ipv6.2ip.io'
     ]
     
     external_ipv4 = None
@@ -240,18 +240,27 @@ async def get_external_ips(session):
     return external_ipv4, external_ipv6_networks
 
 # -----------------------
-# Filter trackers with bad domains and blocklisted IPs
+# Filter trackers with bad domains and blocklisted IPs + remove duplicates
 # -----------------------
 async def filter_bad_trackers(trackers, bad_domains, session):
-    """Filter trackers by bad domains and blocklisted IPs"""
+    """Filter trackers by bad domains and blocklisted IPs, and remove duplicates"""
     if not bad_domains and not BAD_NETWORKS:
-        return trackers
+        # Still remove duplicates even if no bad domains/blocklists
+        return remove_duplicate_trackers(trackers)
     
     filtered = []
+    seen_trackers = set()
     semaphore = asyncio.Semaphore(10)  # Limit concurrent DNS lookups
     
     async def check_tracker(tracker):
         try:
+            # Check for duplicates first
+            tracker_key = get_tracker_key(tracker)
+            if tracker_key in seen_trackers:
+                print(f"Skipping duplicate tracker: {tracker}")
+                return None
+            seen_trackers.add(tracker_key)
+            
             domain = urlparse(tracker).hostname
             if not domain:
                 return tracker  # Keep trackers without valid hostname for now
@@ -287,8 +296,49 @@ async def filter_bad_trackers(trackers, bad_domains, session):
     results = await asyncio.gather(*tasks)
     
     filtered = [r for r in results if r is not None]
-    print(f"Filtered {len(trackers) - len(filtered)} bad trackers")
+    print(f"Filtered {len(trackers) - len(filtered)} bad/duplicate trackers")
     return filtered
+
+def get_tracker_key(tracker_url):
+    """Generate unique key for tracker based on protocol, domain, and port"""
+    try:
+        parsed = urlparse(tracker_url)
+        scheme = parsed.scheme.lower()
+        hostname = parsed.hostname.lower() if parsed.hostname else ""
+        port = parsed.port
+        
+        # Set default ports if not specified
+        if port is None:
+            if scheme == 'http':
+                port = 80
+            elif scheme == 'https':
+                port = 443
+            elif scheme == 'udp':
+                port = 80  # Default UDP port
+        
+        return f"{scheme}://{hostname}:{port}"
+    except Exception:
+        # Fallback to full URL if parsing fails
+        return tracker_url.lower()
+
+def remove_duplicate_trackers(trackers):
+    """Remove duplicate trackers based on protocol, domain, and port"""
+    seen = set()
+    unique_trackers = []
+    duplicates_removed = 0
+    
+    for tracker in trackers:
+        key = get_tracker_key(tracker)
+        if key not in seen:
+            seen.add(key)
+            unique_trackers.append(tracker)
+        else:
+            duplicates_removed += 1
+    
+    if duplicates_removed > 0:
+        print(f"Removed {duplicates_removed} duplicate trackers")
+    
+    return unique_trackers
 
 # -----------------------
 # Peer consistency
@@ -366,6 +416,11 @@ def is_bad_ip(ip):
             # TEST-NET-3 203.0.113.0/24
             if ipaddress.IPv4Address('203.0.113.0') <= addr <= ipaddress.IPv4Address('203.0.113.255'):
                 return True
+# Cloudflare Warp IPv4 ranges
+            if ipaddress.IPv4Address('104.28.198.0') <= addr <= ipaddress.IPv4Address('104.28.198.255'):
+                return True
+            if ipaddress.IPv4Address('172.71.184.0') <= addr <= ipaddress.IPv4Address('172.71.184.255'):
+                return True
         
         # IPv6 specific bogons
         if addr.version == 6:
@@ -396,7 +451,13 @@ def is_bad_ip(ip):
             # Discard-only (100::/64)
             if ipaddress.IPv6Address('100::') <= addr <= ipaddress.IPv6Address('100::ffff:ffff:ffff:ffff'):
                 return True
-        
+            # Cloudflare Warp IPv6 ranges
+            if ipaddress.IPv6Address('2a09:bac5::') <= addr <= ipaddress.IPv6Address('2a09:bac5:ffff:ffff:ffff:ffff:ffff:ffff'):
+                return True
+            # 2a0a:e5c0
+            if ipaddress.IPv6Address('2a0a:e5c0::') <= addr <= ipaddress.IPv6Address('2a0a:e5c0:ffff:ffff:ffff:ffff:ffff:ffff'):
+                return True
+
         # Check blocklist
         if ip_in_blocklist(ip):
             return True
@@ -517,7 +578,7 @@ def is_bittorrent_peer(ip, port, info_hash, timeout=3):
         return False
 
 # -----------------------
-# Load trackers from file
+# Load trackers from file (with duplicate removal)
 # -----------------------
 def load_trackers(path):
     trackers = []
@@ -526,7 +587,11 @@ def load_trackers(path):
             line = line.strip()
             if line and not line.startswith('#'):
                 trackers.append(line)
-    return trackers
+    
+    # Remove duplicates during loading
+    unique_trackers = remove_duplicate_trackers(trackers)
+    print(f"Loaded {len(unique_trackers)} unique trackers from {path} (removed {len(trackers) - len(unique_trackers)} duplicates)")
+    return unique_trackers
 
 # -----------------------
 # Parse peers from tracker response
@@ -586,12 +651,131 @@ def parse_peers_from_response(info):
     return peers
 
 # -----------------------
-# Announce request
+# UDP Tracker Protocol Implementation
+# -----------------------
+async def announce_udp_tracker(tracker, info_hash, timeout=10):
+    """Announce to UDP tracker"""
+    start = time.time()
+    try:
+        parsed = urlparse(tracker)
+        hostname = parsed.hostname
+        port = parsed.port or 80
+        
+        if not hostname:
+            return tracker, "ERROR", "invalid_hostname", 0, 0, [], round(time.time()-start,2), []
+        
+        # Resolve hostname
+        addrinfo = await asyncio.get_event_loop().getaddrinfo(
+            hostname, port, family=socket.AF_UNSPEC, type=socket.SOCK_DGRAM
+        )
+        if not addrinfo:
+            return tracker, "ERROR", "dns_resolution_failed", 0, 0, [], round(time.time()-start,2), []
+        
+        family, socktype, proto, canonname, sockaddr = addrinfo[0]
+        
+        # Create UDP socket
+        sock = socket.socket(family, socket.SOCK_DGRAM)
+        sock.settimeout(timeout)
+        
+        # Generate transaction ID
+        transaction_id = random.randint(0, 0x7FFFFFFF)
+        
+        # Connect request
+        protocol_id = 0x41727101980  # Magic constant
+        connect_request = struct.pack("!QII", protocol_id, 0, transaction_id)
+        
+        # Send connect request
+        sock.sendto(connect_request, sockaddr)
+        
+        # Receive connect response
+        connect_response = sock.recv(16)
+        if len(connect_response) < 16:
+            return tracker, "ERROR", "udp_connect_response_too_short", 0, 0, [], round(time.time()-start,2), []
+        
+        action, recv_transaction_id, connection_id = struct.unpack("!IIQ", connect_response)
+        
+        if action != 0 or recv_transaction_id != transaction_id:
+            return tracker, "ERROR", "udp_connect_failed", 0, 0, [], round(time.time()-start,2), []
+        
+        # Prepare announce request
+        peer_id = '-PC0001-' + ''.join(random.choices(string.ascii_letters + string.digits, k=12))
+        peer_id_bytes = peer_id.encode('ascii')
+        
+        downloaded = 0
+        left = 0
+        uploaded = 0
+        event = 2  # started
+        ip = 0
+        key = random.randint(0, 0x7FFFFFFF)
+        num_want = -1  # -1 means default
+        announce_port = 6881
+        
+        announce_request = struct.pack("!QII20s20sQQQIIIiH",
+            connection_id,  # connection_id
+            1,             # action (announce)
+            transaction_id, # transaction_id
+            info_hash,      # info_hash
+            peer_id_bytes,  # peer_id
+            downloaded,     # downloaded
+            left,           # left
+            uploaded,       # uploaded
+            event,          # event
+            ip,             # ip
+            key,            # key
+            num_want,       # num_want
+            announce_port   # port
+        )
+        
+        # Send announce request
+        sock.sendto(announce_request, sockaddr)
+        
+        # Receive announce response
+        announce_response = sock.recv(4096)
+        if len(announce_response) < 20:
+            return tracker, "ERROR", "udp_announce_response_too_short", 0, 0, [], round(time.time()-start,2), []
+        
+        # Parse announce response
+        action_resp, transaction_id_resp, interval, leechers, seeders = struct.unpack("!IIIII", announce_response[:20])
+        
+        if action_resp != 1 or transaction_id_resp != transaction_id:
+            return tracker, "ERROR", "udp_announce_failed", 0, 0, [], round(time.time()-start,2), []
+        
+        # Parse peers from compact format
+        peers_data = announce_response[20:]
+        peers = []
+        
+        # IPv4 peers (6 bytes per peer: 4 for IP, 2 for port)
+        if len(peers_data) % 6 == 0:
+            for i in range(0, len(peers_data), 6):
+                ip_bytes = peers_data[i:i+4]
+                port_bytes = peers_data[i+4:i+6]
+                ip = socket.inet_ntoa(ip_bytes)
+                port = struct.unpack(">H", port_bytes)[0]
+                peers.append((ip, port))
+        
+        sock.close()
+        return tracker, "OK", "", seeders, leechers, peers, round(time.time()-start,2), peers
+        
+    except socket.timeout:
+        return tracker, "ERROR", "udp_timeout", 0, 0, [], round(time.time()-start,2), []
+    except Exception as e:
+        return tracker, "ERROR", f"udp_error: {str(e)}", 0, 0, [], round(time.time()-start,2), []
+
+# -----------------------
+# Announce request (HTTP and UDP)
 # -----------------------
 async def announce_tracker(session, tracker, info_hash):
+    """Announce to tracker (HTTP/HTTPS/UDP)"""
     parsed = urlparse(tracker)
+    
+    # Handle UDP trackers
+    if parsed.scheme == "udp":
+        return await announce_udp_tracker(tracker, info_hash)
+    
+    # Handle HTTP/HTTPS trackers (existing code)
     if parsed.scheme not in ("http", "https"):
         return tracker, "ERROR", "unsupported_scheme", 0, 0, [], 0, []
+    
     start = time.time()
     try:
         peer_id = '-PC0001-' + ''.join(random.choices(string.ascii_letters + string.digits, k=12))
@@ -691,17 +875,22 @@ async def worker(name, queue, session, info_hash, results, max_handshake_checks=
         queue.task_done()
 
 # -----------------------
-# Save files with NEW logic for WORK and GOOD
+# Save files with NEW logic for WORK and GOOD (with duplicate removal and --bad option)
 # -----------------------
-def save_additional_files(results, base_path, common_ips, external_ipv4, external_ipv6_networks):
+# -----------------------
+# Save files with CORRECTED logic for WORK and GOOD
+# -----------------------
+def save_additional_files(results, base_path, common_ips, external_ipv4, external_ipv6_networks, bad_flag=False):
     """
-    NEW LOGIC:
-    - WORK: 
-        1. статус OK
-        2. НЕТ external_ip:6881 (плохой) для IPv4 и IPv6
-        3. НЕТ других плохих IP (bogon/private/blocklisted)
-        4. МОЖЕТ БЫТЬ external_ip с портом != 6881 (рабочий) для IPv4 и IPv6
-    - GOOD: любой трекер со статусом OK и хотя бы одним не-bogon и не-external IP
+    CORRECTED LOGIC:
+    
+    - Without --bad (default):
+        WORK: статус OK + НЕТ ЛЮБЫХ плохих IP (включая external_ip:6881 и другие плохие IP)
+        GOOD: статус OK + есть хотя бы один хороший IP + НЕТ ЛЮБЫХ плохих IP
+    
+    - With --bad:
+        WORK: статус OK + единственный возможный "плохой" IP - это external_ip:6881 (но других плохих IP НЕТ)
+        GOOD: статус OK + есть хотя бы один хороший IP + единственный возможный "плохой" IP - это external_ip:6881 (но других плохих IP НЕТ)
     """
     work_trackers = []
     good_trackers = []
@@ -712,22 +901,55 @@ def save_additional_files(results, base_path, common_ips, external_ipv4, externa
 
         all_peers = r["all_peer_ips"] or []
         
-        # Проверяем наличие плохих IP (external_ip:6881 или другие плохие IP)
+        # Проверяем наличие любых плохих IP
+        has_any_bad_ips = any(is_bad_ip(ip) for ip, port in all_peers)
         has_bad_external_ip = any(is_bad_external_ip_peer(ip, port, external_ipv4, external_ipv6_networks) for ip, port in all_peers)
-        has_other_bad_ips = any(is_bad_ip(ip) for ip, port in all_peers)
         
-        # WORK условие: нет external_ip:6881 И нет других плохих IP
-        if not has_bad_external_ip and not has_other_bad_ips:
-            work_trackers.append(r["tracker"])
-
-        # GOOD условие: есть хотя бы один не-bogon и не-external IP
-        good_peer_found = False
+        # Считаем количество разных типов плохих IP
+        bad_ip_types = set()
         for ip, port in all_peers:
-            if (not is_bad_ip(ip)) and not is_our_external_ip(ip, external_ipv4, external_ipv6_networks):
-                good_peer_found = True
-                break
-        if good_peer_found:
-            good_trackers.append(r["tracker"])
+            if is_bad_ip(ip):
+                bad_ip_types.add("other_bad")
+            if is_bad_external_ip_peer(ip, port, external_ipv4, external_ipv6_networks):
+                bad_ip_types.add("myip_6881")
+        
+        if bad_flag:
+            # С опцией --bad: разрешаем ТОЛЬКО если есть ТОЛЬКО myip:6881 как плохой IP и нет других плохих IP
+            has_only_myip_6881_as_bad = (bad_ip_types == {"myip_6881"}) or (bad_ip_types == set())
+            has_other_bad_ips = "other_bad" in bad_ip_types
+            
+            # WORK условие с --bad: нет других плохих IP (разрешен только myip:6881)
+            if not has_other_bad_ips:
+                work_trackers.append(r["tracker"])
+
+            # GOOD условие с --bad: есть хотя бы один не-bogon IP И нет других плохих IP
+            good_peer_found = False
+            for ip, port in all_peers:
+                if not is_bad_ip(ip):  # любой IP, который не bogon/private/blocklisted
+                    good_peer_found = True
+                    break
+            if good_peer_found and not has_other_bad_ips:
+                good_trackers.append(r["tracker"])
+        else:
+            # Без --bad: СТРОГАЯ логика - НИКАКИХ плохих IP
+            has_no_bad_ips_at_all = len(bad_ip_types) == 0
+            
+            # WORK условие: нет ЛЮБЫХ плохих IP
+            if has_no_bad_ips_at_all:
+                work_trackers.append(r["tracker"])
+
+            # GOOD условие: есть хотя бы один хороший IP И нет ЛЮБЫХ плохих IP
+            good_peer_found = False
+            for ip, port in all_peers:
+                if not is_bad_ip(ip) and not is_our_external_ip(ip, external_ipv4, external_ipv6_networks):
+                    good_peer_found = True
+                    break
+            if good_peer_found and has_no_bad_ips_at_all:
+                good_trackers.append(r["tracker"])
+
+    # Remove duplicates from work and good trackers
+    work_trackers = remove_duplicate_trackers(work_trackers)
+    good_trackers = remove_duplicate_trackers(good_trackers)
 
     # Write files
     with open(f"{base_path}_WORK.txt", "w", encoding="utf-8") as f:
@@ -743,7 +965,7 @@ def save_additional_files(results, base_path, common_ips, external_ipv4, externa
     return work_trackers, good_trackers
 
 # -----------------------
-# Save IP detail files
+# Save IP detail files (including new BAD_IP.txt)
 # -----------------------
 def save_detailed_ip_files(results, base_path, common_ips, external_ipv4, external_ipv6_networks):
     all_ip_data = []
@@ -797,17 +1019,75 @@ def save_detailed_ip_files(results, base_path, common_ips, external_ipv4, extern
             f.write("\n".join(good_ip_data))
         print(f"Saved good IP data to {base_path}_GOOD_IP.txt")
 
+    # NEW: Save BAD IP file
+    bad_ip_data = []
+    for result in results:
+        if result["status"] == "OK" and result["all_peer_ips"]:
+            tracker_name = urlparse(result["tracker"]).netloc.replace(':', '_')
+            bad_ips_in_tracker = []
+            
+            for ip, port in result["all_peer_ips"]:
+                reasons = []
+                if is_bad_ip(ip):
+                    reasons.append("bogon/private/blocklisted")
+                if is_bad_external_ip_peer(ip, port, external_ipv4, external_ipv6_networks):
+                    reasons.append("bad_external_6881")
+                
+                if reasons:
+                    bad_ips_in_tracker.append((ip, port, reasons))
+            
+            if bad_ips_in_tracker:
+                bad_ip_data.append(f"# {result['tracker']}")
+                bad_ip_data.append(f"# Seeders: {result['seeders']}, Leechers: {result['leechers']}, Total peers: {result['total_peers']}, Bad peers: {len(bad_ips_in_tracker)}")
+                
+                for ip, port, reasons in bad_ips_in_tracker:
+                    reason_str = ", ".join(reasons)
+                    bad_ip_data.append(f"{tracker_name} {ip}:{port} # {reason_str}")
+                bad_ip_data.append("")
+    
+    if bad_ip_data:
+        with open(f"{base_path}_BAD_IP.txt", "w", encoding="utf-8") as f:
+            f.write("\n".join(bad_ip_data))
+        print(f"Saved bad IP data to {base_path}_BAD_IP.txt")
+
 # -----------------------
 # Save statistics
 # -----------------------
-def save_statistics(results, base_path, external_ipv4, external_ipv6_networks, common_ips):
+def save_statistics(results, base_path, external_ipv4, external_ipv6_networks, common_ips, bad_flag=False):
     stats = []
     stats.append("Tracker Statistics")
     stats.append("=" * 50)
+    
+    if bad_flag:
+        stats.append("MODE: --bad enabled (allowing trackers with our external IP even with port 6881)")
+    else:
+        stats.append("MODE: Standard (excluding trackers with our external IP and port 6881)")
+    stats.append("")
+    
     total = len(results)
     successful = len([r for r in results if r['status'] == 'OK'])
 
-    # NEW criteria
+    # Count trackers by protocol
+    http_trackers = len([r for r in results if r['tracker'].startswith(('http:', 'https:'))])
+    udp_trackers = len([r for r in results if r['tracker'].startswith('udp:')])
+    successful_http = len([r for r in results if r['status'] == 'OK' and r['tracker'].startswith(('http:', 'https:'))])
+    successful_udp = len([r for r in results if r['status'] == 'OK' and r['tracker'].startswith('udp:')])
+
+    # Count unique trackers (after duplicate removal)
+    unique_tracker_keys = set()
+    for r in results:
+        unique_tracker_keys.add(get_tracker_key(r['tracker']))
+    
+    stats.append(f"Total trackers checked: {total}")
+    stats.append(f"Unique trackers (by protocol-domain-port): {len(unique_tracker_keys)}")
+    stats.append(f"  - HTTP/HTTPS trackers: {http_trackers}")
+    stats.append(f"  - UDP trackers: {udp_trackers}")
+    stats.append(f"Successful responses: {successful}")
+    stats.append(f"  - HTTP/HTTPS successful: {successful_http}")
+    stats.append(f"  - UDP successful: {successful_udp}")
+    stats.append("")
+
+    # NEW criteria with --bad option
     work_new = 0
     good_new = 0
     bad_external_ip_count = 0
@@ -826,19 +1106,38 @@ def save_statistics(results, base_path, external_ipv4, external_ipv6_networks, c
         if has_good_external_ip:
             good_external_ip_count += 1
             
-        # NEW WORK CONDITION
-        if not has_bad_external_ip and not has_other_bad_ips:
-            work_new += 1
+        if bad_flag:
+            # NEW WORK CONDITION with --bad
+            if not has_other_bad_ips:
+                work_new += 1
             
-        if any((not is_bad_ip(ip)) and not is_our_external_ip(ip, external_ipv4, external_ipv6_networks) for ip, _ in peers):
-            good_new += 1
+            # NEW GOOD CONDITION with --bad
+            good_peer_found = False
+            for ip, port in peers:
+                if not is_bad_ip(ip):
+                    good_peer_found = True
+                    break
+            if good_peer_found:
+                good_new += 1
+        else:
+            # NEW WORK CONDITION without --bad
+            if not has_bad_external_ip and not has_other_bad_ips:
+                work_new += 1
+            
+            # NEW GOOD CONDITION without --bad
+            if any((not is_bad_ip(ip)) and not is_our_external_ip(ip, external_ipv4, external_ipv6_networks) for ip, _ in peers):
+                good_new += 1
 
-    stats.append(f"Total trackers checked: {total}")
-    stats.append(f"Successful responses: {successful}")
-    stats.append("")
-    stats.append("NEW CRITERIA:")
-    stats.append(f"Work trackers (no bad external IP 6881, no other bad IPs): {work_new}")
-    stats.append(f"Good trackers (have at least one non-bogon non-external IP): {good_new}")
+    stats.append("CRITERIA SUMMARY:")
+    if bad_flag:
+        stats.append("WORK trackers (no other bad IPs, our external IP with port 6881 allowed):")
+        stats.append("GOOD trackers (have at least one non-bogon IP, our external IP allowed):")
+    else:
+        stats.append("WORK trackers (no bad external IP 6881, no other bad IPs):")
+        stats.append("GOOD trackers (have at least one non-bogon non-external IP):")
+    
+    stats.append(f"Work trackers: {work_new}")
+    stats.append(f"Good trackers: {good_new}")
     stats.append(f"Trackers with bad external IP (port 6881): {bad_external_ip_count}")
     stats.append(f"Trackers with good external IP (port != 6881): {good_external_ip_count}")
     stats.append("")
@@ -908,7 +1207,7 @@ async def main_async(args):
         for network in external_ipv6_networks:
             print(f"  - {network}")
 
-        # Filter trackers (domains + IP blocklist)
+        # Filter trackers (domains + IP blocklist + duplicates)
         print("Filtering trackers...")
         trackers = await filter_bad_trackers(trackers, bad_domains, session)
         
@@ -940,28 +1239,48 @@ async def main_async(args):
             writer.writerow(row)
 
     base_path = os.path.splitext(args.out)[0]
-    save_additional_files(results, base_path, common_ips, external_ipv4, external_ipv6_networks)
+    save_additional_files(results, base_path, common_ips, external_ipv4, external_ipv6_networks, args.bad)
     save_detailed_ip_files(results, base_path, common_ips, external_ipv4, external_ipv6_networks)
-    save_statistics(results, base_path, external_ipv4, external_ipv6_networks, common_ips)
+    save_statistics(results, base_path, external_ipv4, external_ipv6_networks, common_ips, args.bad)
 
     print(f"\nMain results saved to {args.out}")
     print(f"Total trackers checked: {len(results)}")
+    
+    # Count unique trackers
+    unique_tracker_keys = set()
+    for r in results:
+        unique_tracker_keys.add(get_tracker_key(r['tracker']))
+    print(f"Unique trackers (by protocol-domain-port): {len(unique_tracker_keys)}")
+    
     successful = len([r for r in results if r['status'] == 'OK'])
     print(f"Successful: {successful}")
+    
+    # Count by protocol
+    http_trackers = len([r for r in results if r['tracker'].startswith(('http:', 'https:'))])
+    udp_trackers = len([r for r in results if r['tracker'].startswith('udp:')])
+    successful_http = len([r for r in results if r['status'] == 'OK' and r['tracker'].startswith(('http:', 'https:'))])
+    successful_udp = len([r for r in results if r['status'] == 'OK' and r['tracker'].startswith('udp:')])
+    
+    print(f"HTTP/HTTPS trackers: {http_trackers} (successful: {successful_http})")
+    print(f"UDP trackers: {udp_trackers} (successful: {successful_udp})")
     print(f"External IPv4: {external_ipv4}")
     print(f"External IPv6 networks (/64): {len(external_ipv6_networks)}")
     print(f"Blocklist networks: {len(BAD_NETWORKS)}")
+    
+    if args.bad:
+        print("MODE: --bad enabled (trackers with our external IP even with port 6881 are included in WORK and GOOD)")
 
 # -----------------------
 # CLI
 # -----------------------
 def main():
-    parser = argparse.ArgumentParser(description="Проверка HTTP(S) трекеров на fake/bogon сиды/пиры с iblocklist фильтрацией")
+    parser = argparse.ArgumentParser(description="Проверка HTTP(S)/UDP трекеров на fake/bogon сиды/пиры с iblocklist фильтрацией и удалением дубликатов")
     parser.add_argument("--trackers", default="trackers.txt", help="Файл со списком трекеров")
     parser.add_argument("--concurrency", type=int, default=4, help="Максимум одновременных запросов")
     parser.add_argument("--infohash", required=True, help="Magnet или hex/base32 infohash")
     parser.add_argument("--out", default="trackers_check.csv", help="CSV файл для вывода")
     parser.add_argument("--max-handshakes", type=int, default=5, help="Максимум проверок handshake на трекер")
+    parser.add_argument("--bad", action="store_true", help="Включить трекеры с нашим внешним IP (даже с портом 6881) в WORK и GOOD файлы")
     args = parser.parse_args()
 
     if os.name == 'nt':
