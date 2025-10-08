@@ -1,7 +1,7 @@
 ! Title: Brave Optimized List - Unsupported Brave Rules
 ! Description: A merged and optimized list of unsupported brave rules.
-! Last Updated: 2025-10-02 05:08:37 UTC
-! Total Rules: 710
+! Last Updated: 2025-10-08 16:57:18 UTC
+! Total Rules: 713
 
 *$popup,third-party,domain=gogoanimes.fi|hdtoday.la|hdtoday.tv|hdtodayz.to|hollymoviehd.cc|kimcartoon.*|kisscartoon.com|mreader.co|nosteam.ro|strtapeadblock.me|strtapeadblocker.art|theflixertv.to
 0352.ua#?#.row > div.card-wrapper:has(> amp-ad)
@@ -156,6 +156,7 @@ e1.ru#?##app > div[class] > div[class]:has(> div[class] > a + div > svg[width="6
 echofm.online###echo-main > div:has(> div[id^="div-gpt-"])
 eda.ru#?#section > div[class^="emotion-"]:has(> div[class^="emotion-"] > span:contains(Куда доставить продукты?))
 effilee.de##.relative:has(> div[data-sticky-ad-offset])
+ekonomist.com.tr##div.display-mobile:has(> div.empower-ad)
 elespectador.com#?#.swiper-slide:has(> div.Widget-fullHeight > div[id^="Personalizado"])
 elle.com,elledecor.com,runnersworld.com#?#div[class*="css-"]:has(> div.ad-container)
 entabe.jp#?#.related-li:has(> script[src^="https://pagead2.googlesyndication.com"])
@@ -175,6 +176,7 @@ finance.yahoo.co.jp#?#header + main > div[id="app"] ~ div[class]:has(> div[id^="
 finance.yahoo.co.jp#?#header + main > div[id="app"] ~ div[class]:has(> div[id^="ad"]) + div[class]
 finance.yahoo.co.jp#?#main > div[class]:has(> div[id^="ad_"])
 firstpost.com##.mnvid-wrp > div.mn-rhs:has(> div.text-center > div[style] > div.myad)
+fiverr.com##div.gig-card-layout:has(img[src*="OZFqhkpkj4rzV28c.png"], img[src*="QKYiNoKD17FwRIF5.png"], img[src*="aiT2m7sbl2hXXOa6.png"], img[src*="cQnTumUw98ivhYML.png"])
 fontanka.ru###onesignal-promt-target div[class]:has(> div[class] >#adv_mob_hb-top)
 fontanka.ru##.gridFullMobile > div:has(div.flickity-enabled a[href*="/?erid="])
 fontanka.ru#?#footer div:nth-child(5):-abp-has([href^="https://vk.com/fontanka"])
@@ -270,6 +272,7 @@ kino-teatr.ru#?#.content_block > div[align="center"]:has(> div[align="center"] >
 koko.by#?#.row-footer-top > div:nth-child(-n+2):-abp-has(> div [class*="icon"] svg)
 komonews-com.cdn.ampproject.org##div[data-testid="story-body"] div[style]:has(> amp-ad)
 kotaku.com##p ~ div[class^="sc-"][class*=" "]:not(:has(> *)):has(+ .fnnahv)
+ksta.de##.dm-grid ~ .fixed:has(> #sticky-label)
 ladybanana.co.uk##.infinite-item > ul > li:has(> div[id^="t"]:empty)
 ladybanana.co.uk##.infinite-item > ul > li:has(> ins[data-zoneid])
 lalluram.com##.entry-content > figure.wp-block-image:has(> img[src^="https://lalluram.com/"][src*="/WhatsApp-Image-"])
@@ -674,6 +677,8 @@ xtrend.nikkei.com#?#.l-section:has(> div.side-feature-banner-box)
 ya.ru,yandex.*##.content__left > ul#search-result > li:has(> div.organic > div.OrganicTitle > a[href^="https://ya.ru/search/_crpd/"])
 ya.ru,yandex.*#$?##search-result > li:has(span:contains(/[PРeеkклaаmмaа]{7}/)) { remove: true; }
 ya.ru,yandex.*#?#.SearchBlock:has(> div.DirectStripe)
+yabancidiziio.com###router-view > div:not([class]) > div.flex:has(> div[class] > div.w-full > ad)
+yabancidiziio.com##.fixed:has(> a[href^="https://shorteleven.online/"])
 yahoo.com#?##YDC-Stream > ul.Wow\(bw\) > .js-stream-content > .controller:has(> [class*="smartphone_"] > a[href^="https://beap.gemini.yahoo.com/"][rel="noopener noreferrer"])
 yahoo.com#?##YDC-Stream > ul.Wow\(bw\) > .js-stream-content:has(> [class*="smartphone_"] > h3 > a[href^="https://b.gemini.yahoo.com/"][rel*="noopener noreferrer"])
 yahoo.com#?##YDC-Stream > ul.Wow\(bw\) > .js-stream-content:has(> div[class^="Pos"] > div[class*="--"] > .cluster-ad-container)
@@ -698,13 +703,11 @@ zozovideo.com##.cactus-single-content > div.content-top-sidebar-wrap:has(> .zozo
 zx-pk.ru###sidebar > li:nth-child(-n+2)
 ||alxanosoft.com/rk/$redirect=noop.txt,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||applift.com^$redirect=noop.txt,image,media,subdocument,stylesheet,script,xmlhttprequest,other
-||clkfeed.com^$popup
 ||go.*.com/apu.php$redirect=noop.txt,domain=movies.is,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||hoiplay.com/tm_popup.html$popup
 ||kemono.su^$csp=script-src-attr 'none'
 ||s.yimg.com/av/curveball/ads/pr/$redirect=noop.txt,important,domain=sports.yahoo.com,image,media,subdocument,stylesheet,script,xmlhttprequest,other
 ||search.4shared.com/q/1|$popup,domain=4shared.com
-||sexpennyauctions.com^$popup
 ||tirexo.day^$csp=script-src 'self'
 ||track.cpatool.net^$popup,third-party
 ||wi-fi.ru/ad_video/$redirect=noop-1s.mp4,important,media

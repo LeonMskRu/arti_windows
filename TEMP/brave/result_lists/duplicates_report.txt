@@ -1,5 +1,5 @@
 === Duplicate Rules Report ===
-Generated on: 2025-10-02 05:08:38 UTC
+Generated on: 2025-10-08 16:57:19 UTC
 Total unique rules with duplicates: 2
 
 Rule: mail.ru#@#.tgb-wrapper (Found in 2 files)

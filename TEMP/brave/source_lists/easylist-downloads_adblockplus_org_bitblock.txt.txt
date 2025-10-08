@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9fqTRWTTuZIwtrJd/8MUyg
-! Version: 202510020201
+! Checksum: Mdx4BufcAKbLnr6042KH8A
+! Version: 202510081341
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 02 Oct 2025 02:01 UTC
+! Last modified: 08 Oct 2025 13:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -705,7 +705,7 @@ lenov.ru##.add_vkgr
 gamer-info.com##.adopt-center
 delfi.ua##.after_body
 testserver.pro#?#.after_run > h2:-abp-contains(поделиться)
-animego.lol##.alert-primary
+animego.cv##.alert-primary
 topwar.ru#?#.alert_in:-abp-has(> div > p > strong > a[href^="https://t.me/"])
 inopressa.ru##.alignright .alignleft > div[style^="height: 120px"]
 life.ru##.amp-footer--wrapper > .amp-left-block ~ li
@@ -1018,7 +1018,7 @@ kleo.ru##.col-2 > #tabs_wrapper
 allboxing.ru#?#.col-3 > .block_title:-abp-contains(Твиты от YuriTarantin)
 rusdtp.ru##.col-left > .pope
 ru-an.info#?#.col-right tbody > tr:-abp-has(#sgtabs)
-anidubpro.ru,anilibriadub.ru,animesvosts.ru,anistarfan.ru,softbox.life,studiobandoz.ru,yummybest.ru#?#.cols__sidebar > .sb:-abp-has(> .soc-channels)
+anidubpro.ru,anilibriadub.ru,animego.cv,animesvosts.ru,anistarfan.ru,softbox.life,studiobandoz.ru,yummybest.ru#?#.cols__sidebar > .sb:-abp-has(> .soc-channels)
 overclockers.ru#?#.column > .ui:-abp-has(> [class]:not(.pip-soci) > #vkRoot)
 overclockers.ru#?#.column > .ui:-abp-has(> [class]:not(.pip-soci) > .faceLink)
 vsplanet.net#?#.column.c-left > div:-abp-has(> script)
@@ -3701,6 +3701,7 @@ _userbar_$image
 ##.footer__app
 ##.footer__apps
 ##.forum-user-signature img
+##.fp-player .fp-min-age
 ##.gdpr-consent-banner
 ##.gdprPopup
 ##.gpm-cookie-accepted
@@ -4293,7 +4294,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||habrastorage.org/getpro/habr/branding/$image,domain=habr.com
 ||hawaii-kirillovka.com/misc/js/please.js
 ||hdzona.com/forum/logo.jpg
-||hh.ru/build/static/images/big-promo-
 ||hidemyass.com/assets/js/cerabox/
 ||hideogenius.com/nokids.mp4
 ||hightech.fm/wp-content/themes/hightech/api/modals/
@@ -4406,6 +4406,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||quiz.rambler.ru/widget/sdk.js$domain=~championat.com|~championat.ru|~quiz.rambler.ru
 ||radioclub.ua/*thumb/promo_$image
 ||radiopyatnica.com.ua/uploads/slider/
+||rapsinews.ru/js/libs/cookie.js
 ||rbk.ru/*/build/fn/_forecast.js
 ||rbk.ru/*/build/fn/_indexPoll.js
 ||rbk.ru/*/build/fn/_oprosso.js
@@ -4760,7 +4761,6 @@ shotam.info###mvp-nav-top-right-support
 sport-tv.by###mxlLive
 stulchik.net###myModal
 pcportal.org###n_ov
-vk.com###narrow_column > #feed_filters > .apps_feedRightAppsBlock
 ihavebook.org###navbar-donate
 2x2.su###news_score_form
 moscowtimes.eu,moscowtimes.ru###newsletter
@@ -5042,6 +5042,7 @@ moyareklama.by,moyareklama.ru##.app_links
 lk.rt.ru##.application-footer_superfooter_cookies
 konkurent.ua##.applications
 dfm.ru##.apps
+vk.com,vk.ru##.apps_feedRightAppsBlock
 partnerkin.com##.apps_icons
 yk-news.kz##.apps_links
 thebell.io##.arena-banner
@@ -5134,6 +5135,7 @@ kinorium.com##.bannString
 currenttime.tv,lp4lp.ru,piter.com##.banner
 vn.com.ua##.banner--color-yellow
 myfin.by##.banner-app
+lk.rt.ru##.banner-carousel-style-header
 probiv.in,probiv.one##.banner-content
 texterra.ru##.banner-content-promo
 legkopolezno.ru##.banner-gif
@@ -5287,7 +5289,7 @@ avk.ua##.coocie-pop
 informator.ua##.coockies
 bild-shop.by##.coockies-info
 2x2tv.ru,eridon.ua##.cook
-agroportal.ua,bsb.by,dw.com,eg.ru,hashrating.com,mdregion.com,myfin.by,novyny.live,nspk.ru,park-mobile.ru,sber.ru,stbank.by,svitroslyn.ua,wifire.tv,xn--80ahmohdapg.xn--80asehdb,xplode.ru##.cookie
+agroportal.ua,aniuapp.ru,bsb.by,dw.com,eg.ru,hashrating.com,mdregion.com,myfin.by,novyny.live,nspk.ru,park-mobile.ru,sber.ru,stbank.by,svitroslyn.ua,wifire.tv,xn--80ahmohdapg.xn--80asehdb,xplode.ru##.cookie
 eplaza.ru,vnukovo.ru##.cookie-accept
 xhamster.com##.cookie-announce
 sviaz-expo.ru##.cookie-attention
@@ -5408,6 +5410,7 @@ edgecenter.ru##.elcookie
 bazarmedia.info##.elp-widget
 rubryka.com##.email-sectionarchive-email-section
 rusplt.ru##.email-subscription
+gamemag.ru##.emotion-rating__title--more
 fotostrana.ru##.entertainment-pack_banner_holder
 appleinsider.ru##.entry-content > p > code.large-text
 wakanim.tv##.episode_streaming > div > p[style="color:#fff;text-align:center"]
@@ -5765,6 +5768,7 @@ sportrbc.ru##.news-bar
 shraibikus.com##.news-details > .text-center
 move.ru##.news-esputnik-subscribe__container-main
 rbc.ru,sportrbc.ru##.news-feed a[href*="utm_campaign"]
+gamemag.ru##.news-item-wrap--more
 sports.ru##.news-item__footer > h3
 sports.ru##.news-item__footer > hr
 sports.ru##.news-item__sources
@@ -6489,6 +6493,7 @@ ichip.ru##a[href="/rek/"]
 kp.by,kp.kg,kp.kz,kp.md,kp.ru##a[href="/subscribe/periodical/"]
 dracon-zet.ru##a[href="/zakaz-reklamy/"]
 lostfilm.download,lostfilm.life,lostfilm.one,lostfilm.pro,lostfilm.space,lostfilm.today,lostfilm.tv,lostfilm.tw,lostfilm.uno,lostfilm.win,lostfilmtv.site,lostfilmtv.uno,lostfilmtv2.site,lostfilmtv3.site,lostfilmtv5.site##a[href="http://adverti.me"]
+cq.ru##a[href="https://cq.ru/steam-pay"]
 lifeha.ru##a[href="https://lifeha.ru/besplatnye-materialy"]
 lifeha.ru##a[href="https://lifeha.ru/kursi-pro"]
 lifehacker.ru##a[href="https://redirect.appmetrica.yandex.com/serve/892107163701433566"]
@@ -6573,7 +6578,6 @@ texterra.ru##body > .mfp-bg
 texterra.ru##body > .mfp-wrap
 tut.by##body > .toster-popup
 3dnews.ru##body > .ui-corner-all.ui-widget
-hh.ru#?#body > [id] > [data-qa] > div[class^="wrapper--"]:-abp-has([data-name="BigPromoApplicant"])
 chastnik-m.ru##body > a[href*="block=bg"]
 rubryka.com##body > a[href="https://www.facebook.com/ecorubric"]
 root-nation.com##body > a[href] > img[src*="banner"]
@@ -6878,6 +6882,7 @@ nsn.fm#?#section:-abp-has(> div > div > form)
 rutube.ru##section[aria-label="Cкачать приложения"]
 rutube.ru##section[aria-label="RUTUBE x PREMIER"]
 allsks.ru##section[class*="a-cookies"]
+vk.com,vk.ru##section[class*="vkitRecommendationBlock_"]
 kaspersky.ru##section[data-at-selector="cookie-banner"]
 habr.com##section[id^="promo_block_"]
 goha.ru##span[id^="scrollto"]
@@ -18678,6 +18683,7 @@ statoquotidiano.it#@##sidebar-social
 cnbc.com#@##social-buttons-transporter
 vitruvianthing.com#@##social2
 marktplaats.nl#@##socialButtons
+archiveofourown.org#@##social_media
 tweetgen.com#@##tweetContainer
 nicovideo.jp#@#.FollowButton
 feedly.com#@#.ShareBar
