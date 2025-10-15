@@ -1,7 +1,7 @@
 ! Title: Brave Optimized List - Exception Rules
 ! Description: A merged and optimized list of exception rules.
-! Last Updated: 2025-10-08 16:57:18 UTC
-! Total Rules: 420
+! Last Updated: 2025-10-15 23:44:22 UTC
+! Total Rules: 422
 
 @@/angular-facebook.js
 @@/btns.png$domain=antivirus.ua
@@ -116,6 +116,7 @@
 @@||cmp.inmobi.com/GVL-v2/$domain=express.co.uk
 @@||cmp.inmobi.com/geoip$domain=express.co.uk
 @@||cmp.inmobi.com^$domain=innpoland.pl|aszdziennik.pl|mamadu.pl|dadhero.pl|hideout.co|fly4free.pl|travlerz.com|protothema.gr|cyprus-mail.com|wpolityce.pl
+@@||cmp.inmobi.com^$domain=the-express.com
 @@||cnet2.cbsistatic.com/fly/*/bundles/cnetmpxpdk/
 @@||cnews.ru/inc/comments/$subdocument,domain=cnews.ru
 @@||cnn.com^*/ad_policy.xml$domain=cnn.com
@@ -160,6 +161,7 @@
 @@||facebook.com/plugins/like_box.php$subdocument,domain=overclockers.ru
 @@||facebook.com^*/plugins/page.php?$domain=cieplikpodrozuje.pl|makulscy.com
 @@||fc-zenit.ru/local/templates/new_html/css/nav-social-2/$~third-party
+@@||feed.mikle.com/widget/$subdocument,domain=smeal.psu.edu
 @@||feed.mikle.com/widget/?$subdocument,domain=inforesist.org
 @@||findicons.com/files/icons/$~third-party
 @@||flattr.com^$generichide

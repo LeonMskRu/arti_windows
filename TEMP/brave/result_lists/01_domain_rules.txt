@@ -1,7 +1,7 @@
 ! Title: Brave Optimized List - Domain & Network Rules
 ! Description: A merged and optimized list of domain & network rules.
-! Last Updated: 2025-10-08 16:57:18 UTC
-! Total Rules: 1284
+! Last Updated: 2025-10-15 23:44:22 UTC
+! Total Rules: 1293
 
 ||023hysj.com^
 ||1mp.mobi^
@@ -76,6 +76,7 @@
 ||adcs.rqmob.com^
 ||addapptr.com^
 ||addata.mediacategory.com^
+||adeeply.ru^
 ||adentifi.com^
 ||adflake.com^
 ||adforgames.com^
@@ -344,6 +345,7 @@
 ||bi.yeshen.com^
 ||bidarblam.com^
 ||bidjora.com^
+||bidsms.com^
 ||bidsopt.com^
 ||bigmobileads.com^
 ||binmanoboles.com^
@@ -669,6 +671,7 @@
 ||im.ov.yahoo.co.jp^
 ||imapi-sg.isnssdk.com^
 ||imgx.jampp.com^
+||impbid.com^
 ||impedegrimy.com^
 ||imprdom.com^
 ||imrworldwide.com^
@@ -766,6 +769,7 @@
 ||massifbramble.com^
 ||maticooads.com^
 ||matrix.dailyinnovation.biz^
+||maxesads.ru^
 ||maydaciting.com^
 ||mblapi.ssl2.duapps.com^
 ||mbn.com.ua^
@@ -926,6 +930,7 @@
 ||piasabagiveth.com^
 ||pic-stash.com^
 ||pilleustrig.com^
+||pithyiwgz.top^
 ||pixel.admobclick.com^
 ||plaitluctual.com^
 ||plasmidjerky.com^
@@ -998,6 +1003,7 @@
 ||restartad.com^
 ||rethephrased.com^
 ||retinaspealer.com^
+||reward-api.csjplatform.com^
 ||richardghain.com^
 ||richlifeads.ru^
 ||robin-flow.com^
@@ -1128,6 +1134,7 @@
 ||tattvaballute.com^
 ||taujubarb.com^
 ||tauliabridler.com^
+||tbiwtech.com^
 ||tccbanner.com^
 ||teachscape.vo.llnwd.net^
 ||techneparlous.com^
@@ -1284,6 +1291,8 @@
 ||zedo.com^
 ||zgzxs.weathercn.com^
 ||zmqdez.ru^
+||zoly.tech^
 ||zorbklqyoabvj.top^
+||zxphiz.tech^
 ||zygousgauby.com^
 ||zzhengre.com^

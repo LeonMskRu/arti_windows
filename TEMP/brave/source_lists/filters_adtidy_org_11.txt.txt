@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: +7M1SiLNA2KGfu1K3j9aCQ
-! Diff-Path: ../patches/11/11-s-1759925771-3600.patch
+! Checksum: wcyMzOJuQRQ1dDp6cEe84g
+! Diff-Path: ../patches/11/11-s-1760534414-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.64.87
-! TimeUpdated: 2025-10-08T12:12:18+00:00
+! Version: 2.0.65.1
+! TimeUpdated: 2025-10-15T13:16:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -157,6 +157,15 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||reward-api.csjplatform.com^
+||tbiwtech.com^
+||impbid.com^
+||bidsms.com^
+||pithyiwgz.top^
+||zxphiz.tech^
+||zoly.tech^
+||adeeply.ru^
+||maxesads.ru^
 ||datafinder-beacon.starii-rover.com^
 ||ads-bridge.pixocial.com^
 ||freewheel-jitt.sanoma.fi^
@@ -1953,6 +1962,8 @@ deviantart.com#$#div[class*="dp-ad-"] {height: 0!important; width: 0!important; 
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/215527
+@@||cmp.inmobi.com^$domain=the-express.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/211851
 @@||t7z.cupid.iqiyi.com/mixer$domain=iqiyi.com
 ! https://github.com/uBlockOrigin/uAssets/issues/28118
@@ -2337,6 +2348,24 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+habr.com##.header-banner-wrapper
+habr.com##.element-wrapper:has(> div.placeholder-wrapper)
+house.ettoday.net##.iframe-ad
+house.ettoday.net##div[id^="adsense_"]
+house.ettoday.net#$?#amp-ad { remove: true; }
+livesoccertv.com##header > div[style^="font-size:12px;text-align:center;padding:1px;"]
+glavred.net##div[style^="height: 360px"]:has(> .bnr-block__ad)
+glavred.net##div[data-main-page]:has(> .bnr__ad)
+traderie.com##div[height="50px"]
+smallseotools.com##div[style="width: 336px; height: 280px;"]
+mashable.com#$#.topadv { display: none !important; }
+mashable.com#$#.topadv + .breadcrumb { margin-top: 20px !important; }
+xvideo-jp.com##.pagination + div[class="md\:hidden"]:has(> div.mb-2 > div > a[target="_blank"] > img)
+woman.excite.co.jp##.\@container\/mainContents > div.min-h-100
+japscan.*##body > div.full-container > div.full-container.text-center > div.mt-2[style="margin: 0px auto; display: block;"] > a.Aikoi.donate[target="_blank"][rel][href^="https://www.longosto.shop/?utm_source="] > img.img-fluid
+filmnudes.com##.header-links
+kantangame.com###quiz_sp_banner_contents
+kantangame.com###quiz_sp_banner_footer
 yabancidiziio.com##a[href^="https://cutt.ly/"]
 yabancidiziio.com##.fixed:has(> a[href^="https://shorteleven.online/"])
 yabancidiziio.com###router-view > div:not([class]) > div.flex:has(> div[class] > div.w-full > ad)
@@ -2373,7 +2402,7 @@ worldle.teuteuf.fr###staContainer
 worldle.teuteuf.fr###toggleAdContainer
 space.com##.widget-area > div#tag-page-content:has(> div.wcp-item-content > div#tag-page-content:not(:has(*)))
 antonovsad.ru##.promo-mobile
-dizilla40.com##.fixed.w-full
+dizilla40.com##.fixed.bottom-16.w-full
 scegliauto.com###googleadmobiletop
 filmstarts.de##.sticky-ad-holder
 quotenet.nl##div[data-block="transporter"] > section:has(> div > .ad-container)
@@ -4571,8 +4600,8 @@ blogterest.net###glkab
 the-sun.com##.amp-adv-wrapper
 bookmaker-ratings.ru##.branding-top-wrapper
 washingtonpost.com##.tableAd1
-fistingplanet.com##.happy-related-videos-mobile
-familyxxxhd.com,erotic-hentai.com,villagesexvideos.com,xxxvideoindian2.com,fistingplanet.com##.happy-footer-mobile
+pornolatinox.com,fistingplanet.com##.happy-related-videos-mobile
+pornolatinox.com,familyxxxhd.com,erotic-hentai.com,villagesexvideos.com,xxxvideoindian2.com,fistingplanet.com##.happy-footer-mobile
 mediacourant.nl,coinwarz.com##div[id^="ad"]
 pornpapa.com##.mobile-device
 maximum.ru,rusradio.ru,dfm.ru##.advertising-mobile-popup-overlay

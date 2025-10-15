@@ -1,7 +1,7 @@
 ! Title: Brave Optimized List - Unsupported Brave Rules
 ! Description: A merged and optimized list of unsupported brave rules.
-! Last Updated: 2025-10-08 16:57:18 UTC
-! Total Rules: 713
+! Last Updated: 2025-10-15 23:44:22 UTC
+! Total Rules: 721
 
 *$popup,third-party,domain=gogoanimes.fi|hdtoday.la|hdtoday.tv|hdtodayz.to|hollymoviehd.cc|kimcartoon.*|kisscartoon.com|mreader.co|nosteam.ro|strtapeadblock.me|strtapeadblocker.art|theflixertv.to
 0352.ua#?#.row > div.card-wrapper:has(> amp-ad)
@@ -208,6 +208,8 @@ gismeteo.md#?#.page > section.section_rss:has(> a:contains(Аргументы и
 gismeteo.ru#?#.tab-containers > div.tab-container:has(> div.rss-social)
 gismeteo.ua#?#.page > section.section_rss:has(> a:not([href]):contains(/Новости партнёра|Новини партнера/))
 glavred.info##.infinite-item > div[style^="height"]:has(> div.bnr-block__ad)
+glavred.net##div[data-main-page]:has(> .bnr__ad)
+glavred.net##div[style^="height: 360px"]:has(> .bnr-block__ad)
 goloskarpat.info##.w-full:has(> aside.h-\[250px\])
 google.*#?##views > div > div[class][decode-data-ved="1"] > div[class]:has(> div > div[class] > div[class] > div[class][jscontroller] > div[class^=" _-"])
 google.*#?#.sh-sr__blk > #sh-sr__results + div:has(> div > div > div > div > div[class][jscontroller] > div[class^=" _-"])
@@ -220,6 +222,7 @@ grapee.jp##.comment > aside:has(> div.OUTBRAIN)
 gulfnews.com##.footer-wrapper > div > div:has(> div#story-page-sticky-ad)
 gulfnews.com##div[style^="border-right:"] > div:has(> div[class] > div[class] > div[id^="top-component-section-page-native-ad"])
 haaretz.com#?#section[data-test="zapp"] > div[class] > div[class]:has(> div[class] > div[class] >  div.js-dfp-ad)
+habr.com##.element-wrapper:has(> div.placeholder-wrapper)
 handelsblatt.com#?#.ng-star-inserted:has(> app-advertisement:only-child)
 handelsblatt.com#?#.storyline-element:has(> app-storyline-advertisement:only-child)
 hanime1.me###related-tabcontent > .row > .hidden-md:has(> a[href*=".labsda.com"])
@@ -256,6 +259,10 @@ indianexpress.com##.body-part > .mobile:has(> .top-ads-mobile)
 info.flightmapper.net#?#.mobile-v > .m-box:has(> div[class^="as_mobi_"])
 informator.ua##.inf_ua-content div[id][style^="min-height:"]:has(> ins)
 ingles.com,spanishdict.com#?##adTopSmall-container ~ div:has(> #adHesion-container)
+instacart.*##div[id][class]:has(> a > div:first-child img):has(> a div[style*="display:"] span)
+instacart.*##div[id][class]:has(> a img[alt="Advertisement"]):has(li:first-of-type a div[style*="display:"] span)
+instacart.*##div[id][class]:has(> div:first-child > a img[alt*="Sponsored"], > div[aria-hidden="true"]:last-child)
+instacart.*##li:has(fp-ads-tag):not(:has(h2))
 investing.com#?##siteWrapper > div.wrapper > section.boxItem:has(> div.OUTBRAIN)
 investing.com#?##siteWrapper > div.wrapper > section.boxItem:has(> ins.adsbygoogle)
 jaxon.gg##.col-xl-4:has(> div > span.pointer[data-code])
@@ -674,6 +681,7 @@ www1.ru#?#main > .relative:nth-child(-n+3):-abp-has(> div > [href^="https://t.me
 xfreehd.com###wrapper > div.cp-7:has(iframe[src^="//a.magsrv.com/"])
 xjav.tube##.video__wrapper > div.wrapper:has(> article div[style="width: 156px; height: 130px;"])
 xtrend.nikkei.com#?#.l-section:has(> div.side-feature-banner-box)
+xvideo-jp.com##.pagination + div[class="md\:hidden"]:has(> div.mb-2 > div > a[target="_blank"] > img)
 ya.ru,yandex.*##.content__left > ul#search-result > li:has(> div.organic > div.OrganicTitle > a[href^="https://ya.ru/search/_crpd/"])
 ya.ru,yandex.*#$?##search-result > li:has(span:contains(/[PРeеkклaаmмaа]{7}/)) { remove: true; }
 ya.ru,yandex.*#?#.SearchBlock:has(> div.DirectStripe)
