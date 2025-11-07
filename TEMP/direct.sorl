@@ -14,12 +14,12 @@ retromap.ru
 hutun.ru
 .hutun.ru
 
-maps.google.com
+#maps.google.com
 
-khms0.google.com
-khms1.google.com
-khms2.google.com
-khms3.google.com
+#khms0.google.com
+#khms1.google.com
+#khms2.google.com
+#khms3.google.com
 
 .vgtrk.ru
 .smotrim.ru
@@ -33,29 +33,29 @@ khms3.google.com
 .runews24.ru
 .otm-r.com
 
-.ya.ru
-.yandex.ru
-.dzen.ru
-.dzeninfra.ru
-.kinopoisk.ru
-.yandex.net
-.yandex.com
-.yandex.st
-.yastatic.net
-.naydex.net
-.static-storage.net
-.yandexcloud.net
-.clstorage.net
-.yandex-net.ru
+#.ya.ru
+#.yandex.ru
+#.dzen.ru
+#.dzeninfra.ru
+#.kinopoisk.ru
+#.yandex.net
+#.yandex.com
+#.yandex.st
+#.yastatic.net
+#.naydex.net
+#.static-storage.net
+#.yandexcloud.net
+#.clstorage.net
+#.yandex-net.ru
 
-.vk.com
-.vk-portal.net
-.vkuser.net
-.userapi.com
-.vkvideo.ru
-.vkuservideo.net
-.mycdn.me
-.okcdn.ru
+#.vk.com
+#.vk-portal.net
+#.vkuser.net
+#.userapi.com
+#.vkvideo.ru
+#.vkuservideo.net
+#.mycdn.me
+#.okcdn.ru
 
 .rutube.ru
 .rutubelist.ru
@@ -121,13 +121,13 @@ khms3.google.com
 .rt.com
 .russiatoday.com
 
-.userapi.com
-.vk.com
-.mycdn.me
-.vk-portal.net
-.vkuser.net
-.cdn-vk.ru
-.vkvideo.ru
+#.userapi.com
+#.vk.com
+#.mycdn.me
+#.vk-portal.net
+#.vkuser.net
+#.cdn-vk.ru
+#.vkvideo.ru
 
 .cdnvideo.ru
 
@@ -156,7 +156,7 @@ khms3.google.com
 
 .prognoz3.ru
 
-.rambler.ru
+#.rambler.ru
 #.mail.ru
 
 .rbc.ru
