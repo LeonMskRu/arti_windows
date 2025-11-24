@@ -1,7 +1,7 @@
 ! Title: Brave Optimized List - Exception Rules
 ! Description: A merged and optimized list of exception rules.
-! Last Updated: 2025-10-15 23:44:22 UTC
-! Total Rules: 422
+! Last Updated: 2025-11-24 14:15:32 UTC
+! Total Rules: 421
 
 @@/angular-facebook.js
 @@/btns.png$domain=antivirus.ua
@@ -164,7 +164,6 @@
 @@||feed.mikle.com/widget/$subdocument,domain=smeal.psu.edu
 @@||feed.mikle.com/widget/?$subdocument,domain=inforesist.org
 @@||findicons.com/files/icons/$~third-party
-@@||flattr.com^$generichide
 @@||fontawesome.com^$generichide
 @@||fortnitedb.com/js/v3/oneSignal.js$~third-party
 @@||forums.windowscentral.com^$script,~third-party
@@ -344,7 +343,7 @@
 @@||srf.ch/socialview-in/$~third-party
 @@||st.bebi.com/bebi_v3.js$script,domain=lolhentai.net
 @@||st.mycdn.me/static/*/WebPush.js$script,domain=ok.ru
-@@||st.top100.ru/top100/top100.js|$script,domain=ferra.ru|gazeta.ru|letidor.ru|moslenta.ru|motor.ru|passion.ru|quto.ru|wmj.ru
+@@||st.top100.ru/top100/top100.js|$script,domain=ferra.ru|gazeta.press|gazeta.ru|indicator.ru|letidor.ru|moslenta.ru|motor.ru|passion.ru|quto.ru|secretmag.ru|wmj.ru
 @@||st.tubecup.org/releted_hdzog/json.php?page=$domain=m.hdzog.com
 @@||stat.radar.imgsmail.ru/*=honeypot_fake_$image,domain=e.mail.ru
 @@||statchecker.yandex.ru/ping|$script,domain=drive2.ru
