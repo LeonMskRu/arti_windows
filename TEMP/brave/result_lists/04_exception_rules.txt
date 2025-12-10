@@ -1,6 +1,6 @@
 ! Title: Brave Optimized List - Exception Rules
 ! Description: A merged and optimized list of exception rules.
-! Last Updated: 2025-11-24 14:15:32 UTC
+! Last Updated: 2025-12-10 15:14:39 UTC
 ! Total Rules: 421
 
 @@/angular-facebook.js
@@ -94,7 +94,7 @@
 @@||bc.marfeel.com/statics/marfeel/gardac.js$domain=elperiodico.com
 @@||bc.marfeel.com/statics/marfeel/gardac.js$domain=sport.es
 @@||bc.marfeel.com^$domain=01net.com
-@@||bc.marfeelcache.com/punchng.com/$xmlhttprequest,domain=punchng.com
+@@||bc.marfeelcache.com/punchng.com/$xhr,domain=punchng.com
 @@||bc.marfeelcache.com/statics/marfeel/gardac-sync.js$domain=punchng.com
 @@||bc.marfeelcache.com^$domain=01net.com
 @@||bibblio.org^*/bib-related-content.min.js$script,domain=hindawi.com
@@ -166,11 +166,11 @@
 @@||findicons.com/files/icons/$~third-party
 @@||fontawesome.com^$generichide
 @@||fortnitedb.com/js/v3/oneSignal.js$~third-party
-@@||forums.windowscentral.com^$script,~third-party
+@@||forums.windowscentral.com^$script,~3p
 @@||fotocdn.net^*/social-icons.png$domain=fotostrana.ru
 @@||frankonia.de/js/lib/smart-app-banner.js$~third-party
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument
-@@||g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=koigaku.machicon.jp
+@@||g.doubleclick.net/gampad/ads?$xhr,domain=koigaku.machicon.jp
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=koigaku.machicon.jp
 @@||g.doubleclick.net/gpt/pubads_impl_$script,domain=ukr.net
 @@||g.doubleclick.net/tag/js/gpt.js$domain=koigaku.machicon.jp
@@ -343,7 +343,7 @@
 @@||srf.ch/socialview-in/$~third-party
 @@||st.bebi.com/bebi_v3.js$script,domain=lolhentai.net
 @@||st.mycdn.me/static/*/WebPush.js$script,domain=ok.ru
-@@||st.top100.ru/top100/top100.js|$script,domain=ferra.ru|gazeta.press|gazeta.ru|indicator.ru|letidor.ru|moslenta.ru|motor.ru|passion.ru|quto.ru|secretmag.ru|wmj.ru
+@@||st.top100.ru/top100/top100.js|$script,domain=comments.rambler.ru|ferra.ru|gazeta.press|gazeta.ru|indicator.ru|letidor.ru|moslenta.ru|motor.ru|passion.ru|quto.ru|secretmag.ru|wmj.ru
 @@||st.tubecup.org/releted_hdzog/json.php?page=$domain=m.hdzog.com
 @@||stat.radar.imgsmail.ru/*=honeypot_fake_$image,domain=e.mail.ru
 @@||statchecker.yandex.ru/ping|$script,domain=drive2.ru
@@ -362,7 +362,7 @@
 @@||switching.software^$generichide
 @@||t-mobile.com/mms/$document
 @@||t7z.cupid.iqiyi.com/mixer$domain=iqiyi.com
-@@||t7z.cupid.iqiyi.com/show2?$xmlhttprequest,domain=m.iqiyi.com
+@@||t7z.cupid.iqiyi.com/show2?$xhr,domain=m.iqiyi.com
 @@||tags.crwdcntrl.net/*.js?ns=^$domain=m.timesofindia.com
 @@||tags.crwdcntrl.net/*/cc_af_ajax.js$domain=driveaccord.net
 @@||tags.crwdcntrl.net/c/*/cc.js?ns=$domain=m.timesofindia.com
@@ -409,7 +409,7 @@
 @@||wurfl.io/wurfl.js$script,domain=smartcharts.net
 @@||www.drive2.ru^$generichide
 @@||www.facebook.com^$generichide
-@@||www.googleadservices.*/aclk?*&adurl=$~third-party
+@@||www.googleadservices.*/aclk?*&adurl=$~3p
 @@||yandex.ru/ads/system/context.js|$script,domain=auto.ru|e.mail.ru|octavius.mail.ru|shedevrum.ai
 @@||yap.ru/html/static/share/$image,~third-party
 @@||yaplakal.com/html/static/$image,~third-party

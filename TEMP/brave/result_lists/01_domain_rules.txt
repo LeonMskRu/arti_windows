@@ -1,7 +1,7 @@
 ! Title: Brave Optimized List - Domain & Network Rules
 ! Description: A merged and optimized list of domain & network rules.
-! Last Updated: 2025-11-24 14:15:32 UTC
-! Total Rules: 1221
+! Last Updated: 2025-12-10 15:14:39 UTC
+! Total Rules: 1282
 
 ||023hysj.com^
 ||1mp.mobi^
@@ -10,6 +10,7 @@
 ||99gt8.com^
 ||a.applvn.com^
 ||aag.yahooapis.jp^
+||aatkit.com^
 ||abbott.vo.llnwd.net^
 ||ablockoverfix.com^
 ||abnad.net^
@@ -224,6 +225,7 @@
 ||akhlamesouchy.com^
 ||algediduala.com^
 ||ali-ad.a.yximgs.com^
+||allicinarenig.com^
 ||alluviopurreic.com^
 ||allworkovergot.com^
 ||alt-ad.mail.ru^
@@ -236,6 +238,7 @@
 ||amyrinbitume.com^
 ||an.facebook.com^
 ||analytics.scalemonk.com^
+||anihazels.com^
 ||aniview.com^
 ||annussleys.com^
 ||anythinktech.com^
@@ -297,6 +300,7 @@
 ||as.adfonic.net^
 ||asbfala.com^
 ||ashlingzanyish.com^
+||ashrafidoria.com^
 ||aspcafarcie.com^
 ||assoc-amazon.com^
 ||astrsk.net^
@@ -305,6 +309,7 @@
 ||audiomob.com^
 ||aveuglediking.com^
 ||awolhalling.com^
+||axgxwewcxvrpeb.com^
 ||baalshousal.com^
 ||balanicextreat.com^
 ||balzadicyema.com^
@@ -323,13 +328,17 @@
 ||bcfads.com^
 ||bdapi-ads.realmemobile.com^
 ||bdapi-in-ads.realmemobile.com^
+||befitkersey.com^
 ||begun.ru^
 ||behacdn.ksmobile.net^
 ||behance.vo.llnwd.net^
 ||beijingzhongnanhai.com^
+||bekisspolars.click^
+||bentinghanks.com^
 ||bepolite.eu^
 ||bet365affiliates.com^
 ||betainehoolee.com^
+||betowelumph.com^
 ||betrad.com^
 ||betsonsport.ru^
 ||bi.yeshen.com^
@@ -339,6 +348,7 @@
 ||bidsms.com^
 ||bidsopt.com^
 ||bigmobileads.com^
+||bimbilviseed.com^
 ||binmanoboles.com^
 ||bivinyltarve.com^
 ||bjads.bejbej.ca^
@@ -361,7 +371,9 @@
 ||bu1.duba.com^
 ||bubblesmedia.ru^
 ||bubblessudsman.com^
+||burblycatted.com^
 ||burstnet.com^
+||bustlejuking.com^
 ||buteopung.com^
 ||bututpoopsie.com^
 ||buysellads.com^
@@ -377,6 +389,7 @@
 ||cainginpenicil.com^
 ||calendar.rodim.ru^
 ||calyxesdefames.com^
+||cancannicolas.com^
 ||canelorets.com^
 ||card.mmos.com^
 ||caromedlusk.com^
@@ -389,6 +402,7 @@
 ||cdn-cf.postitial.com^
 ||cdn-image.com^
 ||cdn-ketchapp.akamaized.net^
+||cdn-rtb.sape.ru^
 ||cdn.appnext.com^
 ||cdn.batmobi.net^
 ||cdn.jampp.com^
@@ -424,6 +438,7 @@
 ||corvoidhas.com^
 ||corylussunroof.com^
 ||couloirmatrass.com^
+||cowpencinclis.com^
 ||cp.pushwoosh.com^
 ||cpactions.com^
 ||cpmstar.com^
@@ -446,6 +461,8 @@
 ||culpasrampage.com^
 ||cunnidissait.com^
 ||cuppedajitter.com^
+||curatnestful.com^
+||curtcoracii.com^
 ||cuseccharm.com^
 ||cutoffclerks.com^
 ||d.kugou.com^
@@ -453,6 +470,7 @@
 ||d19xf4taj229i8.cloudfront.net^
 ||d1pk6uu6wqrpce.cloudfront.net^
 ||d239g0z67jcted.cloudfront.net^
+||d2n5v45616cm6u.cloudfront.net^
 ||d2nrdy2pg3k168.cloudfront.net^
 ||d2yyd1h5u9mauk.cloudfront.net^
 ||d32z5ni8t5127x.cloudfront.net^
@@ -470,6 +488,7 @@
 ||dd133.com^
 ||deapi.sooplive.co.kr^
 ||debojuagug1sf.cloudfront.net^
+||deckedpreeze.com^
 ||delivery-cdn-cf.adswizz.com^
 ||deliveryengine.adswizz.com
 ||depurgeholour.com^
@@ -495,6 +514,7 @@
 ||dotomi.com^
 ||dovishliegier.com^
 ||downloadshi.b-cdn.net^
+||dozzledmysis.com^
 ||drammerxylinid.com^
 ||drbbzzs.xyz^
 ||dsp-api.moloco.com^
@@ -504,15 +524,18 @@
 ||e-planning.net^
 ||e.apsalar.com^
 ||e.qq.com^
+||ecolesmauve.com^
 ||eidersrettory.com^
 ||eltrafiko.com^
 ||emediate.eu^
 ||endleafroaches.com^
 ||engridfanlike.com^
+||enolasepunily.com^
 ||enstatehelibus.com^
 ||enstoolpart.com^
 ||epom.com^
 ||erg.ihclam.cn^
+||erodiumvodums.com^
 ||et-code.ru^
 ||etargetnet.com^
 ||etl.tindersparks.com^
@@ -538,11 +561,13 @@
 ||flygo.ru^
 ||focas.jp^
 ||fogramcolcine.com^
+||fondleaegipan.shop^
 ||foodycallat.com^
 ||foothotgoback.com^
 ||freewheel-jitt.sanoma.fi^
 ||friendlyduck.com^
 ||frontier100-toutiao-lf.fqnovel.com^
+||frskulk.com^
 ||fuhrerstanking.com^
 ||fumeuseaudibly.com^
 ||fxlcvd.icu^
@@ -555,6 +580,7 @@
 ||gamerplay67.space^
 ||garotemuruxi.com^
 ||garrafaspotted.com^
+||gasparmocha.com^
 ||gateway.ttpsdk.info^
 ||gdfp.gifshow.com^
 ||gdl.i9dhjx.ru^
@@ -568,6 +594,7 @@
 ||ghurrytacoma.com^
 ||girnalnemean.com^
 ||glazenrattoon.com^
+||gleegnussaultee.com^
 ||global-staticplat.cdn.bcebos.com
 ||global.appnext.com^
 ||go.admost.com^
@@ -579,6 +606,7 @@
 ||gooddemands.com^
 ||goodieracer.com^
 ||googleadservices.com^
+||gorgeirido.com^
 ||goshare-fleet-ads.s3.ap-southeast-1.amazonaws.com^
 ||gtdslaters.com^
 ||gts-ads.twistbox.com^
@@ -630,6 +658,7 @@
 ||idoletsluices.com^
 ||ignoresfahlerz.com^
 ||illfaredrench.com^
+||ilongotbuzukia.com^
 ||im.ov.yahoo.co.jp^
 ||imapi-sg.isnssdk.com^
 ||imgx.jampp.com^
@@ -651,6 +680,7 @@
 ||inner-active.com^
 ||inner-active.mobi^
 ||innovid.com^
+||instarooliths.com^
 ||integral-marketing.com^
 ||integrate.thrive.today^
 ||intermarkets.net^
@@ -670,6 +700,7 @@
 ||justad.mobi^
 ||justspoisure.com^
 ||jybsb9oyss.com^
+||kalingacurvant.com^
 ||karakuloutmate.com^
 ||ketchapp.org^
 ||keywordbara.com^
@@ -681,12 +712,14 @@
 ||kosseanmudpack.com^
 ||krt.asycxtz.cn^
 ||krutilka.net^
+||kubzenom.com^
 ||kueunpick.com^
 ||kvaedit.site^
 ||l0-secure.videohub.tv^
 ||l3op.info^
 ||lacunads.com^
 ||lakeletbothria.com^
+||latcherjeannieturrets.click^
 ||launcher.us.yeshen.com^
 ||lawmanbevor.com^
 ||lawscrax.com^
@@ -710,9 +743,11 @@
 ||loftmentiple.com^
 ||log.kajicam.com^
 ||loganmedia.mobi^
+||loobyfleyed.com^
 ||look.kfiopkln.com^
 ||love.romanticcollection.ru^
 ||lqm.io^
+||lqqpphub.com^
 ||luckyforworlds.com^
 ||lxqcgj.com^
 ||macacusdame.com^
@@ -726,6 +761,7 @@
 ||maraywreath.com^
 ||marketing.mangacopy.com^
 ||martingfingian.com^
+||martylatah.com^
 ||maticooads.com^
 ||matrix.dailyinnovation.biz^
 ||maxesads.ru^
@@ -792,6 +828,7 @@
 ||nanigans.com^
 ||nappieoxbows.com^
 ||nasimobi.com^
+||nasrolrt.com^
 ||native.cli.bz^
 ||nativead.s3.amazonaws.com^
 ||nativex.com^
@@ -845,6 +882,7 @@
 ||online.mirabilis.com^
 ||onlineapi.youappi.com^
 ||onlinehentai.tv^
+||oobsekemseelso.com^
 ||opalmetely.com^
 ||open.e.kuaishou.cn^
 ||open.e.kuaishou.com^
@@ -864,6 +902,7 @@
 ||p-behacdn.ksmobile.net^
 ||p1-lm.adukwai.com^
 ||p16-ad.byteoversea.com^
+||paitatoneejoay.net^
 ||pangle.io^
 ||pangolin16.isnssdk.com^
 ||pangolin16.sgsnssdk.com^
@@ -894,6 +933,7 @@
 ||plungescreeve.com^
 ||pn.ybp.yahoo.com^
 ||pneumahameil.com^
+||poanibaphowho.net^
 ||poculalienly.com^
 ||polymorphicads.jp^
 ||pontiflex.com^
@@ -901,6 +941,7 @@
 ||powerlinks.com^
 ||pr.comet.yahoo.com^
 ||preitem.wshareit.com^
+||premiermylodei.com^
 ||presage.io^
 ||preyfultarried.com^
 ||prod.adjoe.zone^
@@ -942,9 +983,11 @@
 ||r2d2.aotter.net^
 ||rainmaker.production-public.tubi.io^
 ||randanspartan.com^
+||randeriridium.com^
 ||ratitesbogging.com^
 ||rebopsmurly.com^
 ||recrampwiped.com^
+||redbuckzincate.com^
 ||redcapsunlime.com^
 ||redtram.com^
 ||reekiercoupler.com^
@@ -977,6 +1020,7 @@
 ||saymedia.com^
 ||sc.smardroid.com^
 ||schizypdq.com^
+||schoolsramrods.com^
 ||scorecardresearch.com^
 ||screen.buzzvil.com^
 ||scrivencaccias.com^
@@ -991,6 +1035,7 @@
 ||seepymannire.com^
 ||sensors.larkplayerapp.com^
 ||serenadislive.com^
+||serutredcoll.com^
 ||servebom.com^
 ||servedby.o2.co.uk^
 ||serveraddr.service.kugou.com^
@@ -1019,6 +1064,7 @@
 ||socdm.com^
 ||sonobi.com^
 ||soundcloud-pax.pandora.com^
+||spavietquirl.com^
 ||speee-ad.akamaized.net^
 ||splash-ad.classting.com^
 ||splash.appsgeyser.com^
@@ -1036,6 +1082,7 @@
 ||stat.kika-backend.com^
 ||static.hyprmx.com^
 ||static.jampp.com^
+||static.terratraf.com^
 ||static.timetreeads.com^
 ||staticcc.com^
 ||stelabarm.com^
@@ -1048,6 +1095,7 @@
 ||subscribe.rama.com.ua/
 ||subscriptions.rambler.ru/
 ||suffarilbf.com^
+||sugimaille.click^
 ||sumatoad.com^
 ||supersonicads-a.akamaihd.net^
 ||supersonicads.com^
@@ -1104,6 +1152,7 @@
 ||tkmedia.aotter.net^
 ||tkmftc.aotter.net^
 ||tkportal.aotter.net^
+||tkzdkabuzcuvb.online^
 ||tm1.hoiplay.com^
 ||tmz.vo.llnwd.net^
 ||tnc16-alisg.isnssdk.com^
@@ -1135,10 +1184,12 @@
 ||trypsinneutral.com^
 ||tubemogul.com^
 ||tuckedshowing.com^
+||turbodeter.com^
 ||turn.com^
 ||tveta.naver.net^
 ||tw-api.vpon.com^
 ||tw.api.vpon.com^
+||twerpuveitic.com^
 ||tx-ad.a.yximgs.com^
 ||tx-kmpaudio.pull.yximgs.com^
 ||tyliontentful.com^
@@ -1156,12 +1207,14 @@
 ||unicume.com^
 ||unityads.unity3d.com^
 ||unlashchaule.qpon^
+||unridhoncho.com^
 ||unrigscsc.com^
 ||upsight.com^
 ||upsringsautes.com^
 ||urgingslaurae.com^
 ||usekahuna.com^
 ||usp1.baidu.com^
+||usrpubtrk.com^
 ||uttergleeks.com^
 ||v.kidoz.net^
 ||v16-ad.byteoversea.com^
@@ -1169,11 +1222,13 @@
 ||velti.com^
 ||versinehopper.com^
 ||veta.naver.com^
+||vexerspurlieu.com^
 ||vextslows.com^
 ||videoads-cloud.rovio.com^
 ||videoplus.vo.llnwd.net^
 ||vinelethoner.com^
 ||virgosclavis.com^
+||visitseyoty.com^
 ||vm5apis.com^
 ||vmap.v.ad-generation.jp^
 ||vniddlg.xyz^
@@ -1184,10 +1239,12 @@
 ||waiads.com^
 ||waivinggilim.com^
 ||wapstart.ru^
+||warthcoes.com^
 ||washwayrefool.com^
 ||wdig.vo.llnwd.net^
 ||west.bidtellect.com^
 ||weznkotoko.com^
+||whizzerrapiner.com^
 ||widdermixtec.com^
 ||widespace.com^
 ||widget-social-proof-api.one.store^
@@ -1197,6 +1254,8 @@
 ||widgets.recruitology.com^
 ||widgets.sprinkletxt.com^
 ||wiltinfume.com^
+||wochuadaribah.com^
+||woewornsequel.com^
 ||wolfmandiked.com^
 ||woodsytenline.com^
 ||wordego.com^
@@ -1205,6 +1264,7 @@
 ||xdrig.com^
 ||ximad.com^
 ||yandexadexchange.net^
+||yawnfulharpa.com^
 ||yb28b.com^
 ||yc-ads.s3.amazonaws.com^
 ||ydstinkle.com^
@@ -1221,6 +1281,7 @@
 ||zmqdez.ru^
 ||zoly.tech^
 ||zorbklqyoabvj.top^
+||zurlitefulvous.com^
 ||zxphiz.tech^
 ||zygousgauby.com^
 ||zzhengre.com^
