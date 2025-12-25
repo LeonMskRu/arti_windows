@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: CuF8WOvIyz54NukeyYQSlA
-! Diff-Path: ../patches/11/11-s-1765350762-3600.patch
+! Checksum: 649lKluEfXqpo7iTqmUV0w
+! Diff-Path: ../patches/11/11-s-1766653951-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.66.15
-! TimeUpdated: 2025-12-10T07:09:53+00:00
+! Version: 2.0.66.51
+! TimeUpdated: 2025-12-25T09:09:28+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -120,6 +120,10 @@
 ! For DNS filtering
 /^(a|c)\.[0-9a-f]{56}\.com$/
 !
+! Remove sub-domain rules in Jan 2026, if no problems
+||rayjump.com^
+!
+||sdkc.vervegroupinc.net^
 ||static.terratraf.com^
 ||cdn-rtb.sape.ru^
 ||aatkit.com^
@@ -160,6 +164,12 @@
 ||startup.mobile.webvisor.com^
 ||startup-mobile.ap.yandex-net.ru^
 !
+||ad.mojisead.co.kr^
+||openglass.tv^
+||octillion.tv^
+||ctv-ads.api.leiniao.com^
+||sonicsads.com^
+||nextacdn.top^
 ||se.rfvtgbyhn.com^
 ||tc.qzwxrtyk.com^
 ||bstgms4y.com^
@@ -370,7 +380,6 @@
 ||prebid-cache*.ifunny.co^
 ||tk0x1.com^
 ||displayio.cloud^
-||external-api.impression-neo.naver.com^
 ||mobiadvert*.livesportmedia.eu^
 ||sdkv2.imaginationunwired.com^
 ||api-ad-adapter.wps.com^
@@ -853,7 +862,9 @@
 ||iadsdk.apple.com^
 ||imwx.com/mobile/adconfig/
 ||infolinks.com^
-||inmobi.com^
+||ads.inmobi.com^
+||config.inmobi.com^
+||glance.inmobi.com^
 ||inmobi.net^
 ||inmobi.cn^
 ||inmobicdn.net^
@@ -1178,6 +1189,9 @@ turbopages.org##.page__result > div[class*="type_native"]
 ##.happy-under-player-mobile
 ##.b-mobile-spots
 ###ad_inview_area
+! Sinclair, Inc
+##div[class^="MidArticleAdUnit_mobile_"]
+##div[class^="PrimisMidArticleAdUnit_mobile_"]
 !--- popular banner sizes ---
 ##img[width="320"][height="50"]
 ##iframe[width="320"][height="50"]
@@ -1806,6 +1820,7 @@ deviantart.com##div[class*="dp-ad-"]:style(height: 0!important; width: 0!importa
 ! Yandex ads in mobile apps
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/219449
 ! https://github.com/AdguardTeam/AdguardFilters/issues/213676#event-19865107435
 ! https://github.com/AdguardTeam/AdguardFilters/issues/211207
 ! https://github.com/AdguardTeam/AdguardFilters/issues/210159
@@ -1970,6 +1985,8 @@ deviantart.com##div[class*="dp-ad-"]:style(height: 0!important; width: 0!importa
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/172879
+@@||cmp.inmobi.com^$domain=protothema.gr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/218172
 ! amazon search - jumping scroll bar
 amazon.*#@#.s-result-item:has([data-ad-feedback-label-id])
@@ -2359,6 +2376,30 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+oppaisan.com##div[class^="click_fit__in_gazou"]
+daily.co.jp##a[href="https://sunlogue.jp/"]
+superporn.com##.overlay-video
+m.avito.ru##.js-search-wrap ~ div[style*="--end-color: #FFE0E0;"]
+bakuwaro.com##.widget-in-article.widget_mobile_text:has(> .widget-in-article.widget_mobile_text > .text-mobile > div > a[href^="https://appollo.jp/api/lp/?acd="])
+blog.livedoor.jp##center > a[target="_blank"]:has(> img[src^="https://livedoor.blogimg.jp/ld_manga/imgs/"])
+m.crank-in.net##.list_ad
+m.crank-in.net##.recommend_rank_title:has(+ #taboola-below-article-thumbnails-mg)
+genius.com##main[class^="SongPage__Container"] > div[class^="SectionLeaderboard__Container"]:has(> div[class^="SectionLeaderboard__Center"] > div[class^="sc-"] > div[id^="div-gpt-ad"])
+eatwell101.com##.admobile
+eatwell101.com##div[id^="mob"]
+m.crank-in.net##.ad_area_first
+f800riders.org##.california-sticky-footer-ad-container
+ulifestyle.com.hk##.ad-zone-mobile
+daily.co.jp##.daily-unext-widget
+teluguone.com##.rgtLinks
+wareable.com##.block-mobile-ad
+news.denfaminicogamer.jp##aside[id^="bpsr_"]
+news.denfaminicogamer.jp##aside[id^="heartopia_"]
+trilltrill.jp##.RecruitmentBox
+focus.de##div[id*="AdCarousel"]
+focus.de##.Ad-Carousel
+biography.com###main-content > section[data-vars-block-heading] > div:has(> .ad-container)
+gosexpod.com##.content__block > div[style="margin-top:-7px;margin-bottom:1px;min-height:170px"]
 hdblog.it###maxticker_container + div[style^="margin:"][style*="background: #000;"]
 pley.gg##.e-con-boxed:has(.generic-banner)
 zakon.kz##.top-brendingMob
@@ -2655,7 +2696,7 @@ jaxon.gg##span.pointer[data-code]
 jaxon.gg##.col-xl-4:has(> div > span.pointer[data-code])
 mtgsalvation.com##.post-mobile-ad
 clickpetroleoegas.com.br##.cpg-pub
-hpjav.in,momon-ga.com,book18.fans,nyahentai.re,asmr18.fans,jav.direct,openload.mov,doujinantena.top,javmix.tv##.home-h:has(+ div[style^="margin: -12px -1"] > div[style^="max-width: 1"][style*="height"][style*="margin: 0 auto"])
+hpjav.in,momon-ga.com,book18.fans,nyahentai.*,asmr18.fans,jav.direct,openload.mov,doujinantena.top,javmix.tv##.home-h:has(+ div[style^="margin: -12px -1"] > div[style^="max-width: 1"][style*="height"][style*="margin: 0 auto"])
 wear.jp##.xl\:block + div.bg-gray-200.py-\[10px\]
 tarnkappe.info##.mobile-only:has(> .interscroller-wrapper:only-child)
 gallery.123telugu.com##.mobile-only-ad
@@ -3030,12 +3071,11 @@ komaki2.jp##+js(abort-current-script, jmp, Math)
 gulfnews.com##div[id^="top-component-section-page-row-ad"]
 gulfnews.com##div[style^="border-right:"] > div:has(> div[class] > div[class] > div[id^="top-component-section-page-native-ad"])
 m.sabah.com.tr##div:has(> div[data-mbzone-loaded]:only-child)
-pornhub.com##.middleAdContainer
 therepublic.com##.tdc-row:has(img[title*="_digital_ad_mobile"]):style(display: none !important;)
 ||therepublic.com/wp-content/uploads/*/KM_digital_ad_mobile_
 m.mobile01.com##div[class*="ad-prestitial-"]
 nana-press.com###ad_area_01
-kalporn.com,canalporno.com,porndroids.com,0115765.com##.sticky-banner
+superporn.com,kalporn.com,canalporno.com,porndroids.com,0115765.com##.sticky-banner
 anikore.jp##.boardDetail__list > li:has(> div[id])
 aidoly.net###glssp_div_iframe_container
 aidoly.net##div[style^="padding-top: 10px"]:has(> .ad:only-child)
@@ -3119,13 +3159,10 @@ iko-yo.net##main > section.box:has(> ul.box__items--column > li > div[id^="div-g
 iko-yo.net##main > div.box:has(> div[id^="div-gpt-sp"])
 iko-yo.net##main > section.box:has(> div#taboola-below-article-thumbnails)
 cinematoday.jp##body > div[style="position:relative;height: 80px; background: #efefef; "]
-pornhub.com##.eudsaLink
-pornhub.com##.ad-tabSplit
 zerohedge.com##.content > #footer:not(:has(> *))
 zerohedge.com##div[class^="NodeContent_body_"] > .in-content:empty
 bunshun.jp##.ats_custom_inarticle_wrapper
 bunshun.jp##div[id^="taboola-mid-article-thumbnails-"]
-pornhub.com##.watchpageAd
 best-hit.tv,h178.com###StickyAd
 gamewith.jp##.overlay-creative-ad
 trailrunner.jp##.side_banner_sm_box
@@ -3160,7 +3197,6 @@ google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,
 gamerant.com###adsninja-below-main-pic
 eurointegration.com.ua##body > span
 cbr.com##div[id^="adsninja-"]
-yahoo.com##div[class^="col-fullbleed mb-4 bg-marshmallow pb-5 "]
 books.j-cast.com##div[id^="sp_books\.j-cast_kiji_"][style^="min-width: 300px"]
 xs798621.xsrv.jp##.ad_min_box
 btvnovinite.bg##div[class^="megaboard-"]
@@ -3519,6 +3555,7 @@ s.response.jp##main > div.itd-head:has(> h3:contains([PR]))
 gentosha-go.com##.ad_movie_wrapper
 driver-web.jp##div[id^="ad"][id$="box"]
 mynavi.jp###sp-ad-above-pagenation
+baseballchannel.jp###sp-ad
 umatoku.hochi.co.jp##.news-list > li.news-list__item:has(> aside.ad)
 ||thumbor.4gamers.com.tw/*/*ads-media*.png
 4gamers.com.tw##div[class*="safe-area-inset-bottom"] div.fixed:has(a[target="_blank"] source[srcset*="ads-media"])
@@ -3580,7 +3617,7 @@ amazon.*##div[data-cel-widget="softlines-btf-substitute-zone-container-T3_featur
 amazon.*##div[id="softlines-mobile-btf-discovery-zone-T3_feature_div"] .softlines-zone-content > div[id^="sims-simsContainer_feature_div"]
 lawspot.gr###pbmb
 ilfattoquotidiano.it###adk-interstitial-list
-nyahentai.re,momon-ga.com###video_inst_area
+nyahentai.*,momon-ga.com###video_inst_area
 xatakahome.com##body article.article div.ad
 lapkins.ru##.start .start-ban
 gizmodo.com##.ad-mobile-dynamic
@@ -3679,7 +3716,7 @@ famitsu.com##.banner-window-jack-wrapper
 famitsu.com##div[class^="BasicLayout_movieBanner_"]
 syakouba.com##div[style^="width:320px;height:100px"]
 seasonvar.*##.content > div.pgs-nearcarusel-wrap:has(div.groove)
-vogue.it##.ad-height-hold
+glamour.mx,vogue.it##.ad-height-hold
 vogue.it##div[class^="TwoColumnsWithHorizontalAdMosaicWrapper-"]
 octavius.mail.ru##.application-mail__layout div.letter-list__react div[role="rowgroup"] > div[style^="height:"][style*="position:"][style*="top:"][style$="width: 100%;"]:not([class]):not([id])
 plush-fortune.jp##a[href*="?adv_id="]
@@ -3709,7 +3746,7 @@ woman.mynavi.jp##div[style="margin:20px auto 0;text-align: center; min-height: 3
 cartune.me##div[style^="display:flex;justify-content:center;align-items:center;text-align:center;min-height:"]
 tecnoandroid.it,treccani.it###gmp-sticky-middlemobile
 tecnoandroid.it,treccani.it###gmpSkinMobileSpacer
-faz.net,zeit.de##.iqdcontainer
+scinexx.de,faz.net,zeit.de##.iqdcontainer
 amp.marca.com##.ue-c-ad
 meteoblue.com##div[id^="display_mobile_ad"]
 oreno3d.com##.video-figure > div[style^="position: absolute; top: 0px; left: 0px;"]
@@ -4042,6 +4079,7 @@ tempo.pt##.ad_m_bottom
 video.fc2.com##iframe[src^="/pagead/"]
 mainichikirei.jp##aside[style="width:100%; padding:10px 0; background:#f3f3f3;"]
 bg-mania.jp##div[style="min-height:120px; min-width:100%;"]
+full-count.jp##a[id^="c2_click_"][id*="_banner_"]
 full-count.jp###c2_click_jera_award_sp_article_end
 mi-mollet.com###MM_SP_PerfectView
 corriere.it###ads_halfpage_mobile
@@ -4714,14 +4752,14 @@ coinranking.com##.sticky--full-width
 moviewalker.jp##div[style*="min-width:320px;"]
 business.nikkei.com##.dag_rectangle
 a-eroland.net###fam_rectp
-nyahentai.re##.__isboostOverlay
+nyahentai.*##.__isboostOverlay
 parismatch.com##.lmn-habmob
 blogterest.net###glkab
 the-sun.com##.amp-adv-wrapper
 bookmaker-ratings.ru##.branding-top-wrapper
 washingtonpost.com##.tableAd1
-myhentai.us,taboovideosx.com,fxpornhd.com,thevoyeurmania.com,pornolatinox.com,fistingplanet.com##.happy-related-videos-mobile
-myhentai.us,taboovideosx.com,fxpornhd.com,thevoyeurmania.com,pornolatinox.com,familyxxxhd.com,erotic-hentai.com,villagesexvideos.com,xxxvideoindian2.com,fistingplanet.com##.happy-footer-mobile
+pornmk.com,myhentai.us,taboovideosx.com,fxpornhd.com,thevoyeurmania.com,pornolatinox.com,fistingplanet.com##.happy-related-videos-mobile
+pornmk.com,myhentai.us,taboovideosx.com,fxpornhd.com,thevoyeurmania.com,pornolatinox.com,familyxxxhd.com,erotic-hentai.com,villagesexvideos.com,xxxvideoindian2.com,fistingplanet.com##.happy-footer-mobile
 mediacourant.nl,coinwarz.com##div[id^="ad"]
 pornpapa.com##.mobile-device
 maximum.ru,rusradio.ru,dfm.ru##.advertising-mobile-popup-overlay
@@ -4819,8 +4857,8 @@ poder360.com.br##.box-banner-footer
 vkprime.com##.skip_button
 vkprime.com##.jubnabtn
 vkprime.com##.overlay_main
-nyahentai.re,javfan.one##div[style^="width: 300px;"][style*="height: 250px;"]
-nyahentai.re##div[style^="max-width: 480px;"][style*="max-height: 500px;"]
+nyahentai.*,javfan.one##div[style^="width: 300px;"][style*="height: 250px;"]
+nyahentai.*##div[style^="max-width: 480px;"][style*="max-height: 500px;"]
 daretoku-eromanga.info###container > div.widget_text.side_col:not(:last-child)
 hbooks.club##div[style^="width:"][style*="height:"][style*="margin:"][style$=";overflow:hidden;"]
 hdzog.com##.video-page__content > div[class]:first-child > div[class]
@@ -5612,8 +5650,6 @@ csfd.cz##.box-banner-mobile
 urapic.com##header + center
 webtan.impress.co.jp##.ad-wrapper-in-content
 newmofu.doorblog.jp##.content > #lite_link:first-of-type
-hobonichielog.com##.banabox
-hobonichielog.com##.hoboboxb
 metacritic.com##.mobile_nav_ad_space
 eclat.hpplus.jp,adult-machiko.com##div[class^="ad_"]
 onmanorama.com##.promotionblocks
@@ -7327,7 +7363,7 @@ babycenter.de###topAdContainerMobile
 rg.ru###yandex_ads_hor_pda
 mobil.pcwelt.de,apkmirror.com##.OUTBRAIN
 4g.co.uk##.ad4
-news18.com,m.economictimes.com,m.haberler.com,redtube.com,redtube.net,pornhub.com,pornhub.org,pornhub.net##.adContainer
+news18.com,m.economictimes.com,m.haberler.com,redtube.com,redtube.net##.adContainer
 bhaskar.com,divyabhaskar.co.in##.ad_320
 m.delfi.lt##.ad_atop
 seclub.org##.ad_block
@@ -7469,7 +7505,7 @@ bicycling.com##section > div[class]:has(> .ad-container)
 zockify.de##.embed-responsive:has(> .embed-responsive-item > .vm-placement)
 tagesspiegel.de##article div:has(> div[id^="iqadtile"])
 bestproducts.com,cosmopolitan.com,thepioneerwoman.com,roadandtrack.com,womansday.com,harpersbazaar.com,countryliving.com,womenshealthmag.com,autoweek.com##section > div[class*="css-"]:has(> div[id^="gpt-ad"])
-elle.com,elledecor.com,runnersworld.com##div[class*="css-"]:has(> div.ad-container)
+richessemag.jp,elle.com,elledecor.com,runnersworld.com##div[class*="css-"]:has(> div.ad-container)
 popularmechanics.com##section > div[class*=" "]:has(> div[class]:first-child + .ad-container:last-child)
 veranda.com,wetter.com##div[class^="sc-"]:has(> div.ad-container)
 wetter.com##.som-wrapper
@@ -7806,6 +7842,13 @@ contexto.me##.top-ad-padding:style(padding-top: 15px !important;)
 ! NOTE: Regular rules end ⬆️
 ! !SECTION: Regular rules
 !
+! pornhub.com
+pornhub.com,pornhub.org##.eudsaLink
+pornhub.com,pornhub.org##.ad-tabSplit
+pornhub.com,pornhub.org##.watchpageAd
+pornhub.com,pornhub.org##.bottomNav > a[href][target="_blank"]
+pornhub.com,pornhub.org##.mgp_overlayContainer
+!
 ! m.yelp.com
 m.yelp.com###BottomAdStandard
 m.yelp.com##section[data-testid="BottomAdStandard"]
@@ -7829,7 +7872,8 @@ avito.ru##.b-ads
 ! Sinclair, Inc
 fox56-com.cdn.ampproject.org,dayton247now-com.cdn.ampproject.org,myfox28columbus-com.cdn.ampproject.org,fox28savannah-com.cdn.ampproject.org,fox23maine-com.cdn.ampproject.org,nbc16-com.cdn.ampproject.org,mynbc15-com.cdn.ampproject.org,fox11online-com.cdn.ampproject.org,turnto10-com.cdn.ampproject.org,wtov9-com.cdn.ampproject.org,abc6onyourside-com.cdn.ampproject.org,news4sanantonio-com.cdn.ampproject.org,mynews4-com.cdn.ampproject.org,fox4beaumont-com.cdn.ampproject.org,cbs2iowa-com.cdn.ampproject.org,wsbt-com.cdn.ampproject.org,wgxa-tv.cdn.ampproject.org,wcyb-com.cdn.ampproject.org,wchstv-com.cdn.ampproject.org,wach-com.cdn.ampproject.org,okcfox-com.cdn.ampproject.org,nbcmontana-com.cdn.ampproject.org,foxsanantonio-com.cdn.ampproject.org,foxrochester-com.cdn.ampproject.org,foxreno-com.cdn.ampproject.org,foxnebraska-com.cdn.ampproject.org,foxillinois-com.cdn.ampproject.org,newschannel9-com.cdn.ampproject.org,foxbaltimore-com.cdn.ampproject.org,kfoxtv-com.cdn.ampproject.org,kmph-com.cdn.ampproject.org,wjla-com.cdn.ampproject.org,news3lv-com.cdn.ampproject.org,13wham-com.cdn.ampproject.org,upnorthlive-com.cdn.ampproject.org##div[data-testid="story-body"] div[style]:has(> div[style] > amp-ad)
 13wham.com,wwmt.com,wutv29.com,wtwc40.com,wset.com,wpgh53.com,wgme.com,wfgxtv.com,weartv.com,wcti12.com,watchdaytime.com,wabm68.com,utv44.com,thenationaldesk.com,thecwtv.tv,thecwtc.com,thecw46.com,thecw38.com,telemundoaustin.com,star64.tv,southernoregoncw.com,seattlerefined.com,raleighcw.com,newschannel9.com,newschannel20.com,nevadasportsnet.com,nebraska.tv,mytvz.com,mytvwichita.com,mytvrichmond.com,mytvdayton.com,mytvcharleston.com,mytvbuffalo.com,mytvbaltimore.com,mytv30web.com,myrdctv.com,midmichigannow.com,local21news.com,kval.com,kunwtv.com,kunptv.com,ktxs.com,ktvo.com,ktvl.com,krcrtv.com,krcgtv.com,kpic.com,kocb.com,kmyu.tv,kimatv.com,khqa.com,kfdm.com,keprtv.com,kdsm17.com,kcby.com,katv.com,idahonews.com,foxrichmond.com,foxkansas.com,fox49.tv,fox47.com,fox38corpuschristi.com,cwtreasurevalley.com,cwlasvegas.com,cwcolumbus.com,cwcincinnati.com,cwcentralpa.com,cwbaltimore.com,cwalbany.com,cw9tv.com,cw35.com,cw34.com,cw23tv.com,cw18milwaukee.com,cwomaha.tv,cw14online.com,chattanoogacw.com,cbsaustin.com,cbs4local.com,cbs12.com,abcnews4.com,abc7amarillo.com,abc45.com,abc3340.com,22thepoint.com,ktul.com,bakersfieldnow.com,local12.com,katu.com,komonews.com,wjactv.com,upnorthlive.com,cnycentral.com,wpde.com,cbs6albany.com,kutv.com,wjla.com,news3lv.com,kmph.com,kfoxtv.com,fox17.com,foxbaltimore.com,foxchattanooga.com,foxillinois.com,foxnebraska.com,foxreno.com,foxrochester.com,foxsanantonio.com,nbcmontana.com,okcfox.com,siouxlandnews.com,wach.com,wchstv.com,wcyb.com,wfxl.com,wgxa.tv,wlos.com,wsbt.com,cbs2iowa.com,fox4beaumont.com,mycbs4.com,mynews4.com,news4sanantonio.com,abc6onyourside.com,wtov9.com,turnto10.com,fox11online.com,mynbc15.com,nbc16.com,fox23maine.com,nbc24.com,fox28savannah.com,myfox28columbus.com,fox42kptm.com,dayton247now.com,fox56.com##div[data-testid="story-body"] > div[style*="text-align: center;"][style*="margin: 26px 0;"]
-13wham.com,wwmt.com,wutv29.com,wtwc40.com,wset.com,wpgh53.com,wgme.com,wfgxtv.com,weartv.com,wcti12.com,watchdaytime.com,wabm68.com,utv44.com,thenationaldesk.com,thecwtv.tv,thecwtc.com,thecw46.com,thecw38.com,telemundoaustin.com,star64.tv,southernoregoncw.com,seattlerefined.com,raleighcw.com,newschannel9.com,newschannel20.com,nevadasportsnet.com,nebraska.tv,mytvz.com,mytvwichita.com,mytvrichmond.com,mytvdayton.com,mytvcharleston.com,mytvbuffalo.com,mytvbaltimore.com,mytv30web.com,myrdctv.com,midmichigannow.com,local21news.com,kval.com,kunwtv.com,kunptv.com,ktxs.com,ktvo.com,ktvl.com,krcrtv.com,krcgtv.com,kpic.com,kocb.com,kmyu.tv,kimatv.com,khqa.com,kfdm.com,keprtv.com,kdsm17.com,kcby.com,katv.com,idahonews.com,foxrichmond.com,foxkansas.com,fox49.tv,fox47.com,fox38corpuschristi.com,cwtreasurevalley.com,cwlasvegas.com,cwcolumbus.com,cwcincinnati.com,cwcentralpa.com,cwbaltimore.com,cwalbany.com,cw9tv.com,cw35.com,cw34.com,cw23tv.com,cw18milwaukee.com,cwomaha.tv,cw14online.com,chattanoogacw.com,cbsaustin.com,cbs4local.com,cbs12.com,abcnews4.com,abc7amarillo.com,abc45.com,abc3340.com,22thepoint.com,ktul.com,bakersfieldnow.com,local12.com,katu.com,komonews.com,wjactv.com,upnorthlive.com,cnycentral.com,wpde.com,cbs6albany.com,kutv.com,wjla.com,news3lv.com,kmph.com,kfoxtv.com,fox17.com,foxbaltimore.com,foxchattanooga.com,foxillinois.com,foxnebraska.com,foxreno.com,foxrochester.com,foxsanantonio.com,nbcmontana.com,okcfox.com,siouxlandnews.com,wach.com,wchstv.com,wcyb.com,wfxl.com,wgxa.tv,wlos.com,wsbt.com,cbs2iowa.com,fox4beaumont.com,mycbs4.com,mynews4.com,news4sanantonio.com,abc6onyourside.com,wtov9.com,turnto10.com,fox11online.com,mynbc15.com,nbc16.com,fox23maine.com,nbc24.com,fox28savannah.com,myfox28columbus.com,fox42kptm.com,dayton247now.com,fox56.com##li[class*="teaserListMobileAd"]
+13wham.com,wwmt.com,wutv29.com,wtwc40.com,wset.com,wpgh53.com,wgme.com,wfgxtv.com,weartv.com,wcti12.com,watchdaytime.com,wabm68.com,utv44.com,thenationaldesk.com,thecwtv.tv,thecwtc.com,thecw46.com,thecw38.com,telemundoaustin.com,star64.tv,southernoregoncw.com,seattlerefined.com,raleighcw.com,newschannel9.com,newschannel20.com,nevadasportsnet.com,nebraska.tv,mytvz.com,mytvwichita.com,mytvrichmond.com,mytvdayton.com,mytvcharleston.com,mytvbuffalo.com,mytvbaltimore.com,mytv30web.com,myrdctv.com,midmichigannow.com,local21news.com,kval.com,kunwtv.com,kunptv.com,ktxs.com,ktvo.com,ktvl.com,krcrtv.com,krcgtv.com,kpic.com,kocb.com,kmyu.tv,kimatv.com,khqa.com,kfdm.com,keprtv.com,kdsm17.com,kcby.com,katv.com,idahonews.com,foxrichmond.com,foxkansas.com,fox49.tv,fox47.com,fox38corpuschristi.com,cwtreasurevalley.com,cwlasvegas.com,cwcolumbus.com,cwcincinnati.com,cwcentralpa.com,cwbaltimore.com,cwalbany.com,cw9tv.com,cw35.com,cw34.com,cw23tv.com,cw18milwaukee.com,cwomaha.tv,cw14online.com,chattanoogacw.com,cbsaustin.com,cbs4local.com,cbs12.com,abcnews4.com,abc7amarillo.com,abc45.com,abc3340.com,22thepoint.com,ktul.com,bakersfieldnow.com,local12.com,katu.com,komonews.com,wjactv.com,upnorthlive.com,cnycentral.com,wpde.com,cbs6albany.com,kutv.com,wjla.com,news3lv.com,kmph.com,kfoxtv.com,fox17.com,foxbaltimore.com,foxchattanooga.com,foxillinois.com,foxnebraska.com,foxreno.com,foxrochester.com,foxsanantonio.com,nbcmontana.com,okcfox.com,siouxlandnews.com,wach.com,wchstv.com,wcyb.com,wfxl.com,wgxa.tv,wlos.com,wsbt.com,cbs2iowa.com,fox4beaumont.com,mycbs4.com,mynews4.com,news4sanantonio.com,abc6onyourside.com,wtov9.com,turnto10.com,fox11online.com,mynbc15.com,nbc16.com,fox23maine.com,nbc24.com,fox28savannah.com,myfox28columbus.com,fox42kptm.com,dayton247now.com,fox56.com##div[class^="Main"]:has(> div[class^="DisplayAd_"])
+13wham.com,wwmt.com,wutv29.com,wtwc40.com,wset.com,wpgh53.com,wgme.com,wfgxtv.com,weartv.com,wcti12.com,watchdaytime.com,wabm68.com,utv44.com,thenationaldesk.com,thecwtv.tv,thecwtc.com,thecw46.com,thecw38.com,telemundoaustin.com,star64.tv,southernoregoncw.com,seattlerefined.com,raleighcw.com,newschannel9.com,newschannel20.com,nevadasportsnet.com,nebraska.tv,mytvz.com,mytvwichita.com,mytvrichmond.com,mytvdayton.com,mytvcharleston.com,mytvbuffalo.com,mytvbaltimore.com,mytv30web.com,myrdctv.com,midmichigannow.com,local21news.com,kval.com,kunwtv.com,kunptv.com,ktxs.com,ktvo.com,ktvl.com,krcrtv.com,krcgtv.com,kpic.com,kocb.com,kmyu.tv,kimatv.com,khqa.com,kfdm.com,keprtv.com,kdsm17.com,kcby.com,katv.com,idahonews.com,foxrichmond.com,foxkansas.com,fox49.tv,fox47.com,fox38corpuschristi.com,cwtreasurevalley.com,cwlasvegas.com,cwcolumbus.com,cwcincinnati.com,cwcentralpa.com,cwbaltimore.com,cwalbany.com,cw9tv.com,cw35.com,cw34.com,cw23tv.com,cw18milwaukee.com,cwomaha.tv,cw14online.com,chattanoogacw.com,cbsaustin.com,cbs4local.com,cbs12.com,abcnews4.com,abc7amarillo.com,abc45.com,abc3340.com,22thepoint.com,ktul.com,bakersfieldnow.com,local12.com,katu.com,komonews.com,wjactv.com,upnorthlive.com,cnycentral.com,wpde.com,cbs6albany.com,kutv.com,wjla.com,news3lv.com,kmph.com,kfoxtv.com,fox17.com,foxbaltimore.com,foxchattanooga.com,foxillinois.com,foxnebraska.com,foxreno.com,foxrochester.com,foxsanantonio.com,nbcmontana.com,okcfox.com,siouxlandnews.com,wach.com,wchstv.com,wcyb.com,wfxl.com,wgxa.tv,wlos.com,wsbt.com,cbs2iowa.com,fox4beaumont.com,mycbs4.com,mynews4.com,news4sanantonio.com,abc6onyourside.com,wtov9.com,turnto10.com,fox11online.com,mynbc15.com,nbc16.com,fox23maine.com,nbc24.com,fox28savannah.com,myfox28columbus.com,fox42kptm.com,dayton247now.com,fox56.com##div[class^="style_xsOnly_"]
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187162
 ! hanime1.me
@@ -8148,6 +8192,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_mobile
 ! Solving problems: problematic apps must be excluded by adding `~package_name` to these rules.
 !                   The most of excluded apps - browsers. They should not be matched.
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/220432
 ! https://github.com/AdguardTeam/AdguardFilters/issues/217628
 ! https://github.com/AdguardTeam/AdguardFilters/issues/213615
 ! Alipay 'fat good life' mini program (with root)

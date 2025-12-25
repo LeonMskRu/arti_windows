@@ -1,7 +1,7 @@
 ! Title: Brave Optimized List - Exception Rules
 ! Description: A merged and optimized list of exception rules.
-! Last Updated: 2025-12-10 15:14:39 UTC
-! Total Rules: 421
+! Last Updated: 2025-12-25 14:06:40 UTC
+! Total Rules: 422
 
 @@/angular-facebook.js
 @@/btns.png$domain=antivirus.ua
@@ -116,6 +116,7 @@
 @@||cmp.inmobi.com/GVL-v2/$domain=express.co.uk
 @@||cmp.inmobi.com/geoip$domain=express.co.uk
 @@||cmp.inmobi.com^$domain=innpoland.pl|aszdziennik.pl|mamadu.pl|dadhero.pl|hideout.co|fly4free.pl|travlerz.com|protothema.gr|cyprus-mail.com|wpolityce.pl
+@@||cmp.inmobi.com^$domain=protothema.gr
 @@||cmp.inmobi.com^$domain=the-express.com
 @@||cnet2.cbsistatic.com/fly/*/bundles/cnetmpxpdk/
 @@||cnews.ru/inc/comments/$subdocument,domain=cnews.ru
