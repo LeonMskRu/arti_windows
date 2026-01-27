@@ -1,6 +1,6 @@
 ! Title: Brave Optimized List - Exception Rules
 ! Description: A merged and optimized list of exception rules.
-! Last Updated: 2026-01-02 13:27:03 UTC
+! Last Updated: 2026-01-27 21:24:50 UTC
 ! Total Rules: 423
 
 @@/angular-facebook.js
@@ -53,6 +53,7 @@
 @@||ads.dainikbhaskar.com/AdTech/ads/ads.js
 @@||ads.rubiconproject.com/prebid^$domain=index.hr
 @@||ahaan.co.uk^$~third-party,xmlhttprequest
+@@||alp440.activehosted.com/f/embed.php$script,domain=openpeople.university
 @@||an.yandex.ru/mapuid/yandex/|$image,domain=auto.ru
 @@||anadolu.edu.tr/assets/js/jquery.smartbanner.js$~third-party
 @@||android-api-de.gumtree.com/api/users/*/ads.json
@@ -162,7 +163,6 @@
 @@||facebook.com/plugins/like_box.php$subdocument,domain=overclockers.ru
 @@||facebook.com^*/plugins/page.php?$domain=cieplikpodrozuje.pl|makulscy.com
 @@||fc-zenit.ru/local/templates/new_html/css/nav-social-2/$~third-party
-@@||feed.mikle.com/widget/$subdocument,domain=smeal.psu.edu
 @@||feed.mikle.com/widget/?$subdocument,domain=inforesist.org
 @@||findicons.com/files/icons/$~third-party
 @@||fontawesome.com^$generichide
