@@ -1,7 +1,7 @@
 ! Title: Brave Optimized List - Unsupported Brave Rules
 ! Description: A merged and optimized list of unsupported brave rules.
-! Last Updated: 2026-02-09 14:17:48 UTC
-! Total Rules: 1093
+! Last Updated: 2026-02-09 11:22:48 UTC
+! Total Rules: 1096
 
 *$popup,third-party,domain=gogoanimes.fi|hdtoday.la|hdtoday.tv|hdtodayz.to|hollymoviehd.cc|kimcartoon.*|kisscartoon.com|mreader.co|nosteam.ro|strtapeadblock.me|strtapeadblocker.art|theflixertv.to
 0352.ua##.row > div.card-wrapper:has(> amp-ad)
@@ -148,6 +148,7 @@ championat.com##.swiper-wrapper > div.livetable-swiper__item:has(> div.game-of-d
 charivari.de##.block_area_sidebar .shell:has(> .range > .contentblock > div span[style^="font-size"][style*="grey"])
 chichi-pui.com##.is-hidden-tablet > div.is-mobile > div.column:has(> div.is-hidden-tablet):not(:has(> a))
 chiemgau24.de##div[data-id-module="col-width-watcher"] > div.id-Container--hasHeadline:has(> h3 > span:contains(Auch interessant))
+chiemgau24.de##div[data-id-module="col-width-watcher"] > div.id-Container--hasNoHeadline:matches-css(before, content:*- Reklame)
 chinese.engadget.com##.rwd-inner-container ul[class*="List"] > li[class*="engadget"]:has(> article > div[class*="engadget"] > a[href^="https://b.gemini.yahoo.com"])
 chunichi.co.jp##aside > .cscmp-subscription + .cmp-hdg005:has(+ div.cmp-lst001 div[id^="div-gpt-"])
 ciudad.com.ar###header:style(height: auto!important;)
@@ -523,6 +524,7 @@ m.sporx.com##.media-news:has(> div.flex-grow-1 > a[href^="https://www.sporx.com/
 m.stv.jp##ul.dNewsCards, #dNewsTops ul:style(margin: 0 !important;)
 m.timesofindia.com###newslisting .story_left:has(> div[data-ad-id])
 m.timesofindia.com###newslisting .story_left:has(> div[id^="div-gpt"])
+m.timesofindia.com##.clearfix > br.id-r-component + div[class^="_"]:matches-css(before, content: /^ADVERTISEMENT$/)
 m.timesofindia.com##.contentwrapper > div > div > div > div[class]:has(> div[id^="div-gpt-ad-"])
 m.tokopedia.com##div[data-testid="masonryContainer"] > div[class^="css-"] > div[data-testid="masonryProduct"]:has(> div[data-testid="master-product-card"] > .unf-card > .pcv3__container > div[class^="css-"] > div[class^="css-"] > span[data-testid="linkProductTopads"])
 m.tokopedia.com##div[data-testid="masonryContainer"] > div[class^="css-"] > div[data-testid="masonryProduct"]:has(> div[data-testid="master-product-card"] > .unf-card > .product-cardv2__container > div[class^="css-"] > a[data-cy="prodNameLink"] > div[class^="css-"] > div[data-testid="linkProductTopads"])
@@ -719,6 +721,7 @@ orangepage.net##main div[class*=":hidden"]:has(> div[data-cptid])
 ortacizgi.com##div.display:has(> div.post-ad-title)
 otakuma.net###main-article-single > div[align="center"]:has(> a[href^="https://hb.afl.rakuten.co.jp/"])
 otakuma.net##.featured-article:has(> a[target="_blank"] > div.featured-title > span)
+otvet.mail.ru##div:matches-css(before, content: /^Реклама/):matches-css(max-height:100px)
 outlook.live.com##main[aria-hidden] > div[class] > div[style] > div[class][style="position: absolute; left: 0px; top: 0px; height: 80px; width: 100%;"]:has(> div[class] > div[role="group"] > #OwaContainer)
 overclockers.ru##.container-block.woback:has(> div > ins[data-revive-zoneid])
 overclockers.ru##.container-block:has(> div[id^="yandex_rtb"])

@@ -1,6 +1,6 @@
 ! Title: Brave Optimized List - Exception Rules
 ! Description: A merged and optimized list of exception rules.
-! Last Updated: 2026-02-09 14:17:48 UTC
+! Last Updated: 2026-02-09 11:22:48 UTC
 ! Total Rules: 423
 
 @@/angular-facebook.js
