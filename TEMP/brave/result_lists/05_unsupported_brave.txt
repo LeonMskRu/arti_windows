@@ -1,7 +1,7 @@
 ! Title: Brave Optimized List - Unsupported Brave Rules
 ! Description: A merged and optimized list of unsupported brave rules.
-! Last Updated: 2026-01-27 21:24:50 UTC
-! Total Rules: 1086
+! Last Updated: 2026-02-09 14:17:48 UTC
+! Total Rules: 1093
 
 *$popup,third-party,domain=gogoanimes.fi|hdtoday.la|hdtoday.tv|hdtodayz.to|hollymoviehd.cc|kimcartoon.*|kisscartoon.com|mreader.co|nosteam.ro|strtapeadblock.me|strtapeadblocker.art|theflixertv.to
 0352.ua##.row > div.card-wrapper:has(> amp-ad)
@@ -506,7 +506,6 @@ m.mobile.de##article[data-testid="srp-regular-ad"] + div[class]:has(> div[id^="m
 m.quotenmeter.de###qm-home > .qm-item:has(> div[id^="div-gpt-ad-"])
 m.sabah.com.tr##.infgaleritrend .frame > .modal-closing > .topDetail > .article-header:style(margin-top: 60px !important;)
 m.sabah.com.tr##.manset > ul > li:has(>a[href^="/haber/advertorial/"])
-m.sabah.com.tr##.promo + :is(.userPrivate, .container, .manset, #infContentCover, #contextual):style(margin-top: 60px !important;)
 m.sabah.com.tr##.promo:style(display: none !important;)
 m.sabah.com.tr##div:has(> div[data-mbzone-loaded]:only-child)
 m.saostar.vn###page:style(top: 0!important;)
@@ -539,9 +538,12 @@ m.vz.ru##main > div.page-section:has(> div.container > iframe[src^="https://com.
 m.webaslan.com##.load-data > div > div.media:has(> div > a[href^="https://www.sporx.com/"])
 m.yelp.com##div[class*="main-content__"] > div > ol > li:has(> div[class*="sponsored-icon__"])
 m.yelp.com##div[class*="main-content__"] > div > ol > li:has(div[data-traffic-crawl-id="SearchResultBizName"] > h3 > a[href^="/adredir?ad_business_id="])
+m.yelp.com##div[class*="new-serpia-"] > ol > li:has(> div[class*="sponsored-icon"])
+m.yelp.com##div[class*="new-serpia-"] > ol > li:has(a[href^="/adredir?"])
 m.yelp.com##div[data-testid="suggested-search-bar"] ~ div[class*="border-color-"] > ol > li:has(> div[class*="sponsored-icon_"])
 m.yelp.com##div[data-testid="suggested-search-bar"] ~ div[class*="border-color-"] > ol > li:has(> div[class*="sponsored-icon_"]) + li[class]
 m.yelp.com##div[data-testid="suggested-search-bar"] ~ div[class*="border-color-"] > ol > li:has(> div[data-testid^="themed-ad-"])
+m.yelp.com##ol > li:has(> div[data-testid="themed-ad-top-divider"])
 m.yeniakit.com.tr##.dfp:style(display: none !important;)
 m.yeniakit.com.tr##.gallery-page:style(min-height: 2630px !important;)
 maclife.de##body.mobile.ads .mobilesticky:style(min-height: 0px !important; height: 50px !important; top: 0px !important; margin-top: 0px !important;)
@@ -554,7 +556,6 @@ mail.yahoo.com##ul > li:has(> div[data-test-id="swipeable-item-container"] > div
 makemytrip.com##.landingContainer > .makeFlex:has(> div[class^="adtech"])
 mangalivre.tv###adblock-overlay:style(display: none !important;)
 mangalivre.tv###manga-safe-wrapper:style(display: block !important;)
-mangapark.io##main > div:has(> div.px-3 > a[href][target="_blank"][q\:key="CY_1"])
 mangapedia.com###fixed_footer:style(display: none !important;)
 mangapedia.com##.PG_Nkeyword #anchorTop:style(bottom: 20px !important;)
 mangapedia.com##.PG_Nkeyword article .socialList:style(bottom: 0 !important;)
@@ -625,6 +626,7 @@ mtb-news.de###cb-outer-container:style(margin-top: 0 !important;)
 multporn.net##.region-content > div.block-block:has(> div.content > script[data-idzone])
 mundoxiaomi.com##.m-sponsor-masthead:style(padding-top: 0 !important;)
 muzmob.org##.items > div:has(> iframe[src*=".php?iframe_id=_"])
+mydealz.de##div[class]:has(> .ad--bg:only-child)
 mydramalist.com##.app-body > div[class]:first-child:has(> .is-mobile > div[class] > .mdl-gpt-tag)
 mydramalist.com##div:has(> div[style="min-height:327px;"]:only-child)
 namaeuranai.biz##body:style(padding-bottom: 0 !important;)
@@ -666,6 +668,7 @@ news18.com##article > div.lazyload-wrapper:has(> div[data-lazy="ads"])
 news4wide.net###container > .free-area:has(> #lite_link)
 news4wide.net###container > .free-area:has(> div[id^="im-"])
 news4wide.net###container > .free-area:has(> script)
+nfl.com##.flex.justify-center.lg\:my-8:has(> #adv_league)
 nicomanga.com##.row > div.col-md-4:has(> center > iframe[height="300px"])
 nifty.com##ul > li:has(> a[class*="rticle_ad"])
 nikkan-gendai.com##footer > div.copy:style(padding-bottom: 40px !important;)
@@ -978,6 +981,10 @@ vip.tiin.vn##.sub-top > div > div.netnews-item:has(> div.nn-item-top > p > a:con
 vipcle2.com##body > div[id^="text-"] > div.textwidget:has(> div[class^="ad300"])
 vipergirls.to##.forumbit_post:has(> div:only-child > .ui-btn-text > h3 > a[rel="external"])
 vjav.com##.underplayer > section:has(a[target="_blank"])
+vk.*##body.anonym > #box_layer_bg:style(display: none !important)
+vk.*##body.anonym > #box_layer_wrap.scroll_fix_wrap:has(> #box_layer [aria-modal="true"][role="dialog"] .vkuiButton__in):style(display: none !important)
+vk.*##body.anonym[style*="overflow:"]:style(overflow-y: auto !important)
+vk.com##body.anonym div[class^="vkitTwoColumnLayoutNarrow__root"] > div > section:has(.vkuiHorizontalCell__host)
 vnexpress.net##.art_item:has(> ins.adsbyeclick)
 vocus.cc##article > div[style^="min-height:"]:has(> div[class] + ins)
 vxxx.com##.video-page div[class]:not([style]):not([class*=" "]):not([class*="-"]):is(:has(> div[id][class]), :has(> div[class] > div[id][class])):contains(Advertisement):remove()
