@@ -1,6 +1,6 @@
 ! Title: Brave Optimized List - Domain & Network Rules
 ! Description: A merged and optimized list of domain & network rules.
-! Last Updated: 2026-02-09 11:22:48 UTC
+! Last Updated: 2026-02-09 11:28:52 UTC
 ! Total Rules: 50222
 
 ||.0-02.net^

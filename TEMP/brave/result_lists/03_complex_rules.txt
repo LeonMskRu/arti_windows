@@ -1,6 +1,6 @@
 ! Title: Brave Optimized List - Complex Blocking Rules
 ! Description: A merged and optimized list of complex blocking rules.
-! Last Updated: 2026-02-09 11:22:48 UTC
+! Last Updated: 2026-02-09 11:28:52 UTC
 ! Total Rules: 6069
 
 &ADFAssetID=$media,domain=expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
