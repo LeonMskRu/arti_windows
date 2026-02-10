@@ -1,7 +1,7 @@
 ! Title: Brave Optimized List - Exception Rules
 ! Description: A merged and optimized list of exception rules.
-! Last Updated: 2026-02-09 11:28:52 UTC
-! Total Rules: 423
+! Last Updated: 2026-02-10 12:21:52 UTC
+! Total Rules: 422
 
 @@/angular-facebook.js
 @@/btns.png$domain=antivirus.ua
@@ -363,7 +363,6 @@
 @@||svgrepo.com/show/$image,~third-party
 @@||switching.software^$generichide
 @@||t-mobile.com/mms/$document
-@@||t7z.cupid.iqiyi.com/mixer$domain=iqiyi.com
 @@||t7z.cupid.iqiyi.com/show2?$xhr,domain=m.iqiyi.com
 @@||tags.crwdcntrl.net/*.js?ns=^$domain=m.timesofindia.com
 @@||tags.crwdcntrl.net/*/cc_af_ajax.js$domain=driveaccord.net

@@ -1,7 +1,7 @@
 ! Title: Brave Optimized List - Unsupported Brave Rules
 ! Description: A merged and optimized list of unsupported brave rules.
-! Last Updated: 2026-02-09 11:28:52 UTC
-! Total Rules: 1096
+! Last Updated: 2026-02-10 12:21:52 UTC
+! Total Rules: 1100
 
 *$popup,third-party,domain=gogoanimes.fi|hdtoday.la|hdtoday.tv|hdtodayz.to|hollymoviehd.cc|kimcartoon.*|kisscartoon.com|mreader.co|nosteam.ro|strtapeadblock.me|strtapeadblocker.art|theflixertv.to
 0352.ua##.row > div.card-wrapper:has(> amp-ad)
@@ -28,6 +28,9 @@
 9to5google.com###content:style(margin-top: 0 !important;)
 aaieba.livedoor.biz##div[align="center"] > table:has(a[href*="amazon.co.jp/"])
 abplive.com##.articlepage > .center_block:has(> p:contains(- - Advertisement - -))
+abtranny.com##.header_mobile:has(> div.ad__title)
+abtranny.com##.video-page__info > div.headline:style(margin-top: 0 !important;)
+abtranny.com##.video__wrapper > div.wrapper:has(> section div.ad__title)
 accuweather.com##.header-placeholder.has-adhesion:style(height: 44px !important;)
 adme.media##div[data-test-id="article-content"] > div:has(> div > aside > div:contains(Реклама))
 adme.media##div[style="position:relative"] > div.article ~ div > div > div:has(div:empty + div:empty + div:empty)
@@ -1087,6 +1090,7 @@ zx-pk.ru###sidebar > li:nth-child(-n+2)
 ||go.*.com/apu.php$redirect=noop.txt,domain=movies.is,image,media,subdocument,stylesheet,script,xhr,other
 ||hoiplay.com/tm_popup.html$popup
 ||kemono.su^$csp=script-src-attr 'none'
+||picrew.me^$csp=script-src-attr 'none'
 ||s.shopee.vn^$popup,domain=monkeydtruyen.com
 ||s.yimg.com/av/curveball/ads/pr/$redirect=noop.txt,important,domain=sports.yahoo.com,image,media,subdocument,stylesheet,script,xhr,other
 ||search.4shared.com/q/1|$popup,domain=4shared.com

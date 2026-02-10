@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kxnLv5CowJH79EiMChllgg
-! Version: 202602091121
+! Checksum: UXy2r0wHdHCUlomhT9vRHw
+! Version: 202602101212
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 09 Feb 2026 11:21 UTC
+! Last modified: 10 Feb 2026 12:12 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -332,6 +332,7 @@ com,ru##[data-rambler-share]
 ||animeone.cc/rek/animeone-telegram.
 ||bar.love.mail.ru^$domain=~mail.ru
 ||bryansknovosti.ru/ss/
+||cdn.shazoo.ru/*_shazoo-telegram.png
 ||connect.facebook.net^$script,domain=www.liveinternet.ru
 ||connect.facebook.net^*/sdk.js$domain=agrimpasa.com|the-fun.tv
 ||cyberleninka.ru/api/notification$xmlhttprequest
@@ -383,6 +384,7 @@ com,ru##[data-rambler-share]
 ||static.newsru.co.il/img/r_soc/
 ||tchkcdn.com/www/social-widgets/
 ||telegrafcom.api.oneall.com/socialize/
+||telegram.org/js/telegram-widget.js$domain=app2top.ru
 ||thevista.ru/*/img/soc/
 ||twitter.com/widgets.js$domain=hdrezka.tv
 ||tyt.by/i/socialBlock/
@@ -400,7 +402,6 @@ com,ru##[data-rambler-share]
 ! *** ruadlist:bitblock/social_specific_hide.txt ***
 anistar.org,astar.bz,online-star.org,online-stars.org###AS_com
 kinofilms.ua###KFside > aside a[href*="facebook.com/"]
-cheatground.ru#?##PortalBottom > div:-abp-has(> #groups)
 porno-comics.ru###RSS-L
 obninsk.name###Sosal
 anistar.org,astar.bz,online-star.org,online-stars.org###VK_com
@@ -651,7 +652,7 @@ hlamer.ru,ru###user-bar a[href="https://vk.com/krasview"]
 work.ua###viberSubscribeBtn
 livemaster.ru###viewer-social
 via-midgard.info###viiFaveBlock
-factorio.su,sntch.com,topmmo-games.ru###vk-comments
+factorio.su,sntch.com###vk-comments
 kaermorhen.ru###vk-widget
 animespirit.ru###vkButton
 dizelyator.ru###vk_lnk
@@ -741,6 +742,7 @@ delfi.lv##.article-body .shadow
 5.ua#?#.article-body > p:-abp-has(> a[href^="https://whatsapp.com/channel/"])
 tvc.ru#?#.article-body > p:-abp-has(> strong > a[href^="https://t.me/"])
 lifehacker.ru##.article-card-actions__share
+app2top.ru##.article-custom-footer
 xn--90aivcdt6dxbc.xn--p1ai##.article-detail__share
 www.sport.ru##.article-extra
 24smi.org##.article-footer
@@ -1336,7 +1338,6 @@ ruskinonovoe.net##.full > div[style="text-align: right;"]
 myseason.club##.full-soc-text
 pcprogs.net##.fullstory__social
 pcprogs.net##.fullstory__subvktg
-aces.gg##.fullstory_share
 retail.ru##.further__places
 anidub.vip,anidubonline.com##.fwidget.counter
 uazmi.org##.fx-grid-subscribe
@@ -1457,7 +1458,6 @@ byxatab.com##.icon-vk
 whl.khl.ru##.iconbar > .icons > a[href*="khl.ru/"] ~ a:not([href*="khl.ru/"] )
 autopilot.ru,kommersant.ru,myweekend.ru##.iconbox__item--share
 mobiledevice.ru##.icons_bar_placeholder
-sonix.tk##.iconsinit
 life.pravda.com.ua#?#.img-wrap:-abp-has(> div > [href^="https://bit.ly"])
 dizelyator.ru##.imgsoc
 incrypted.com##.incrypted-post-author__socials
@@ -1975,6 +1975,7 @@ milknews.ru##.share-aside
 cross.expert##.share-auth
 povarenok.ru##.share-bl
 replyua.net##.share-blc
+app2top.ru##.share-block
 animedub.ru,gordonua.com##.share-box
 drukarnia.com.ua,grazia.ru,mentoday.ru,pravilamag.ru,techinsider.ru,thevoicemag.ru##.share-button
 lifehacker.ru##.share-button__container
@@ -2067,7 +2068,6 @@ masterok.livejournal.com##.sidebar-custom > dd > a[href]
 novyny.live##.sidebar-item_social
 rcity.by##.sidebar-left-area > .popular-posts + .widget_custom_html
 rcity.by##.sidebar-right-area > div ~ .widget_custom_html
-anirem.org##.sidebar-scroll > [data-type="share"] + p
 kg-portal.ru##.sidebar-social
 4eva.ru,darada.co,glavnoe.net,infotime.co##.sidebar-social__header
 fakty.com.ua##.sidebar-tabs > .aside-title:first-child
@@ -2595,14 +2595,12 @@ joyreactor.cc,pornreactor.cc,reactor.cc##.uhead_share
 overclockers.ru##.ui.message.warning
 gamegpu.com##.uk-float-right > .uk-panel a[href^="https://"] > img
 novate.ru##.ul_top > .li_site ~ li
-totori.ru##.ulogin_block
 fishki.net##.undertopic > .imgmiddle
 korrespondent.net##.unipopup
 magnit.ru##.unit-footer-socials
 korrespondent.net#?#.unit-rubric:-abp-has(> ul > #lifacebook)
 www.pravda.com.ua##.unit_sp_place
 statbet.com##.up-share
-game-pool.ru##.upnews
 mobile-review.com##.upper__social > a[href^="http"]:not([href*="mobile-review.com"])
 prk.city##.uptolike-div
 ivi.ru##.userButtons__item_share
@@ -2634,18 +2632,16 @@ animedub.ru,apihost.ru,waiset.su,xn--c1acj.xn--p1ai##.vk
 mysimpsons.ru##.vk-block
 dovidka.biz.ua##.vk-group
 energyfm.ru##.vk-index
-onlinemultfilmy.ru##.vk-mini
 mega-mult.ru##.vk-osn
 gdz.fm,gdz.ninja,megaresheba.com,mkset.ru,reshebnik.com,xn--c1acj.xn--p1acf##.vk-popup
 anistar.org,astar.bz,online-star.org,online-stars.org##.vk-top
 sletat.ru##.vk-widget
 nevnov.ru##.vk-widget-wrapper
-appsgames.ru,gdz-putina.fun,megapolisonline.ru,mobnovelty.ru##.vk_group
+gdz-putina.fun,megapolisonline.ru,mobnovelty.ru##.vk_group
 megaresheba.com##.vk_groups
 prosound.ixbt.com##.vk_logo
 animalreader.ru##.vk_widget_comments
 omsi2mod.ru,wav-library.net##.vkblock
-pesni-tut.com##.vkcomms
 neboleem.net##.vkgr
 neboleem.net##.vkgs
 game-tournaments.com##.vkicon
@@ -3191,8 +3187,6 @@ ivi.ru##div[data-test="share_button"]
 anticollector.biz.ua##div[data-widget-key="xfi_sidebar_social_block_widget"]
 ozon.ru##div[data-widget="webSharingButton"]
 rebenok.by##div[id$="FacebookBlock"]
-aniplay.tv##div[id*="vk-comments"]
-aniplay.tv##div[id*="vk-groups"]
 gorod24.online#?#div[id]:-abp-has(> [id^="vkwidget"])
 allcio.ru,it-weekly.ru,it-world.ru##div[id^="asd_share_buttons"]
 newkaliningrad.ru#?#div[id^="authpanel"] > div > div[class^="col-md-"]:-abp-has(> .socials)
@@ -3202,7 +3196,6 @@ soccer.ru##div[id^="my-share"]
 kg.ua##div[id^="slidebox"]
 24tv.ua##div[id^="telegramBanner"]
 work.ua##div[id^="telegramSubscribe"]
-topmmo-games.ru##div[id^="vkapi_like"]
 nsn.fm##div[itemprop="datePublished"] ~ [itemprop="author"] ~ div > button
 pleer.ru##div[itemtype="//schema.org/Product"] > #comment ~ .image
 cheezu.ru##div[jello-component="sharer"]
@@ -3296,6 +3289,7 @@ meduza.io##img[src$="zdmc+"]
 sport5.by##img[src*="/upload/banner_telegram"]
 kakoysegodnyaprazdnik.ru,xn--80aaiebcrjcibi8adgdtsm9z.xn--p1ai##img[src*="/vk_group."]
 dontimes.news##img[src*="/wp-content/uploads/sb/"]
+shazoo.ru##img[src*="_shazoo-telegram.png"]
 opennet.me,opennet.ru##img[src="/img/facebook.gif"]
 opennet.me,opennet.ru##img[src="/img/telegram2.png"]
 opennet.me,opennet.ru##img[src="/img/vkontakte.gif"]
@@ -4453,7 +4447,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||paywall.forbes.ua/
 ||pcportal.org/js/test_base64.js
 ||peroxide.rambler.ru^$domain=mail.rambler.ru
-||pesni-tut.com/plashka.js
 ||pickupforum.ru/public/textback_popup_
 ||pikabu.ru/ajax.php?route=recommendations/feed-block
 ||platform.twitter.com/widgets.js$domain=www.ukr.net
@@ -4592,7 +4585,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||yatv.ru/storage/userdata/*/page_background_
 ||yoomoney.ru^$subdocument,domain=2baksa.ws|adventuretime.ru|anime-free.ru|cnc3018.ru|hardwareluxx.ru|hdd.by|internet-technologies.ru|kisameev.ru|korsars.pro|nowa.cc|podolyaka.ru|trymobile.ru
 ||yougame.biz/js/xf/notice.
-||youhack.ru/reyo/
+||youhack.vip/pic/TRUMP-
 ||youtube.com/embed/*autoplay=1*sports.ru&widgetid$subdocument,domain=sports.ru
 ||youtube.com/embed/*mediametrics.ru&widget$subdocument,domain=mediametrics.ru
 ||youtube.com/embed/?enablejsapi=1&origin=*3dnews.*&widgetid=1$subdocument,domain=3dnews.ru
@@ -4607,7 +4600,6 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.
 !#endif
 ! *** ruadlist:bitblock/annoyance_specific_hide.txt ***
-ebanoe.it###Action_bar
 tadviser.ru###BottomSocial
 developers.sber.ru,giga.chat###GDPRBanner
 radiosvoboda.org###GR-1801
@@ -5265,7 +5257,6 @@ parkdrive.ua##.body-advert-bg
 lifecell.ua##.bookmark-3g
 professorweb.ru##.bottom-banner
 hi-fi.ru##.bottom-block
-aniplay.tv##.bottom-panel
 soel.ru##.bottom-slider
 frontend.1worldonline.com##.bottomPanel > .project
 2x2tv.ru##.bottom__cookie-block
@@ -5667,7 +5658,6 @@ plvideo.ru##.index_css_content_cbojeu4
 bobyfilms.net##.info_banner
 cyberleninka.ru#?#.infoblock > .full:-abp-has(> .bibloid_serp_ann)
 qiwi.com##.infoblock > [data-helper-banner]
-aces.gg##.infopanel_wr
 bibliofond.ru##.inform-banner
 viewlost.life##.informbl
 kinoafisha.ua##.informer--subscribe
@@ -5713,7 +5703,6 @@ rbc.ru##.js-subscribe-block
 mk.ru##.js-target-subsctibe
 drive2.ru##.js-wz
 novy.tv##.jsImportantTop
-onlinemultfilmy.ru##.js_tooltip
 sberbank.com,sberbank.ru##.kitt-cookie-warning
 km.ru##.km_ref_adv_popup
 kanobu.ru#?#.knb-grid-layout > .knb-grid-cell:-abp-has(> [class^="SubscribeForm_subscribe__"])
@@ -5812,7 +5801,9 @@ cdek.ru##.mobileApp-wrap
 nashaplaneta.net##.mobile_announce
 rama.com.ua##.mobile_block
 footballhd.ru##.mobprij
-youhack.ru##.mobyaza > .columnsContainer ~ *
+youhack.vip##.mobyaza > .columnsContainer ~ *
+youhack.vip##.mobyaza > a[target="_blank"]
+youhack.vip##.mobyaza > div:not([class])
 slavyanskaya-kultura.ru##.mod_inshop_front
 answear.ua##.modal
 wildberries.ru##.modal--cookie
@@ -6030,6 +6021,7 @@ geniusmarketing.me##.psevdomenu
 psm7.com##.psm-home-subscribe-form-container
 psm7.com##.psm-sidebar-container
 psm7.com##.psm-subscribe-form-container
+youhack.vip##.publicTabs > a[style*="background:"]
 habr.com##.pull-down > .tm-page__top + section.tm-block_spacing-bottom
 epravda.com.uaa,pravda.com.ua##.push
 onliner.by##.push-notification
@@ -6162,7 +6154,6 @@ domashniy.ru##.slipper
 sportmaster.ru##.sm-cookie-agreement-old
 blackwot.ru##.smart-head-row .ts-button
 gorodrabot.ru##.snippet_advertising
-gamelendi.ru##.snow
 pikabu.ru##.snowflakes-container
 turkrutv.net,turkrutv84.com##.snowing-header
 porodakoshki.ru##.socialer-popup-overlay
@@ -6532,6 +6523,7 @@ vk-smi.ru##[itemprop="articleBody"] ~ .text-center
 itsider.com.ua,mmr.net.ua##[itemtype="https://schema.org/WPAdBlock"] > a[href][target="_blank"]
 kolesa.ru##[ng-controller="SubscribeController"]
 shadowcore.ru##[onclick="showBoosty();"]
+youhack.vip##[onclick]:not([onclick^="window.open('https://youhack.vip/posts/"])
 diets.ru##[onclick^="closeDailyRecipesPopup"],form[class^="dayrecipes"]
 rshb.ru#?#[role="dialog"]:-abp-has(> div > div > p > [href="/pd-policy#cookie"])
 village.com.ua##[role="subscribe"]
