@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: ceFsmgfPSjBfTDM6BZM00w
-! Diff-Path: ../patches/11/11-s-1770719241-3600.patch
+! Checksum: QltO6MBeFDKUdlrUhgZQAA
+! Diff-Path: ../patches/11/11-s-1770909957-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.67.63
-! TimeUpdated: 2026-02-10T10:24:20+00:00
+! Version: 2.0.67.68
+! TimeUpdated: 2026-02-12T15:22:27+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -1142,6 +1142,7 @@ ya.ru,yandex.*###search-result > li:has(span:contains(/[PРeеkклaаmмaа]{7}
 ya.ru,yandex.*##.content__left > ul#search-result > li:has(> div.organic > div.OrganicTitle > a[href^="https://ya.ru/search/_crpd/"])
 !
 ! Yandex.Images
+yandex.*##div[role="list"] > div.JustifierRowLayout-Incut
 yandex.*##div[class*="-Card_behavioralDirect"]
 yandex.*##.justifier__col > div.incut
 yandex.*##.tiled-images__items > div[class*="rim-direct-incut"]
@@ -2008,6 +2009,12 @@ deviantart.com##div[class*="dp-ad-"]:style(height: 0!important; width: 0!importa
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/224076
+news.jp##+js(set-constant, nor, {})
+news.jp##+js(set-constant, nor.pageview, noopFunc)
+news.jp##+js(set-constant, nor.eventURL, noopFunc)
+news.jp##+js(set-constant, nor.pageviewURL, noopFunc)
+news.jp##+js(set-constant, nor.setPageData, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/172879
 @@||cmp.inmobi.com^$domain=protothema.gr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/218172
@@ -2397,6 +2404,10 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+gazo-chat.net##div[style="max-width:640px; height:600px; margin:auto;"]
+mb.jorudan.co.jp##.area > div[height="250"]
+okwave.jp##section.qa_detail > div[style^="min-height:250px;"]
+m.ok.ru##.__adv
 baseballchannel.jp###sp_all_header
 ||cdn.sinparty.com^$subdocument,domain=imgbox.com
 imgbox.com##a[href^="https://sinparty.com/"]
@@ -4498,7 +4509,7 @@ fc1adult.com##.sp_300_spc
 summary.fc2.com##iframe[src^="/sp/friendlyAd.php"]
 telugu360.com##.td-visible-phone > a[target="_blank"]
 zvukogram.com##div[id^="banner-mobile"]
-fc1adult.com##a[href^="https://a-trade.jp/redirect/"][href*="&banner="]
+gazo-chat.net,fc1adult.com##a[href^="https://a-trade.jp/redirect/"][href*="&banner="]
 asahi.co.jp###jp_abc_sp_article_underarticle
 asahi.co.jp###js-smpBnr
 msn.com##div[data-test-id="mrr-topad"]

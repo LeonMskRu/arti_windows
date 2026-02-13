@@ -1,6 +1,6 @@
 ! Title: Brave Optimized List - Unsupported Brave Rules
 ! Description: A merged and optimized list of unsupported brave rules.
-! Last Updated: 2026-02-10 12:21:52 UTC
+! Last Updated: 2026-02-13 10:41:04 UTC
 ! Total Rules: 1100
 
 *$popup,third-party,domain=gogoanimes.fi|hdtoday.la|hdtoday.tv|hdtodayz.to|hollymoviehd.cc|kimcartoon.*|kisscartoon.com|mreader.co|nosteam.ro|strtapeadblock.me|strtapeadblocker.art|theflixertv.to

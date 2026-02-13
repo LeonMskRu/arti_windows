@@ -1,13 +1,13 @@
 ! Title: Brave Optimized List - Element Hiding Rules
 ! Description: A merged and optimized list of element hiding rules.
-! Last Updated: 2026-02-10 12:21:52 UTC
-! Total Rules: 11361
+! Last Updated: 2026-02-13 10:41:04 UTC
+! Total Rules: 11374
 
 0154.by,0312.ua,032.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,04141.com.ua,0432.ua,04563.com.ua,04597.com.ua,04598.com.ua,0462.ua,0472.ua,048.ua,04868.com.ua,0512.com.ua,05136.com.ua,0522.ua,0532.ua,05366.com.ua,0542.ua,05447.com.ua,0552.ua,056.ua,0564.ua,0566.com.ua,0569.com.ua,057.ua,061.ua,06153.com.ua,0619.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,0629.com.ua,0642.ua,06452.com.ua,1rnd.ru,3849.com.ua,44.ua,4594.com.ua,5692.com.ua,62.ua,6262.com.ua,6264.com.ua,65.media,7152.kz,7232.kz,8692.ru,city04.kz,city41.ru,citydomodedovo.ru,go31.ru,go61.ru,go7812.ru,gorod3466.ru,inaktau.kz,inalmaty.kz,inastana.kz,inatyrau.kz,inkaragandy.kz,inshymkent.kz,karelia.news,kaskelenec.kz,qapshagai-city.kz,uralskcity.kz##app-news-popup-banner
 024.by,1743.ru,1prime.ru,4pda.to,allnews.kz,amurmedia.ru,angarskmedia.ru,belarus-news.by,bibliofond.ru,bigkyiv.com.ua,brovary.net.ua,businessman.ru,chehov-vid.ru,chitamedia.su,chukotkamedia.ru,chytomo.com,city-n.ru,currenttime.tv,dentalmagazine.ru,disgustingmen.com,doramax.org,dron.media,dzr.by,eaomedia.ru,edimdoma.ru,europaplus.ru,fixygen.ua,gameguru.ru,goha.ru,govoritmoskva.ru,grodnonews.by,gts.tv,hdkinoteatr.com,hitfm.ru,inforesist.org,interior.ru,irkutskmedia.ru,izhlife.ru,kamchatkamedia.ru,karaosha.ru,kinorium.com,kirov.online,krasnodarmedia.su,krasnoyarskmedia.ru,kravira.by,krymr.com,ktv-ray.ru,kurgan.ru,kurs.com.ua,m24.ru,magadanmedia.ru,maximum.ru,metaratings.ru,mlyn.by,mos-holidays.ru,most.tv,multiurok.ru,mydocx.ru,nakhodka.media,native-english.ru,nauka.ua,naukatv.ru,navigator-kirov.ru,nii-rf.ru,novostiplanety.ru,novostirostov.ru,ntsk.ru,obozrevatel.com,omskmedia.su,online-timer.ru,orki.ru,orsk.ru,ostro.org,overclockers.ua,parlament.ua,peterburgmedia.ru,pkzsk.info,point.md,priamurmedia.ru,primadonna.media,primamedia.ru,prokuzbass.ru,rbc.ua,ria.ru,roskomsvoboda.org,runews24.ru,rusonline.org,sakhalinmedia.ru,sdamgia.ru,sevastopolmedia.ru,sfera.fm,sharij.net,sinkovskoe.ru,skillbox.ru,sochimedia.su,sport-tv.by,sq.com.ua,stavropol.media,stolicamedia.ru,studopedia.su,sverhestestvennoe.club,svoboda.org,syl.ru,tele.ru,tet.tv,topradio.me,tutu.ru,tvzvezda.ru,u-tv.ru,ukr.net,ukraina.ru,ulanmedia.ru,upl.uz,ussurmedia.ru,varianty.lviv.ua,vellisa.ru,vgtimes.ru,vlast.kz,voxpopuli.kz,vringe.com,vz.ru,walkingdead.club,yakutiamedia.ru##.share
 024.by,allnews.kz,novostiplanety.ru##.ttg
 048.ua,0629.com.ua##.f-banner
-08sportbar.online,777sportba.com,777sportba.org,barsportbar.com,channels247.net,file-mods.ru,goool7.ws,lenov.ru,mangabuff.ru,newinform.com,s7yours.com,sbautumn.com,sport365hd.net,sport7.biz,sportbarchik88.com,sporting7.pw,sporting77.com,spotless365.net##.tg-button
+08sportbar.online,777sportba.com,777sportba.org,barsportbar.com,channels247.net,file-mods.ru,goool7.ws,mangabuff.ru,modss1.com,newinform.com,s7yours.com,sbautumn.com,sport365hd.net,sport7.biz,sportbarchik88.com,sporting7.pw,sporting77.com,spotless365.net##.tg-button
 0calc.es,0calc.fr,0calc.in,0calc.ru,0rechner.de,nu.nl,web2.0calc.com,web2.0calc.ru##[action="/cookieconsent"]
 0wn0.com,1forum.biz,1fr1.net,1talk.net,30yearsstillyoung.com,3oloum.com,3rab.pro,4umer.com,5turbo.org,666forum.com,7olm.org,ace.st,actieforum.com,actifforum.com,aforumfree.com,africamotion.net,ahladalil.com,ahlamontada.com,ahlamontada.net,ahlamountada.com,airesdelibertad.com,alamontada.com,alanoblebouffarde.com,aldeiarpg.com,all-up.com,ambiance-varadero.com,amoticos.org,arabepro.com,archeryonline.net,argyletd.com,artes-ana.com,audittpassion.com,avenir-vsp.com,bachandbachettefans.net,banouta.net,bbactif.com,beagle-attitude.com,benimforum.net,black-librarium.com,boxster-cayman.com,briefmarken-forum.com,bromptonforum.net,caferacerclub.org,camperfree.com,canadaboard.net,canadian-forum.com,cantal-leforum.com,casatridente.com,catsboard.com,cdnmilitarycollectors.com,chemin-de-memoire-parachutistes.org,clooneysopenhouse.com,club-bajaj.com,clubcb500x.com,clubgtipowers.com,clubtrackerarg.com,contrabaixobr.com,corvettepassion.com,coxengineforum.com,cro-wood.com,dan-moc.net,darkbb.com,deco-moderne-fr.com,desforums.net,detenteaujardin.com,discustoutsimplement.com,e30passion.com,easyforumpro.com,editboard.com,enbicielectrica.com,entreelles.org,exprimetoi.net,fcmulhousefans.com,filthy-secret.com,fmsp.net,focusrstteam.com,ford100e.org,foroactivo.com,foroactivo.com.es,forseps.org,forum-jardins.com,forum-zafira.com,forum2jeux.com,forumactif.com,forumactif.fr,forumactif.org,forumalgerie.net,forumattivo.it,forumbrasil.net,forumegypt.net,forumeiros.com,forumeiros.net,forumgamers.net,forumgaming.fr,forumgratuit.be,forumgratuit.ch,forumgratuit.org,forumgratuit.ro,forumgreek.com,forumgsr750.com,forumlaguna3.com,forumlumix.com,forumotion.com,forumotion.net,forumperso.com,forumpro.fr,forums-actifs.com,forumshiba.com,forumvi.com,fra.co,fritzbox-forum.com,fxsforexsrbijaforum.com,galoppourlavie.org,gid3an.com,giocattolivintage.com,glory-box-forum.com,goldwingpartage.com,goodforum.net,grisoghetto.com,gunetwork.org,hareketforum.net,hifi4sale.net,hooxs.com,i-love-harvard.com,iftopic.com,imperialgunneryforum.com,jeun.fr,jordanforum.net,just-married-rpg.com,kanak.fr,kawasaki-customs-forum.com,keuf.net,la-taverne-des-aventuriers.com,le-medaillon.org,le-site-de-la-citroen-xm.com,lebonforum.com,leforumlafigurine.com,legion-etrangere-munch.com,lemondedudiagauto.com,letrasyalgomas.com,levriers-forever.com,lights-camera-action.org,longluntan.com,mam9.com,manager-fifa.com,materielceleste.com,matostt.com,megane4forum.com,meilleurforum.com,minivanchrysler.com,mirbb.com,montres-russes.org,moseisleyraumhafen.com,mundoqashqai.com,never-utopia.com,niceboard.com,novaerarpg.com,onepiece-mangas.com,open-consoles.com,orizzontescuolaforum.net,ottobreaddicts.net,own0.com,palstani.com,passion-harley.net,passionmilitaria.com,passionphoto-passionmontage.com,pblvfrance3.com,photos-camions.com,planete4x4.com,portalmercedes.com,portalmercedesbrasil.com,pro-forum.fr,puntoevoforum.com,quilterslastresort.com,repartocorse2.com,rigala.net,roo7.biz,rpg-board.net,rpghogwarts.org,sanata.biz,sdvg-deti.com,serbianforum.info,sgt3r.com,shaveua.com,sheffieldboardgamers.com,small-tracks.org,sorcieremonique.com,sporepedia2.com,stickeristas.com,subarashiis.com,superforo.net,superforum.fr,survivarium.net,suzuki800.com,syriaforums.net,t5zone.com,terre-bitume.org,tubelesskite.net,ufologie-paranormal.org,unimog-mania.com,v2-honda.com,velovintageagogo.com,viterbikers.com,vivelecrpe.com,vstromhellasforum.com,walkingdead-rpg.com,warriorcatsnl.com,warriors-rpg.com,wwrail.net,yoo7.com,ze-43eme.com,zxr7team.com##.croco_wrapper
 0wn0.com,1forum.biz,1fr1.net,1talk.net,30yearsstillyoung.com,3oloum.com,3rab.pro,4umer.com,5turbo.org,666forum.com,7olm.org,ace.st,actieforum.com,actifforum.com,aforumfree.com,africamotion.net,ahladalil.com,ahlamontada.com,ahlamontada.net,ahlamountada.com,airesdelibertad.com,alamontada.com,alanoblebouffarde.com,aldeiarpg.com,all-up.com,ambiance-varadero.com,amoticos.org,arabepro.com,archeryonline.net,argyletd.com,artes-ana.com,audittpassion.com,avenir-vsp.com,bachandbachettefans.net,banouta.net,bbactif.com,beagle-attitude.com,benimforum.net,black-librarium.com,boxster-cayman.com,briefmarken-forum.com,bromptonforum.net,caferacerclub.org,camperfree.com,canadaboard.net,canadian-forum.com,cantal-leforum.com,casatridente.com,catsboard.com,cdnmilitarycollectors.com,chemin-de-memoire-parachutistes.org,clooneysopenhouse.com,club-bajaj.com,clubcb500x.com,clubgtipowers.com,clubtrackerarg.com,contrabaixobr.com,corvettepassion.com,coxengineforum.com,cro-wood.com,dan-moc.net,darkbb.com,deco-moderne-fr.com,desforums.net,detenteaujardin.com,discustoutsimplement.com,e30passion.com,easyforumpro.com,editboard.com,enbicielectrica.com,entreelles.org,exprimetoi.net,fcmulhousefans.com,filthy-secret.com,fmsp.net,focusrstteam.com,ford100e.org,foroactivo.com,foroactivo.com.es,forseps.org,forum-jardins.com,forum-zafira.com,forum2jeux.com,forumactif.com,forumactif.fr,forumactif.org,forumalgerie.net,forumattivo.it,forumbrasil.net,forumegypt.net,forumeiros.com,forumeiros.net,forumgamers.net,forumgaming.fr,forumgratuit.be,forumgratuit.ch,forumgratuit.org,forumgratuit.ro,forumgreek.com,forumgsr750.com,forumlaguna3.com,forumlumix.com,forumotion.com,forumotion.net,forumperso.com,forumpro.fr,forums-actifs.com,forumshiba.com,forumvi.com,fra.co,fritzbox-forum.com,fxsforexsrbijaforum.com,galoppourlavie.org,gid3an.com,giocattolivintage.com,glory-box-forum.com,goldwingpartage.com,goodforum.net,grisoghetto.com,gunetwork.org,hareketforum.net,hifi4sale.net,hooxs.com,i-love-harvard.com,iftopic.com,imperialgunneryforum.com,jeun.fr,jordanforum.net,just-married-rpg.com,kanak.fr,kawasaki-customs-forum.com,keuf.net,la-taverne-des-aventuriers.com,le-medaillon.org,le-site-de-la-citroen-xm.com,lebonforum.com,leforumlafigurine.com,legion-etrangere-munch.com,lemondedudiagauto.com,letrasyalgomas.com,levriers-forever.com,lights-camera-action.org,longluntan.com,mam9.com,manager-fifa.com,materielceleste.com,matostt.com,megane4forum.com,meilleurforum.com,minivanchrysler.com,mirbb.com,montres-russes.org,moseisleyraumhafen.com,mundoqashqai.com,never-utopia.com,niceboard.com,novaerarpg.com,onepiece-mangas.com,open-consoles.com,orizzontescuolaforum.net,ottobreaddicts.net,own0.com,palstani.com,passion-harley.net,passionmilitaria.com,passionphoto-passionmontage.com,pblvfrance3.com,photos-camions.com,planete4x4.com,portalmercedes.com,portalmercedesbrasil.com,pro-forum.fr,puntoevoforum.com,quilterslastresort.com,repartocorse2.com,rigala.net,roo7.biz,rpg-board.net,rpghogwarts.org,sanata.biz,sdvg-deti.com,serbianforum.info,sgt3r.com,shaveua.com,sheffieldboardgamers.com,small-tracks.org,sorcieremonique.com,sporepedia2.com,stickeristas.com,subarashiis.com,superforo.net,superforum.fr,survivarium.net,suzuki800.com,syriaforums.net,t5zone.com,terre-bitume.org,tubelesskite.net,ufologie-paranormal.org,unimog-mania.com,v2-honda.com,velovintageagogo.com,viterbikers.com,vivelecrpe.com,vstromhellasforum.com,walkingdead-rpg.com,warriorcatsnl.com,warriors-rpg.com,wwrail.net,yoo7.com,ze-43eme.com,zxr7team.com##a[onclick*="\x"]
@@ -3073,7 +3073,6 @@ fc1adult.com##.sp_300_spc
 fc1adult.com##.sp_h200.tbm24
 fc1adult.com##.sp_h400
 fc1adult.com##.sp_h500
-fc1adult.com##a[href^="https://a-trade.jp/redirect/"][href*="&banner="]
 fc1adult.com##div[style="height: 500px; overflow: hidden; margin-bottom: 20px;"]
 fc2.com##body > div[style="position: fixed; bottom: 0px; left: 0px; right: 0px; opacity: 1; display: block;"]
 fdu.org.ua###pd_popup
@@ -3610,6 +3609,7 @@ gayforit.eu##div[id^="video_advert"]
 gaytail.com##.happy-before-list
 gaytail.com##.happy-before-video
 gazeta.press,gazeta.ru##._icon-tg
+gazeta.press,gazeta.ru##.m_social
 gazeta.ru###in-read
 gazeta.ru##div[class^="gazeta-dynamic-ban-"]
 gazeta.ru##div[id^="block_pad_id"]
@@ -3628,6 +3628,8 @@ gazetametro.ru##.SHeader__social
 gazetametro.ru##.WShare
 gazo-chat.net##a[href^="https://fam-ad.com/"]
 gazo-chat.net##div[id^="carousel_wrap"]
+gazo-chat.net##div[style="max-width:640px; height:600px; margin:auto;"]
+gazo-chat.net,fc1adult.com##a[href^="https://a-trade.jp/redirect/"][href*="&banner="]
 gazo-chat.net,gamerch.com,motion.nowtice.net,mudainodocument.com,keitaijoho.com###slide_wrap
 gazprombank.ru###cookie-accept
 gb.ru##.wheel-widget
@@ -5174,8 +5176,6 @@ lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,s
 lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,shiro-kino.ru,vadimrazumov.ru##[data-react-rcm-block]
 lena-miro.ru,levik.blog,livejournal.com,olegmakarenko.ru,periskop.su,shakko.ru,vadimrazumov.ru##.telegram-userpromo
 lenouvelliste.ch##.components-advertisement
-lenov.ru##.add_vkgr
-lenov.ru##.sub-vk
 lenta.com##.js-cookie-usage-notice-wrapper
 lenta.ru###up
 lenta.ru##._branded.emoji-bar
@@ -5185,6 +5185,7 @@ lenta.ru##.b-socials__email
 lenta.ru##.b-socials__sharing > :not(.b-socials__favorite)
 lenta.ru##.menu__socials
 lenta.ru##.missed-news
+lenta.ru##.redline
 lenta.ru##.scr-link
 lenta.ru##a[class*="telegram-"]
 lenta.ru##div[id^="top-banner"]
@@ -5706,6 +5707,7 @@ m.nuvid.*##+js(set-constant, player.postitialTimeout, 0)
 m.nuvid.*##+js(set-cookie, no_postitial_video, 1)
 m.nuvid.*##.partner_text_link
 m.nuvid.*,m.iceporn.com##.banner-full-fixed
+m.ok.ru##.__adv
 m.ok.ru##.game-campaign
 m.ok.ru##li.feed-card.__adv
 m.olx.*##div[class^="baxter-placeholder--ads--"]
@@ -6124,6 +6126,7 @@ mayday.rocks##.sidebar.column
 mayoclinic.org##.cmp-advertisement-inline
 mayoclinic.org##.cmp-mobile-advertisement
 mazepa.to###sidebar1-wrap > style + .ipsSideBlock ~ .ipsSideBlock
+mb.jorudan.co.jp##.area > div[height="250"]
 mb.jorudan.co.jp##.area > div[height="50"][style="height:50px !important;"]
 mbasic.facebook.com,d.facebook.com,free.facebook.com,free.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mbasic.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,d.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,m.facebook.com,m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,b-m.facebook.com,b-m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mobile.facebook.com,mobile.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,0.facebook.com,0.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[role="article"][data-ft*='"originated_from_recommendation":"1"']
 mbclub.ru##[alt="Клубный сервис"]
@@ -6431,6 +6434,7 @@ modelist-konstruktor.com#?#.inside-footer-widgets > .grid-parent > .widget_text:
 modelsgonebad.com##a[href^="https://www.modelsgonebad.com/redirect_cs.php"]
 modfarm.ru##.btn-outline-facebook
 modsgaming.ru#?#.sidebox:-abp-has(> .inner .soc-atd)
+modss1.com##.add_vkgr
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru##.banner-lip-tg
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru##.read-outside-site
 moe-belgorod.ru,moe-kursk.ru,moe-lipetsk.ru,moe-online.ru,moe-tambov.ru##.soc-in-menu
@@ -6846,6 +6850,11 @@ news.gamme.com.tw##.if2 > a[href^="https://www.gamme.com.tw/r.php"] > img
 news.golfdigest.co.jp,elog-ch.*##.sp_banner
 news.infoseek.co.jp##div[id^="ad-wrapper"]
 news.jorudan.co.jp##div[id^="ad-bottom-"]
+news.jp##+js(set-constant, nor, {})
+news.jp##+js(set-constant, nor.eventURL, noopFunc)
+news.jp##+js(set-constant, nor.pageview, noopFunc)
+news.jp##+js(set-constant, nor.pageviewURL, noopFunc)
+news.jp##+js(set-constant, nor.setPageData, noopFunc)
 news.jp##.page__ad
 news.jp,nordot.app##.page__ad:not(.page__ad--discoverMore)
 news.kstyle.com##.mdSP10Desc > div[id^="div-gpt-"] + div.indicator
@@ -7312,6 +7321,7 @@ okwave.jp##.adfunnel_special_box
 okwave.jp##.qa_detail > div[style="min-height: 250px;"]
 okwave.jp##aside[class*="adfunnel_special_box_amp"]
 okwave.jp##aside[class^="adfunnel ad_qa_"]
+okwave.jp##section.qa_detail > div[style^="min-height:250px;"]
 olch.biz###wrapper > header + div.wrapInner
 olch.biz##.container_banner
 olch.biz##.pla
@@ -10353,7 +10363,6 @@ vk-smi.ru##[itemprop="articleBody"] ~ .text-center
 vk.com###app_container_outer + div[style]
 vk.com###cookies_policy_wrap
 vk.com###covid_banner
-vk.com###old_browser_wrap
 vk.com###page_bottom_banners_root
 vk.com###public_market
 vk.com###pv_hh
@@ -10367,6 +10376,7 @@ vk.com,vk.ru##.FeedBlockWrap
 vk.com,vk.ru##.apps_feedRightAppsBlock
 vk.com,vk.ru##div[class*="egalRecommendations"]
 vk.com,vk.ru##section[class*="vkitRecommendationBlock_"]
+vk.com,vk.ru,vkvideo.ru###old_browser_wrap
 vk.com,vk.ru,vkvideo.ru##vk-video-player div[class^="PauseSuggestionsSlider"]
 vk.com,vkvideo.ru###notifiers_wrap
 vkplay.ru##[data-id="footer__social"]
@@ -10985,6 +10995,7 @@ yandex.*##div[class*="-Card_behavioralDirect"]
 yandex.*##div[class*="Advert"]
 yandex.*##div[class^="Direct "]
 yandex.*##div[id^="Direct"]
+yandex.*##div[role="list"] > div.JustifierRowLayout-Incut
 yandex.*##html > body div[id^="ADVERT"]
 yandex.by,yandex.com,yandex.kz,yandex.ru,yandex.uz##.CbirPanel-OboardingDrag
 yandex.by,yandex.com,yandex.kz,yandex.ru,yandex.uz##.MMUnauthPopup
@@ -11067,6 +11078,8 @@ yandex.ru,yandex.*##div[class^="AppInfoModal"]
 yandex.ru,yandex.*##div[class^="AppLeftPanelPromos_bottomLinks_"]
 yap.ru,yaplakal.com###right-column > div > noindex
 yap.ru,yaplakal.com##form[method="POST"] + .row4[style="padding:6px;"][align="center"]
+yapolitic.ru###footer-soc
+yapolitic.ru##.video-opis-knop
 yapx.ru###info-bg
 yapx.ru##.photoblock-social-block
 yaraon-blog.com###widgetarea_single_undertopimage_sp

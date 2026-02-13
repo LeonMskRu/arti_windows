@@ -1,6 +1,6 @@
 ! Title: Brave Optimized List - Exception Rules
 ! Description: A merged and optimized list of exception rules.
-! Last Updated: 2026-02-10 12:21:52 UTC
+! Last Updated: 2026-02-13 10:41:04 UTC
 ! Total Rules: 422
 
 @@/angular-facebook.js
@@ -411,7 +411,7 @@
 @@||www.drive2.ru^$generichide
 @@||www.facebook.com^$generichide
 @@||www.googleadservices.*/aclk?*&adurl=$~3p
-@@||yandex.ru/ads/system/context.js|$script,domain=auto.ru|e.mail.ru|octavius.mail.ru|shedevrum.ai
+@@||yandex.ru/ads/system/context.js|$xmlhttprequest,domain=auto.ru|drive2.ru|shedevrum.ai
 @@||yap.ru/html/static/share/$image,~third-party
 @@||yaplakal.com/html/static/$image,~third-party
 @@||yapx.ru/assets/img/sprite/global.svg#icon__facebook--monocolor$image,domain=yapx.ru
