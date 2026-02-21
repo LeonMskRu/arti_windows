@@ -1,7 +1,7 @@
 ! Title: Brave Optimized List - Unsupported Brave Rules
 ! Description: A merged and optimized list of unsupported brave rules.
-! Last Updated: 2026-02-13 10:41:04 UTC
-! Total Rules: 1100
+! Last Updated: 2026-02-21 23:49:18 UTC
+! Total Rules: 1111
 
 *$popup,third-party,domain=gogoanimes.fi|hdtoday.la|hdtoday.tv|hdtodayz.to|hollymoviehd.cc|kimcartoon.*|kisscartoon.com|mreader.co|nosteam.ro|strtapeadblock.me|strtapeadblocker.art|theflixertv.to
 0352.ua##.row > div.card-wrapper:has(> amp-ad)
@@ -13,6 +13,8 @@
 47news.jp##.col_side > .side_inner > div[class*="side_sp_"]:has(div[id*="_ad_"])
 4gamers.com.tw##div[class*="interstitial-width"] div.relative:has(a[target="_blank"] source[srcset*="ads-media"])
 4gamers.com.tw##div[class*="safe-area-inset-bottom"] div.fixed:has(a[target="_blank"] source[srcset*="ads-media"])
+4gnews.pt##.ncl-header-eros:style(top: 0 !important;)
+4gnews.pt##.top-mobile-ad-banner:style(display: none !important;)
 4pda.*###lbOverlay:style(background: none !important)
 4pda.to##html[style] > body .advanced-area .post[itemid] ~ .post:not([itemid]):nth-child(-n+3)
 4pda.to##html[style] > body:not([style=";background-color:#E6E7E9!important"]) [id][class] > .slider-list:nth-child(-n+5) + div[class]
@@ -230,6 +232,7 @@ driveplaza.com##header.l-header:style(top: 0 !important;)
 drochka.vip##.thumbs_list > div.th:has(> script[src^="https://a.realsrv.com/"])
 duckduckgo.com##main[data-testid="zci-products"] > nav + div > div:has( > h2 button[data-testid="ad-badge"])
 dzen.ru##article:has(> div.dzen-mobile--card-rtb__ad-yp)
+dzen.ru##div[class^="dzen-desktop--feed-one-column__feed-"] > div:not([class]) > div:empty:nth-child(2) + [id][data-itemid]
 e1.ru###app > div[class] > div[class]:has(> div[class] > a + div > svg[width="64"][height="12"] > use)
 eatwell101.com###mobi0-sticky + #custom-menu:style(top: 0 !important;)
 eatwell101.com###mobi0-sticky:style(display: none !important;)
@@ -290,6 +293,8 @@ full-count.jp##.erase_space-ad ~ div.c-heading:has(> p[class^="c-heading_"]:cont
 futbolperuano.com##header.sticky-top:style(top: 0 !important;)
 fxstreet-id.com,fxstreet.com,fxstreet.es##.fxs_bgHeader:style(top: 0 !important;)
 fxstreet-id.com,fxstreet.com,fxstreet.es##.fxs_header_sponsor:style(display: none !important;)
+g2a.com##li.list-none.snap-center:has(div.inline-grid > .text-xs:contains(SPONSORED))
+g2a.com##li[class^="SearchPage_StyledProductCard"]:has(div.inline-grid > .text-xs:contains(SPONSORED))
 gadgetsnow.com###app > div[class^="_"]:has(> .adscode:only-child)
 gadgetsnow.com##.grid_wrapper > div[class]:not([id], [data-msid]):has(> .dfp)
 game735.com##div[style^="text-align: center;"]:has(> em:contains(ADVERTISEMENT))
@@ -395,6 +400,7 @@ instacart.*##div[id][class]:has(> a > div:first-child img):has(> a div[style*="d
 instacart.*##div[id][class]:has(> a > img):has(ul li:first-of-type a div[style*="display:"] span)
 instacart.*##div[id][class]:has(> div:first-child > a img[alt*="Sponsored"], > div[aria-hidden="true"]:last-child)
 instacart.*##li:has(fp-ads-tag):not(:has(h2))
+interestingengineering.com##.md\:t-hidden:has(> .t-flex > .overline-small:contains(advertisement))
 investing.com###siteWrapper > div.wrapper > section.boxItem:has(> div.OUTBRAIN)
 investing.com###siteWrapper > div.wrapper > section.boxItem:has(> ins.adsbygoogle)
 itest.5ch.net##.ad_300x250:style(position: absolute !important; left: -3000px !important;)
@@ -403,6 +409,7 @@ japan-whores.com##center:has(> iframe[data-link^="https://r.trwl1.com/"])
 javfan.one###is_w_area:style(display: none!important;)
 javfan.one##html:style(overflow: visible!important;)
 jaxon.gg##.col-xl-4:has(> div > span.pointer[data-code])
+jbpress.ismedia.jp##main > div[style^="min-height:"]:has(> div.gliaplayer-container)
 jeremyfoodie.tw###ad-full-page:style(display: none !important;)
 jeremyfoodie.tw##html.show-safari-bottom_menu body:style(position: static !important;)
 jikayosha.jp##.wym-v2022__header.is-scroll-up ~ .wym-v2022__footer-fixed:style(bottom: 0 !important;)
@@ -760,6 +767,9 @@ postimees.ee##.device-phone .header--sticky:style(top: 0 !important;)
 postnews.ru##.dWUoWk > .eoMLId:has(> .kmqoRu > div[id^="adfox"])
 ppe.pl##a.opera-bar + .navbar-wrapper:style(top: 0 !important;)
 ppe.pl##a.opera-bar:style(display: none !important;)
+prajavani.net###mobile-story-card-1 + div[class]:has(.ad-text)
+prajavani.net##.secondSetStories-wrapper > div:not([id^=story-card]):has(.ad-text)
+prajavani.net##.thirdSetStories-wrapper > div:not([id^=story-card]):has(.ad-text)
 productreview.com.au##div[class]:has(> div[class]:only-child > a[rel="sponsored"]:only-child)
 profidom.com.ua##.t3-sidebar-right > .t3-module:nth-child(-n+2)
 promiflash.de##.sm\:hidden:has(> div[class] > div.adContainer)
@@ -792,7 +802,7 @@ rbc.ru##.js-rbcslider .g-mobile-visible:has(> div.g-mobile-visible > div.simple-
 rbc.ru##body.g-lockscroll:style(overflow: visible!important;)
 rbc.ru##div[class^="banners__mobile"]:style(display: none!important;)
 rbc.ru##html.g-lockscroll:style(overflow: visible!important;)
-rbc.ru,rbclifetime.ru#?#.card-wrapper:has(> p > a[href^="https://t.me/"])
+rbc.ru,rbclifemedia.ru#?#.card-wrapper:has(> p > a[href^="https://t.me/"])
 realsound.jp##body.template-attachment:has(#gStickyAd) > .page:style(padding-top: 0 !important;)
 realthaisluts.com##.mobile-ads-zone:style(position: absolute!important; left: -3000px!important;)
 realty.ya.*##main > div[class^="Frame"]:has(> div[class*="PostBlocks__ad"])
@@ -886,6 +896,7 @@ t-online.de##div[data-testid="ArticleBody.StreamLayout"] > div[class] > div[data
 t-online.de##main > article[class] > div[class]:has(> div[data-testid^="Nativendo"])
 t-online.de##main > article[class] > div[class]:has(> div[data-testid^="TaboolaFeed"])
 t-online.de##main[data-testid="PageMain"] > div[class]:has(> div[class] > div[data-commercial-breakpoint])
+taboodude.com,bingato.com##div.content > div.top:has(> a[href="javascript:void(0);"])
 tagesspiegel.de##article div:has(> div[id^="iqadtile"])
 tarnkappe.info##.mobile-only:has(> .interscroller-wrapper:only-child)
 techbook.de,myhomebook.de,petbook.de##.my-3:has(> #banner_btf:only-child)

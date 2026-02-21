@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: QltO6MBeFDKUdlrUhgZQAA
-! Diff-Path: ../patches/11/11-s-1770909957-3600.patch
+! Checksum: cJZfKICP8JHYFByTszghDw
+! Diff-Path: ../patches/11/11-s-1771600948-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.67.68
-! TimeUpdated: 2026-02-12T15:22:27+00:00
+! Version: 2.0.67.79
+! TimeUpdated: 2026-02-20T15:19:18+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2404,6 +2404,24 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+prajavani.net###sticky-banner-id
+prajavani.net###mobile-story-card-1 + div[class]:has(.ad-text)
+prajavani.net##.secondSetStories-wrapper > div:not([id^=story-card]):has(.ad-text)
+prajavani.net##.thirdSetStories-wrapper > div:not([id^=story-card]):has(.ad-text)
+delicious.com.au##.roadblock-ad-target
+jbpress.ismedia.jp##main > div[style^="min-height:"]:has(> div.gliaplayer-container)
+ahentaitv.com##.adver + div[align="center"]
+severeporn.com##a[href^="https://go.mavrtracktor.com/"]
+severeporn.com##.bef-rel
+severeporn.com##.under-top
+taboodude.com,bingato.com##div.content > div.top:has(> a[href="javascript:void(0);"])
+interestingengineering.com##.md\:t-hidden:has(> .t-flex > .overline-small:contains(advertisement))
+analdin.xxx##div[style^="text-align:left;"][style*="width:300px;"]
+analdin.com###index-main-container > div:contains(Advertisement)
+g2a.com##li.list-none.snap-center:has(div.inline-grid > .text-xs:contains(SPONSORED))
+g2a.com##li[class^="SearchPage_StyledProductCard"]:has(div.inline-grid > .text-xs:contains(SPONSORED))
+4gnews.pt##.top-mobile-ad-banner:style(display: none !important;)
+4gnews.pt##.ncl-header-eros:style(top: 0 !important;)
 gazo-chat.net##div[style="max-width:640px; height:600px; margin:auto;"]
 mb.jorudan.co.jp##.area > div[height="250"]
 okwave.jp##section.qa_detail > div[style^="min-height:250px;"]
@@ -4948,7 +4966,7 @@ books.rakuten.co.jp##.pushAd
 m.republicworld.com##div[style*="justify-content: center;"][style*="text-align: center;"]
 calcus.ru##div[style="height:300px"]
 smpt.webrental.org##.toppagefix
-missav.*,missav123.com,missav888.com##.under_player
+njavtv.com,missav.*,missav123.com,missav888.com##.under_player
 publico.es##.pb-mobile-ads
 pogoda.meta.ua##.main__banner-bottom
 okdiario.com###okd-catfish

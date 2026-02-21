@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 5AMj5OT2hzIklCuV8UJWdQ
-! Version: 202602131031
+! Checksum: EP5pipJNGZEwQEMA0mBCvw
+! Version: 202602212341
 ! Title: RU AdList: BitBlock + Fanboy's General
-! Last modified: 13 Feb 2026 10:31 UTC
+! Last modified: 21 Feb 2026 23:41 UTC
 ! Expires: 2 days (фильтр обновляется автоматически каждые 2 дня)
 ! Homepage: https://forums.lanik.us/viewforum.php?f=102
 !
@@ -323,6 +323,7 @@ com,ru##[data-rambler-share]
 /files/tgparser/*$subdocument,domain=armeniasputnik.am|sputnik-abkhazia.info|sputnik-abkhazia.ru|sputnik-georgia.com|sputnik-georgia.ru|sputnik-news.ee|sputnik-ossetia.com|sputnik-ossetia.ru|sputnik-tj.com|sputnik.az|sputnik.by|sputnik.kg|sputnik.kz|sputnik.md|sputniknews-uz.com|sputniknews.cn|sputniknews.com|sputniknews.gr
 /plusone.js$domain=play.google.com
 /share.js$domain=vesti.ru
+/social-networks/*$domain=rbc.ru|sportrbc.ru
 /ulightbox/$domain=aperock.ucoz.ru
 /uploads/*.jpg|$third-party,image,domain=defileb.com|fplay.online|hovels.info|likelol.online|miradres.com|playep.pro|playy.online|plplayer.online|plwork.net|sorb.info|toplay.biz|ttutu.biz
 /wp-content/plugins/popups/public/assets/js/public.js$domain=yaizakon.com.ua
@@ -976,6 +977,8 @@ sports.ru##.btn-social-share
 superkarate.ru##.btn-social-wrapper
 audioknigi-online.ru##.btn-vk
 amurmedia.ru,angarskmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskmedia.ru,kamchatkamedia.ru,krasnodarmedia.su,krasnoyarskmedia.ru,magadanmedia.ru,nakhodka.media,novostirostov.ru,omskmedia.su,peterburgmedia.ru,priamurmedia.ru,primadonna.media,primamedia.ru,sakhalinmedia.ru,sevastopolmedia.ru,sochimedia.su,stavropol.media,stolicamedia.ru,ulanmedia.ru,ussurmedia.ru,yakutiamedia.ru##.btn_fly_share
+frankivchany.if.ua##.button-plus
+frankivchany.if.ua##.button-podpis
 infoindustria.com.ua##.button-telegram
 doramax.org##.button[onclick*=".soc_buttons"]
 qiq.ws##.buttonbox
@@ -1012,7 +1015,7 @@ hromadske.ua##.c-subscribe-links
 smotret-anime.online#?#.card > .card-content:-abp-has(> .m-translation-view__share)
 yandex.by,yandex.kz,yandex.ru,yandex.uz##.card-footer-view__social-links
 burninghut.ru##.card-footer__share-container
-rbc.ru,rbclifetime.ru#?#.card-wrapper:has(> p > a[href^="https://t.me/"])
+rbc.ru,rbclifemedia.ru#?#.card-wrapper:has(> p > a[href^="https://t.me/"])
 dltv.org#?#.card:-abp-has(> .card__body > .socials)
 softportal.com#?#.cardPageLinks > .Menu2ETd:-abp-has(> a[onclick^="showShare"])
 dltv.org##.card__title-social
@@ -1060,6 +1063,7 @@ anilib.moe,anilib.one,anilib.top,anilibria.iss.one,anilibria.tv##.content > div[
 theuk.one#?#.content-bottom-center:-abp-has(> .sharer)
 allbookerka.org##.content-inside > .rkads-inner
 autocentre.ua##.content-shares
+frankivchany.if.ua##.content-social
 planetanovosti.com##.content-text > strong
 spot.uz##.contentBoxR
 ural56.ru##.content__news-detail > .banner-skrollr ~ p
@@ -1118,6 +1122,7 @@ the-geek.ru##.entry-content > .g-24
 gk-press.if.ua##.entry-content > div[style^="color: red;"]
 kyivvlada.com.ua##.entry-footer > .icons
 fbm.ru##.entry-footer__share-title
+vikna.if.ua##.entry-in-social
 electrotests.ru,test24.wweek.ru,tests24.su##.entry-meta
 eagleplatform.com##.eplayer-skin-share
 espanarusa.com##.er-h-social
@@ -1360,7 +1365,7 @@ obrazovaka.ru##.group-widget
 thealphacentauri.net##.group.sidebar-top
 buhgalter.com.ua,buhgalter911.com##.groups-item-telegram
 medialeaks.ru##.gshare__list
-rbclifetime.ru#?#.gutter-b:-abp-has(> .social-sharing)
+rbclifemedia.ru#?#.gutter-b:-abp-has(> .social-sharing)
 free-kassa.ru##.h-soc
 gagadget.com#?#.h2:-abp-has(> small:-abp-contains(/Поделиться|Розпов/))
 vse42.ru#?#.h3:-abp-contains(Мы в соцсетях)
@@ -1511,7 +1516,6 @@ jut-su.net##.jutsu-page__share
 cinema-24.tv##.kikadz
 km.ru##.km-shares
 igromania.ru#?#.knb-footer-links:-abp-has([target="_blank"])
-rbc.ru##.l-col-right .poll__wrapper
 nim.ru##.last.one_fourth
 forum.finance.ua#?#.lastnewszag:-abp-has([href*="facebook.com"])
 eadaily.com##.latest-block > .side-announcement
@@ -1813,6 +1817,7 @@ kod.ru##.post > .subscribe + .section__title
 cxid.media##.post-banner
 radojuva.com.ua##.post-bodycopy > .bottomcontainerBox
 radiotrek.rv.ua##.post-caption-social
+3m2.ua##.post-content > .wp-block-quote-is-layout-flow
 report.if.ua#?#.post-content > h5:-abp-has(> a[href^="https://t.me/"])
 provce.ck.ua#?#.post-content > p:-abp-has(> [href*="//t.me/"])
 bitexpert.io#?#.post-content > span:-abp-contains(/^Подписывайтесь на новости/)
@@ -1849,6 +1854,7 @@ kraj.by##.preheader-social
 kurkul.com##.prices-widget
 planetazdorovo.ru##.product-detail-share
 metro-cc.ru##.product-page-social
+minfin.com.ua#?#.progressive-news-text > p:-abp-has([href^="https://t.me/"])
 onliner.by##.project-navigation__link_secondary
 friday.ru##.project-social
 dorama.land,doramaland.plus##.promo-btn
@@ -2341,7 +2347,7 @@ blokino.org##.socialknopka
 novosti.dn.ua##.sociall
 glianec.com,rebenok.by##.sociallike
 electrotests.ru,tests24.su##.socialmedia
-101.ru,acmc.ua,agents.media,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,infox.ru,kanaldim.tv,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,tvoemisto.tv,uatv.ua,virtualbrest.ru,womanhit.ru##.socials
+101.ru,acmc.ua,agents.media,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,infox.ru,kanaldim.tv,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,securitymedia.org,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,tvoemisto.tv,uatv.ua,virtualbrest.ru,womanhit.ru##.socials
 73online.ru##.socials > div > a[rel="nofollow"]
 kinonews.ru##.socials > ul
 gotennis.ru##.socials-a
@@ -2391,7 +2397,7 @@ armflot.ru#?#.sp-column > .sp-module:-abp-has(#vk_groups)
 broadcast.net.ua##.sp-column > footer
 fakty.com.ua##.sp-read-social
 kinofilm.co##.sp_insta
-blackwot.ru,ukrhealth.net,weukraine.tv##.spc-social
+3m2.ua,blackwot.ru,ukrhealth.net,weukraine.tv##.spc-social
 pixelinform.com,sysidka.com##.spc-social-block
 slavinfo.dn.ua##.sppb-addon-social-media
 amd.online##.srochno
@@ -2760,6 +2766,7 @@ afisha.ru##[aria-label="Социальные сети"]
 limehd.tv##[aria-label^="social-"]
 mos.ru##[aria-label^="Поделиться ссылкой"]
 bbc.com#?#[aria-labelledby^="normal-collection-"]:-abp-has(> h2:-abp-contains(Мы в соцсетях))
+bbc.com##[aria-labelledby^="social-links-"]
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru#?#[btnsize]:-abp-has([data-test^="btn-share"])
 versii.if.ua##[class$="_social"]
 7days.ru##[class$="button-social-box"]
@@ -2811,6 +2818,7 @@ iphones.ru##[data-id="externalpostlist"]
 mediazona.ca,zona.media##[data-js-selector="show-social-list"]
 vgolos.ua##[data-key="index_in_lviv"]
 softonic.ru#?#[data-meta="page-footer"] div:-abp-has(> ul [data-meta="facebook"])
+rbc.ru#?#[data-metronome-unit="article"] > .card-wrapper:-abp-has(> p > strong > a[href^="https://t.me/"])
 esports.ru##[data-name="footer/socials"]
 kufar.by##[data-name^="share-button"]
 stopgame.ru##[data-plugins="share"]
@@ -2945,6 +2953,7 @@ football24.ua##app-news-share
 24tv.ua##app-share-block
 lux.fm##app-share-button
 lux.fm##app-social-share-block
+football24.ua##app-socials
 lux.fm##app-socials-block
 24tv.ua,sport24.ua##app-subscription-banner
 zab.ru,zab.tv##article .zab-social ~ div > .text
@@ -3309,6 +3318,7 @@ liveball.my,liveball.uno,liveball.*##.free
 mail.yandex.ru,mail.yandex.*##.b-mail-domik__social
 www1.ru#?#main > .relative:nth-child(-n+3):-abp-has(> div > [href^="https://t.me/"])
 site.ua##main > .w-full + .container + .container > div:only-child
+rbc.ru#?#main > article > [class^="stroke-"]:-abp-has(> div a[href^="https://max.ru/"])
 ura.news##main > div button[type="button"]:first-child > span:not(:only-child)
 ura.news#?#main > div div ul > li:-abp-has([alt^="Подписаться на нас"])
 market.yandex.ru,market.yandex.*##[data-autotest-social-name]
@@ -3635,7 +3645,6 @@ _userbar_$image
 ###cookie-compliance
 ###cookie-consent-wrapper
 ###cookie-law-banner
-###cookie-law-info-bar
 ###cookie-notice
 ###cookie-notification
 ###cookie-warning
@@ -4309,6 +4318,7 @@ _app_promo$domain=7themes.su|wallscloud.net
 ||dailyhoro.ru/static/push/js/push.js
 ||discordapp.com/widget?id=$third-party,domain=ipic.su
 ||disquscdn.com/next/embed/recommendations.
+||dns-shop.ru/*.ajax-state-opinion-notifications.js
 ||dom2.ru/json-gate
 ||donatepay.ru^$domain=wotspeak.org
 ||donpatriot.news/js/jquery.cookie.js
@@ -5480,7 +5490,6 @@ khl.ru##.e-header_apps
 life.ru##.eABzmT
 forbes.ru##.eORMo
 agronomy.com.ua##.eb-inst
-bbc.com##.eh3hs0a5
 edgecenter.ru##.elcookie
 bazarmedia.info##.elp-widget
 rubryka.com##.email-sectionarchive-email-section
@@ -5693,11 +5702,7 @@ lenta.com##.js-cookie-usage-notice-wrapper
 yarnews.net##.js-email-subscribe:not([data-mode="news"])
 xcom-shop.ru##.js-footer-store-link
 rbc.ru,rbcrealty.ru,sportrbc.ru##.js-forecast
-rbc.ru#?#.js-index-central-column .js-index-doscroll:-abp-has(> .item > div [href^="https://t.me/"])
-rbc.ru##.js-news-feed-list > a[data-rm-data-element*="anons"]
-rbc.ru##.js-news-feed-list > a[href*="://traffic.rbc.ru/"]
 piotrovsky.store##.js-popup-cookie
-rbc.ru##.js-pro-anons-scroll-container
 e1.ru##.js-push-type
 rbc.ru,sportrbc.ru##.js-rbcslider-multi-news
 znanija.com##.js-react-bottom-banner
@@ -5715,7 +5720,8 @@ kinogo.biz##.kreativ
 nnovosti.info##.ks-follow
 www.tut.by##.kupi_wrapper
 novy.tv##.kv-main__slider
-rbc.ru##.l-col-right .oprosso
+rbc.ru#?#.l-col-right .half:-abp-has(> .js-intresting)
+rbc.ru##.l-col-right .js-intresting
 rbc.ru##.l-sticky-right-parent
 drive2.com,drive2.ru##.l-top
 inforesist.org##.lang-modal
@@ -5840,7 +5846,6 @@ buhgalter.com.ua##.new_subscribe
 sportrbc.ru##.news-bar
 shraibikus.com##.news-details > .text-center
 move.ru##.news-esputnik-subscribe__container-main
-rbc.ru,sportrbc.ru##.news-feed a[href*="utm_campaign"]
 gamemag.ru##.news-item-wrap--more
 sports.ru##.news-item__footer > h3
 sports.ru##.news-item__footer > hr
@@ -5997,7 +6002,6 @@ rbc.ua##.privasypolicy-info
 24tv.ua,sport24.ua##.private-policy
 football24.ua##.privete-polisy
 anime-joy.ru,animejoy.ru,animejoy.site##.prizyvrega
-rbc.ru##.pro-anons
 vkurske.com##.pro-btn
 comfy.ua##.products-catalog-horizontal-banner
 comfy.ua##.products-catalog-vertival-banner
@@ -6047,7 +6051,6 @@ agronews.ua##.read-also
 glavred.info,glavred.net##.read-also-slider
 1kr.ua##.read-google-news
 rbc.ua,telegraf.in.ua##.read-in-google
-rbc.ru,sportrbc.ru##.read-more-pro
 dengi.ua,glavcom.ua##.read-us
 letidor.ru,motor.ru,quto.ru,secretmag.ru,wmj.ru##.readMore
 news-r.ru##.read_news
@@ -6172,6 +6175,7 @@ podolyaka.ru##.spoiler-box
 bhf.io##.sponsor-banner
 goodgame.ru##.sponsors.footer-block
 bigpicture.ru##.sticky-bar
+rbc.ru##.sticky-container > .stroke-b
 postimees.ee##.sticky-cookie
 7dniv.rv.ua##.sticky-sidebar > .widget_custom_html:not(:last-child)
 village.com.ua#?#.stk-post > .stk-grid:-abp-has([href*="donate"])
@@ -6318,6 +6322,7 @@ zombie-film.club##.top-alert
 professorweb.ru##.top-banner
 34.ua##.top-banner-wrapper
 primpogoda.ru##.top-bar-section > .right
+kinogo-720.biz##.top-notify
 overclockers.ru##.top-scroll
 metro-cc.ru##.top-stretched-banner
 kinorium.com##.topMenu__pro-button
@@ -6513,7 +6518,7 @@ versia.ru##[href*="//news.google.com/publications/"]
 agents.media,gsett.ru##[href*="/donate/"]
 tv2.today##[href*="://donate.tv2.today/"]
 112.ua,24smi.org,360tv.news,asn.in.ua,bfm.ru,bigmir.net,bizua.org,brestcity.com,dengi.ua,dumka.media,euromd.com.ua,fontanka.ru,freezmi.io,gsminfo.com.ua,hromadske.radio,incrypted.com,inforesist.org,inkorr.com,ivona.ua,izvestia.kiev.ua,korrespondent.net,lhealth.info,lviv.ua,media.az,mir24.tv,molbuk.ua,nnews.com.ua,pixelinform.com,psm7.com,radioroks.ua,realist.online,regionews.ua,ringside24.com,root-nation.com,sportarena.ua,tenews.org.ua,ternopillive.com,trmzk.ru,tv.ua,u-news.com.ua,ukrhealth.net,unian.info,unian.net,unian.ua,vesti-ua.net,yesasia.ru,ytronews.ru##[href^="https://news.google.com/publications/"]
-rutube.ru##[id*="Player"] div[class*="disclaimer"]
+rutube.ru,rutube.sport##[id*="Player"] div[class*="disclaimer"]
 fastpic.org##[id*="footer"] a[href="https://static.fastpic.ru/FastPicUploader.apk"]
 nashaplaneta.net##[id^="flowblock"]
 gidonline.eu##[id^="iivk"]
@@ -6541,6 +6546,7 @@ vc.ru##a.sidebar-item[href^="/courses"]
 video.matchtv.ru##a.vjs-link[href^="https://matchtv.ru/subscriptions"]
 mywebpc.ru##a[alt="donate"]
 doramaland.plus##a[class^="banner-preview-"]
+rbc.ru##a[class^="styles_message-bar_"]
 youla.ru##a[href*=".com/"][href*="/app"][title][target="_blank"]
 sibnet.ru##a[href*="/delivery/ck.php"][target="_blank"]
 18000.com.ua,1kr.ua,2ip.ua,babel.ua,chytomo.com,delo.ua,expert.in.ua,fastpic.org,forumodua.com,glav.su,infoindustria.com.ua,inforesist.org,itechua.com,jewishnews.com.ua,lb.ua,mmr.net.ua,novayagazeta.eu,prufy.ru,remontka.pro,rubryka.com,sknews.net,slk.kh.ua,tvrain.tv,zona.media##a[href*="/donate"]
@@ -6686,7 +6692,6 @@ diets.ru,gameguru.ru,kulina.ru,wotsite.net##body > noindex
 mobiset.ru##body > noindex > #clickDiv
 forum.ru-board.com##body > p[align="center"]
 pb.wtf,pirat.one,piratbit.fun,piratbit.org,piratbit.top##body > span[style*="background"]
-vk.com##body.anonym div[class^="vkitFooterBanner"]
 vk.com##body.anonym div[class^="vkitTwoColumnLayoutNarrow__root"] > div > section:has(.vkuiHorizontalCell__host)
 instagram.com#?#body[style="overflow: hidden;"] > #react-root ~ div[class*=" "][class$=" "][role="presentation"]:-abp-has(div:-abp-contains(Войдите, чтобы продолжить))
 kak-prosto.net##br + br
@@ -6713,6 +6718,7 @@ homecredit.ru##div[class*="BlockCookies-"]
 domclick.ru##div[class*="CookieAlert"]
 www.1tv.ru##div[class*="Footer_footerApplications"] > div:first-child
 sberindex.ru##div[class*="Layout__cookiePanel"]
+rbc.ru##div[class*="PartnersNews_wrapper"]
 citilink.ru##div[class*="PersonalDataConfirm"]
 24smi.org#?#div[class*="__col"]:-abp-has(> .subscription)
 lifehacker.ru#?#div[class*="container"] div[class*="article-card__"]:-abp-has(> [class*="article-card"] .lh-article-card-meta__promo)
@@ -6830,6 +6836,7 @@ parlament.ua##div[class^="subscribe-text-block"]
 okko.tv##div[class^="toast-list_containerDown"]
 avito.ru##div[class^="top-banner-root-"]
 userstyles.org#?#div[class^="us-stylecard--"]:-abp-has(> .fallbackDiv)
+vk.com##div[class^="vkitFooterBanner"]
 bibliofond.ru##div[class^="widget-promo"]
 shotam.info##div[class^="wp-block-ugb-"],div[class^="wp-block-ugb-"] + div
 t-j.ru##div[data-analytics="banner"]
@@ -6839,6 +6846,8 @@ avito.ru##div[data-key^="promoWidget"]
 avito.ru##div[data-marker="standard-banner"]
 avito.ru##div[data-marker^="top-notification/"]
 santehnika-online.ru##div[data-name="FooterCookieAgreement"]
+rbc.ru##div[data-name="Oprosso"]
+hh.ru##div[data-qa="autosearch-subscribe__form"]
 lemanapro.ru##div[data-qa="cookie-notification"]
 hh.ru##div[data-qa="cookies-policy-informer"]
 prom.ua##div[data-qaid="footer_app"]
@@ -6940,19 +6949,19 @@ amurmedia.ru,angarskmedia.ru,chitamedia.su,chukotkamedia.ru,eaomedia.ru,irkutskm
 auto.ru##li[class^="PersonalizedFeedUgcLogbookItem-"]
 thetruestory.news#?#main > div:-abp-has(> div > a[href="/cookies"])
 novayagazeta.ru#?#main > div:-abp-has(> svg[height][width="10000"])
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="еклама"])
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="еклама"]) + div
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="еклама"]) + div + figure
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="иния"])
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="онтекст"])
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="онтекст"]) + div
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="онтекст"]) + div + figure
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="рассылк"])
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="рассылк"]) + div
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="рассылк"]) + div + figure
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="рафика"])
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="рафика"]) + div
-bbc.com#?#main[role="main"] > figure:-abp-has(> div > picture > img[alt*="рафика"]) + div + figure
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="еклама"])
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="еклама"]) + div
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="еклама"]) + div + figure
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="иния"])
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="онтекст"])
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="онтекст"]) + div
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="онтекст"]) + div + figure
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="рассылк"])
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="рассылк"]) + div
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="рассылк"]) + div + figure
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="рафика"])
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="рафика"]) + div
+bbc.com#?#main[role="main"] > figure:-abp-has(> div img[alt*="рафика"]) + div + figure
 mvideo.ru##mvid-cookie-notification
 ixbt.com##nav a[href^="https://ixbt.shop"]
 zoom.cnews.ru##noindex > .article_insert
@@ -7191,6 +7200,9 @@ cloud.mail.ru##[data-qa-tooltip="goto-attaches-promo-tip"]
 news.mail.ru##[data-reactroot] [data-qa^="MoreList"] > div > div:first-child:not(:only-child)
 e.mail.ru,octavius.mail.ru##[id^="octavius-notify-"]
 news.mail.ru#?#aside div[style^="min-height:"]:-abp-has([data-logger="SubscribeButton"])
+cloud.mail.ru#?#body > #react-modals:-abp-has(> div > [class*="Offer"])
+cloud.mail.ru#?#body > #react-modals:-abp-has(> div > [class*="Quota"])
+cloud.mail.ru#?#body > #react-modals:-abp-has(> div > [class*="WhatsNewDialog"])
 ~e.mail.ru,mail.ru##body > .grid .logo__promo-tooltip
 ~e.mail.ru,mail.ru##body > .tooltip > .tooltip__box
 mail.ru##body > .zeropixel ~ * .balloon
@@ -7366,6 +7378,8 @@ ya.ru,yandex.by,yandex.kz,yandex.ru,yandex.uz##div[class^="DistrSmartbanner"]
 360.yandex.ru##div[class^="TopLine_wrapper_"]
 dzen.ru##div[class^="card-actual-desktop__actualGrid"]
 dzen.ru##div[class^="content--trap-popup__container"]
+dzen.ru##div[class^="dzen-desktop--feed-one-column__feed-"] > div:not([class]) > [id][data-itemid] > [data-type="article"]
+dzen.ru##div[class^="dzen-desktop--feed-one-column__feed-"] > div:not([class]) > div:empty:nth-child(2) + [id][data-itemid]
 dzen.ru##div[class^="dzen-desktop--flash-modal"]
 dzen.ru##div[class^="dzen-desktop--trends-entry-"]
 dzen.ru##div[class^="feed-scrolling-snackbar__container"]
@@ -7383,11 +7397,8 @@ mail.yandex.ru,mail.yandex.*##div[class^="Banner-m__root"]
 yandex.by,yandex.kz,yandex.ru,yandex.uz##main.serp > .Root > div[class*="_layout_flat"]:not(.DistrPopup)
 market.yandex.ru,market.yandex.*##.main > noindex:first-of-type
 market.yandex.ru,market.yandex.*##.n-entrypoint-carousel
-market.yandex.ru,market.yandex.*##[data-apiary-widget-id$="recommendationRoll"]
-market.yandex.ru,market.yandex.*##[data-apiary-widget-id*="/footer/appPromoLoader"]
-market.yandex.ru,market.yandex.*##[data-apiary-widget-name*="@monetize/HeroBanner"]
-market.yandex.ru,market.yandex.*##[data-apiary-widget-name="@monetize/RecomMediaAdv"]
-market.yandex.ru,market.yandex.*##[data-apiary-widget-name^="@marketfront/HeroBanner"]
+market.yandex.ru,market.yandex.*##[data-apiary-widget-name*="/RecomMediaAdv"]
+market.yandex.ru,market.yandex.*##[data-apiary-widget-name*="monetize/"]
 market.yandex.ru,market.yandex.*##[data-auto="banner-ad-label"]
 market.yandex.ru,market.yandex.*##[id="/content/footer/appPromoLoader"]
 market.yandex.ru,market.yandex.*##a[href^="//sovetnik.yandex.ru/"][href*="utm_campaign"]
@@ -7399,6 +7410,7 @@ market.yandex.ru,market.yandex.*##div[data-zone-name="Upsale"]
 market.yandex.ru,market.yandex.*##div[data-zone-name="plusPromo"]
 market.yandex.ru,market.yandex.*##div[data-zone-name="promoSection"]
 market.yandex.ru,market.yandex.*##div[data-zone-name="vendorProductLinePromo"]
+market.yandex.ru,market.yandex.*##div[id$="recommendationRoll"]
 market.yandex.ru,market.yandex.*#?#.SerpLayout > [id*="serpLayout"]:-abp-has(> [data-apiary-widget-name] > [data-zone-name="madvIncut"])
 meteum.ai,yandex.ru,yandex.*##div[class^="AppPromo"][class*="_container_"]
 meteum.ai,yandex.ru,yandex.*##footer > [class^="AppFooterLinks_links_"] > div:last-child
@@ -18874,6 +18886,7 @@ gala.fr#@#.share-bottom
 bitly.com,knivesout.jp#@#.share-btn
 ida2at.com#@#.share-holder
 app.degoo.com#@#.share-icon-container
+seher.no#@#.share-icons-bottom
 pornhub.com#@#.share-link-container
 baidu.com,findagrave.com,locataire.dossierfacile.logement.gouv.fr#@#.share-list
 deezer.com#@#.share-message
