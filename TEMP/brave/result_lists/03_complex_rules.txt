@@ -1,7 +1,7 @@
 ! Title: Brave Optimized List - Complex Blocking Rules
 ! Description: A merged and optimized list of complex blocking rules.
-! Last Updated: 2026-02-24 12:15:46 UTC
-! Total Rules: 6096
+! Last Updated: 2026-02-24 16:09:05 UTC
+! Total Rules: 6058
 
 &ADFAssetID=$media,domain=expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
 &ADFAssetID=$media,domain=www.ahaonline.cz|info.cz|onetv.cz|iprima.cz
@@ -2821,7 +2821,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||afisha.yandex.*/*/stripe.html
 ||ageismssoning.com^
 ||agent.tamedia.com.tw^
-||agjmhcxirv.com^
 ||agrank.com/dimg/
 ||ahmestatic.fuckandcdn.com/ah-me/ahmestatic/mobile/ads/
 ||ahoy-internal-ads-hv.b-cdn.net^
@@ -3068,7 +3067,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||bannerwall.s3.appcnt.com^
 ||bar.love.mail.ru^$domain=~mail.ru
 ||bardismshagbag.com^
-||barflyevolver.com^
 ||bariesnaw.com^
 ||bars.funportal.info^
 ||bat.ua/js/cookieprompt.js
@@ -3080,7 +3078,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||bd2.guancha.cn^$domain=m.guancha.cn
 ||bdapi-ads.realmemobile.com^
 ||bdapi-in-ads.realmemobile.com^
-||bebatheexcern.com^
 ||beeketing.com^$third-party
 ||beeline.ru/pb_500x460.
 ||befitkersey.com^
@@ -3134,7 +3131,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||bl-doujinsouko.com/fam2.html
 ||black6adv.com^
 ||blackdesert-info.ru/newyear_garland/
-||blessesunwary.com^
 ||blestki.com^$third-party
 ||blockmetrics.com^$third-party
 ||blog-sokuhou.com^$domain=bakufu.jp
@@ -3187,8 +3183,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||bubblessudsman.com^
 ||bukhscrithe.com^
 ||bunnycdn.ru/assets/_bnx/
-||burblycatted.com^
-||burgersscathy.qpon^
 ||burstnet.com^
 ||business-gazeta.ru/js/components/has-cookie.js
 ||bustlejuking.com^
@@ -3232,7 +3226,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||camconnections.live^$xmlhttprequest,domain=gayporntube.com
 ||campaign.brandseven.com/get^$3p
 ||cancannicolas.com^
-||canelorets.com^
 ||canulaeacholic.com^
 ||cappushino.com^$third-party
 ||carambo.la^$third-party
@@ -3359,7 +3352,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||cnc.cdn.dopc.cz^*?format=js$script,domain=ahaonline.cz|info.cz|onetv.cz
 ||cnc.cdn.dopc.cz^*?format=js$script,domain=auto.cz|autorevue.cz|maminka.cz|reflex.cz|blesk.cz|dama.cz|e15.cz|mojezdravi.cz|zeny.cz|zive.cz
 ||cnews.ru/inc/$subdocument
-||cnpqfmlqajfgu.space^
 ||coandroid.ru/uploads/mobcoin.png
 ||coateebyth.com^
 ||coesitecubbing.com^
@@ -3514,7 +3506,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||dailyportalz.jp/api/dpz/adPosts|
 ||daisypath.com^$third-party
 ||dalkawe.com^
-||damnousstanze.com^
 ||danasoft.com/sig/
 ||danorenius.com^$third-party
 ||dashamail.ru^$third-party
@@ -3531,7 +3522,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||deapi.sooplive.co.kr^
 ||deblog.ucoz.ru/25359330.png
 ||debojuagug1sf.cloudfront.net^
-||deckedpreeze.com^
 ||deemuncrook.com^
 ||deitymacram.com^
 ||delaisait.ucoz.ru/calendar/
@@ -3595,12 +3585,10 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||dotmailer-surveys.com^$third-party
 ||dotomi.com^
 ||doujinnomori.com/ad/
-||dovishliegier.com^
 ||download.skype.com/share/$third-party
 ||downloads.mailchimp.com/js/signup-forms/popup/embed.js
 ||downloadshi.b-cdn.net^
 ||dpns-notifications.com^$third-party
-||dqobcvqspqeiu.space^
 ||drammerxylinid.com^
 ||drbbzzs.xyz^
 ||driftqa.com/conductor/assets/media/
@@ -3657,7 +3645,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||epital.gdn^$third-party
 ||epom.com^
 ||erg.ihclam.cn^
-||erodiumvodums.com^
 ||erogaroku.com/ad/$domain=bakufu.jp
 ||eroioshiri.blogterest.net/regular/$subdocument
 ||eromanga-castle.com/famsiro1.html
@@ -3808,7 +3795,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||football.kulichki.net/banner/
 ||footfetishvid.com/*/*.php^$domain=footfetishvid.com
 ||foothotgoback.com^
-||formicflob.com^
 ||formilla.com/remoteAssets/media/
 ||forum-lines.ru^$third-party
 ||forum.adguard.com/styles/custom/adguard/logo.$image,domain=forum.adguard.com
@@ -3823,6 +3809,7 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||foxpush.com^$third-party
 ||foxpush.net^$third-party
 ||fraelaputback.com^
+||franceswaps.com^
 ||freekassa.com/banners/$domain=nnm-club.me|nnmclub.ro|nnmclub.to
 ||freetellafriend.com^$third-party
 ||freetickers.net^$third-party
@@ -3835,7 +3822,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||frontend.vh.yandex.ru/player/*&adConfig=$domain=mentoday.ru
 ||frontier100-toutiao-lf.fqnovel.com^
 ||frskulk.com^
-||frugraoqlo.com^
 ||fstrk.io^$third-party
 ||fuhrerstanking.com^
 ||fumeuseaudibly.com^
@@ -3885,7 +3871,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||gecid.com/img/logo.gif
 ||geede.info^
 ||gemaricspieled.com^
-||gemelsprofile.cfd^
 ||gemma.by/catalog/view/javascript/lightcookie/
 ||gentrycheaper.com^
 ||geoloc.yospace.com^
@@ -3919,7 +3904,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||gifr.ru/data/gifs/$third-party
 ||giga.de/static-local/dist/theme/assets/js/module/giga-*.mobile-stopper.js
 ||gigafile.nu/images/banner/kbus_375x100.png
-||gigglysignoi.com^
 ||girnalnemean.com^
 ||gismeteo.*/flash/$third-party
 ||gismeteo.*/static/ny/
@@ -3984,7 +3968,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||gravityrd-services.com^$third-party
 ||gresokie.com^$third-party
 ||grlnpmbc.goar.justjared.com^$domain=justjared.com
-||grontfazes.com^
 ||groupon.com^*/affiliate_widget/$third-party
 ||gstatic.com/shopping/merchant/merchantwidget.js
 ||gstatic.com/shopping?q=tbn$image,domain=rocketnews24.com|youpouch.com|soranews24.com
@@ -4036,7 +4019,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||hideogenius.com/nokids.mp4
 ||highathel.com^
 ||hightech.fm/wp-content/themes/hightech/api/modals/
-||hippierrapiner.com^
 ||hiveworkscomics.com^$script,domain=egscomics.com
 ||hlserve.com/Delivery/ClientPaths/Library/hook.js?$domain=golfgalaxy.com|dickssportinggoods.com
 ||hn-button.herokuapp.com^$third-party
@@ -4050,7 +4032,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||hoodline.com^$third-party
 ||hoodlumbragget.com^
 ||hoodrunner.kiloo.com/newonlinesettings.php?platform=android
-||horizoncodeflowsolutions.com^
 ||horsed44.com^
 ||hotapi-va.isnssdk.com^
 ||hotpepper.jp/doc/*/townwork.jpg^$image
@@ -4069,13 +4050,13 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||huashiaspire.com^
 ||hucksterbot.com^$third-party
 ||hudeem-vmeste.ru/lin/
-||hunchyganched.com^
 ||huntmad.com^
 ||huspilsympode.com^
 ||hw-ot-ad.a.yximgs.com^
 ||hybird.rayjump.com^
 ||hybrid.ai^
 ||hyperadx.com^
+||hyperion221.net^
 ||hyssopswany.com^
 ||i-mobile.co.jp^$3p
 ||i-vengo.com^
@@ -4102,6 +4083,7 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||igaworks.com/AdPOPcorn/
 ||ignoresfahlerz.com^
 ||im.ov.yahoo.co.jp^
+||image.entabe.jp/img/elife/300_250.png
 ||image.suning.cn/uimg/ZR/share_order/*.jpg
 ||image.whox2.co.kr/*/banner/
 ||imagegen.last.fm^$third-party
@@ -4240,7 +4222,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||kattepush.com^$third-party
 ||ketchapp.org^
 ||keydot.net^$3p
-||keyhamates.com^
 ||keywordbara.com^
 ||khayaltenses.com^
 ||kialeesewster.com^
@@ -4443,7 +4424,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||m.yeniakit.com.tr/anlasma
 ||m24.ru/widgets/telegram
 ||ma-code.ru^$3p
-||macacusdame.com^
 ||machreewhiz.com^
 ||mad.mobisky.pl^
 ||madnet.ru^
@@ -4451,7 +4431,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||mads.amazon.com^
 ||magimg.com/random?$third-party
 ||magsrv.com^$subdocument,redirect=noop.html,domain=hanime1.me
-||maidismsnackle.com^
 ||maihikuh.com^
 ||mail.bonnier-subscriptions.com^$subdocument
 ||mail.google.com/mail/ads^
@@ -4599,7 +4578,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||mossru.com^
 ||motherless.com/floater_iframe.php
 ||mournerslath.com^
-||moutonstumeric.com^
 ||mozilla-russia.org/images/$object
 ||mozo.com.au/widgets/$third-party
 ||mp3vizor.com^$third-party
@@ -4614,7 +4592,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||mudejartitoism.com^
 ||muragetunnel.com^
 ||muse-masters.ru/wp-content/uploads/*/snow.
-||muskiesmawkin.com^
 ||muz.ru/content/banners/
 ||muzmob.org/*ame_*.php?iframe_id=_*.php
 ||mx-movie.nan-net.jp/system/s-profile/banner/mx_bottom/
@@ -4712,7 +4689,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||nimg.jp/nicoad/instream/video/*.mp4$media,domain=nicovideo.jp
 ||ningposkidi.com^
 ||niobefrogeye.com^
-||niterforeact.com^
 ||nitrogencloudelevationsystems.com^
 ||nix.ru^$object
 ||nkis.nikkei.com^
@@ -4735,7 +4711,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||notify.solutions^$third-party
 ||notifyon.com^$third-party
 ||notix.io^$third-party
-||noveltyvirions.com^
 ||novostimira.biz^
 ||noxagile.duapp.com^
 ||nplaf.com^
@@ -4823,7 +4798,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||oshacampelis.com^
 ||osmitepicrol.com^
 ||oss-cn-shanghai.aliyuncs.com/feimobileA.js
-||ossetbulimus.com^
 ||ostlerscil.com^
 ||other.appcpi.net^
 ||otzovik.com/scripts/function/iri2.php?
@@ -4869,7 +4843,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||pathlime.com^$third-party
 ||patreon.com/becomePatronButton.bundle.js$third-party
 ||pavoshare.com
-||payersgreking.com^
 ||paywall.forbes.ua/
 ||pchelenok.com/*/ruler.php?
 ||pcportal.org/js/test_base64.js
@@ -4891,9 +4864,7 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||pickupforum.ru/public/textback_popup_
 ||pikabu.ru/ajax.php?route=recommendations/feed-block
 ||pikabu.ru^$third-party,~image,~media,domain=~pikabu.ru
-||pilinhomered.com^
 ||pilleustrig.com^
-||pinderecphory.com^
 ||pinterest.com/images/$third-party
 ||pinterest.com/js/pinit_main.js$third-party
 ||pinterest.com/v1/urls/count.json$third-party
@@ -5117,7 +5088,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||r0.mradx.net^
 ||r2d2.aotter.net^
 ||r42tag.com^$third-party
-||rackmanrepique.com^
 ||radarcatalystmomentumindustries.com^
 ||radioclub.ua/*thumb/promo_$image
 ||radioonlinehd.net/ads/
@@ -5152,7 +5122,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||rebopsmurly.com^
 ||recipe.rakuten.co.jp/webinfo/sp/ads/
 ||recommendedbookies.co.uk^$third-party
-||recrampwiped.com^
 ||redbuckzincate.com^
 ||redcapsunlime.com^
 ||reddit.com/api/info.json?$third-party
@@ -5173,7 +5142,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||repost.us^$third-party
 ||reprocautious.com^$third-party
 ||reqde.sooplive.co.kr^
-||requiredbuddy.com^
 ||research.net^$third-party
 ||reseekshollin.com^
 ||restartad.com^
@@ -5259,7 +5227,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||samlab.ws/img/*-bar.$image
 ||samlab.ws/qr$image,domain=driveroff.net|samlab.ws
 ||san.myadssupport.com^
-||sannupleonite.com^
 ||sansaradivulse.com^
 ||sarafanpro.ru^$third-party
 ||sasisa.ru/images/*banners
@@ -5413,7 +5380,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||softportal.com/js/JthXdg.js
 ||softwebzone.com^$third-party
 ||solidbank.ru/js/cookies.js
-||solionenzymes.com^
 ||sonicsads.com^
 ||sonobi.com^
 ||sooplive.co.kr/data/af_app_ad_mobile.js
@@ -5481,10 +5447,8 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||status.icq.com/online.
 ||steamcard.com^$third-party
 ||steamsignature.com^$third-party
-||stelabarm.com^
 ||stern.de/vergleich/wp-content/themes/stern/*/iframe-startseite
 ||sterolsawaited.com^
-||stmwdkghme.com^
 ||stoodhiplike.com^
 ||storage.googleapis.com/suramar/pu.min.js^
 ||storage.pravo.ru/file/banner/
@@ -5585,6 +5549,7 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||templates.stroeerdigital.de/[PROD]_MobileExpandableStickyFooter.min.js
 ||tempr.email/cookieConsent.
 ||teplica-exp.ru/wp-content/*/ninjapopups.
+||tergantbegnaw.com^
 ||ternairsoftware.com/publicwebpush/
 ||tgwidget.com^$third-party
 ||thecatmachine.com^
@@ -5707,7 +5672,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||tw-api.vpon.com^
 ||tw.api.vpon.com^
 ||tweetup.com^$third-party
-||twiltpyoid.com^
 ||twister.lifehacker.ru^$domain=~twister.lifehacker.ru
 ||twitter.com/account/$third-party
 ||twitter.com/i/jot
@@ -5764,7 +5728,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||upsringsautes.com^
 ||uptocall.com^$third-party
 ||uptolike.com^$third-party
-||uptracefeis.com^
 ||urbanairship.com^$third-party
 ||urgingslaurae.com^
 ||us.*.qwadro.com^
@@ -5863,7 +5826,6 @@ zozovideo.com#$#hide-if-matches-xpath './/div[@class="ninja-recommend-block"]/pa
 ||vniddlg.xyz^
 ||vod-mplayer.sooplive.co.kr^
 ||volomedia.com^$third-party
-||volumefleabug.shop^
 ||vorsprung-online.de/images/images/*/Werbung/bannermobilwerbung.jpg
 ||vott.ru^$third-party
 ||vowelywisely.com^
