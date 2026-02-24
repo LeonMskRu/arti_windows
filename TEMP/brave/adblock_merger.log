@@ -1,39 +1,39 @@
-2026-02-22 02:49:15,091 - INFO - === Brave AdBlock List Merger Initialized ===
-2026-02-22 02:49:15,092 - INFO - Found 4 sources to process.
-2026-02-22 02:49:15,092 - INFO - 
+2026-02-24 15:15:43,006 - INFO - === Brave AdBlock List Merger Initialized ===
+2026-02-24 15:15:43,006 - INFO - Found 4 sources to process.
+2026-02-24 15:15:43,006 - INFO - 
 === Downloading Sources ===
-2026-02-22 02:49:15,093 - INFO - Attempt 1/3: Downloading https://filters.adtidy.org/extension/ublock/filters/11.txt
-2026-02-22 02:49:15,093 - INFO - Attempt 1/3: Downloading https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
-2026-02-22 02:49:15,094 - INFO - Attempt 1/3: Downloading https://easylist-downloads.adblockplus.org/bitblock.txt
-2026-02-22 02:49:15,094 - INFO - Attempt 1/3: Downloading https://dblw.oisd.nl/basic/
-2026-02-22 02:49:16,439 - INFO - Successfully downloaded https://easylist-downloads.adblockplus.org/bitblock.txt (638512 chars)
-2026-02-22 02:49:16,491 - INFO - Successfully downloaded https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt (324217 chars)
-2026-02-22 02:49:16,831 - INFO - Successfully downloaded https://filters.adtidy.org/extension/ublock/filters/11.txt (490058 chars)
-2026-02-22 02:49:17,172 - INFO - Successfully downloaded https://dblw.oisd.nl/basic/ (1153002 chars)
-2026-02-22 02:49:17,175 - INFO - 
+2026-02-24 15:15:43,007 - INFO - Attempt 1/3: Downloading https://filters.adtidy.org/extension/ublock/filters/11.txt
+2026-02-24 15:15:43,007 - INFO - Attempt 1/3: Downloading https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+2026-02-24 15:15:43,008 - INFO - Attempt 1/3: Downloading https://easylist-downloads.adblockplus.org/bitblock.txt
+2026-02-24 15:15:43,008 - INFO - Attempt 1/3: Downloading https://dblw.oisd.nl/basic/
+2026-02-24 15:15:44,282 - INFO - Successfully downloaded https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt (324463 chars)
+2026-02-24 15:15:44,584 - INFO - Successfully downloaded https://filters.adtidy.org/extension/ublock/filters/11.txt (490549 chars)
+2026-02-24 15:15:44,707 - INFO - Successfully downloaded https://easylist-downloads.adblockplus.org/bitblock.txt (638462 chars)
+2026-02-24 15:15:45,383 - INFO - Successfully downloaded https://dblw.oisd.nl/basic/ (1164218 chars)
+2026-02-24 15:15:45,385 - INFO - 
 === Processing and Classifying Rules ===
-2026-02-22 02:49:17,178 - INFO - Saved source file: filters_adtidy_org_11.txt.txt
-2026-02-22 02:49:17,201 - INFO - Saved source file: easylist-downloads_adblockplus_org_abp-filters-anti-cv.txt.txt
-2026-02-22 02:49:17,216 - INFO - Saved source file: easylist-downloads_adblockplus_org_bitblock.txt.txt
-2026-02-22 02:49:17,262 - INFO - Saved source file: dblw_oisd_nl_list.txt
-2026-02-22 02:49:18,242 - INFO - 
+2026-02-24 15:15:45,389 - INFO - Saved source file: filters_adtidy_org_11.txt.txt
+2026-02-24 15:15:45,412 - INFO - Saved source file: easylist-downloads_adblockplus_org_abp-filters-anti-cv.txt.txt
+2026-02-24 15:15:45,427 - INFO - Saved source file: easylist-downloads_adblockplus_org_bitblock.txt.txt
+2026-02-24 15:15:45,475 - INFO - Saved source file: dblw_oisd_nl_list.txt
+2026-02-24 15:15:46,469 - INFO - 
 === Saving Final Lists ===
-2026-02-22 02:49:18,292 - INFO - Successfully saved 54,933 rules to 01_domain_rules.txt
-2026-02-22 02:49:18,308 - INFO - Successfully saved 11,393 rules to 02_css_rules.txt
-2026-02-22 02:49:18,317 - INFO - Successfully saved 6,085 rules to 03_complex_rules.txt
-2026-02-22 02:49:18,319 - INFO - Successfully saved 422 rules to 04_exception_rules.txt
-2026-02-22 02:49:18,321 - INFO - Successfully saved 1,111 rules to 05_unsupported_brave.txt
-2026-02-22 02:49:18,321 - INFO - Starting duplicate analysis...
-2026-02-22 02:49:19,559 - WARNING - Found 3 duplicate rules. Report saved to result_lists\duplicates_report.txt
-2026-02-22 02:49:19,568 - INFO - 
+2026-02-24 15:15:46,518 - INFO - Successfully saved 55,458 rules to 01_domain_rules.txt
+2026-02-24 15:15:46,533 - INFO - Successfully saved 11,399 rules to 02_css_rules.txt
+2026-02-24 15:15:46,540 - INFO - Successfully saved 6,096 rules to 03_complex_rules.txt
+2026-02-24 15:15:46,542 - INFO - Successfully saved 422 rules to 04_exception_rules.txt
+2026-02-24 15:15:46,544 - INFO - Successfully saved 1,112 rules to 05_unsupported_brave.txt
+2026-02-24 15:15:46,544 - INFO - Starting duplicate analysis...
+2026-02-24 15:15:47,814 - WARNING - Found 3 duplicate rules. Report saved to result_lists\duplicates_report.txt
+2026-02-24 15:15:47,823 - INFO - 
 === Processing Summary ===
-2026-02-22 02:49:19,569 - INFO - Successfully processed 4 out of 4 sources.
-2026-02-22 02:49:19,569 - INFO - - Complex Rules: 6,085 rules
-2026-02-22 02:49:19,569 - INFO - - Unsupported Brave: 1,111 rules
-2026-02-22 02:49:19,569 - INFO - - Css Rules: 11,393 rules
-2026-02-22 02:49:19,569 - INFO - - Exceptions: 422 rules
-2026-02-22 02:49:19,569 - INFO - - Domain Rules: 54,933 rules
-2026-02-22 02:49:19,569 - INFO - 
-Total unique rules collected: 73,944
-2026-02-22 02:49:19,569 - INFO - Total execution time: 4.48 seconds.
-2026-02-22 02:49:19,569 - INFO - === Merger Finished ===
+2026-02-24 15:15:47,824 - INFO - Successfully processed 4 out of 4 sources.
+2026-02-24 15:15:47,824 - INFO - - Complex Rules: 6,096 rules
+2026-02-24 15:15:47,824 - INFO - - Unsupported Brave: 1,112 rules
+2026-02-24 15:15:47,824 - INFO - - Css Rules: 11,399 rules
+2026-02-24 15:15:47,824 - INFO - - Exceptions: 422 rules
+2026-02-24 15:15:47,826 - INFO - - Domain Rules: 55,458 rules
+2026-02-24 15:15:47,827 - INFO - 
+Total unique rules collected: 74,487
+2026-02-24 15:15:47,827 - INFO - Total execution time: 4.82 seconds.
+2026-02-24 15:15:47,827 - INFO - === Merger Finished ===

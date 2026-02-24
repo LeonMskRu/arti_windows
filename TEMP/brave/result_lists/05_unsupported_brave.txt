@@ -1,7 +1,7 @@
 ! Title: Brave Optimized List - Unsupported Brave Rules
 ! Description: A merged and optimized list of unsupported brave rules.
-! Last Updated: 2026-02-21 23:49:18 UTC
-! Total Rules: 1111
+! Last Updated: 2026-02-24 12:15:46 UTC
+! Total Rules: 1112
 
 *$popup,third-party,domain=gogoanimes.fi|hdtoday.la|hdtoday.tv|hdtodayz.to|hollymoviehd.cc|kimcartoon.*|kisscartoon.com|mreader.co|nosteam.ro|strtapeadblock.me|strtapeadblocker.art|theflixertv.to
 0352.ua##.row > div.card-wrapper:has(> amp-ad)
@@ -232,6 +232,7 @@ driveplaza.com##header.l-header:style(top: 0 !important;)
 drochka.vip##.thumbs_list > div.th:has(> script[src^="https://a.realsrv.com/"])
 duckduckgo.com##main[data-testid="zci-products"] > nav + div > div:has( > h2 button[data-testid="ad-badge"])
 dzen.ru##article:has(> div.dzen-mobile--card-rtb__ad-yp)
+dzen.ru##div[class^="dzen-desktop--feed-one-column__feed-"] > div:not([class]) > [id][data-itemid]:nth-child(-n+7) > [data-type="article"]
 dzen.ru##div[class^="dzen-desktop--feed-one-column__feed-"] > div:not([class]) > div:empty:nth-child(2) + [id][data-itemid]
 e1.ru###app > div[class] > div[class]:has(> div[class] > a + div > svg[width="64"][height="12"] > use)
 eatwell101.com###mobi0-sticky + #custom-menu:style(top: 0 !important;)
