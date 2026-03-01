@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: yNUFnxwAOVL1vdgxG8mabw
-! Diff-Path: ../patches/11/11-s-1771935835-3600.patch
+! Checksum: 0zApd1kXQWziFdWGVn+1nQ
+! Diff-Path: ../patches/11/11-s-1772371401-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.67.84
-! TimeUpdated: 2026-02-24T12:20:30+00:00
+! Version: 2.0.67.95
+! TimeUpdated: 2026-03-01T13:20:10+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2010,6 +2010,8 @@ deviantart.com##div[class*="dp-ad-"]:style(height: 0!important; width: 0!importa
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/225641
+usnews.com##+js(set-constant, Object.prototype.vjsPlayer.ads, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/224076
 news.jp##+js(set-constant, nor, {})
 news.jp##+js(set-constant, nor.pageview, noopFunc)
@@ -2405,6 +2407,11 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+crn.com##.bottom-section
+teluguone.com##.tmdb-home-header-middle-two
+foodnetwork.com##.leaderboard-top
+!+ NOT_OPTIMIZED
+||gays-cruising.com/nb/
 ||image.entabe.jp/img/elife/300_250.png
 entabe.jp##div[style="text-align:center;margin-top:20px;margin-bottom:20px;"] > a[href^="https://entabe.jp/click/"]
 usmagazine.com##.bbTag
@@ -2777,7 +2784,7 @@ s.kabutan.jp##header + .bg-white.px-4.border-slate-100.border-solid
 ||vm.gtimg.cn/thumbplayer/creative/*/creative-player-m.js$domain=m.v.qq.com
 timesnownews.com##div[id^="progressBarContainer"] > div[class] > div[class^="_"]:has(> div[id^="v-timesnownews-"]:only-child)
 timesnownews.com##div[id^="progressBarContainer"] > div[style^="margin-bottom:"]:has(> div[class]:only-child > div[id^="atf"]:only-child > .bggrayAd:only-child)
-elboletin.com,clickpetroleoegas.com.br##.code-block
+psu.com,elboletin.com,clickpetroleoegas.com.br##.code-block
 thekitchn.com##.Post__inPostVideoAdMobile
 thekitchn.com##.MobileStickyBanner
 motorcycle.com##.ads-fluid-wrap
@@ -3377,7 +3384,7 @@ m.e-mansion.co.jp##.banner-es-link
 sp.nijie.info##.dlsite-big-index
 m.proporn.com##.adv-square
 m.proporn.com##.adv-wide
-techtarget.com##.cls-hlb-wrapper-mobile
+computerweekly.com,techtarget.com##.cls-hlb-wrapper-mobile
 ticketjam.jp###custom_html-33
 wetter.com##.styles-module__KqHK9a__adSlot
 rmf24.pl###ReklamaMobile
@@ -3608,7 +3615,6 @@ blog.with2.net##.adsNative
 kokopyon.net##.entry-content > div[align="center"] > a[href^="https://www.amazon.co.jp"][target="_blank"] > img
 hyperts.net###top-ads-rectanble
 mobafire.com##.view-guide__ad
-supermoto8.com###myModal
 president.jp##.ad-inarticle-info
 fusetter.com##.sp_ad
 redbook.com.au##.csn-refine-ads
@@ -4505,7 +4511,6 @@ windowsfaq.net##main > .mt-2[style="height:360px!important;"]
 etude000.com##.top-ad-sp
 sueddeutsche.de##.adslot
 memurlar.net##.widget-320x100
-manga-netabare-kanso.com##div[id^="manga-"] > center
 news.livedoor.com###site-body > div[style="min-height: 100px; text-align: center;"]
 fenzin.org##.top_banner-mobile
 superluchas.com,mundokodi.com##div[id^="lx_"]
@@ -8235,6 +8240,8 @@ livejournal.com##div[id^="billboard_mobile_"]
 ! END: Livejournal.com
 !
 !
+!+ NOT_OPTIMIZED
+politico.com##.adlib-sticky-footer
 !+ NOT_OPTIMIZED
 topics.smt.docomo.ne.jp##.ad_middle05
 !+ NOT_PLATFORM(ext_android_cb)

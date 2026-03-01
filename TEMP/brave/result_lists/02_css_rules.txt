@@ -1,7 +1,7 @@
 ! Title: Brave Optimized List - Element Hiding Rules
 ! Description: A merged and optimized list of element hiding rules.
-! Last Updated: 2026-02-24 16:09:05 UTC
-! Total Rules: 11400
+! Last Updated: 2026-03-01 14:58:54 UTC
+! Total Rules: 11397
 
 0154.by,0312.ua,032.ua,0332.ua,0342.ua,0352.ua,0362.ua,0372.ua,0382.ua,0412.ua,04141.com.ua,0432.ua,04563.com.ua,04597.com.ua,04598.com.ua,0462.ua,0472.ua,048.ua,04868.com.ua,0512.com.ua,05136.com.ua,0522.ua,0532.ua,05366.com.ua,0542.ua,05447.com.ua,0552.ua,056.ua,0564.ua,0566.com.ua,0569.com.ua,057.ua,061.ua,06153.com.ua,0619.com.ua,06236.com.ua,06237.com.ua,06239.com.ua,06242.ua,06252.com.ua,06267.com.ua,06272.com.ua,06274.com.ua,06277.com.ua,0629.com.ua,0642.ua,06452.com.ua,1rnd.ru,3849.com.ua,44.ua,4594.com.ua,5692.com.ua,62.ua,6262.com.ua,6264.com.ua,65.media,7152.kz,7232.kz,8692.ru,city04.kz,city41.ru,citydomodedovo.ru,go31.ru,go61.ru,go7812.ru,gorod3466.ru,inaktau.kz,inalmaty.kz,inastana.kz,inatyrau.kz,inkaragandy.kz,inshymkent.kz,karelia.news,kaskelenec.kz,qapshagai-city.kz,uralskcity.kz##app-news-popup-banner
 024.by,1743.ru,1prime.ru,4pda.to,allnews.kz,amurmedia.ru,angarskmedia.ru,belarus-news.by,bibliofond.ru,bigkyiv.com.ua,brovary.net.ua,businessman.ru,chehov-vid.ru,chitamedia.su,chukotkamedia.ru,chytomo.com,city-n.ru,currenttime.tv,dentalmagazine.ru,disgustingmen.com,doramax.org,dron.media,dzr.by,eaomedia.ru,edimdoma.ru,europaplus.ru,fixygen.ua,gameguru.ru,goha.ru,govoritmoskva.ru,grodnonews.by,gts.tv,hdkinoteatr.com,hitfm.ru,inforesist.org,interior.ru,irkutskmedia.ru,izhlife.ru,kamchatkamedia.ru,karaosha.ru,kinorium.com,kirov.online,krasnodarmedia.su,krasnoyarskmedia.ru,kravira.by,krymr.com,ktv-ray.ru,kurgan.ru,kurs.com.ua,m24.ru,magadanmedia.ru,maximum.ru,metaratings.ru,mlyn.by,mos-holidays.ru,most.tv,multiurok.ru,mydocx.ru,nakhodka.media,native-english.ru,nauka.ua,naukatv.ru,navigator-kirov.ru,nii-rf.ru,novostiplanety.ru,novostirostov.ru,ntsk.ru,obozrevatel.com,omskmedia.su,online-timer.ru,orki.ru,orsk.ru,ostro.org,overclockers.ua,parlament.ua,peterburgmedia.ru,pkzsk.info,point.md,priamurmedia.ru,primadonna.media,primamedia.ru,prokuzbass.ru,rbc.ua,ria.ru,roskomsvoboda.org,runews24.ru,rusonline.org,sakhalinmedia.ru,sdamgia.ru,sevastopolmedia.ru,sfera.fm,sharij.net,sinkovskoe.ru,skillbox.ru,sochimedia.su,sport-tv.by,sq.com.ua,stavropol.media,stolicamedia.ru,studopedia.su,sverhestestvennoe.club,svoboda.org,syl.ru,tele.ru,tet.tv,topradio.me,tutu.ru,tvzvezda.ru,u-tv.ru,ukr.net,ukraina.ru,ulanmedia.ru,upl.uz,ussurmedia.ru,varianty.lviv.ua,vellisa.ru,vgtimes.ru,vlast.kz,voxpopuli.kz,vringe.com,vz.ru,walkingdead.club,yakutiamedia.ru##.share
@@ -20,7 +20,7 @@
 101.ru###social-groups
 101.ru##.flying-banner-wrapper
 101.ru##.store-banner-wrapper
-101.ru,acmc.ua,agents.media,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,infox.ru,kanaldim.tv,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,securitymedia.org,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,tvoemisto.tv,uatv.ua,virtualbrest.ru,womanhit.ru##.socials
+101.ru,acmc.ua,agents.media,avtovzglyad.ru,bitcoinmagazine.ua,cherkasy.live,comedy-radio.ru,dumka.media,edyna.media,forbes.kz,fraza.com,gotennis.ru,infox.ru,kanaldim.tv,korrespondent.net,ku66.ru,kurs.if.ua,lifehacker.ru,mgazeta.com,mi100.info,mos-holidays.ru,muz-tv.ru,nashbryansk.ru,nevnov.ru,new-magazine.ru,nsp.ru,overclockers.ua,paperpaper.ru,podillyanews.com,poltava.ua,realnoevremya.ru,regnum.ru,relax-fm.ru,report.az,retail.ru,rezka.biz,rozetked.me,securitymedia.org,sknews.net,speka.ua,stopcor.org,teleprogramma.org,thegirl.ru,turkrutv.net,tvoemisto.tv,uatv.ua,virtualbrest.ru,womanhit.ru##.socials
 101android.ru##.myblockbottom
 101android.ru##.spu-bg
 101android.ru##.spu-box
@@ -28,7 +28,7 @@
 101kofemashina.ru##a[href="https://ru.jura.com/ru"] > img
 10minemail.com,temp-mail.org##.headerMobBanner
 111cn.net##a[class][style][onclick$="JpgClick();"]
-112.ua,1istochnik.ru,2playmusic.net,3mv.ru,66.ru,7days.ru,a7d.com.ua,afisha.ru,agronews.ua,amic.ru,anibests.ru,anidubpro.ru,animedub.ru,animegid.online,animelayer.ru,animevost.club,anistars.ru,apostrophe.ua,app2top.ru,argumenti.ru,armyinform.com.ua,auto.ru,autonews.ru,autosaratov.ru,autosport.com.ru,banki.ru,bdg.by,bhub.com.ua,bigkyiv.com.ua,book-audio.com,brassic.info,brestcity.com,bryansknovosti.ru,bst.bratsk.ru,bzh.life,cherkasy.live,click-or-die.ru,comss.ru,coop-land.ru,dailylviv.com,daxshat.site,delfi.lt,depo.ua,dev.ua,devby.io,dni.ru,dorama.land,doramaland.plus,dostyp.com.ua,ecology.md,elevatorist.com,enovosty.com,epizod.life,factornews.ru,fast-fiml.ru,fast-torrent.club,fast-torrent.ru,fast-torrent.su,ferra.ru,filmhd1080.me,filmpotok.ru,footlive.top,game2day.ru,gazeta.press,gazeta.ru,glavred.info,glavred.net,gofrag.ru,golos.ua,gorodkiev.com.ua,govoritmoskva.ru,guidesgame.ru,hdru.net,incrypted.com,informator.ua,inkorr.com,iptvmaster.ru,itech.co.ua,itorrents-igruha.net,itorrents-igruha.org,izvestia.kiev.ua,kg.ua,kiev24.ua,kino.video,kinogo-net.la,kinomax.pro,kinomuch.ru,kluchikipro.ru,ko.com.ua,kolizhanka.com.ua,kolo.news,kop.net.ua,kp40.ru,kratko.plus,kyiv24.com,libertycity.net,libertycity.ru,likefm.ru,litehd.tv,litlib.net,liveresult.ru,livesport.ws,lostfilmstv.com,lrepacks.net,maanimo.com,martrending.ru,mediasat.info,mel.fm,memepedia.ru,mignews.com,mil-lnr.su,mir24.tv,mk.ru,mloads.com,mult-fan.tv,mykino.site,myslo.ru,mywebpc.ru,nakanune.ru,napensii.ua,nashe.ru,nbnews.com.ua,nebeda.net,neg.by,nevnov.ru,newfood.media,newsru.co.il,newsua.one,ngp-ua.info,nn.by,noi.md,novozybkov.su,noworries.news,oblast-te.com.ua,okna.ua,omskregion.info,onlinetrade.ru,orenburg.media,overclockers.ua,pb.wtf,pervyi-tv.online,photar.ru,pickfilm.ru,pirat.one.piratbit.fun,piratbit.org,piratbit.pw,piratbit.top,poiskvps.ru,poltavawave.com.ua,pravda.com.ua,pravda.if.ua,privatfinance.com,proagro.com.ua,profidom.com.ua,progolovne.ck.ua,pronomad.ru,province.ru,prufy.ru,radiojazzfm.ru,radioultra.ru,rbc.ua,remontka.pro,ringside24.com,ritsatv.ru,rivne.media,rockfm.ru,rsload.net,rusnext.ru,russia-tv.online,sara-fun.com,selezen.club,selezen.net,selezen.org,setafi.com,sil.media,slukh.media,smolensk-i.ru,sms24.info,sms24.me,softportal.com,soundpark.best,sovsport.ru,spletnik.ru,sports.kz,stadion.uz,sudostroenie.info,superagronom.com,supernatural.watch,t4.com.ua,tasix.me,techtoday.in.ua,tehnowar.ru,topfile.tj,transkarpatia.net,trmzk.ru,tvmag.ru,ua-electro.com,uakino.best,uaprom.info,unian.info,unian.net,unian.ua,uzmov.net,vechirniy.kyiv.ua,vedomosti.ru,veleto.ru,vidak.icu,virtualbrest.ru,vixim.ru,vokrug.tv,volyn.com.ua,webtous.ru,weukraine.tv,winzoro.net,wz.lviv.ua,yap.ru,yaplakal.com,yummybest.ru,zapoem.com,zfilm-hd.org,zfilm1977.site,zfilme-hd1.site,zhinka.tv,zver.uz##a[href^="https://t.me/"]
+112.ua,1istochnik.ru,2playmusic.net,3mv.ru,66.ru,7days.ru,a7d.com.ua,afisha.ru,agronews.ua,amic.ru,anibests.ru,anidubpro.ru,animedub.ru,animegid.online,animelayer.ru,animevost.club,anistars.ru,apostrophe.ua,app2top.ru,argumenti.ru,armyinform.com.ua,auto.ru,autonews.ru,autosaratov.ru,autosport.com.ru,banki.ru,bdg.by,bhub.com.ua,bigkyiv.com.ua,book-audio.com,brassic.info,brestcity.com,bryansknovosti.ru,bst.bratsk.ru,bzh.life,cherkasy.live,click-or-die.ru,comss.ru,coop-land.ru,dailylviv.com,daxshat.site,delfi.lt,depo.ua,dev.ua,devby.io,dni.ru,dorama.land,doramaland.plus,dostyp.com.ua,e5450.com,ecology.md,elevatorist.com,enovosty.com,epizod.life,factornews.ru,fast-fiml.ru,fast-torrent.club,fast-torrent.ru,fast-torrent.su,ferra.ru,filmhd1080.me,filmpotok.ru,footlive.top,game2day.ru,gazeta.press,gazeta.ru,glavred.info,glavred.net,gofrag.ru,golos.ua,gorodkiev.com.ua,govoritmoskva.ru,guidesgame.ru,hdru.net,incrypted.com,informator.ua,inkorr.com,iptvmaster.ru,itech.co.ua,itorrents-igruha.net,itorrents-igruha.org,izvestia.kiev.ua,kg.ua,kiev24.ua,kino.video,kinogo-net.la,kinomax.pro,kinomuch.ru,kluchikipro.ru,ko.com.ua,kolizhanka.com.ua,kolo.news,kop.net.ua,kp40.ru,kratko.plus,kyiv24.com,libertycity.net,libertycity.ru,likefm.ru,litehd.tv,litlib.net,liveresult.ru,livesport.ws,lostfilmstv.com,lrepacks.net,maanimo.com,martrending.ru,mediasat.info,mel.fm,memepedia.ru,mignews.com,mil-lnr.su,mir24.tv,mk.ru,mloads.com,mult-fan.tv,mykino.site,myslo.ru,mywebpc.ru,nakanune.ru,napensii.ua,nashe.ru,nbnews.com.ua,nebeda.net,neg.by,nevnov.ru,newfood.media,newsru.co.il,newsua.one,ngp-ua.info,nn.by,noi.md,novozybkov.su,noworries.news,oblast-te.com.ua,okna.ua,omskregion.info,onlinetrade.ru,orenburg.media,overclockers.ua,pb.wtf,pervyi-tv.online,photar.ru,pickfilm.ru,pirat.one.piratbit.fun,piratbit.org,piratbit.pw,piratbit.top,poiskvps.ru,poltavawave.com.ua,pravda.com.ua,pravda.if.ua,privatfinance.com,proagro.com.ua,profidom.com.ua,progolovne.ck.ua,pronomad.ru,province.ru,prufy.ru,radiojazzfm.ru,radioultra.ru,rbc.ua,remontka.pro,ringside24.com,ritsatv.ru,rivne.media,rockfm.ru,rsload.net,rusnext.ru,russia-tv.online,sara-fun.com,selezen.club,selezen.net,selezen.org,setafi.com,sil.media,slukh.media,smolensk-i.ru,sms24.info,sms24.me,softportal.com,soundpark.best,sovsport.ru,spletnik.ru,sports.kz,stadion.uz,sudostroenie.info,superagronom.com,supernatural.watch,t4.com.ua,tasix.me,techtoday.in.ua,tehnowar.ru,topfile.tj,transkarpatia.net,trmzk.ru,tvmag.ru,ua-electro.com,uakino.best,uaprom.info,unian.info,unian.net,unian.ua,uzmov.net,vechirniy.kyiv.ua,vedomosti.ru,veleto.ru,vidak.icu,virtualbrest.ru,vixim.ru,vokrug.tv,volyn.com.ua,webtous.ru,weukraine.tv,winzoro.net,wz.lviv.ua,yap.ru,yaplakal.com,yummybest.ru,zapoem.com,zfilm-hd.org,zfilm1977.site,zfilme-hd1.site,zhinka.tv,zver.uz##a[href^="https://t.me/"]
 112.ua,24smi.org,360tv.news,asn.in.ua,bfm.ru,bigmir.net,bizua.org,brestcity.com,dengi.ua,dumka.media,euromd.com.ua,fontanka.ru,freezmi.io,gsminfo.com.ua,hromadske.radio,incrypted.com,inforesist.org,inkorr.com,ivona.ua,izvestia.kiev.ua,korrespondent.net,lhealth.info,lviv.ua,media.az,mir24.tv,molbuk.ua,nnews.com.ua,pixelinform.com,psm7.com,radioroks.ua,realist.online,regionews.ua,ringside24.com,root-nation.com,sportarena.ua,tenews.org.ua,ternopillive.com,trmzk.ru,tv.ua,u-news.com.ua,ukrhealth.net,unian.info,unian.net,unian.ua,vesti-ua.net,yesasia.ru,ytronews.ru##[href^="https://news.google.com/publications/"]
 114117.com##.bn_top_vernis
 116.ru,14.ru,161.ru,164.ru,173.ru,178.ru,26.ru,29.ru,35.ru,43.ru,45.ru,48.ru,51.ru,53.ru,56.ru,59.ru,60.ru,63.ru,68.ru,71.ru,72.ru,74.ru,76.ru,86.ru,89.ru,93.ru,chita.ru,e1.ru,ircity.ru,izh1.ru,mgorsk.ru,msk1.ru,ngs.ru,ngs22.ru,ngs24.ru,ngs42.ru,ngs55.ru,ngs70.ru,nn.ru,sochi1.ru,sterlitamak1.ru,tolyatty.ru,ufa1.ru,v1.ru,vladivostok1.ru,voronezh1.ru,ya62.ru##.KoMru a[href][target="_blank"]
@@ -100,15 +100,8 @@
 1tulatv.ru,anistar.org,astar.bz,gamer-info.com,help-wifi.com,intex-press.by,online-star.org,online-stars.org,planetanovosti.com,regions.ru,tourpom.ru,vokrugsveta.ru##.soc
 1tv.od.ua##.b-socials-board
 1tv.od.ua##.telegram-link-block
-1tv.ru##.header__social-block
-1tv.ru##.itv-push-suggest
-1tv.ru##.social-buttons-compact
-1tv.ru##.title__social__link
-1tv.ru##[id^="m_banner"]
-1tv.ru##div[class*="promo"][class$="place"]
-1tv.ru##div[class^="Footer_socialIcons"]
+1tv.ru##a[class^="ButtonWithGradient_"][href^="https://max.ru/"]
 1tv.ru##div[class^="StandardAdvert_main_"]
-1tv.ru,aptekiplus.ru,blog.netcraze.ru,burninghut.ru,ecopolitic.com.ua,lifehacker.ru,mgazeta.com##.cookie-banner
 1tv.ru,mediavitrina.ru##.eump-share-social-items
 1ul.ru##.footerul_right
 1ul.ru##.socials_start
@@ -711,6 +704,8 @@ amazon.de##.csm-widget-type-ad-placements-blackjack-widget
 amazon.de##.sbx-mobile
 amazon.de##div[cel_widget_id="mobile-cart-carousels_SponsoredProductsPaginatedMobileCartEXPSubstitutesStrategy"]
 ambito.com###bannerStickyHeader
+amd.online##.animedia-fs-btn--app
+amd.online##.animedia-fs-newsletter
 amd.online##.srochno
 ameblo.jp###blogMegaPanelGeneral:empty:upward(1)
 ameblo.jp###blogMegaPanelOfficial:empty:upward(1)
@@ -986,6 +981,7 @@ apteka-april.ru##.c-notice.hasButton
 apteka.ru##.CookieNotify
 apteka.ru##.SiteFooter__apps
 apteka.ru##.SiteFooter__socials
+aptekiplus.ru,blog.netcraze.ru,burninghut.ru,ecopolitic.com.ua,lifehacker.ru,mgazeta.com##.cookie-banner
 aptoide.com##div[class^="pages__IndexContainer"] > iframe
 aptoide.com##div[class^="promote-game-banner__"]
 aptoide.com##iframe[src^="https://ssp01.aptoide.com/www/delivery/"]
@@ -1005,6 +1001,7 @@ arenda.az,zaxid.net,zorbasmedia.ru##.soc_list
 argumenti.ru###left_social
 argumenti.ru###socnets
 argumenti.ru#?#li:-abp-has(> a[href^="https://t.me/"])
+argumenti.ru,cnews.ru,gta5-mods.com,thealphacentauri.net,tochka.net##.share-container
 argumentiru.com##.head_soc
 arigus.tv##.m_soc
 arine.jp##.Entry-top-ad
@@ -1991,6 +1988,7 @@ cloud.mail.ru##div[class*="Space__root_marketingPromo"] > div[class^="Space__pay
 cloud.mail.ru##div[class*="Space__root_marketingPromo"] div[class^="Space__subscriptions"]
 cloud.mail.ru##div[class^="AsidePromoModal__root"]
 cloud.mail.ru##div[class^="Page-touch__root"] > div[id][class][style="visibility: visible;"]:empty
+cloud.mail.ru##div[class^="TrialPromo__root-"]
 cloud.mail.ru##div[class^="ViewerHeader__marketingPromoButton"]
 cloud.mail.ru##div[class^="page-wrapper_"] > div[id="portal-menu-banner"] + div[style] + div[id]:empty
 cloud.mail.ru##div[data-name="/recommend"]
@@ -2027,7 +2025,6 @@ cnc3018.ru#?#.p-body-sidebar > .block:-abp-has(> .block-container > .block-body 
 cnews.ru##.other-news-note
 cnews.ru##noindex > .event_list
 cnews.ru,cubiq.ru,inforesist.org##.notification
-cnews.ru,gta5-mods.com,thealphacentauri.net,tochka.net##.share-container
 cnn.com###social-share_gig_containerParent .PartnerZone
 cnnturk.com##.sponsor-mobile
 codecs.forumotion.net##main > div > div[style="min-height:105px"][class]
@@ -2075,6 +2072,7 @@ computerbild.de##.bannerContainer
 computerhoy.20minutos.es##div[class^="home_containerAdSlot__"]
 computerra.ru##a[href*="://tele.click/"]
 computeruniverse.net##.c-consentLayer
+computerweekly.com,techtarget.com##.cls-hlb-wrapper-mobile
 computerworld.ru,osp.ru##body > #bottom-bar
 comss.ru##.beamerButton .badge
 comss.ru##body > .container[style="padding:15px;"] > .row:not([id])
@@ -2134,6 +2132,7 @@ crictracker.com##div[class*="style_sticky__"][class*="position-fixed"]
 crimea-news.com##.news_info > .tags
 crimea-news.com##.subscribe-email
 crimea-news.com,yakutsk-news.net###currency
+crn.com##.bottom-section
 crocotube.com##.ct-header-A-300x100
 crocotube.com##.ct-mobile-middle-300x250
 cross.expert##.notify
@@ -2436,6 +2435,7 @@ disk.yandex.ru,disk.yandex.*##.top-banner
 disk.yandex.ru,disk.yandex.*##.ufo-yaplus
 disk.yandex.ru,disk.yandex.*##[data-click-action="export-social.dialog-open"]
 disk.yandex.ru,disk.yandex.*##div[class*="ownloadMobileQ"]
+disk.yandex.ru,disk.yandex.*##div[data-promo-name]
 disk.yandex.ru,disk.yandex.*,docs.yandex.ru,docs.yandex.*##.InfoSpace__Button
 disk.yandex.ru,disk.yandex.*,docs.yandex.ru,docs.yandex.*##.InfoSpace_discount
 disk.yandex.ru,disk.yandex.*,mail.yandex.ru,mail.yandex.*##.Base-Onboarding
@@ -2773,7 +2773,6 @@ ekidenreki.com##div[style="width:390px; height:325px;"]
 ekitan.com##.popup-info-bg
 ekonomist.com.tr##.display-mobile[style^="margin-left:"][style*="min-height:"]
 eksisozluk.com##aside[style="margin-top: 10px"]
-elboletin.com,clickpetroleoegas.com.br##.code-block
 elcorreo.com##.v-r-adv
 elcorreogallego.es##.advertisement:remove()
 eldiariony.com##.ad_paragraphs_mobile_container
@@ -3262,6 +3261,7 @@ food.ru##div[class^="footer_socialLinks"]
 foodistnote.recipe-blog.jp##.ad-area-sp
 foodnetwork.co.uk##.bg-bodyBg.sticky
 foodnetwork.com###dfp_smartphone_banner
+foodnetwork.com##.leaderboard-top
 foodnetwork.com##.o-Recipe > div[id^="mod-dynamic-bigbox-"]
 football-fun.ru##.a-social
 football-ukraine.com##.menu > li > noindex
@@ -3644,7 +3644,6 @@ gazo-chat.net##div[id^="carousel_wrap"]
 gazo-chat.net##div[style="max-width:640px; height:600px; margin:auto;"]
 gazo-chat.net,fc1adult.com##a[href^="https://a-trade.jp/redirect/"][href*="&banner="]
 gazo-chat.net,gamerch.com,motion.nowtice.net,mudainodocument.com,keitaijoho.com###slide_wrap
-gazprombank.ru###cookie-accept
 gb.ru##.wheel-widget
 gb.ru##.widget-dynamic
 gbnews.com##.mobile_banner_top
@@ -6036,7 +6035,6 @@ maminka.cz,blesk.cz,reflex.cz,e15.cz##a[class*="-combined"]
 manager-magazin.de##amp-layout[width="300"][height="266"]
 manba.co.jp##.manba-advertisements-partial
 manetatsu.com,s.response.jp,gamespark.jp,s.inside-games.jp##.aside-box-ad
-manga-netabare-kanso.com##div[id^="manga-"] > center
 mangabtt.com##img[src$="/images/chapter/top.jpg"]
 mangakakalot.gg##div[class^="fly-ads"]
 mangalivre.tv##+js(addEventListener-defuser, DOMContentLoaded, bait)
@@ -6582,6 +6580,7 @@ mtb-news.de##.mtbnews-forum__centered
 mtb-news.de##.mtbnews-mobile-sticky
 mtb-news.de##div[class*="incontent__container"]
 mtb-news.de##div[class^="mtbnews-ad-container"]
+mtcgame.com#@##cookies-with-stacked-buttons
 mtgsalvation.com##.post-mobile-ad
 mts.ru#@##facebook_button
 mtt.ru##.article-layout__share
@@ -7811,6 +7810,7 @@ politeka.net##.b__share-buttons
 politeka.net##.navbar--links
 politeka.net,znaj.ua##.amp-ad--wrapper
 politexpert.net##.detail-btns
+politico.com##.adlib-sticky-footer
 politico.eu##.ad__mobile
 politikus.ru##.order-first .nav-link
 politnavigator.net##.socaside > *
@@ -8075,6 +8075,7 @@ psm7.com##.psm-social-container
 psm7.com##.psm-subscribe-form-container
 psm7.com##.soc-mob-menu
 psm7.com,soel.ru##.soc_line
+psu.com,elboletin.com,clickpetroleoegas.com.br##.code-block
 psy-music.ru##.turq.psyLeftMenu.psySideBarPanel
 psy-music.ru##div[style*="tranceshop.ru"]
 psychol-ok.ru###cookie_agreement_div
@@ -8252,6 +8253,7 @@ rbc.ru#?#.headline-4-short:-abp-contains(Поделиться)
 rbc.ru#?#.l-col-right .half:-abp-has(> .js-intresting)
 rbc.ru#?#[data-metronome-unit="article"] > .card-wrapper:-abp-has(> p > strong > a[href^="https://t.me/"])
 rbc.ru#?#main > article > [class^="stroke-"]:-abp-has(> div a[href^="https://max.ru/"])
+rbc.ru#?#main > article > [class^="stroke-"]:-abp-has(> div a[href^="https://t.me/"])
 rbc.ru,rbcrealty.ru,sportrbc.ru##.article__special_container
 rbc.ru,rbcrealty.ru,sportrbc.ru##.js-forecast
 rbc.ru,sportrbc.ru##.article__inline-item
@@ -9242,7 +9244,6 @@ stratege.ru##div[class*="social_box"]
 stratege.ru##div[style="text-align: center;"] > a[href="https://vk.com/strategeru"]
 stratege.ru##div[style="text-align: center;"] > a[href^="https://t.me/"]
 strategium.ru##.cAnnouncements
-stream.1tv.ru##.small-social-buttons
 streamzone.org##span[style*="3.0em;"]
 stroki.mts.ru##cookie-agreement
 stroyobzor.ua##.buttons-holder > .like
@@ -9305,7 +9306,6 @@ superluchas.com###AbovePostPlacementWrapper
 superluchas.com##.custom-html
 superluchas.com,mundokodi.com##div[id^="lx_"]
 supermarktcheck.de##.product-details > section:not([class]):not([id])
-supermoto8.com###myModal
 superporn.com###overlay-video
 superporn.com##.overlay-video
 superporn.com,kalporn.com,canalporno.com,porndroids.com,0115765.com##.sticky-banner
@@ -9446,7 +9446,6 @@ techspot.com##.wrapperMobileOnly > .post-list > article[style="min-height: 250px
 techspot.com##div[data-ns="largerectangle"]
 techspot.com##div[id^="insert-ad-"]
 techstage.de,heise.de##a-paternoster
-techtarget.com##.cls-hlb-wrapper-mobile
 tecnoandroid.it,treccani.it###gmp-sticky-middlemobile
 tecnoandroid.it,treccani.it###gmpSkinMobileSpacer
 tecnoblog.net###ad-single-bottom
@@ -9491,6 +9490,7 @@ telugu.hindustantimes.com##.minHeightMobileAdd
 telugu360.com##.HomeMobile_ads
 telugu360.com##.td-visible-phone > a[target="_blank"]
 teluguone.com##.rgtLinks
+teluguone.com##.tmdb-home-header-middle-two
 temaretik.com##.b-modal-aligner
 temaretik.com#@##scroll_to_top
 tempo.co###Affinity_BTF_Tempo
@@ -9900,10 +9900,8 @@ turizmekstra.com##img[src^="https://www.turizminsesi.com/d/banner/"]
 turkcinema.org##.sidebar > .widget-wrap > .widget_text
 turkmenportal.com##.app_download_img_wrapper
 turkmenportal.com##.yashare
-turkrutv.net,turkrutv84.com##.header-promo
-turkrutv.net,turkrutv84.com##.notification-live
-turkrutv.net,turkrutv84.com##.snowing-header
-turkrutv.net,turkrutv84.com##div[class^="promo-links"]
+turkrutv.net##.notification-live
+turkrutv.net##div[class^="promo-links"]
 tut.by###social_toster
 tut.by##.b-articleshare
 tut.by##body > .toster-popup
@@ -10175,6 +10173,7 @@ usmagazine.com##.ad_outer_med
 usmagazine.com##.bbTag
 usmagazine.com##.sellwild-wrapper
 usmall.ru##.c-kuki-bar
+usnews.com##+js(set-constant, Object.prototype.vjsPlayer.ads, noopFunc)
 uspms.it###tca-sticky
 uspms.it##.tca-300x250
 uta-net.com##.songlist-table + div.text-center.py-2.row
@@ -10617,10 +10616,9 @@ wikihow.com###side_follow
 wikipedia.org###siteNotice
 wikiru.jp###content > a[href^="https://app.adjust.com"] > img
 wikiru.jp###content > div[style="width: 100vw; height:calc(100vw / 300 * 250); margin-left: -10px;"]
-wildberries.by,wildberries.kg,wildberries.ru##.main-page__banner
-wildberries.by,wildberries.kg,wildberries.ru##.main-page__banner-info
-wildberries.ru##.modal--cookie
 wildberries.ru,wildberries.*##.fixed-block__cookies
+wildberries.ru,wildberries.*##.footer-social__list
+wildberries.ru,wildberries.*##.footer__social-wrap
 willyoupressthebutton.com##.midInCnt
 wincore.ru##.socc
 windowsfaq.net##main > .mt-2[style="height:360px!important;"]
@@ -10758,8 +10756,6 @@ www-timesnownews-com.cdn.ampproject.org,theprint.in,chip.de,timesnownews.com,amp
 www-timesofisrael-com.cdn.ampproject.org##.banner-placeholder
 www-tomsguide-com.cdn.ampproject.org,www-digitalcameraworld-com.cdn.ampproject.org,digitalcameraworld.com##.hawk-widget[data-model-name]
 www-xda--developers-com.cdn.ampproject.org##.brave-banner
-www.1tv.ru##div[class*="Footer_footerApplications"] > div:first-child
-www.1tv.ru##div[class^="SocialBlock_"]
 www.afisha.ru##div[class^="Footer_apps"]
 www.afisha.ru##div[class^="Footer_aside"]
 www.afisha.ru##div[class^="Footer_qr-code"]
@@ -10790,6 +10786,7 @@ www.khl.ru##.rep-o-share
 www.khl.ru##.sapCpRuntime
 www.kinopoisk.ru###editorial-format-block + div[style^="min-width:"][style*="1px"]
 www.kinopoisk.ru###person-filmography-graph ~ div a[class*="style_buttonPlus"]
+www.kinopoisk.ru###popover-root > div > [class*=" styles_withChevronOn"]
 www.kinopoisk.ru###social_teaser_link
 www.kinopoisk.ru###streaming-promo-block + [style^="min-width:"][style*="1px"]
 www.kinopoisk.ru###trailer-promo-block + [style^="min-width:"][style*="1px"]
