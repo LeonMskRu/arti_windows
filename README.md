@@ -2,6 +2,12 @@
 
 + [rutracker.org](https://rutracker.org/forum/viewtopic.php?t=6360120 "форум")
 
+
+сейчас  собирается  "автоматом"
+
+https://github.com/LeonMskRu/arti_windows_MIRROR/releases
+
+
 <!--TODO ARTI-->
 ## TODO ARTI
 
