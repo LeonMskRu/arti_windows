@@ -53,6 +53,7 @@ proxy-groups:
       - clash23128
       - clash33128
       - clash43128
+      - clash3333
 
 rules:
   - IP-CIDR,127.0.0.1/8,DIRECT,no-resolve
