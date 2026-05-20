@@ -1,12 +1,36 @@
 proxies:
-  - name: "clash3333"
+  - name: "clash6660"
     type: socks5
     server: 192.168.1.111
-    port: 3333
-  - name: "clash2222"
-    type: http
+    port: 6660
+  - name: "clash5550"
+    type: socks5
     server: 192.168.1.111
-    port: 3333
+    port: 5550
+  - name: "clash5555"
+    type: socks5
+    server: 192.168.1.111
+    port: 5555
+  - name: "clash7770"
+    type: socks5
+    server: 192.168.1.111
+    port: 7770
+  - name: "clash1110"
+    type: socks5
+    server: 192.168.1.111
+    port: 11110
+  - name: "clash23128"
+    type: socks5
+    server: 192.168.1.111
+    port: 23128
+  - name: "clash33128"
+    type: socks5
+    server: 192.168.1.111
+    port: 33128
+  - name: "clash43128"
+    type: socks5
+    server: 192.168.1.111
+    port: 43128
   - name: "privoxy8118"
     type: http
     server: 192.168.1.111
@@ -21,6 +45,7 @@ proxy-groups:
       - clash2222
 
 rules:
+  - IP-CIDR,127.0.0.1/8,DIRECT,no-resolve
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
   - DOMAIN-KEYWORD,helpcleanmasterlite1.ksmobile.com,REJECT,no-resolve
   - MATCH,Proxy
