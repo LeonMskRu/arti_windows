@@ -1,6 +1,6 @@
 proxies:
   - name: "clash3333"
-    type: socks5
+    type: http
     server: 192.168.1.111
     port: 3333
   - name: "clash6660"
@@ -45,6 +45,7 @@ proxy-groups:
     type: select
     proxies:
       - privoxy8118
+      - clash3333
       - clash6660
       - clash5550
       - clash5555
