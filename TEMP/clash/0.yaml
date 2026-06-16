@@ -3,6 +3,14 @@ proxies:
     type: http
     server: 192.168.0.111
     port: 3333
+  - name: "clash2222"
+    type: http
+    server: 192.168.0.111
+    port: 2222
+  - name: "clash1111"
+    type: http
+    server: 192.168.0.111
+    port: 1111
   - name: "clash6660"
     type: socks5
     server: 192.168.0.111
@@ -45,6 +53,8 @@ proxy-groups:
     type: select
     proxies:
       - privoxy8118
+      - clash2222
+      - clash1111
       - clash3333
       - clash6660
       - clash5550
@@ -54,7 +64,6 @@ proxy-groups:
       - clash23128
       - clash33128
       - clash43128
-      - clash3333
 
 rules:
   - IP-CIDR,127.0.0.1/8,DIRECT,no-resolve
