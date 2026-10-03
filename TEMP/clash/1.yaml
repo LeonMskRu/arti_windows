@@ -43,6 +43,10 @@ proxies:
     type: socks5
     server: 192.168.1.111
     port: 43128
+  - name: "clash13128"
+    type: socks5
+    server: 192.168.1.111
+    port: 13128
   - name: "privoxy8118"
     type: http
     server: 192.168.1.111
@@ -64,6 +68,7 @@ proxy-groups:
       - clash23128
       - clash33128
       - clash43128
+      - clash13128
 
 rules:
   - IP-CIDR,127.0.0.1/8,DIRECT,no-resolve
